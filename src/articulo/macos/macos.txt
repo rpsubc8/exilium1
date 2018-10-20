@@ -1,0 +1,363 @@
+[FOTOS 1]
+26 77 47 1
+          Mundo MacOS X[AZULCLARO GRANDE NO]
+
+
+
+ Introduccion[AMARILLO GRANDE NO]
+
+
+
+ JNI es un mecanismo que nos permite ejecutar[PCT BLANCO]
+c¢digo nativo  desde  Java  y  viceversa.  El
+c¢digo  nativo  son  funciones escritas en un
+lenguaje de programaci¢n como C o C++ para el
+sistema operativo (a partir de ahora SO)donde
+se est  ejecutando la m quina virtual.
+
+
+  Vamos a llamar m quina virtual a un entorno
+de programaci¢n formado por:
+
+ o El programa que ejecuta los bytecodes Java[GRIS PC]
+ o Las librer¡as (API) de Java
+
+  Llamamos host enviroment a el ordenador en que se ejecuta el SO y a las[PCT BLANCO IZQUIERDA]
+librer¡as nativas de este ordenador, estas librer¡as se suelen escribir en C o
+C++ y se compilan dando lugar a c¢digos binarios del hardware en que estamos
+trabajando.[NO]
+
+
+  De esta forma podemos decir que las m quinas virtuales Java se hacen para un[IZQUIERDA]
+determinado host enviroment. La m quina virtual que nosotros usamos en Mac OS X
+es el JRE (Java Runtime Enviroment) de Apple, aunque hay otras m quinas
+virtuales Java (tambi‚n llamadas plataformas) como la de Sun, que es la
+implementaci¢n de referencia y la m s usada en sistemas como Windows, Linux y
+Solaris. IBM tiene una m quina virtual para Windows, para AIX y para Linux.
+  Borland por su parte tambi‚n tiene su propia m quina virtual en Windows.
+Microsoft tambi‚n hizo una m quina virtual para Windows, pero est  desestimada,
+por no seguir las especificaciones de Sun.[NO]
+
+
+  JNI tiene un interfaz bidireccional que permite a las aplicaciones Java[IZQUIERDA]
+llamar a c¢digo nativo y viceversa. Es decir JNI soporta dos tipos de
+interfaces:[NO]
+
+  1. Native methods. Que permiten a Java llamar a funciones implementadas en[IZQUIERDA GRIS]
+     librerias nativas.[NO]
+
+  2. Invocation Interface. que nos permite incrustar una m quina virtual Java[IZQUIERDA]
+     en una aplicaci¢n nativa. P.e. una m quina virtual Java en un navegador de
+     Internet escrito en C. Para ello, la aplicaci¢n nativa llama a librer¡as
+     nativas de la m quina virtual y luego usa el llamado invocation interface
+     para ejecutar m‚todos Java el la m quina virtual.[NO]
+
+
+
+
+ Evolucion historica de JNI[AMARILLO GRANDE]
+
+
+
+  Desde los or¡genes de Java se inclu¡a ya una forma de hacer llamadas nativas[PCT BLANCO IZQUIERDA]
+desde la m quina virtual, as¡ como desde el Host Enviroment a la m quina
+virtual (en ambas direcciones) pero con 2 problemas:[NO]
+
+  1. Las llamadas a c¢digo nativo desde Java acced¡an a estructuras C, pero no[GRIS IZQUIERDA]
+     estaba definida la posici¢n exacta que deb¡an ocupar estos campos en
+     memoria con lo que una llamada nativa en una m quina virtual no coincid¡a
+     con las llamadas en otra m quina virtual.[NO]
+
+  2. Las llamadas nativas al JSDK 1.0 se basaban en el uso de un recolector de[IZQUIERDA]
+     basura conservativo, ya que no se controlaba cuando ya no quedaba ning£n
+     puntero nativo apuntaba a un objeto Java, con lo que una vez apuntado un
+     objeto Java desde un m‚todo nativo este no se liberaba nunca m s.[NO]
+
+
+  Esta forma de llamadas nativas es lo que se uso en el JSDK 1.0 para[BLANCO IZQUIERDA]
+implementar clases que acced¡an al host como java.io.*, java.net.* o java.awt.*
+
+  Debido a estos problemas se decici¢ implementar una nueva forma de acceso a
+m‚todos nativos a la que se llam¢ JNI.[NO]
+
+  JNI es una evoluci¢n del JRI (Java Runtime Interface) la t‚cnica de acceso[IZQUIERDA]
+nativo de Netscape, dise¤ada por Warren Harris. Con el JSDK 1.1 surgi¢ la
+primera versi¢n de JNI, pero todab¡a las clases Java que acced¡an al host
+segu¡an usando la forma de llamada antigua.[NO]
+
+
+  En JSDK 1.2 se rescribieron todas las clases que acced¡an directamente al[IZQUIERDA]
+host usando JNI.[NO]
+
+
+
+
+3 Las librerias de enlace estatico y dinamico[AMARILLO GRANDE]
+
+
+
+  Las librer¡as de enlace est tico son ficheros destinados a almacenar[PCT BLANCO IZQUIERDA]
+funciones, clases y variables globales y se crean a partir de varios .o (UNIX)
+o .obj (Windows).[NO]
+
+  En UNIX suelen tener la extensi¢n .a y en Windows la extensi¢n .lib
+
+  Mac OS X usa la extensi¢n .a de los sistemas INUX tradicionales.
+
+  Las funciones de la librer¡a se incluyen dentro del ejecutable durante la[IZQUIERDA]
+fase de enlazado, con lo que una vez generado el ejecutable ya no es necesario
+disponer de las librer¡as de enlace est tico.[NO]
+
+  Las librer¡as de enlace din mico son ficheros cuyas funciones no se incrustan[IZQUIERDA]
+en el ejecutable durante la fase de enlazado, sino que en tiempo de ejecuci¢n
+el programa busca el fichero, carga su contenido en memoria y enlaza su
+contenido seg£n va siendo necesario, es decir seg£n vamos llamando a las
+funciones.[NO]
+
+  Esto tiene la ventaja de que varios programas pueden compartir las mismas[IZQUIERDA]
+librer¡as, lo cual reduce el gasto de disco duro, especialmente con las
+llamadas al sistema (APIs) que suelen ser usadas por muchas aplicaciones a la
+vez.[NO]
+
+  Su extensi¢n tambi‚n varia dependiendo del SO en que estemos. Extensiones[IZQUIERDA]
+t¡picas son:[NO]
+
+        Sistema Operativo             Extensi¢n[PC AMARILLO]
+       ===========================================
+           Mac OS X                     .dylib
+           UNIX                         .so
+           Windows                      .dll
+
+
+  Para que los programas encuentren las librer¡as  de enlace din mico, estas[IZQUIERDA BLANCO PCT]
+deben ponerse en unos determinados directorios.[NO]
+
+  Cada SO sigue sus reglas:
+
+    Sistema Operativo      Regla de b£squeda de librer¡as de enlace din mico[AMARILLO]
+   ===========================================================================
+       Mac OS X            Busca en el directorio donde esta la aplicaci¢n y en
+                           la variable de entorno DYLD_LIBRARY_PATH
+
+       UNIX                Busca en los directorios indicados en la variable de
+                           entorno LD_LIBRARY_PATH
+
+       Windows             Busca en el directorio donde esta la aplicaci¢n
+                           (.exe) y en los directorios indicados por la
+                           variable de entorno PATH
+
+
+  Para fijar estas variables de entorno existen comandos que var¡an dependiendo[IZQUIERDA BLANCO]
+del sistema donde estemos. P.e. si queremos incluir el directorio actual en el
+path de b£squeda de librer¡as de enlace din mico.[NO]
+
+  En Windows har¡amos:
+
+  SET PATH=%PATH%;.[VERDEFOSFORITO]
+
+  En Mac OS X que usa un shell tcsh usar¡amos:[BLANCO]
+
+  setenv DYLD_LIBRARY_PATH $DYLD_LIBRARY_PATH:.[VERDEFOSFORITO]
+
+  Y en Linux que usa un shell bash:[BLANCO]
+
+  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.[VERDEFOSFORITO]
+
+  La forma de generar una librer¡a de enlace din mico es casi siempre la misma:[BLANCO]
+
+   1. Escribimos los ficheros .c o .cpp con el c¢digo fuente[GRIS]
+   2. Los compilamos dando una opci¢n al compilador que indique que en vez de
+      un ejecutable queremos generar una librer¡a de enlace din mico.
+
+  Esta opci¢n tambi‚n varia dependiendo del compilador y SO en que estemos:[BLANCO]
+
+  En Mac OS X usar¡amos:
+
+  cc -bundle -I/System/Library/Frameworks/JavaVM.framework/[VERDEFOSFORITO]
+  Versions/A/Headers HolaMundo.c -o libHolaMundo.jnilib
+  -framework JavaVM
+
+  En Mac OS X las librer¡as de enlace din mico a las que llamamos desde JNI[IZQUIERDA BLANCO]
+tienen que tener el nombre: libNombre.jnilib, observese que no se usa la
+extensi¢n .dylib como las librer¡as de enlace din mico normales.[NO]
+
+  En Solaris se usar¡a el comando:
+
+  cc -G -I/java/include -I/java/include/solaris HolaMundo.c[VERDEFOSFORITO]
+  -o libHolaMundo.so
+
+  Aqu¡ tambi‚n los ficheros de librer¡as deben empezar por lib y acabar en .so[BLANCO]
+
+
+  Y en Windows con el compilador en l¡nea de comandos de Microsoft Visual C[IZQUIERDA]
+har¡amos:[NO]
+
+  cl -Ic:\jdk1.3\include -Ic:\jdk1.3\include\win32 -MD -LD HolaMundo.c -FeHolaMundo.dll[VERDEFOSFORITO]
+
+  -MD asegura que la DLL se enlaza con la librar¡a multihilo C de Win32
+  -LD Pide al compilador generar una librer¡a de enlace din mico en vez de un
+   ejecutable.
+
+
+
+4 El ejemplo basico[AMARILLO GRANDE]
+
+
+
+  Vamos a hacer un programa Java que llama a una funci¢n de librer¡a C que[PCT BLANCO IZQUIERDA]
+dice: "Hola mundo".[NO]
+
+  Para ello vamos a dar los siguientes pasos:
+
+   1. Declarar el m‚todo nativo como miembro de una clase.[GRIS]
+
+      Los m‚todos nativos llevan el modificador native y est n sin implementar[IZQUIERDA BLANCO]
+      ya que su implementaci¢n estar  en una librer¡a nativa, luego hacemos:[NO]
+
+        public class HolaMundo[VERDEFOSFORITO]
+        {
+         private native void saluda();
+         public static void main(String[] args)
+                {
+                 new HolaMundo().saluda();
+                }
+         static {
+                 System.loadLibrary("HolaMundo");
+                }
+        }
+
+      Ahora ya podemos compilar la clase con:[BLANCO]
+
+        javac HolaMundo.java[VERDEFOSFORITO]
+
+      El m‚todo:[BLANCO]
+
+        void <System> loadLibrary(String libraryName)[VERDEFOSFORITO]
+
+        Recibe el nombre de una librer¡a de enlace din mico y la carga. La[IZQUIERDA BLANCO]
+        librer¡a debe cargarse antes de llamar a cualquier m‚todo nativo.
+
+      El nombre que pasamos en libraryName depende de la plataforma donde
+      estemos:[NO]
+
+       o En Mac OS X el fichero se deber¡a llamar libHolaMundo.jnilib y el
+         libraryName pasar¡amos "HolaMundo"
+       o En Linux o Solaris el fichero se deber¡a llamar libHolaMundo.so y el
+         libraryName pasar¡amos "HolaMundo"
+       o En Windows el fichero se deber¡a llamar HolaMundo.dll y el libraryName
+         pasar¡amos "HolaMundo"
+
+      Es decir a loadLibrary() siempre le pasamos "HolaMundo"
+
+
+   2. Crear el fichero de cabecera nativo[GRIS]
+
+      Ahora tenemos que generar un fichero .h con el prototipo de los m‚todos[IZQUIERDA BLANCO]
+      nativos a implementar. Para ello usamos el comando:[NO]
+
+        javah HolaMundo[VERDEFOSFORITO]
+
+      Siendo HolaMundo el nombre de la clase compilada a la que queremos[IZQUIERDA BLANCO]
+      generar el fichero .h[NO]
+
+      El fichero generado tiene la forma:
+
+        /* DO NOT EDIT THIS FILE - it is machine generated */[VERDEFOSFORITO]
+        #include <jni.h>
+        /* Header for class HolaMundo */
+
+        #ifndef _Included_HolaMundo
+        #define _Included_HolaMundo
+        #ifdef __cplusplus
+        extern "C" {
+        #endif
+        /*
+         * Class:     HolaMundo
+         * Method:    saluda
+         * Signature: ()V
+         */
+        JNIEXPORT void JNICALL Java_HolaMundo_saluda
+          (JNIEnv *, jobject);
+
+        #ifdef __cplusplus
+        }
+        #endif
+        #endif
+
+
+   3. Implementar el m‚todo nativo[GRIS]
+
+      La implementaci¢n de la funci¢n debe tener el mismo prototipo que la[IZQUIERDA BLANCO]
+      cabecera y puede tener la forma:[NO]
+
+        #include <stdio.h>[VERDEFOSFORITO]
+        #include "HolaMundo.h"
+
+        JNIEXPORT void JNICALL Java_HolaMundo_saluda(JNIEnv* env, jobject obj)
+        {
+         printf("Hola Mundo\n");
+         return; 
+        }
+
+        int main()
+        {
+         return 0;
+        }
+
+      Los par metros JNIEnv y jobject se ponen siempre en los m‚todos nativos,[IZQUIERDA BLANCO]
+      y ya veremos luego para que valen.[NO]
+
+
+   4. Compilar el fichero nativo[GRIS]
+
+      Usando los comandos que explicamos en el punto 3 creamos la librer¡a de[IZQUIERDA BLANCO]
+      enlace din mico.[NO]
+
+
+   5. Ejecutar el programa[GRIS]
+
+      Al ejecutar el programa Java se producir  una UnsatisfiedLinkError si la[IZQUIERDA BLANCO]
+      funci¢n loadLibrary() no encuentra la librar¡a. Recuerdese que es
+      necesario fijar las variables de entorno que indican donde est n las
+      librer¡as de enlace din mico como explicamos antes.[NO]
+
+      Alternativamente podemos indicar el path de la librer¡a de enlace[IZQUIERDA]
+      din mico con la propiedad del sistema:[NO]
+
+      java -Djava.library.path=. HolaMundo[VERDEFOSFORITO]
+      Hola Mundo
+
+      Para que la busque en el directorio actual.[BLANCO]
+
+      Por £ltimo comentar que podemos ver las llamadas que se hacen a JNI con[IZQUIERDA]
+      la opci¢n -verbose:jni[NO]
+
+     % java -verbose:jni HolaMundo[VERDEFOSFORITO]
+     [[Dynamic-linking native method java.lang.StrictMath.sin ... JNI]
+     [[Dynamic-linking native method java.lang.StrictMath.cos ... JNI]
+     [[Dynamic-linking native method java.lang.Float.intBitsToFloat ... JNI]
+     [[Dynamic-linking native method java.lang.Double.longBitsToDouble ... JNI]
+     [[Dynamic-linking native method java.lang.Float.floatToIntBits ... JNI]
+     [[Dynamic-linking native method java.lang.Double.doubleToLongBits ... JNI]
+     [[Dynamic-linking native method java.lang.Object.registerNatives ... JNI]
+     [[Registering JNI native method java.lang.Object.hashCode]
+     [[Registering JNI native method java.lang.Object.wait]
+     [[Registering JNI native method java.lang.Object.notify]
+     [[Registering JNI native method java.lang.Object.notifyAll]
+     [[Registering JNI native method java.lang.Object.clone]
+     [[Dynamic-linking native method java.lang.System.registerNatives ... JNI]
+     .......................................................
+     .......................................................
+     [[Dynamic-linking native method java.io.FileInputStream.available ... JNI]
+     [[Dynamic-linking native method java.lang.Package.getSystemPackage0 ... JNI]
+     [[Dynamic-linking native method java.util.zip.Inflater.reset ... JNI]
+     [[Dynamic-linking native method java.lang.ClassLoader.defineClass0 ... JNI]
+     [[Dynamic-linking native method HolaMundo.saluda ... JNI]
+     Hola Mundo
+
+
+  Espero que este tutorial le haya gustado.[BLANCO]
+
+  Siempre suyo: Fernando L¢pez Hern ndez.
+
+  http://www.macprogramadores.org[VERDEFOSFORITO]

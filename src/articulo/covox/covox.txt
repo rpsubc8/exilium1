@@ -1,0 +1,1353 @@
+[FOTOS 3]
+4 56 7 143
+6 58 47 215
+5 57 47 240
+ COVOX SOUND.[AZULCLARO GRANDE]
+[PCT]
+
+
+  Seguro que muchos tendran un equipo antigo, como un 8086, un 80386, o[BLANCO IZQUIERDA]
+incluso un Pentium, por casa, junto con otro equipo mucho m s moderno, como
+un PENTIUM IV, o un Athlon. Y seguro, que este equipo, no tendr  tarjeta de
+sonido. Y claro, vosotros preferis hacer las cosas en el equipo nuevo, que en
+el viejo, puesto que no teneis sonido.[NO]
+
+  Otros estareis pensando, que el altavoz interno, al menos emite sonido, y[IZQUIERDA]
+puede hacer sonido digital con una calidad de 8 bits. Ante esto no tengo duda,
+pero el mecanismo que tiene cualquier computador, salvo algun PCJr o, algun
+equipo de marca raro, es de abrir y cerrar el altavoz, por lo que se sentir 
+al mismo tiempo ruido y sonido. Otros pensareis, en ponerle una tarjeta de
+sonido nueva. Ante esto otro, tampoco tengo duda, ya que la calidad de una
+tarjeta de sonido, es mejor que un speaker, pero claro, nos enfrentamos a dos
+problemas:[NO]
+
+  - Una tarjeta de sonido nueva cuesta dinero: no menos de 18î (Euros).[GRIS]
+  - Las tarjetas actuales vienen en formato PCI, y si tenemos un 80386, no
+    dispondremos de esta ranura.
+
+  Por tanto, la soluci¢n m s razonable, es encontrar una tarjeta de sonido de[BLANCO IZQUIERDA]
+segunda mano. Si tenemos una en casa, pues perfecto, pero sino, tendremos que
+buscarla, y lo m s seguro, que sea de 4§ o 5§ mano, por lo que no os estra¤eis
+si alg£n d¡a deja de funcionar. Adem s el precio de estas tarjetas, suele andar
+entre 6î y 10î (Euros), y depende, si donde nos encontremos, se dedican a la
+segunda mano.[NO]
+
+  Luego, puede suceder, que la tarjeta de sonido, sea una tarjeta sin tabla de[IZQUIERDA]
+ondas, es decir, que s¢lo tenga instrumentos MIDI, como una ADLIB PRO. Estas
+tarjetas funcionan, hasta en un 8086, pero no podras reproducir ningun archivo
+de sonido crudo o WAV.[NO]
+
+  As¡ que una de las soluciones m s c¢modas, si tenemos unos m¡nimos[IZQUIERDA]
+conocimientos para poder soldar, es construirnos una tarjeta de sonido COVOX
+SOUND.[NO]
+
+
+Para que sirve?[AMARILLO GRANDE]
+
+
+
+  Tal y como coment‚ antes, es una tarjeta de sonido, que permite usar tablas[PCT IZQUIERDA BLANCO]
+de ondas. Es decir, podremos reproducir, hasta voces. Esta tarjeta, debido a
+su sencillez, la puede construir todo el mundo, o mandar que se la construyan,
+por un precio insultante, y por supuesto, de primera mano.[NO]
+
+  Si por ejemplo, tubiesemos que construir un programa, para una oficina de la[IZQUIERDA]
+ONCE, por muy bien que hiciesemos el interfaz, nuestro programa no lo usar¡a
+nadie, sino emite sonido, indicando el premio que ha tocado, pero no basta con
+emitir pitidos, sino, que tiene que ser un sonido perfectamente audible, es
+decir, que salga una voz hablando. Si para hacer nuestro programa, les decimos
+que tienen que comprar un equipo con tarjeta de sonido, ya implica gastar mucho
+dinero m s, y por consiguiente, nuestra aplicaci¢n va a valer menos dinero,
+mientras que si cogemos un 80386 (precio 0 Euros) y le ponemos una COVOX SOUND,
+todo el dinero que hemos ahorrado, nos lo quedamos para nuestra aplicaci¢n, y
+la calidad de sonido, no merma, las prestaciones del programa. Esto es seg£n
+el criterio, de cada persona. Pero en definitiva, esta tarjeta nos permitir 
+ahorrar una cantidad enorme de dinero, complic ndonos un poco la cabeza.[NO]
+
+
+Caracteristicas.[AMARILLO GRANDE]
+
+
+
+  Esta tarjeta de sonido se conecta al Puerto Paralelo de cualquier PC. Pero[PCT BLANCO IZQUIERDA]
+seg£n vayamos explicando el mecanismo, os dareis cuenta, que incluso podeis
+usar el puerto SCSII, o cualquier puerto que se os ocurra. No os voy a enga¤ar,
+la calidad de la COVOX SOUND, no es superior a la de una tarjeta de sonido,
+pero una cosa os dir‚, es mejor que cualquier chip FM, y por supuesto, que
+cualquier SPEAKER, ya que no hace ruido de abrir y cerrar. Dependiendo, de lo
+que compliqueis el circuito, la calidad mejorar . La precisi¢n de esta tarjeta
+es generalmente de 8 bits, seg£n el esquema b sico, pero seg£n os vaya
+explicando, podreis ver, que se puede hacer de 11, 16, 24, 32 e incluso m s
+bits, por supuesto invirtiendo m s dinero y rompiendonos m s la cabeza. La
+ventaja que tiene esta tarjeta, es que al usar el puerto paralelo de nuestro
+PC, garantiza que funcionar  en el mayor n£mero de equipos, y que no dar 
+conflictos, como otras tarjetas.[NO]
+
+  El precio de esta tarjeta, suele ser de 2î (Euros), en el peor de los casos.
+
+
+Manos a la obra.[AMARILLO GRANDE]
+
+
+
+  Hay que recordar, que esta tarjeta, se us¢ mucho en la ‚poca scener, aunque[PCT BLANCO IZQUIERDA]
+muchos usuarios, no lo sepan. Es m s, muchas personas, decidieron comprar una
+ADLIB PRO, o una SOUND BLASTER 1.0, que sonaban a lata, y a gastar una burrada
+de pasta en aquel entonces, en vez de hacer este tipo de tarjeta. De hecho, los
+esquemas de la COVOX SOUND datan de 1980, y se emplearon para hacer un
+sintetizador de voz. Yo he de recordar, que cuando ten¡a mi 8086, dispon¡a de
+puerto paralelo, y altavoz interno. El altavoz interno, sonaba mucho mejor, que
+cualquier 80386, y ten¡a regulador ergon¢mico de audio, pero el COVOX SOUND
+sonaba mejor. Adem s en el 8086, s¢lo dispon¡a de bahias XT de 8 bits, por lo
+que s¢lo pude meterle una tarjeta ADLIB PRO, que como coment‚ s¢lo emitia MIDI,
+suficiente, si quer¡a hacer partituras, pero no para hacer efectos sonoros, o
+hacer un traductor. Imaginaos, lo que vale un 8086 o un 80286. Seguro que os lo
+regalan, con disco duro y todo completo. Pues lo encerrais en una caja, le
+meteis un buen FreeDOS, le quitais el teclado, y le meteis una COVOX SOUND. Al
+final os queda un DOS-BOX que puede hacer de traductor, o de conversacional,
+si haceis una especie de HERBIE. Y al final, cuando hecheis una cuenta de lo
+que gastasteis, os dar  un total de 5î, como mucho, mientras, que si lo
+hicierais para WINDOWS, necesitariais, un Pentium, Sound BLaster, Memoria,
+disco duro, paciencia, cuelgues, y al final, pedir dinero a la familia, para
+poder haber hecho un simple pitido. Y eso, que s¢lo queriais probar.[NO]
+
+  Pues, una vez dicho esto, s¢lo teneis que ir a la tienda de electr¢nica m s[IZQUIERDA]
+cercana que tengais, salvo que dispongais de las piezas en casa. Necesitais
+un total de 17 resistencias, un conector macho DB25 de puerto paralelo, una
+carcasa para guardar el DB25, un trozo de cable de audio, y un conector
+aereo mono o estereo. Ya se que alguno, estaba esperando algo m s, pero lamento
+decir. que el COVOX SOUND, es el dispositivo, que m s a¤os va a durar, por dos
+cosas:[NO]
+
+  - Su construcci¢n es libre, por tanto, cuando quieras puedes construirla.[GRIS]
+  - Al ser componentes sencillos, la probabilidad de que se estropeen, es[IZQUIERDA]
+    m¡nima, al igual que su reparaci¢n.[NO]
+
+ Pues, como dije, necesitais estas resistencias:[BLANCO]
+
+  - 10 resistencias de 20 Kê (Kilo Ohmio).
+  - 7 resistencias de 10 Kê.
+
+  Las resistencias de 10 Kê, las podreis encontrar en cualquier tienda de[IZQUIERDA]
+electr¢nica. Sin embargo, las de 20 Kê, es raro. En concreto, lo m s seguro es
+que tengais que conseguir alguna parecida, de 22 Kê. Los valores, no hace falta
+que sean exactos. Sin embargo, estos son los que mejor se suelen portar. De
+hecho, podeis usar resistencias de 10 Kê y 2 Kê, en vez de 20 Kê y 10 Kê.
+
+  Debeis de seguir el esquema que aparece en la figura adjunta. Si haceis lo
+que trae el dibujo, podreis degustar en pocos minutos de una COVOX SOUND. Si
+nos enterais muy bien, os puedo comentar, que las cajas rectangulares
+horizontales se corresponden con las resistencias de 10 Kê, mientras que las
+verticales, son las de 20 Kê. Los conectores circulares que tienen un n£mero,
+son los pines del puerto paralelo. As¡ que como se coment¢, debeis de pedir en
+vuestra tienda de electr¢nica mas cercana, un conector DB25 macho. El pin m s
+importante de este conector a la hora de soldar en el circuito, es el 19, ya
+que es la masa, asi que sseguraos de hacer bien las soldaduras. El resto de
+pines, son para enviar los datos, en concreto, tenemos los pines:[NO]
+
+
+
+
+
+
+
+
+
+
+
+
+
+  9 8 7 6 5 4 3 2[GRIS PC]
+
+  Como podeis observar, forman 8 bits, es decir, un byte, que va a ser nuestra[BLANCO PCT IZQUIERDA]
+precisi¢n, en definitiva, la calidad de 8 bits.
+
+  Y tan s¢lo nos queda el conector de audio. Como se coment¢, debe ser aereo y
+hembra, aunque si teneis pensado hacer una caja externa, podeis cojerlo de
+cualquier otro tipo. Aqui podeis elegir, entre conector Mono o Estereo. Si
+optais por mono, debeis de conectarlo a un tipo de auriculares o entrada de
+audio que sea mono, ya que los conectores estereo no entrar n. En concreto,
+casi todas las minicadenas disponen de este tipo de entrada. Si optais por el
+estereo, debeis de hacer un puente entre el canal derecho e izquierdo del
+conector, para que al conectar el jack externo de unos auriculares o de la
+minicadena, no salga s¢lo por un canal. Esto s¢lo es para facilitar los
+enganches, ya que en si, la COVOX SOUND simple, es mono.[NO]
+
+
+
+Amplificador[AMARILLO GRANDE]
+
+
+
+  Si todo ha salido bien, e intentais conectar vuestro auriculares a la COVOX[PCT BLANCO IZQUIERDA]
+SOUND, os dareis cuenta, de que apenas se siente el sonido. Esto depender  de
+las resistencias que useis. A mayor valor, menos corriente que circula, y por
+consiguiente, menos volumen. Pero teniendo en cuenta, que el puerto paralelo
+suministra a lo sumo 5V (Voltios), el sonido es baj¡simo. Por tanto, debemos
+hacer uso de un amplificador. En este caso, tenemos dos opciones:[NO]
+
+  - Amplificador operacional.[GRIS]
+  - Altavoces estandar.
+
+  La primera opci¢n, es adecuada para aquellos que les gusta mucho la[IZQUIERDA BLANCO]
+electr¢nica. A este punto, he de a¤adir, que el amplificador operacional debe
+estar trabajando en inversa. Adem s debemos de alimentarlo con al menos 9 V.
+Por tanto, o robamos tensi¢n del puerto serie o de una bater¡a.[NO]
+
+  La segunda opci¢n, es adecuada para no gastar un duro en pilas, ni tener que[IZQUIERDA]
+seguir soldando. En este caso, debemos de ir a la tienda m s cercana de m£sica
+o de inform tica, y pedir los altavoces multimedia m s baratos que existan. Con
+un precio entre 9î y 24î, podremos conseguir unos simples altavoces de 100 W
+o incluso un subwoofer. Por supuesto, debeis de aseguraos de que los altavoces
+son amplificadores, es decir, que amplifican la se¤al. Esto se puede ver mas o
+menos a simple vista, ya que tienen que llevar un cable de alimentaci¢n. Si
+queremos escuchar m£sica por unos auriculares, debemos de conectarlos al
+conector de los mismos, que suele llamarse PHONE. Si los altavoces son buenos,
+se amplificar  tambi‚n esta salida, sino, nos pasar  como antes.[NO]
+
+  Si por algun caso en concreto, disponeis de minicadena o de algun tipo de[IZQUIERDA]
+altavoces ya amplificado, podeis prescindir de esto £ltimo que he comentado, ya
+que tan s¢lo teneis que conectar el enganche de la COVOX SOUND de audio en la
+entrada de sonido de la minicadena. Por supuesto, si la entrada es mono para el
+canal izquierdo y mono para el derecho, debeis de hacer los apa¤os adecuados,
+como se coment¢ anteriormente.[NO]
+
+  Y con todo esto, deber¡a funcionar todo a la primera, sobre todo si se os da
+bien soldar. Si quereis alg£n truco a la hora de soldar, os dir‚ que debeis de
+poner una peque¤a bola de esta¤o sobre cada uno de los pines donde quereis
+soldar, y luego pasareis a soldar las resistencia en cada pin. En este caso,
+ser¡an, para datos, los pines:[NO]
+
+  9 8 7 6 5 4 3 2[GRIS PC]
+
+  Y para masa el 19.[BLANCO PCT]
+
+
+
+
+
+  El conector de puerto paralelo viene numerado, indicando en cualquier momento[IZQUIERDA]
+el indice de cada pin. Pero si por alg£n motivo, no fuese as¡, podeis hechar un
+vistazo al dibujo del conector DB25.[NO]
+
+
+
+
+
+Encapsulado[AMARILLO GRANDE]
+
+
+
+  Una vez soldado, tan s¢lo os queda hacer lo m s dificil, que es cerrar la[PCT IZQUIERDA BLANCO]
+propia carcada del DB25. Ya se que cuesta, pero debeis de ser ingeniosos y
+manitas para poder meterla, sin que haga ning£n contacto entre s¡. Yo ya he
+montado 10 tarjetas de este tipo, y os aseguro que se puede meter dentro. Y
+adem s he sacado dinero mont ndolas(no mucho)[NO]
+en la ‚poca actual. As¡ que os  animo  a  los
+que os interese a construir este aparatito.
+
+  Pues una vez, soldado todo,y comprobado con
+el  multitester cada una de  las  soldaduras,
+debemos  pasar al proceso m s dificil, que es
+el  de cerrar la carcasa de DB25 (8-D)). Para
+ello,tan s¢lo hay que cerrarla con cuidado de
+que ningun conector de las resistencias toque
+con  otra cercana o con los propios tornillos
+internos de la carcasa de DB25, y apretar los
+tornillos.
+
+  He de recordar, que si usais el multitester para mirar si las soldaduras[IZQUIERDA]
+estan bien hechas, a parte de tener que ponerlo en modo comprobaci¢n de
+continuidad, no debeis de realizar las medidas con resistencia por el medio,
+ya que por si mismas se oponen a la circulaci¢n de la corriente, por lo que no
+os dar n continuidad. Que conste que este dato, es tan s¢lo para aquellos que
+no saben nada de electr¢nica, y este es su primer circuito.[NO]
+
+
+
+Y ahora que?[AMARILLO GRANDE]
+
+
+
+  De los que habeis acabado, muchos ya estareis haciendo esta pregunta. Una[PCT BLANCO IZQUIERDA]
+cosa esta clara, la tarjeta ya la teneis hecha, pero claro, por muchas
+mediciones que hagais, no sabeis si realmente esta bien construida. As¡ que
+s¢lo queda engancharla al puerto paralelo de cualquier equipo PC del mundo, y
+enganchar el conector aereo de audio a nuestros altavoces mas cercanos, as¡
+como encenderlos. Y claro, nos queda la guinda del pastel, que en este caso es
+el programa de audio para COVOX SOUND. Pues en este apartado hay muchos, pero a
+mas de uno le gustar  s¢lo uno en concreto.[NO]
+
+  Para los demosceners, sobre todo los de la oldschool, tenemos muchas demos[IZQUIERDA]
+que dispon¡an de COVOX SOUND. Para ello, debemos de bajarnos las demos de 1990
+o anteriores, y cuando la ejecutemos, debemos de especificar cual es la
+direcci¢n del puerto paralelo, bien en hexadecimal o decimal, en caso de que no
+lo autodetecte. Lo normal, es el LPT1 con el valor 378 en hexadecimal. Pero
+claro, estas demos, suelen ser problem ticas, y requeriran del hardware para
+las cuales se hab¡a programado, as¡ que ya os veo desenfundar vuestro 8086 o
+80286. Tambi‚n hay varios juegos antigos que disponian de esta opci¢n. En
+concreto, podeis coger la revista de "Juegos cl sicos PC", la cual contiene una
+colecci¢n de todos estos t¡tulos, y a buen precio. Si no, siempre podeis pasar
+por p ginas de abandonware y descargarlos vosotros mismos, si teneis paciencia
+y buena conexi¢n a B ancho. 8-D))))[NO]
+
+  En cualquier caso, siempre debeis de disponer del DOS, ya que normalmente,[IZQUIERDA]
+las rutinas de sonido se colgaban del temporizador, y en modo protegido bajo
+ventana DOS de WINDOWS o el DOSEMU de LINUX, no suele funcionar muy bien.[NO]
+
+  Sin embargo, hay que destacar, que hay ciertos juegos (Another World) que[IZQUIERDA]
+disponen de sonido COVOX SOUND, pero no es el de este caso, sino, que al puerto
+paralelo le conectaban un chip de sintetizaci¢n FM, que en algunos caso era
+hasta estereo y sonaba como una SOUND BLASTER, liberando algo a la CPU. Por
+tanto, no sonar  bien en nuestra tarjeta. Si pensais en construiros este tipo
+de tarjeta, yo no lo voy a comentar por ahora,ya que sale incluso m s caro que
+una tarjeta nueva.[NO]
+
+  Si no sois de los que os gusta estar mirando tantos programas, podeis ir[IZQUIERDA]
+directamente a uno, en concreto al FASTTRACKER. En concreto podeis elegir la
+versi¢n 2.07. Este programa es un Tracker de sonido, es decir, os permitir 
+hacer m£sica digital a m¢dico precio. Permite trabajar con los formatos de
+audio de los demosceners, es decir, el MOD, XM, as¡ como trabajar con
+instrumentos IT, y directamente con archivos de sonido WAV. Permite samplear
+incluso a 16 bits en tiempo real, con el CD, y mientras tanto jugar al NIBBLES.
+Los requerimientos de equipo, son un simple 80386 con VGA y al menos 4 MB de
+RAM, aunque las versiones anteriores, pedian menos. Funciona con casi
+cualquier tarjeta de sonido del mercado, siempre y cuando, cumpla el estandar
+de SOUND BLASTER o GRAVIS ULTRASOUND. y por supuesto, siempre podemos ponerle
+nuestra maravillosa COVOX SOUND. Para ello, debemos ir a CONFIG (configuraci¢n)
+y en la secci¢n de Output device (Dispositivo de salida) debemos de activar la
+casilla de SoundPlayer. Y luego, en la opci¢n de SOUNDPLAYER, debemos de elegir
+el puerto donde tenemos la tarjeta de sonido COVOX, que lo normal suele ser el
+LPT1. Si por alg£n caso, tubiesemos dos puerto paralelos, podemos o bien,
+elegir el LPT2 o bien usar dos COVOX SOUND y elegir el LPT1 y LPT2 en estereo
+con una precisi¢n de 8 bits. Tambi‚n debemos de activar la casilla de estereo
+para evitar un peque¤o chasquido en la reproducci¢n, y podemos activar en
+MIXING DEVICE CTRL (Control de mezcla de dispositivos) la casilla de
+INTERPOLATION (interpolaci¢n) y 16-bit mixing, para mejor sonido. Y lo £ltimo
+que nos queda es la frecuencia de la COVOX SOUND, que podr¡a ser perfectamente
+44 Khz y 32 canales. Tambi‚n debemos de elegir la amplitud de la onda en factor
+de multiplicaci¢n. Debemos de elegir un valor alto, y para el volumen, tambi‚n.
+Si oimos alg£n rudio muy molesto, debemos de varias estos valores.[NO]
+
+  Lo que se comenta aqu¡, es una configuraci¢n b sica para un equipo Pentium.[IZQUIERDA]
+Pero si disponemos de un 80486 o un 80386, debemos de quitar varias opciones.
+En concreto, en las pruebas que he hecho en un 80386 con 6 MB de RAM, he tenido
+que dejar la reproducci¢n a 11 Khz. En el caso de un 80486, se podia dejar en
+22 Khz, pero a 44 Khz, ya empezaba a ir mal.[NO]
+
+  Como ya coment‚, el sonido del COVOX SOUND, no es tan bueno como una tarjeta[IZQUIERDA]
+de sonido, aunque los graves los hace bastante bien. Pero si seguis pensando
+que es tan mala, podeis activar la casilla de SPEAKER (altavoz interno) en el
+FASTTRACKER, y luego me comentais. Incluso activando el filtro de NOISE (ruido)
+para el altavoz interno, suena mal, sobre todo para los agudos, ya que
+realmente, el sonido se forma como una onda cuadrada de 8 Khz a partir de abrir
+y cerrar el altavoz, mientras que en el COVOX SOUND es un sonido continuo, y la
+onda puede ser perfectamente sinusoidal.[NO]
+
+  Si por alg£n motivo, no disponeis de un 80386, siempre podeis hechar mano de[IZQUIERDA]
+utilidades desde linea de comandos que permiten reproducir archivos crudos de
+sonido o en formato WAV en un 8086 a 8 Khz o 11 Khz. Sin embargo, debido a que
+un archivo de sonido ocupa mucha memoria, no podreis disponer de muchos
+segundos de audio. En concreto a un muestreo de 8 Khz, para almacenar 5
+segundos de audio, necesitareis:[NO]
+
+        11000 Hz  X  5 segundos X  8 bits = 44000 bits = 55000 bytes[PC AMARILLO]
+
+
+  Sin embargo, quizas seais de esos, que no os gusta nada ensuciaros las manos[PCT BLANCO IZQUIERDA]
+y adorais en WINDOWS. Pues para vosotros, tengo una sorpresa, ya que existen
+drivers no s¢lo para WINDOWS 3.11, sino para Windows 9x. El driver se suele
+llamar COVOX o COVOXDAC. Y las instrucciones de instalaci¢n son las siguientes:
+
+
+Instalaci¢n en Windows 95/98[NO AMARILLO]
+============================
+
+Se ha indicado un m‚todo para instalar este driver en Windows 95/98. No[IZQUIERDA]
+obstante se ha de indicar que el funcionamiento de este driver bajo estos
+sistemas operativos puede no ser correcto en algunos casos.[NO]
+
+
+  1) Copie STHING.DRV, VADLIBWD.386 y OEMSETUP.INF en un disquete o en un[IZQUIERDA]
+     archivo temporal del disco duro.[NO]
+
+  2) Vaya al panel de control y seleccione "Agregar nuevo hardware". Haga clic[IZQUIERDA]
+     en "Next" (siguiente)  para  realizar la detecci¢n de nuevo hardware.[NO]
+
+  3) Seleccionar la opci¢n "No" a la pregunta de que Windows busque nuevo[IZQUIERDA]
+     hardware. Aparecer  entonces una lista de tipos de hardware.[NO]
+
+  4) Seleccione en esta lista "Controladores de sonido, v¡deo y juegos"
+
+  5) Una nueva lista le mostrar  los dispositivos que Windows conoce. Use la[IZQUIERDA]
+     opci¢n de "Utilizar disco".[NO]
+
+  6) Seleccione en el cuadro de di logo que se le mostrar  el camino de acceso[IZQUIERDA]
+     (path) al directorio o carpeta temporal donde ha copiado los archivos en
+     el paso 1). Seleccione el archivo oemsetup.inf y haga despu‚s click en el
+     bot¢n (Aceptar).[NO]
+
+  7) Aparecerá un cuadro de di logo "Seleccionar dispositivo". Elija la opci¢n[IZQUIERDA]
+     "Covox Speech Wave Driver", y finalice la instalaci¢n del dispositivo.[NO]
+
+  8) Se abrir  una ventana de di logo para configurar el driver. Elija el[IZQUIERDA]
+     puerto donde conectar  el circuito conversor D/A (generalmente ser  LPT1).
+     Haga despu‚s click en el bot¢n (Aceptar)[NO]
+
+  9) Ahora s¢lo queda reiniciar el ordenador. Puede hacerlo inmediatamente o[IZQUIERDA]
+     dejarlo para m s adelante. El driver podr  ser operativo una vez haya
+     reinicializado la m quina.[NO]
+
+
+Configurando el hardware[PC GRIS]
+-------------------------
+
+  Igual que cualquier otro dispositivo de su ordenador, su conversor de sonido[IZQUIERDA PCT AMARILLO]
+D/A necesita un driver o controlador para funcionar, y el que est  usando en
+este caso se llama "Covox Speech Thing Driver".[NO]
+
+  Si ya tiene instalado este driver, ahora deber  de seleccionar qu‚ medio de[IZQUIERDA]
+sonido necesitar  para reproducir sonidos musicales. Esto lo puede hacer de la
+siguiente manera:[NO]
+
+ Men£ Inicio --> Configuraci¢n --> Panel de Control --> MultiMedia -->[PC GRIS]
+ Audio ---> Lista "Dispositivo preferido"
+
+ Seleccionar como dispositivo preferido en la lista :"Speech Thing
+ Waveform Output", y haga click en el bot¢n (Aceptar)
+
+
+  Y con todo esto, debe reiniciar el ordenador, ya ya esta todo acabado. Si por[IZQUIERDA PCT BLANCO]
+alg£n motivo, tiene una tarjeta de sonido, adem s del COVOX SOUND, en WINDOWS,
+deber  especificar cual quiere que sea su dispositivo multimedia por defecto,
+as¡ como elegir cuando quiere que suene la COVOX SOUND o cuando la otra tarjeta
+que tiene. Esto £ltimo, he de agradec‚rselo a Miguel Angel Montejo R ez, que
+aunque no he hablado con ‚l, si he cogido esta £ltima informaci¢n de instalar
+el driver bajo WINDOWS.[NO]
+
+  Con este driver, lo que gaanamos, es que podemos reproducir cualquier tipo de[IZQUIERDA]
+archivo multimedia, sin importarnos de que este preparado para la COVOX, ya que
+de eso se encarga WINDOWS, aunque claro, lo de tiempo real, se queda en viento.
+
+  Por supuesto, este driver esta ajustado para reproducir a 8 Khz, as¡ que no[IZQUIERDA]
+espereis maravillas como el FASTTRACKER. Eso si, con un Pentium podeis
+reproducir un MP3 con alg£n tironcillo. Y por supuesto, no intenteis reproducir
+un video con audio en un 386, aunque sea un AVI crudo. No es que se cuelgue, es
+que va fatal y desincronizado. El driver lo he probado bajo WINDOWS ME y 98 en
+un DURON, y bajo WINDOWS 95 en un MMX, Pentium y 80486. Bajo Windows 3.11 lo
+he probado en un 80386. La verdad, que agrada un poco entrar en Windows 3.11
+o en Windows 95 con un sonido de inicio o fin, y por supuesto gastando tan
+s¢lo 2î. sobre todo agrada en m quinas muy antigas, como un 8086, que nunca
+tubo un sonido decente.[NO]
+
+  Hay que destacar que esta tecnolog¡a se puede aplicar a varios tipos de[IZQUIERDA]
+ordenadores, que no sean PC. En concreto, tan s¢lo se requiere de un DAC,
+como el puerto paralelo. Adem s el primer ordenador que tubo una COVOX, fue
+el ATARY.[NO]
+
+  Tambi‚n existen drivers de sonido para el Sistema del pingino LINUX. Para[IZQUIERDA]
+ello, podemos o bien cargar un m¢dulo o bien recompilar el KERNEL. La opci¢n
+es vuestra. Para BeOS, todab¡a no existe nada, sin embargo, si hechais un
+vistazo m s abajo, podeis ver el c¢digo fuente que he hecho para reproducir
+archivos de sonido bajo BeOS con la COVOX.[NO]
+
+
+
+Ampliacion[AMARILLO GRANDE]
+
+
+
+  Pues como habeis visto, hay gran variedad de software para usar con la COVOX[PCT BLANCO IZQUIERDA]
+SOUND. Pero podemos ampliar nuestro aparatito. En primer lugar, el primer
+problema que nos encontramos, es que podemos tener una impesora ya conectada a
+nuestro equipo, por lo que tendremos que estar conectando y desconectando
+nuestra COVOX seg£n queremos imprimir o escuchar m£sica. Pero para eso existen
+soluciones:[NO]
+
+  - Comprar un switch (commutador).[GRIS]
+  - Hacer un duplicador.
+
+  Los switch estan baratos 6î, pero tienen dos problemas, que son que tenemos[IZQUIERDA BLANCO]
+que estar dando al selector segun queramos escuchar m£sica o imprimir, y que
+nunca nos dan los cables para unir cada aparato, por lo que al final, nos sale
+un poco m s caro de la cuenta.[NO]
+
+  Si hacemos un duplicador, nos saldr  mucho m s barato y no tendremos que dar[IZQUIERDA]
+al selector, pero tendremos que soldar m s cables. Para ello, debemos de compar
+dos conectores DB25 hembra para conectar luego el COVOX SOUND y la impresora,
+as¡ como un DB25 macho para conectar al puerto paralelo. Y luego, debemos de
+comprar las carcasas de los mismos y el cable. El cable es algo lioso pero
+simple, ya que tenemos que unir las lineas del DB25, pero por duplicado, ya
+que tenemos que sacar dos conectores. Yo he optado por duplicar el cable, para
+si se da el caso de usar alguna linea extra, sobre todo en el caso de la
+impresora, por tanto, debemos de soldar los 25 pines. Pero para el caso de la
+COVOX SOUND, podeis soldar s¢lo los 10 pines implicados. Yo tambi‚n sold‚ los
+25 pines implicados, para no tener que acordarme de cual erael conector de la
+COVOX y cual de la impresora. Todo esto, nos puede salir por 4î, a parte de la
+complicaci¢n de la cabeza y alguna que otra quemadura por parte del soldador.
+  Si la impresora cumple el estandar de comunicaci¢n de puerto paralelo SPP,
+este apa¤o funcionar  muy bien. Sin embargo, si usa las comunicaciones ECP, la
+cosa traer  problemas, ya que el COVOX SOUND consume corriente, y la impresora
+la envia. Por tanto, para este £ltimo caso, necesitaremos del switch que se
+coment¢ antes. En mi caso, una impresora HP Deskject 600C, imprime bien con el
+duplicador en modo SPP con los controladores de WINDOWS 95. Sin embargo, si uso
+los controladores de la propia HP, al hacer uso del puerto ECP, ya me da fallo
+en la comunicaci¢n. En cuyo caso, tengo que usar o bien el switch, o bien
+quitar la COVOX y conectar la impresora directamente.[NO]
+
+  Hay que destacar, que la COVOX, no usa ninguna linea de control, como la[IZQUIERDA]
+impresora. Por tanto, mientras estamos en WINDOWS, podemos tener la impresora
+encendida, sin temor a que imprima nada, mientras suena m£sica. Otra cosa muy
+distinta, es en el momento en que imprime, ya que si que enviar¡a datos
+extra¤os a la impresora. Eso si, mientras imprime, si tenemos los altavoces
+encendidos, nos saldr n ruidos extra¤os, que no son m s que los datos que
+envia el ordenador a la impresora.[NO]
+
+  La COVOX SOUND es compatible con Disney Sound Source, por lo que cualquier[IZQUIERDA]
+juego o aplicaci¢n hecha para ella, funcionar¡a para esta, sin cambiar nada.
+
+  Como se coment¢ en el FASTTRACKER, puede suceder, que queramos tener estereo,
+por lo que debemos de hacer otras COVOX SOUND y conectarla al otro puerto
+paralelo. Sin embargo, llegados a este punto, os dareis cuenta, que muy pocos
+disponen de tal preciado puerto paralelo. Para ello, debemos de conseguir una
+controladora con un puerto extra paralelo, que ronda los 18î, un poco caro,
+para el cometido final. Si tenemos suerte de poseer uno ya incrustado en la
+placa, o bien de segunda mano, pues ha construir la tarjeta. Sin embargo, surge
+otro problema. El FASTTRACKER se encargar  via software de dividir los sonidos
+graves para una canal (COVOX SOUND LPT1) y los agudos para el otro (LPT2). Pero
+puede mejorarse, poniendo unos altavoces destinados a tal efecto, como las
+minicadenas. Para ello, podemos poner el altavoz de un subwoofer para el canal
+de los graves y un altavoz normal, para los agudos. Es decir, debemos de jugar
+con el hardware. La verdad, que una COVOX SOUND a 44 Khz, estereo y con unos
+subwoofer, no suena muy bien, pero tampoco mal. Y lo digo, por que lo he
+probado.[NO]
+
+  Tambi‚n se coment¢, que la COVOX, usa 8 lineas de datos, por lo que tenemos[IZQUIERDA]
+una precisi¢n de 8 bits. Sin embargo, esto se puede mejorar, ya que existen 4
+lineas m s de control, en el puerto paralelo SPP. Por lo que podemos tener una
+precisi¢n de 12 bits, y en el caso de disponer de dos COVOX SOUND, de 24 bits.
+Vaya, parece, que supera la precisi¢n de la SOUND BLASTER 8-D)). En concreto,
+las lineas implicadas son:[NO]
+
+  Pin 1   --> Linea Strobe[AMARILLO XM]
+  Pin 14  --> Linea Autofeed
+  Pin 16  --> Linea Init
+  Pin 17  --> Linea Select Input
+
+  El modo SPP es el modo de puerto paralelo estandar, y esta presente en[PCT BLANCO IZQUIERDA]
+cualquier puerto paralelo, ya sea de una placa para 8088, como para Pentium IV.
+El problema de todo esto, es que al usar las lineas de control, si usamos
+WINDOWS, ester¡a enviando datos a la impresora, no como antes. Y por supuesto,
+todo esto todab¡a no se ha programado. Por lo que queda para vosotros. Yo
+todab¡a no lo he hecho, pero lo har‚ y lo pondr‚ en la diskmag. En concreto,
+har‚ la COVOX con 12 bits y el programa que reproduzca archivos con esta
+precisi¢n. Es m s, se podr¡a dividir, en 6 bits para el canal izquierdo y 6
+bits para el derecho, por lo que tendriamos una COVOX SOUND estereo barata, sin
+falta de usar un doble puerto paralelo. O incluso, podriamos tener sonido
+cuadraf¢nico, con dos puertos paralelos, como el ordenador AMIGA, o una SOUND
+BLASTER 1024 de las modernas.[NO]
+
+  Tambi‚n se puede dejar una COVOX SOUND de precisi¢n de 8 o 12 bits en el[IZQUIERDA]
+puerto LPT1 para los bajos de un subwoofer, mientras se deja en el LPT2 los dos
+altavoces estereo normales con precisi¢n de 6 bits para el izquierdo y 6 para
+el derecho. Las combinaciones son muy amplias y baratas. Tambi‚n se podian unir
+las lineas de las dos COVOX SOUND para que formasen un DAC de 12 + 12 = 24 bits
+, de tal forma, que dejemos un altavoz central con precisi¢n de 8 bits, y el
+resto (24 - 8 = 16 bits) nos quede para dos altavoces de 8 bits de precisi¢n
+cada uno.[NO]
+  Como se ver  posteriormente, la forma de programar esta COVOX SOUND ampliada[IZQUIERDA]
+no es como antes, ya que estas lineas, al ser de controls, seran controladas
+por el registro de CONTROL, y por tanto, habr  que unir el registro de CONTROL
+y el de DATOS, par enviar datos por el COVOX SOUND.[NO]
+
+
+  La COVOX SOUND tambi‚n se puede usar en el puerto paralelo CENTRONICS del[IZQUIERDA]
+SPECTRUM. Sin embargo, habr  que hacer algunos apa¤os, ya que no viene el
+t¡pico conector. Eso se comentar  en pr¢ximos n£meros. Por supuesto, el AMSTRAD
+CPC si tenia el puerto paralelo normal. Sin embargo, la calidad ser  de a lo
+mucho 11 Khz, y en algunos casos, peor, ya que la CPU no es tan r pida como un
+PC convencional, y no puede estar dedicada totalmente.[NO]
+
+  Y por £ltimo, y para los m s valientes, se puede comentar, que un PC[IZQUIERDA]
+convencional puede manejar hasta 4 puertos paralelo:[NO]
+
+  LPT1, LPT2, LPT3 y LPT4.[AMARILLO XM]
+
+  Eso nos da, un total, de un DAC de (12 x 4) 48 bits de precisi¢n. Es decir,[PCT BLANCO IZQUIERDA]
+podriamos tener una aut‚ntica tarjeta de sonido, y por supuesto con estereo de
+24 bits cada canal, o en el caso mas b sico:[NO]
+
+  6 canales de 8 bits de precisi¢n cada uno. Es decir, podriamos reproducir 6[IZQUIERDA]
+intrumentos musicales independientes, sin que se pisen unos a otros,
+mezcl ndolos via software. Ya se que una SOUND BLASTER 16, puede tener 16
+instrumentos a la vez, o al menos, eso se supone, pero algo, es algo. Sin
+embargo, si la adquisici¢n de un puerto paralelo es caro, la de 3 m s, es
+mayor.[NO]
+
+  Otra opci¢n es usar el puerto paralelo SCSII, que dispone de transferencias[IZQUIERDA]
+de hasta 32 bits, es decir, que con un s¢lo puerto paralelo, podemos disponer
+de una COVOX SOUND de 32 bits de precisi¢n.[NO]
+
+  
+  
+
+Programacion.[AMARILLO GRANDE]
+
+
+
+  Pues como se coment¢, si tenemos pensado construirnos una variedad de COVOX[PCT BLANCO IZQUIERDA]
+SOUND, o si sencillamente, queremos programarla, para sacar mas partido que los
+programas o utilidades actuales, tendremos que hacer uso de nuestros dotes de
+programaci¢n.[NO]
+
+  La £nica opci¢n por la que elegimos programar la COVOX SOUND, en lugar de la[IZQUIERDA]
+t¡pica SOUND BLASTER, es no s¢lo por el precio, sino, porque la forma de
+programarla es siempre la misma, a diferencia de las tarjetas de sonido que no
+siguen un estandar como las tarjetas gr ficas, gracias a VESA.[NO]
+  Si no sabeis nada a cerca del sonido, esta tarjeta os introducir  de lleno al[IZQUIERDA]
+sonido, y de una forma r pida y sencilla. Una vez que empezais por lo f cil,
+pasar a lo dificil, esta tirado. En concreto, la forma de programar la SOUND
+BLASTER a pelo, es muy parecida a la COVOX, ya que tiene un modo de ir enviando
+datos al DAC de la SOUND BLASTER. Y de hecho, para lograr muestreos altos, se
+cuelga una rutina de temporizaci¢n, como en el caso de la COVOX. Sin embargo,
+para liberar a la CPU, la SOUND BLASTER dispone de un temporizador interno,
+en donde se especifica el muestreo, e incluso los buffers en donde esta el
+sonido, para reproducirlo, gracias al DMA. Pero esto, se ver  en pr¢ximos
+n£meros.
+
+  Aunque se ha elegido el lenguaje de programaci¢n PASCAL y C, por ser los m s[IZQUIERDA]
+ampliamente conocidos y m s f ciles de usar, eso no impide que se pueda
+implementar en otros. En el caso de PASCAL, se ha elegido una versi¢n distinta
+del BORLAND TURBO PASCAL 7.0, principalmente por motivos de comodidad. Se ha
+empleado el TMT PASCAL, que es el PASCAL en modo protegido, pero
+diferenciandose del FreePASCAL, porque no es libre, y porque est  m s
+optimizado, as¡ como que deja meter ensamblador en modo inline de forma muy
+c¢moda. Si estais interesados en descargarlo, podeis visitar esta p gina:[NO]
+
+  http://www.tmt.com[VERDE XM]
+
+  O bien, podeis buscarlo en alg£n buscador de INTERNET. La versi¢n para DOS,[PCT BLANCO IZQUIERDA]
+que es la que se usa aqu¡, es gratis y 100% completa, pero no libre. Pero, eso
+no nos impide desarrollar grandes aplicaciones de forma gratuita.[NO]
+
+  El primer ejemplo de c¢digo, se trata de un reproductor de archivos de sonido[IZQUIERDA]
+en formato RAW (crudo). Tan s¢lo los lee en memoria, y los reproduce. No esta
+pensado para trabajar en equipos lentos, de hecho, incluso en un Pentium va
+lento. Esto se debe a varios motivos:[NO]
+
+  - Trabaja en modo protegido (es mas lento que el modo real).[GRIS]
+  - Esta comprobando siempre el valor de temporizaci¢n. (Polling)
+  - No trabaja en ensamblador.
+
+  El c¢digo es el siguiente:[BLANCO]
+
+(*************************************************************************)[AMARILLO]
+(* COVOX SOUND 8 bits                                           5-7-2000 *)
+(* Programa realizado por Jaime Jose Gavin Sierra.   Alias: J.J.         *)
+(* Portado a D.O.S. y BeOS de caracter para aprendizaje                  *)
+(* No se distribuye ni bajo licencia GNU,GPL,SHAREWARE,FREEWARE,COPYRIGHT*)
+(* Se distribuye de tal forma que nadie puede sacar dinero, ya que       *)
+(* solo es de caracter para aprendizaje y desarrollo multiplataforma     *)
+(* Quien quiera mejorar lo presente, puede contribuir mandando la me-    *)
+(* jora a i1766818@petra.euitio.uniovi.es o bien a beprogramadores.org   *)
+(* Lo unico que hace este programa es reproducir los archivos en for-    *)
+(* mato crudo SND o RAW de 8 bits y 44 Khz a traves de una COVOX SOUND   *)
+(* Para saber lo que es una COVOX SOUND, pueden remitirse al COVOX.TXT   *)
+(* Este programa esta hecho bajo TMTPASCAL en su versi¢n libre, pero no  *)
+(* para uso comercial.                                                   *)
+(* Para compilarlo bajo DOS, teclear:   TMTPC covox.pas                  *)
+(* He usado los temporizadores de la libreria Zentimer para controlar    *)
+(* la frecuencia de muestreo. Puesto que la precisi¢n de estos es de 1e6 *)
+(* es decir, de 1000000 de Hz, como hay que muestrear a 44000 Hz, nos da *)
+(* un valor de (1e6 DIV 44 Khz = 22.72 Hz), pero para evitar calculo con *)
+(* flotantes, devido a su lentitud, se ha aproximado a 22. Si queremos 22*)
+(* 22Khz(chequeo=45), y para 11Khz ser¡a 90. Las pruebas han sido reali- *)
+(* zadas en un Athlon a 800 Mhz y en un Pentium 133 Mhz, y a 44 Khz se   *)
+(* portan muy bien. Todab¡a no he probado en un 486,pero seguro que fun- *)
+(* ciona correctamente. En el caso de un 80386, no podr¡a constatarlo.El *)
+(* uso de los Zentimer, obliga a disponer un 80386 o superior, por usar  *)
+(* los temporizadores del AT. El tamanio del buffer de sonido se puede   *)
+(* bajar si disponemos de poca memoria RAM,cambiando el valor de la cte  *)
+(* MAX_CONT.Los ficheros no se comprueba la apertura correcta,por ser una*)
+(* prueba.El fichero de sonido se pasa como argumento desde linea de co- *)
+(* mandos. Este programa funciona en DOS puro y duro, y bajo ventana DOS *)
+(* de WINDOWS sin problemas.Se ha hecho iterativo y sin concurrencia,para*)
+(* evitar problemas con WINDOWS y por ser una prueba.Para ello habr¡a que*)
+(* colgar un gestor de la interrupci¢n 8h o en su defecto de la 1Ch.Se ha*)
+(* amplificado el sonido 50 puntos por encima,para evitar ruidos, ya que *)
+(* de por si, sale muy bajo y con un poco de distorsi¢n. Si se pulsa una *)
+(* tecla se puede salir del programa de manera comoda o bien, cuando se  *)
+(* haya terminado de reproducir la cancion.No se comprueba en que puerto *)
+(* esta el COVOX SOUND,por ser una prueba.Para ello,se debe de cambiar la*)
+(* cte PUERTO,por el correspondiente y volver a compilar                 *)
+(* Espero que haya servido de ayuda, y suerte con esta prueba            *)
+(* Como aniadidos,hare un compresor para que ocupen menos los archivos de*)
+(* audio, asi como dejarlo concurrente y la posibilidad de hacer un COVOX*)
+(* SOUND de 13 bits,con los 8 bits de datos y los 5 de control para tener*)
+(* mas precision.Asi mismo, tambien hare un programa bajo DELPHI para que*)
+(* funcione bajo WINDOWS,asi como en LINUX.                              *)
+(* NOTAS: Para dejar un archivo en formato RAW o SND a 8 bits y 44 Khz,se*)
+(*        puede usar el GOLDWAVE de Windows o alguno similar.Hay que gra-*)
+(*        bar en unsigned 8bits 44 Khz.                                  *)
+(*************************************************************************)
+
+PROGRAM COVOX;
+USES Zentimer,Crt;
+CONST
+ volumen = 50;        (*Amplifica la se¤al para evitar ruidos*)
+ MAX_CONT = 2000000;  (*2 MB para leer archivo de sonido *)
+ chequeo = 22;        (*para que muestree a 44 Khz *)
+ PUERTO = $378;       (*Direccion del LPT1*)
+VAR
+ timer: LZtimer;      (*El temporizador para muestreo*)
+ fichero: FILE;
+ valor: byte;
+ tamanio,aux,leidos: longint;
+ buffer: ARRAY[[0..MAX_CONT] OF byte;  (*El buffer con el archivo de sonido*)
+
+BEGIN
+ IF (PARAMCOUNT>0) THEN
+  BEGIN
+   ASSIGN (fichero,PARAMSTR(1));
+   RESET (fichero,1);
+    tamanio:= FILESIZE(fichero);  (*calculo el tamanio del fichero de sonido*)
+    IF (tamanio>MAX_CONT) THEN tamanio:= MAX_CONT;
+    BLOCKREAD (fichero,buffer,tamanio,leidos); (*leo el fichero de sonido*)
+   CLOSE (fichero);
+   WRITELN ('Bytes leidos: ',leidos);
+   aux:= 0;
+   Writeln('Pulsa cualquier tecla para salir');
+   timer.start;
+   WHILE ((aux<leidos) AND NOT(keypressed)) DO
+    BEGIN
+     valor:= buffer[[aux];  (*leo byte del buffer de sonido*)
+     IF (valor<(255-volumen)) THEN valor:= valor+volumen; (*Incremento volumen*)
+     while (timer.lap<chequeo) DO; (*Compruebo para los 44 Khz*)
+     timer.Restart;   (*Reseteo el temporizador para contar de nuevo *)
+     PORT[[PUERTO]:= valor;  (*Mando el sonido al COVOX SOUND*)
+     aux:= aux+1;  (*incremento para buscar mas bytes en el buffer*)
+    END;
+   PORT[[PUERTO]:=0;  (*Limpio el sonido para acabar el programa*)
+  END
+ ELSE
+  BEGIN
+   WRITELN('Instrucciones:');
+   WRITELN('     covox  fichero.snd');
+  END;
+END.
+
+
+  Como se oberba, se necesita al menos 2 MB de RAM, mas el 1 MB de memoria[IZQUIERDA BLANCO]
+real, es decir, 3 MB. El valor de muestreo se pone en la cte de chequeo.
+Adem s, el registro del puerto paralelo se ha puesto el 378 por defecto. Si
+teneis otro, debeis de cambiarlo a mano y recompilar el c¢digo.[NO]
+
+
+  Y aqui os pongo el otro ejemplo, que trabaja en modo protegido, pero esta vez[IZQUIERDA]
+sin hacer uso del polling, sino, que lo cuelgo de la interrupci¢n de
+temporizaci¢n 1C:[NO]
+
+
+PROGRAM COVOX;[AMARILLO]
+USES Crt,DOS;
+CONST
+ volumen = 50;        (*Amplifica la se¤al para evitar ruidos*)
+ MAX_CONT = 1000000;  (*1 MB para leer archivo de sonido *)
+ chequeo = 90;        (*para que muestree a 44 Khz *)
+ PUERTO = $378;       (*Direccion del LPT1*)
+
+VAR
+ cabTeclado: word ABSOLUTE $0040:$001A;
+ colaTeclado: word ABSOLUTE $0040:$001C;
+ cabAux,colaAux: word;
+ fichero: FILE;
+ valor: byte;
+ tamanio,aux,leidos: longint;
+ buffer: ARRAY[[0..MAX_CONT] OF byte;  (*El buffer con el archivo de sonido*)
+ OldInt1C: FarPointer;
+ error: BOOLEAN;
+
+{----------------------------------------------------}
+PROCEDURE TSS_Int1C; Interrupt; ASSEMBLER;
+{Metodo optimzado}
+ASM
+ MOV EBX,aux;
+ MOV ESI,offset buffer
+ MOV AL,[[ESI+EBX]
+ CMP AL,205
+ JAE @CONTINUAR
+ ADD AL,50
+ @CONTINUAR: MOV DX,$378
+             OUT DX,AL
+             ADD EBX,1
+             MOV EAX,leidos
+             CMP EBX,EAX
+             JB @ACABAR
+             XOR EBX,EBX
+ @ACABAR: MOV aux,EBX
+END;
+
+(* ESTE ES EL METODO STANDARD
+BEGIN
+ valor:= buffer[[aux];  {leo byte del buffer de sonido}
+ IF (valor<(255-volumen)) THEN valor:= valor+volumen; {Incremento volumen}
+ ASM
+  MOV DX,puerto
+  MOV AL,[[valor]
+  OUT DX,AL         {Mando el sonido al COVOX SOUND}
+ END;
+ aux:= aux+1;
+ IF (aux=leidos) THEN aux:= 0;
+END;*)
+{----------------------------------------------------}
+PROCEDURE SetTSSInt1C;
+BEGIN
+  GetIntVec($1C,OldInt1C);
+  SetIntVec($1C,@TSS_Int1C);
+END;
+{----------------------------------------------------}
+PROCEDURE RestauraOldInt1C;
+BEGIN
+  SetIntVec($1C,OldInt1C);
+END;
+{----------------------------------------------------}
+PROCEDURE Set44Khz;
+BEGIN
+ PORT[[$40]:= $1B;
+ PORT[[$40]:= $0;
+END;
+{----------------------------------------------------}
+PROCEDURE Set22Khz;
+BEGIN
+ PORT[[$40]:= $36;
+ PORT[[$40]:= $0;
+END;
+{----------------------------------------------------}
+PROCEDURE Set11Khz;
+BEGIN
+ PORT[[$40]:= $6C;
+ PORT[[$40]:= $0;
+END;
+{----------------------------------------------------}
+PROCEDURE Set8Khz;
+BEGIN
+ PORT[[$40]:= $95;
+ PORT[[$40]:= $0;
+END;
+{----------------------------------------------------}
+PROCEDURE RestauraTemporizador;
+BEGIN
+ PORT[[$40]:= $0;
+ PORT[[$40]:= $0;
+END;
+{----------------------------------------------------}
+
+BEGIN
+ IF (PARAMCOUNT>0) THEN
+  BEGIN
+   ASSIGN (fichero,PARAMSTR(1));
+   {$I-}
+   RESET (fichero,1);
+   {$I+}
+   IF (IOResult=0) THEN
+    BEGIN
+     tamanio:= FILESIZE(fichero);  (*calculo el tamanio del fichero de sonido*)
+     IF (tamanio>MAX_CONT) THEN tamanio:= MAX_CONT;
+     BLOCKREAD (fichero,buffer,tamanio,leidos); (*leo el fichero de sonido*)
+     CLOSE (fichero);
+     error:= FALSE;
+    END
+   ELSE
+    error:= TRUE;
+   WRITELN ('Bytes leidos: ',leidos);
+   aux:= 0;
+   Writeln('Pulsa cualquier tecla para salir');
+
+   colaAux:= colaTeclado;
+
+   IF (error=FALSE) THEN
+    BEGIN
+     SetTSSInt1C;
+     IF (PARAMSTR(2)='p8') THEN  Set8Khz;     
+     IF (PARAMSTR(2)='p11') THEN  Set11Khz;
+     IF (PARAMSTR(2)='p22') THEN  Set22Khz;
+     IF (PARAMSTR(2)='p44') THEN  Set44Khz;
+
+     ASM  XOR AX,AX; int 16h  END;
+     PORT[[PUERTO]:=0;  {Limpio el sonido para acabar el programa}
+
+     RestauraTemporizador;
+     RestauraOldInt1C;
+    END
+   ELSE
+    WRITELN('Se ha producido un error en la apertura del fichero');
+  END
+ ELSE
+  BEGIN
+   WRITELN('Instrucciones:');
+   WRITELN('     covox  fichero.snd lkhz pkhz');
+   WRITELN('Opciones:');
+   WRITELN('  l --> leer a x khz');
+   WRITELN('  p --> reproducir a x khz');
+   WRITELN('Ejemplo: covox prueba.snd l44 p44');
+  END;
+END.
+
+
+  Como podeis obserbar, permite enviar valores por linea de comandos, de tal[IZQUIERDA BLANCO]
+forma que podemos elegir el modo de muestreo. Y por supuesto, esta vez se
+trabaj en modo concurrente, al colgar la rutina de reproducci¢n de sonido de la
+interrupci¢n 1C. Se podr¡a colgar tambi‚n de la 8, pero por comodidad, se ha
+hecho as¡. Hay que tener en cuenta, que si la colgais directamente de la 1C,
+no va a sonar muy bien, debido a que teneis que reprogramar el temporizador
+o reloj del sistema, para acelerar el n£mero de interrupciones por segundo.
+La forma de programarlo bien, se explicar  en pr¢ximos n£meros. Hay que tener
+en cuenta, que este programa no funcionar  bien en WINDOWS ni DOSEMU, por
+acceder al temporizador directamente, y estar estos sistemas en modo protegido,
+por lo que debeis de ejecutarlo en puro DOS. El primer programa no hace falta,
+por estar trabajando en modo polling.[NO]
+  En los dos ejemplos, se ha a¤adido un amplificador de volumen, ya que as¡[IZQUIERDA]
+suena mejor. El valor de esa cte., corre de cargo vuestro.[NO]
+
+  Y ahora os pongo el c¢digo, para poder reproducir un arm¢nico, es decir, un[IZQUIERDA]
+sonido en concreto en determinados herzios, y con un muestreo dado:[NO]
+
+PROGRAM COVOX;[AMARILLO]
+USES Crt,DOS;
+CONST
+ volumen = 50;        (*Amplifica la se¤al para evitar ruidos*)
+ MAX_CONT = 1000000;  (*1 MB para leer archivo de sonido *)
+ chequeo = 90;        (*para que muestree a 44 Khz *)
+ PUERTO = $378;       (*Direccion del LPT1*)
+VAR
+ cabTeclado: word ABSOLUTE $0040:$001A;
+ colaTeclado: word ABSOLUTE $0040:$001C;
+ cabAux,colaAux: word;
+ fichero: FILE;
+ valor: byte;
+ tamanio,aux,leidos: longint;
+ buffer: ARRAY[[0..MAX_CONT] OF byte;  (*El buffer con el archivo de sonido*)
+ OldInt1C: FarPointer;
+ error: BOOLEAN;
+ i: longint;
+ armonico: longint;
+ muestreo: longint;
+
+{----------------------------------------------------}
+PROCEDURE TSS_Int1C; Interrupt; ASSEMBLER;
+{Metodo optimzado}
+ASM
+ MOV EBX,aux;
+ MOV ESI,offset buffer
+ MOV AL,[[ESI+EBX]
+ CMP AL,205
+ JAE @CONTINUAR
+ ADD AL,50
+ @CONTINUAR: MOV DX,$378
+             OUT DX,AL
+             ADD EBX,1
+             MOV EAX,leidos
+             CMP EBX,EAX
+             JB @ACABAR
+             XOR EBX,EBX
+ @ACABAR: MOV aux,EBX
+END;
+
+(* ESTE ES EL METODO STANDARD
+BEGIN
+ valor:= buffer[[aux];  {leo byte del buffer de sonido}
+ IF (valor<(255-volumen)) THEN valor:= valor+volumen; {Incremento volumen}
+ ASM
+  MOV DX,puerto
+  MOV AL,[[valor]
+  OUT DX,AL         {Mando el sonido al COVOX SOUND}
+ END;
+ aux:= aux+1;
+ IF (aux=leidos) THEN aux:= 0;
+END;*)
+{----------------------------------------------------}
+PROCEDURE SetTSSInt1C;
+BEGIN
+  GetIntVec($1C,OldInt1C);
+  SetIntVec($1C,@TSS_Int1C);
+END;
+{----------------------------------------------------}
+PROCEDURE RestauraOldInt1C;
+BEGIN
+  SetIntVec($1C,OldInt1C);
+END;
+{----------------------------------------------------}
+PROCEDURE Set44Khz;
+BEGIN
+ muestreo:= 44100;
+ PORT[[$40]:= $1B;
+ PORT[[$40]:= $0;
+END;
+{----------------------------------------------------}
+PROCEDURE Set22Khz;
+BEGIN
+ muestreo:= 22050;
+ PORT[[$40]:= $36;
+ PORT[[$40]:= $0;
+END;
+{----------------------------------------------------}
+PROCEDURE Set11Khz;
+BEGIN
+ muestreo:= 11025;
+ PORT[[$40]:= $6C;
+ PORT[[$40]:= $0;
+END;
+{----------------------------------------------------}
+PROCEDURE Set8Khz;
+BEGIN
+ muestreo:= 8000;
+ PORT[[$40]:= $95;
+ PORT[[$40]:= $0;
+END;
+{----------------------------------------------------}
+PROCEDURE RestauraTemporizador;
+BEGIN
+ PORT[[$40]:= $0;
+ PORT[[$40]:= $0;
+END;
+{----------------------------------------------------}
+
+BEGIN
+ write('Introduzca armonico en hz: ');
+ read(armonico);
+ IF (PARAMCOUNT>0) THEN
+  BEGIN
+   ASSIGN (fichero,PARAMSTR(1));
+   {$I-}
+   RESET (fichero,1);
+   {$I+}
+   IF (IOResult=0) THEN
+    BEGIN
+     tamanio:= FILESIZE(fichero);  (*calculo el tamanio del fichero de sonido*)
+     IF (tamanio>MAX_CONT) THEN tamanio:= MAX_CONT;
+     BLOCKREAD (fichero,buffer,tamanio,leidos); (*leo el fichero de sonido*)
+     CLOSE (fichero);
+     error:= FALSE;
+    END
+   ELSE
+    error:= TRUE;
+   WRITELN ('Bytes leidos: ',leidos);
+   aux:= 0;
+   Writeln('Pulsa cualquier tecla para salir');
+
+   colaAux:= colaTeclado;
+
+   FOR i:=0 TO MAX_CONT DO
+    BEGIN
+     {32000*sin(2*pi*i*(1000/11025))}
+     buffer[[i]:= 100*round(sin(2*i*pi*(armonico/muestreo)));
+    END;
+
+
+   IF (error=FALSE) THEN
+    BEGIN
+     SetTSSInt1C;
+     IF (PARAMSTR(2)='p8') THEN  Set8Khz;
+     IF (PARAMSTR(2)='p11') THEN  Set11Khz;
+     IF (PARAMSTR(2)='p22') THEN  Set22Khz;
+     IF (PARAMSTR(2)='p44') THEN  Set44Khz;
+
+     ASM  XOR AX,AX; int 16h  END;
+     PORT[[PUERTO]:=0;  {Limpio el sonido para acabar el programa}
+
+     RestauraTemporizador;
+     RestauraOldInt1C;
+    END
+   ELSE
+    WRITELN('Se ha producido un error en la apertura del fichero');
+  END
+ ELSE
+  BEGIN
+   WRITELN('Instrucciones:');
+   WRITELN('     covox  fichero.snd lkhz pkhz');
+   WRITELN('Opciones:');
+   WRITELN('  l --> leer a x khz');
+   WRITELN('  p --> reproducir a x khz');
+   WRITELN('Ejemplo: covox prueba.snd l44 p44');
+  END;
+END.
+
+
+  Y aqu¡ dejo el c¢digo para usar la COVOX en BeOS:[BLANCO]
+
+/***************************************************************************/[AMARILLO]
+/* Programa realizado por Jaime Jose Gavin Sierra.  Alias: J.J.   5-7-2000 */
+/* Programa que reproduce archivos de sonido en formato crudo SND o RAW de */
+/* 8 bits y 44 Khz. No se distribuye ni bajo licencia GNU,GPL,SHAREWARE,   */
+/* FREEWARE ni COPYRIGHT.Tan solo es de caracter de aprendizaje, y se ha   */
+/* realizado para aprender y no para sacar dinero por parte de terceros    */
+/* Este programa es identico al realizado bajo DOS con TMTPASCAL, salvo que*/
+/* esta realizado en C y funciona bajo BeOS. Para compilarlo, hay que ir al*/
+/* terminal y teclear:  gcc covox.cpp -ocovox. Y para ejecutarlo:          */
+/* ./covox sonid.snd.                                                      */
+/* El resto es exacto que la version para DOS. El unico problema que he en-*/
+/* contrado es que desconozco como usar temporizadores con la precision de */
+/* los del TMTPASCAL bajo BeOS, o directamente usando el 8253 o el 8254 del*/
+/* PC.Por tanto, no me ha quedado otro remedio que poner un retardo,que por*/
+/* supuesto variara de un equipo a otro. Por tanto, habra que cambiar esa  */
+/* funcion segun el equipo sea rapido o lento. Lo siento,pero no se me ocu-*/
+/* rrio otra forma, ya que bajo SDL los temporizadores son de milisegundos */
+/* y las API's de BeOS son tambi‚n de milisegundos, y yo necesito microse- */
+/* gundos.Por tanto, el que sepa como poner un temporizador o sem foro de  */
+/* de esa precisi¢n, ya sabe, que lo mande lo antes posible a la direccion */
+/* i1766818@petra.euitio.uniovi.es   o a  macprogramadores.org/beos        */
+/* Por cierto, para usar el puerto paralelo,he recurrido a un driver exter-*/
+/* no creado por Pieter Panman y que se usa como los dispositivos de LINUX */
+/* Para instalarlo, solo hay que seguir las instrucciones adjuntas del     */
+/* driver de puerto paralelo, que he traducido.Es una pena, que BeOS no in-*/
+/* corpore por defecto el puerto paralelo, como le sucede al serie.        */
+/* Buena suerte, y ha programar cosas para BeOS, que es un buen S.O.       */
+/* Por cierto, en BeOS suena peor que en DOS,pero es por culpa de que no he*/
+/* dado con el temporizador y porque en sistemas concurrentes no va tan    */
+/* fluido como en monotarea. En Windows pasa lo mismo                      */
+/***************************************************************************/
+
+#include <stdio.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <OS.h>
+#include <support/SupportDefs.h>
+#define max_cont 10000000
+#define volumen 50
+
+void Retardo(){ /*Funcion que actua como de reloj para retardar*/
+  int i;
+  for (i=0;i<2000;i++); /*Un simple bucle de retardo*/
+}
+
+int main(int argc, char **argv){
+ if (argc>1){
+  unsigned long int aux;
+  unsigned long int leidos;
+  int fd;
+  unsigned char buffer[[max_cont];
+  unsigned char valor;
+  FILE *fichero;
+  fichero = fopen(argv[[1],"rb"); /*Apertura del fichero de sonido*/
+    leidos = fread(buffer,1,max_cont,fichero);   
+  fclose(fichero);
+ 
+  printf("Bytes leidos: %d\n",leidos);
+  fd = open("/dev/misc/parallelport", O_RDWR);  /*Abro el canal del COVOX SOUND*/
+    aux = 0;
+    while (aux<leidos){
+      valor = buffer[[aux]; /*Leo el byte del buffer de sonido*/
+      if (valor<(255-volumen)) valor+=volumen; /*Subo el audio*/
+      write (fd,&valor,1); /*Escribo en el COVOX SOUND*/
+      Retardo();           /*Hago la espera*/
+      aux +=1;
+    }
+  write (fd,0,1);    /*Limpio el COVOX SOUND al salir*/
+  close(fd);
+ }
+ else
+   printf("Instrucciones\n     ./covox  sonido.snd\n");
+}
+
+  Pues como he comentado, debeis de bajaros el driver de puerto paralelo, el[BLANCO IZQUIERDA]
+cual lo he encontrado en:[NO]
+
+  http://www.bebits.com[VERDE XM]
+
+  Y de esta forma, podeis tratar el puerto paralelo igual que bajo LINUX o DOS[BLANCO PCT IZQUIERDA]
+en modo dispositivo, es decir, abrir, enviar y cerrar dispositivo.[NO]
+
+
+  Como habreis oberbado, estoy hecho un pedazo programador 8-D)). La verdad que[IZQUIERDA BLANCO]
+podia mejorar mucho mi c¢digo, pero lo he hecho legible, para mayor comodidad
+de cara a vosotros.[NO]
+
+  El registro de datos, tal y como se ve aqui es el 378. Por tanto, todo lo que[IZQUIERDA]
+envieis a este registro, ser  enviado directamente al puerto paralelo, y por
+tanto, a la COVOX SOUND. Por defecto, los registros de la COVOX SOUND en el
+puerto paralelo SPP, son:[NO]
+
+   Direccion   Registro  Lectura/Escritura       Bit     Propiedades   Pin[GRIS PC]
+  ==========================================================================
+   Base + 0     Datos       Escritura            7        Dato 7        9
+                                                 6        Dato 6        8
+                                                 5        Dato 5        7
+                                                 4        Dato 4        6
+                                                 3        Dato 3        5
+                                                 2        Dato 2        4
+                                                 1        Dato 1        3
+                                                 0        Dato 0        2
+
+   Base + 1     Estado       Lectura             7        Busy          11
+                                                 6        Acknowledge   10
+                                                 5        Falta papel   12
+                                                 4        Select In     13
+                                                 3        Error         15
+                                                 2        IRQ (not)
+                                                 1        Reservado
+                                                 0        Reservado
+
+   Base + 2     Control     Lectura/Escritura    7        No usado
+                                                 6        No usado
+                                                 5        Bidireccional  
+                                                 4        IRQ            10
+                                                 3        Seleccion      13
+                                                 2        Inicializa     16
+                                                 1        Automatico     14
+                                                 0        Strobe         1
+
+
+  Por tanto lo unico que nos interesa, es la salida, es decir:[PCT BLANCO NO]
+
+  - Los 8 bits del registro de datos (Pin 2-9)
+  - El bit: 0 (Strobe)                 --> Pin 0
+            1 (nueva linea automatica) --> Pin 1
+            2 (Inicializa impresora)   --> Pin 16
+            3 (Selecciona impresora)   --> Pin 13
+            4 (IRQ acknowledge)        --> Pin 10
+
+
+
+
+
+Explicacion del sonido[AMARILLO GRANDE]
+
+
+
+  A mas de uno, seguro que les ha gustado los programillas, pero seguro que no[PCT BLANCO IZQUIERDA]
+entienden muy bien lo que hay que hacer. De cara a usuario, en el caso de
+reproducir un archivo en formato RAW, lo primero es poder crearlo. Para ello,
+debemos de hechar mano del programa de sonido GoldWave de WINDOWS. Este
+programa, incluso en su versi¢n demo, permite una gran variedad de formatos
+de sonido. Y para ello, una vez que habramos uno, debemos de mandar guardarlo
+como nuevo (para no machacarlo) en formato RAW, a ser posible de 8 bits y sin
+signo. Debeis de daros cuenta, de que el formato RAW no tiene cabecera, ni
+tramas, ni MIMES que indiquen el muestreo, ni dem s caracteristicas de dicho
+archivo, al igual que en gr ficos. Por tanto, debeis de memorizar estos
+par metros y usarlos exactamente en el programa de reproducci¢n. El valor de
+muestreo es muy importante. Para hacer pruebas, podeis dejar un muestreo de
+11 Khz, para ahorrar en espacio en disco, y para equipos lentos. Para ello
+debeis de ir a la opcion de RESAMPLE y elegir el valor de 11025 Hz. Podeis
+probar con 8 Khz, pero luego, teneis que meter el mismo valor en la
+reproducci¢n del archivo. Y si os gusta probar, luego podeis pasar a 44 Khz,
+pero recordar, que en formato crudo, 1 hora de m£sica son unos 160 MB.[NO]
+
+  Y claro, os estareis preguntando, ¨que es eso del muestreo y los herzios?.[IZQUIERDA]
+Pues el muestreo, no es nada mas que la velocidad a la que hay que escanear
+el sonido para reproducirlo posteriormente, sin perder datos. Segun f¢rmulas
+matem ticas, hay que muestrear siempre al doble de lo que queremos reproducir.
+El oido humano capta sonidos entre 300 Hz y 22000 Hz. La voz humana esta en el
+rango de los 300 Hz y 4000 Hz. Por tanto, un muestreo del oido deber¡a ser de
+44000 Hz, para poder escuchar sonidos de 22000 Hz. De ahi, vuestra maravillosa
+SOUND BLASTER. Para daros cuenta de si vuestro oido es capaz de percibir sonidos
+de esta ¡ndole, debeis de coger alguna utilidad que genere ondas sinusoidales
+o cuadradas de un arm¢nico determinado. De esta forma, podeis sentir, como a
+partir de 22000 Hz, ya no sois capaces de percibir sonidos. Pero claro, el
+muestreo tiene un problema, y es que en terminos de ordenador, implica un uso
+de memoria. Si queremos muestrear a 11000 Hz, eso quiere decir, que con una
+precisi¢n de 8 bits, la cantidad que podemos albergar en 1 segundo es:[NO]
+
+  11000 Hz  X  8 bits  X  1 segundo = 88000 bits = 11000 bytes = 10 KB[AMARILLO]
+
+  Y para mas valores, seria:[BLANCO]
+
+  11000 Hz  X  8 bits  X  5 segundos = 440000 bits = 53 KB[AMARILLO]
+  11000 Hz  X  8 bits  X  1 minuto   = 644 KB
+  44000 Hz  X  8 bits  X  1 minuto   = 2,5 MB
+
+  Por tanto, hay que ser cauto con el muestreo, y saber elegir la mejor opci¢n.[BLANCO IZQUIERDA]
+Por otra parte esta el tema de los arm¢nicos. Este tema, tambi‚n es matem tico,
+y viene a decir algo asi, como que una onda de sonido, esta compuesta de varias
+ondas sinusoidales, cada una de las cuales es un arm¢nico, y estas se van
+debilitanto. Un ejemplo, ser¡a, que una onda de 400 Hz, si la emitimos, nos
+daria un arm¢nico de:[NO]
+
+  400 Hz, 800 Hz, 1200 Hz, 2000 Hz, 2400 Hz, 2800 Hz, ....[AMARILLO]
+
+  Y as¡, hasta que se desvaneciese, o se agotase su ancho de banda. En estos[IZQUIERDA BLANCO]
+ejemplos, se ha decidido usar el t‚rmino de arm¢nico para denotar una nota
+musical, ya que de los arm¢nicos se encarga el propio medio f¡sico en que se
+transmite el sonido. Por tanto, para generar un sonido debemos de seguir la
+f¢rmula de:[NO]
+
+  X =  Amplitud * seno (2 * pi * (frecuencia/muestreo))[AMARILLO]
+
+  En donde pi es el valor cte de 3.1416..., y la frecuencia, es la frecuencia[IZQUIERDA BLANCO]
+de nuestro arm¢nico. Y el muestreo es el valor en Hz de nuestro muestreo. La
+variable X, es el desplazamiento dentro del muestreo, y ser¡a la amplitud que
+se dibujaria de la onda en una gr fica que se desplaza. Y la amplitud es el
+valor en que se incrementa dicho amplitud de la onda dada. La X a la hora de
+ponerla en un programa ser¡a un buffer en donde en cada iteraci¢n se
+incrementar¡a su posici¢n dentro del ARRAY, y el resultado de toda esta funci¢n
+matem tica se pondr¡a dentro de ese ARRAY.[NO]
+
+  As¡ si queremos generar un pitido de 1200 Hz y que se muestree a 22000 Hz,[IZQUIERDA]
+y con una amplitud inicial de 100, debemos de poner en la f¢rmula, algo as¡:[NO]
+
+  X = 100 * seno (2 * pi * (1200/22000))[AMARILLO]
+
+  Hay que tener en cuenta, que en estos ejemplos, se ha usado una funci¢n[IZQUIERDA BLANCO]
+sinusoidal, en vez de cuadrada, por aproximarse mas a los sonidos reales, y
+por necesitar menos energia.[NO]
+
+  Si quisiesemos un sonido de 4000 hz, pues ser¡a tan sencillo, como cambiar la[IZQUIERDA]
+frecuencia de 1200 Hz por la de 2000 Hz, y darle al bucle, un total de los
+segundos dados al muestreo correspondiente. Por supuesto, debemos de tener la
+memoria necesaria para guardarlo.[NO]
+
+  Como se puede ver, esto nos permite hacer samples de instrumentos. En el caso[IZQUIERDA]
+de realizar un traduzctor de voz, o un reproductor de voz, la cosa es m s
+sencilla, ya que como se coment¢, el rango de la voz esta entre los 300 Hz y
+los 4000 Hz. Por tanto, con tan s¢lo un muestreo de 8000 Hz, ya tenemos la
+posibilidad de reproducir voz con calidad. Os imaginais a vuestro viejo 8086
+hablando?. Pues es posible, y a un precio de locura.[NO]
+
+
+
+Explicacion electronica[AMARILLO GRANDE]
+
+
+
+  Muchos de vosotros, quizas no os interese programar la COVOX SOUND, ya que[PCT BLANCO IZQUIERDA]
+no se os da muy bien la programaci¢n, pero sin embargo, os gusta la scene, y
+quereis dar un poco de color, o m s bien de sonido, a vuestro viejo e
+inseparable compa¤ero de ordenador. Para todos aquellos que seais m s
+electr¢nicos, que programadores, os dir‚ en que consiste la tecnolog¡a COVOX.
+
+  Pues en principio, como se coment¢, es la m s simple del mundo. Y es tan s¢lo
+una escalera de resistencias R-2R. Basandonos en la Ley de Ohm, sabemos que la
+tensi¢n en paralelo es la misma, mientras que en serie, se suma. Y la corriente
+en paralelo se divide, mientras que en serie, es la misma. Como al final, al
+altavoz de la COVOX lo que llega es Intensidad (corriente), cuando es muy alta,
+nos dar  un sonido potente, mientras que cuando es baja, nos dar  un sonido
+d‚bil. En t‚rminos digitales, quiere decir, que para amplitudes altas, la
+corriente es baja, mientras que para amplitudes bajas, la corriente es alta. Si
+por ejemplo enviamos el valor 1 al puerto paralelo, estaremos enviando al pin
+2, 5 Voltios. Estos 5 voltios, se suman en serie con la resistencia de 20 Kê.
+El resto del circutio por la izquierda se anula, al no cirular corriente por
+sus patillas. Por tanto, el circuito cerrado es el pin 2 junto al pin 19 de
+masa. Adem s en paralelo, tenemos la resistencia de 20 Kê del pin 19. Y en
+paralelo con este circuito tenemos una resistencia de 20 Kê.[NO]
+
+  En el caso de que enviasemos el valor 2 en decimal, se activar¡a el pin 3 con[IZQUIERDA]
+5 V. Y el circuito resultante ser¡a la resistencia de 20 Kê del pin 3, junto
+a la resistencia en paralelo de 10 Kê. Es decir, las resistencias de 10 Kê
+estan todas en serie, mientras que las de 20 Kê estan en paralelo. Por tanto,
+actuan entre s¡ como divisores por 2 de la corriente. Y esto viene muy bien,
+para la base 2 del modo digital.[NO]
+
+
+
+Agradecimientos[AMARILLO GRANDE]
+
+
+
+  Al creador del DAC COVOX SOUND, y a todos los que han construido drivers y[PCT IZQUIERDA BLANCO]
+utilidades para este dispositivo. Y en definitiva, al creador del puerto
+paralelo.[NO]
+
+  Sin mas, que lo paseis bien, probando este aparatito, y espero que sigais[IZQUIERDA]
+vivos despu‚s de leer esta parafernaria.[NO]
+

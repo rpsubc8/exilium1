@@ -1,0 +1,227 @@
+[FOTOS 1]
+18 51 53 1
+            Fernando de BeProgramadores[AZULCLARO GRANDE NO]
+
+
+
+
+1.- ¨Cual es tu nombre, y que edad tienes?[PC BLANCO]
+
+    Me llamo Fernando  Lopez, y  estoy  ya  un  poco[GRISCLARO XM]
+    viejo, acabo de soplar 28 velas.
+
+2.- ¨Cual fue tu  primer contacto con el mundo de la[BLANCO PC]
+    inform tica?
+
+    A los  10 a¤os me compraron un  Comodore 64, que[GRISCLARO PCT]
+    vali¢ una  pasta a  mis padres, pero tambi‚n les
+    ahorro  mogoll¢n  de  molestias, porque  as¡  me
+    pasaba las horas en mi habitaci¢n programando en
+    BASIC sin molestar a nadie.
+
+3.- ¨Cuando conociste el S.O. BeOS?[BLANCO PC]
+
+    Fue en el a¤o 2000. Yo estaba m s que quemado con Windows, Linux no me[GRISCLARO PCT IZQUIERDA
+    terminaba de gustar y cuando descubr¡ a BeOS me enamor‚ de ‚l, o de ella,
+    para que no pens‚is cosas raras.[NO]
+
+4.- ¨En que proyectos informaticos estas trabajando actualmente?[BLANCO PC]
+
+    La mayor¡a de mi tiempo libre lo dedico a preparar un master sobre[IZQUIERDA PCT GRISCLARO]
+    Seguridad, Criptograf¡a y Comercio electr¢nico en Java. El pr¢ximo a¤o me
+    gustar¡a dar este curso. Bueno, soy teacher. Tambi‚n estoy acabando de
+    escribir macprogramadores.org. Si tambi‚n me gusta el Mac OS X.[NO]
+
+5.- ¨Crees que BeOS es un autentico S.O.?[BLANCO PC]
+
+    Si.[GRISCLARO]
+
+6.- ¨Podr  BeOS sustituir a LINUX y WINDOWS?[BLANCO PC]
+
+    BeOS es un buen dise¤o de SO con poco software para usuarios todab¡a. No[GRISCLARO PCT IZQUIERDA]
+    creo que en menos de 15 o 20 a¤os pueda alcanzar la cuota de popularidad de
+    estos. Pero yo creo que la democracia no indica el mejor camino, sino que
+    es la mejor forma de gobierno, porque evita da¤os mayores. Tampoco creo que
+    el SO m s usado sea el mejor, es simplemente el m s usado. A mi no se me da
+    bien ser oveja, sab‚is.[NO]
+
+7.- ¨Con la compra de PALM sobre Be, esta BeOS acabado como lo estuvo AMIGA OS?[BLANCO PC]
+
+    Depende de si Palm acaba cediendo el mantenimiento de BeOS a beunited.org.[GRISCLARO PCT IZQUIERDA]
+    De todas formas OpenBeOS ser  tan bueno o mejor que BeOS. Estos bichos
+    OpenSource una vez que los dejas crecer no hay forma de matarlos:[NO]
+
+            (http://open-beos.sourceforge.net)[VERDEFOSFORITO CHAR14]
+
+8.- ¨La soluci¢n BLUEOS (BeOS con kernel de LINUX), crees que ser  posible, o[PC BLANCO IZQUIERDA]
+    ser  un plagio como LINDOWS (WINDOWS con kernel de LINUX)?[NO]
+
+    Creo que no podr n hacer nada parecido, el kernel de Linux: es monol¡tico,[GRISCLARO PCT IZQUIERDA]
+    y carece de muchas opciones que s¢lo se pueden implementar bien en un
+    microkernel, como el de BeOS. Adem s pretenden usar XFree86 para crear la
+    GUI, demasiado lento para que pueda mostrar 6 videos distintos a la vez
+    como hace BeOS.[NO]
+
+            Yo confio mucho mas en OpenBeOS.[CHAR14 AZULCLARO]
+
+9.- ¨Crees que la ca¡da masiva de BeOS se debe a un mal marketing como la[PC BLANCO IZQUIERDA]
+    quiebra de COMODORE en 1994?[NO]
+
+    No, la quiebra de Comodore pudo ser un mal marketing. El problema de BeOS[GRISCLARO PCT IZQUIERDA]
+    no es la idea, que es muy buena: Hacer un SO sin mantener compatibilidad
+    con cosas antiguas. Sino que BeOS es un proyecto a largo plazo, necesitar¡a
+    del apoyo de una compa¤¡a que no pretendiese tener beneficios de la venta
+    de BeOS al menos en 15 0 20 a¤os. y Be Inc quer¡a vivir solamente de BeOS.
+
+10.- ¨Por qu‚ BeOS nunca construy¢ mayores drivers de aceleraci¢n hardware[IZQUIERDA BLANCO PC]
+     para OpenGL?[NO]
+
+     Simplemente porque los ingenieros de Be no dieron a basto. De hecho cuando[GRISCLARO PCT]
+     quebr¢ la empresa ten¡an casi terminado la implementaci¢n de OpenGL 1.1.
+
+11.- ¨BeOS r6 ser  posible, o es un bulo?[BLANCO PC]
+
+     Si Palm cede BeOS a beunited.org veremos esa dichosa versi¢n. Pero yo[IZQUIERDA GRISCLARO PCT]
+     apuesto por OpenBeOS.[NO]
+
+12.- ¨Al ser BeOS un S.O. multimedia, los juegos migrar n antes a este S.O.,[IZQUIERDA BLANCO PC]
+     que a WINDOWS?[NO]
+
+     No creo que los migren antes, porque Windows tiene mayor cuota de mercado,[GRISCLARO PCT]
+     pero si que ser  menos costosa su migraci¢n.
+
+13.- ¨Cuanto tiempo has estado con BeOS sin que llegase a colgarse?[BLANCO PC]
+
+     No he batido ning£n record, porque apago el ordenador cada noche antes de[GRISCLARO IZQUIERDA PCT]
+     irme a dormir (me molesta el ventilador).[NO]
+
+14.- ¨Cual es la m quina mas potente o extra¤a en la que has llegado a ejecutar[BLANCO PC]
+     BeOS?
+
+     S¢lo lo he ejecutado en mi PC.[GRISCLARO PCT]
+
+15.- El BeBOX (BeOS integrado en una caja) ya es una realidad. ¨Cual es tu[BLANCO IZQUIERDA PC]
+     opini¢n?[NO]
+
+     BeBox est  acabado, fue una idea de construir un hardware mucho mejor[GRISCLARO IZQUIERDA PCT]
+     dise¤ado para un SO mucho mejor dise¤ado, pero se dieron cuenta de que el
+     hardware es m s costoso de mantener y dar soporte que el software.[NO]
+
+16.- ¨Que proyectos has realizado para este S.O.?[BLANCO PC]
+
+     Adem s de escribir para beprogramadores.org hice un add-on para el Tracker[GRISCLARO PCT]
+     llamado AsciiConverter que pod‚is ver en:
+
+             http://www.bebits.com[VERDECLARO CHAR14]
+
+17.- De todos los S.O. actuales, ¨cual es tu preferido?[PC BLANCO]
+
+     Mac OS X, BeOS y AtheOS son los que mas me han gustado.[GRISCLARO PCT]
+
+18.- He de felicitarte por tu pagina web http://www.beprogramadores.org. La[BLANCO IZQUIERDA PC]
+     cual la actualizas cada poco tiempo. ¨Cual es tu labor en ella?[NO]
+
+     B sicamente procuro estar al d¡a y publicar noticias sobre BeOS. Tambi‚n[GRISCLARO PCT]
+     he escrito muchos de los tutoriales que en ella aparecen.
+
+19.- ¨Crees que alg£n d¡a se podr  crear una BeOS party?[BLANCO PC]
+
+     Por que no, la inform tica evoluciona muy r pidamente. Si hace 20 a¤os se[GRISCLARO IZQUIERDA PCT]
+     hubiera dicho que IBM llegar¡a a ser una m s, nadie lo hubiera cre¡do. Yo
+     creo que Microsoft acabar  siendo una m s.[NO]
+
+20.- ¨Has encontrado alg£n fallo en este S.O.?[BLANCO PC]
+
+     Si que he encontrado alg£n bug, pero no creo que BeOS sea bueno por[GRISCLARO IZQUIERDA PCT]
+     carecer de bugs, aunque ciertamente tiene pocos, ese es el punto de vista
+     de los usuarios de Linux. El de los usuarios de Windows es que Windows es
+     el mejor porque es el £nico SO que han conseguido entender. El de los
+     usuarios BeOS es que es el mejor SO porque tiene la mejor arquitectura,
+     t‚cnicamente hablando.[NO]
+
+21.- Ingenieros de BeOS han conseguido portar un mininucleo de BeOS sobre[BLANCO IZQUIERDA PC]
+     consolas como la DREAMCAST. De la misma forma que LINUX tambi‚n corre en
+     DREAMCAST y PLAYSTATION 2, ¨crees que esto mejorar  el desarrollo de
+     juegos en consolas?[NO]
+
+     De momento newOS, el SO que hizo el ex-ingeniero de Be Travis Geiselbrecht[GRISCLARO PCT]
+     ,que corre sobre una PlayStation 2 se est  usando para hacer OpenBeOS para
+     Intel.
+
+22.- ¨Cual crees que ser  el futuro de BeOS?[BLANCO PC]
+
+     Crecer y crecer. Estoy seguro. Hoy nadie da un duro por BeOS. Me gustar¡a[IZQUIERDA GRISCLARO PCT]
+     que alguien leyese esta entrevista dentro de 10 a¤os.[NO]
+
+23.- ¨Crees que las demos de la d‚moscene podr n verse alg£n d¡a en una[BLANCO IZQUIERDA PC]
+     party demoscener?[NO]
+
+     Si, todos los proyectos inform ticos buenos crecen con el tiempo. Los[IZQUIERDA GRISCLARO PCT]
+     malos y codiciosos desaparecen.[NO]
+
+24.- ¨Crees que BeOS tiene tanto eco aqu¡ en Espa¤a como en AMERICA?[BLANCO PC]
+
+     No, en EEUU es donde m s ‚xito tiene con diferencia, pero eso es porque en[GRISCLARO PCT]
+     inform tica sus ingenieros est n mucho mejor formados. En Espa¤a los[IZQUIERDA]
+     inform ticos podr¡amos dedicarnos al respetable nicho de mercado de hacer
+     bases de datos de altas, bajas modificaciones y listados de la cesta de la
+     compra de las marujas, a ver si destacamos por algo.[NO]
+
+25.- ¨Crees que los programas de pago han beneficiado a BeOS, o por el[BLANCO IZQUIERDA PC]
+     contrario, hay que agradec‚rselo todo a los programas GNU?[NO]
+
+     Creo que han ayudado por igual a hacer usuarios, que es lo que le falta a[IZQUIERDA GRISCLARO PCT]
+     BeOS para ser comercialmente rentable.[NO]
+
+26.- ¨Cuantos miembros sois en BePROGRAMADORES?[BLANCO PC]
+
+     De momento hay m s de 50 miembros, aunque algunos m s activos que otros.[GRISCLARO PCT]
+
+27.- ¨Que planes ten‚is previstos para BeOS?[BLANCO PC]
+
+     De momento aguantar hasta que OpenBeOS R1 este en la calle, o BeOS pase a[GRISCLARO IZQUIERDA PCT]
+     manos de beunited.org[NO]
+
+28.- Esos chicos llamados Rosi, Angel y Jaime que est n apuntados a[BLANCO IZQUIERDA PC]
+     BeProgramadores y que no hacen nada, ¨que opinas sobre ellos? 8-D)[NO]
+
+     Me basta con que sean fans de BeOS. Adem s Jaime creo que participa mucho[IZQUIERDA GRISCLARO PCT]
+     en la comunidad.[NO]
+
+29.- ¨La compa¤¡a Be ha creado un nuevo S.O., o una nueva forma de ver los[BLANCO IZQUIERDA PC]
+     S.O?[NO]
+
+     Una nueva forma de ver los SO.[GRISCLARO PCT]
+
+30.- Expl¡canos brevemente como funciona el S.O. BeOS por dentro.[BLANCO PC]
+
+     Tiene un microkernel modular, una API puramente C++, y los accesos al SO[IZQUIERDA GRISCLARO PCT]
+     se hace a traves de servidores, seg£n el modelo cliente-servidor.[NO]
+
+31.- BDirectWindow, es la soluci¢n para la creaci¢n de juegos, que WINDOWS con[BLANCO IZQUIERDA PC]
+     el parche de DIRECTX nunca pudo conseguir?[NO]
+
+     Es una forma f cil de acceder al frame buffer. Pero unas buenas librer¡as[GRISCLARO IZQUIERDA PCT]
+     como OpenGL har¡an falta para conseguir productividad.[NO]
+
+32.- ¨Es estable ejecutar aplicaciones de LINUX sobre las X-WINDOWS de BeOS?[BLANCO PC]
+
+     No, creo que necesitar¡an una buena sesi¢n de debuging.[GRISCLARO PCT]
+
+33.- Los emuladores en BeOS son un gran paso para BeOS?[BLANCO PC]
+
+     Creo que son un paso, pero un gran paso me parece demasiado.[GRISCLARO PCT]
+
+34.- El servidor de sonido, es la soluci¢n que Windows con DirectSound y Linux[BLANCO IZQUIERDA PC]
+     nunca pudieron obtener?[NO]
+
+     Creo que los servicios que actualmente da Windows son mucho m s completos[GRISCLARO IZQUIERDA PCT]
+     que los de BeOS, pero los de BeOS son m s claros y mejor estructurados. Si
+     alguna vez BeOS crece seguro que empatan en funcionalidad, pero los de
+     BeOS seguir n estando mucho mejor organizados.[NO]
+
+35.- Barahona coment¢ en la reuni¢n sobre LINUX, que BeOS nunca triunfar¡a,[IZQUIERDA BLANCO PC]
+     porque no era un S.O. libre. ¨Cual es tu opini¢n sobre esto?[NO]
+
+     Creo que si. BeOS es un proyecto demasiado a largo plazo para hacerlo[GRISCLARO XMI IZQUIERDA]
+     comercial. Pero estos yankis lo ven todo tan lucrativo.[NO]

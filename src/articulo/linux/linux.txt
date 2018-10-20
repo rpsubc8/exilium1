@@ -1,0 +1,757 @@
+[FOTOS 2]
+24 75 47 1
+25 76 47 697
+               S.O. LINUX.[AZULCLARO GRANDE NO]
+[PCT BLANCO]
+
+
+
+  LINUX es un S.O. GNU. Esto quiere decir,que
+es un sistema libre, pero no que  es  gratis,
+sino, que  es  libre  en  c¢digo.  Es  decir,
+tenemos  libertad  para  usar  e incluso para
+modificar el c¢digo fuente  del  kernel. Pero
+eso  s¢lo  es referente al n£cleo del Sistema
+Operativo.Imaginad si os dejan hacer lo mismo
+con el sistema WINDOWS.Pero claro, un sistema
+operativo  no  es  nada ,  sin  utilidades  y
+aplicaciones. Pues  bueno, como  LINUX ya  ha
+cumplido 10 a¤os, pues tiene muchas, pero que muchas aplicaciones.Hereda muchas[IZQUIERDA]
+de UNIX  y de MINIX, del cual surgi¢ la idea y parte del c¢digo original de
+LINUX.[NO]
+
+  El software podemos o bien descargarlo de INTERNET, o bien conseguir una[IZQUIERDA]
+buena distribuci¢n y probarlo. El software no tiene porque cumplir la norma GNU
+y por tanto, hay software que cuesta dinero, como el VMWARE o el MAYA 3D.
+Incluso hay versiones SHAREWARE, FREEWARE, VAPORWARE, etc... En definitiva, que
+lo mismo que se hace en WINDOWS, se puede hacer en LINUX. Pero por supuesto,
+tambi‚n hay software GNU, OpenSOURCE y bajo licencia BSD.[NO]
+
+
+  El principal problema que tiene LINUX, es que ha evolucionado mucho, pero por[IZQUIERDA]
+distintos caminos, ya que al ser libre, varias personas y empresas han decidido
+escoger un camino de evoluci¢n distinto a otros. Imaginaos que os dan los
+planos para construir un AVION REACTOR. Seguro que de todos los que tengais
+esos planos, y os de or construir un avi¢n, saldr n modelos distintos. Pues eso
+es lo que pasa con LINUX.[NO]
+
+  Este problema de diversidad, hace tiempo que se lleba intentando solucionar,[IZQUIERDA]
+incluso creando grupos dentro del propio GNU que se encargaban de ordenar todo,
+pero todo termina siempre por fracasar, ya que es muy complejo, y no se puede
+llebar un control total.[NO]
+
+  Estos problemas FreeBSD, los ha solucionado muy bien, ya que sigue un[IZQUIERDA]
+estandar b sico, y todo lo que no entra en ese estandar, no se incluye en la
+distribuci¢n.[NO]
+
+
+
+Distribuciones[AMARILLO GRANDE]
+
+
+
+  Seguro que m s de uno ha sentido hablar de las famosas distribuciones, como[PCT BLANCO IZQUIERDA]
+RED HAT, MANDRAKE, DEBIAN, ESWARE, TURBO LINUX, SLACKWARE, etc... Hay multitud
+de distribuciones, pero al menos 100 son realmente importantes. Lo £nico que
+son, es un conjunto de software para un kernel y programas especificos. As¡
+por ejemplo, MANDRAKE 8, incluir  el KERNEL 2.49, junto con un servidor
+X-WINDOWS KDE, un gestor de redes SAMBA, el programa de retoque fotogr fico
+GIMP, etc... La distribuci¢n ESWARE, vendr  con algo parecido, pero con la
+diferencia, de que al ser un producto espa¤ol, tendr  el mayor n£mero de
+aplicaciones y ayuda en espa¤ol. Cuando me refiero a que es espa¤ol, no quiero
+decir que lo han hecho los espa¤oles al 100%, sino que la empresa ha traducido,
+por disponer de c¢digo fuente, y ordenado las aplicaciones para meter en la
+distribuci¢n. En concreto ESWARE, se basa en RED-HAT, y vale dinero. Esto, es
+un punto a favor en las empresas que apuestan por el GNU, pero claro, ganan
+dinero en las distribuciones, que hoy por hoy, es dinero f cil de conseguir,
+ya que cada 3 meses sale una distribuci¢n nueva.[NO]
+
+  Y claro, a veces, nos encontramos con distribuciones realmente sorprendentes.[IZQUIERDA]
+Me refiero a distribuciones que son m s f ciles de instalar que incluso
+WINDOWS. Con esto, me refiero a MANDRAKE, y todas las distribuciones que como
+esta, se basan en RED HAT. Antigamente, al menos, cuando yo empec‚ a usar
+LINUX (5 a¤os), y mucho antes, lo m s dificil de realizar, era INSTALAR LINUX,
+al igual que UNIX. Pero hoy, por hoy, y gracias a RED HAT, las instalaciones
+son de lo m s f cil. De hecho, me he encontrado casos, de personas que no han
+podido instalar WINDOWS 2000, y si LINUX.[NO]
+
+  RED HAT no es una mala distribuci¢n. Si la comparamos con WINDOWS, incluso[IZQUIERDA]
+WINDOWS 2000, se porta mucho mejor. Con el XP, no estoy tan de acuerdo, al
+menos para tareas cotidianas. Pero claro, es algo lento, y consume bastantes
+recursos, tanto de disco duro, como de memoria. Si no tenemos al menos 1 GB
+de disco duro, la verdad, lo llebamos muy mal.[NO]
+  Y otro de los problemas m s importantes, es que su distribuci¢n incluye todo[IZQUIERDA]
+tipo de software, ya sea SHAREWARE, como VAPORWARE. En definitiva, que de los
+7 CD's que trae, 4 sobran.[NO]
+
+  A la Esware, le sucede lo mismo. En concreto, tiene un CD entero de juegos,[IZQUIERDA]
+los cuales son una demo, y muchos ni tan siquiera traen los archivos demo del
+juego, sino que tenemos que descargarlos de INTERNET, o tener la demo del
+juego. Hombre, esto esta bien, pero para tener BASURA, ya tenemos las revistas
+que traen CD's VaporWARE. Quizas alguno no entienda mi postura, pero para
+aclararos esto, os dir‚ que por la distribuci¢n EsWARE hay que pagar, y ese CD,
+estoy convencido que no vale el dinero de esa distribuci¢n. Eso si el resto,
+valdran lo que quieran.[NO]
+
+
+  La distribuci¢n m s potente de RED HAT, es la Open LINUX de la compa¤ia[IZQUIERDA]
+CALDERA. CALDERA es una empresa que trabaja con sistemas operativos. Su ‚xito
+fue DRDOS, y posteriormente OPEN DOS, pero al final, no pudo con el mercado, y
+ha terminado migrando a LINUX. Tambi‚n tiene el NOVELL. Y claro, para no ser
+menos, este sistema es shareware. Si como ois, entre 30 y 60 d¡as se caduca, y
+no funciona.[NO]
+
+
+  Por el medio, pasamos por la distribuci¢n DEBIAN, en concreto, la POTATO. La[IZQUIERDA]
+verdad que esta distribuci¢n, es un chollo, en comparaci¢n con el resto. Se
+puede conseguir para probar, o pagar por ella, para que nos den todos los CD's
+y los manuales. Eso vosotros, mismos. Eso si, el precio es muy bajo, en torno
+a los 12î.[NO]
+  Lo m s bonito de esta distribuci¢n, es que al menos procura incluir lo m ximo[IZQUIERDA]
+en programas GNU y FreeWARE. Es decir, esta pensada para desarrolladores y no
+para usuarios finales. Sus inconvenientes, son que es m s dificil de manejar,
+al menos en la instalaci¢n, para los no iniciados. Eso si deja muchas opciones
+de instalaci¢n, ya sea para pocos recursos o muchos.[NO]
+
+
+  Alguno pensar¡a que me iba a olbidar, pero no es asi. Aqui tenemos a la[IZQUIERDA]
+distribuci¢n SUSE. Pertenece a una compa¤ia alemana, y ha mejorado mucho desde
+sus inicios, sobre todo en facilidad. Yo siempre la he preferido, por saber
+mantener la facilidad con la robusted y la velocidad. Otros, la prefieren por
+sus asistente, que facilita mucho las cosas, sobre todo, desde que sali¢ el
+YAST2.[NO]
+
+
+  Y por £ltimo, la que mas me ha gustado, y por ahora sigo fiel, la SLACKWARE.[IZQUIERDA]
+La prefiero, con respecto a las otras, porque me deja elegir todo lo que yo
+quiero, de lo que se puede elegir, claro. Y por supuesto, contiene todo lo que
+es GNU o FreeWARE, es decir, no hay nada VaporWARE. De ahi, que s¢lo ocupe 1
+CD, aunque en la versi¢n £ltima 8.0, viene con un CD extra, que permite hacer
+algo parecido a la imagen de BeOS, es decir, tener un LINUX con todo en un
+ZIP comprimido en un archivo del disco duro, sin falta de particionar.[NO]
+  El problema de esta distribuci¢n, es que se necesita un mayor dominio de[IZQUIERDA]
+LINUX, y que es m s r£stica, o al menos eso dicen. Yo he de comentar, que el
+primer LINUX que prob‚, vino de las manos de SUSE y el segundo de SLACKWARE. Y
+la verdad, que tampoco es tan dificil. Y claro, SLACKWARE con un entorno KDE o
+GNOME gana mucho, sobre todo en facilidad. El inconveniente que tiene, es que
+la mantiene una s¢la persona, lo que implica, actualizaciones lentas, y en
+segundo lugar, software GNU 100%, aunque lo hay, no suele ser tan bueno como
+el comercial, eso si, de cara al usuario final.[NO]
+  En definitiva, que SLACKWARE es lo m s parecido a tener un LINUX a pelo, pero[IZQUIERDA]
+con un poco de ordenaci¢n.[NO]
+
+
+
+Para que quiero un LINUX?[AMARILLO GRANDE]
+
+
+
+  Buena pregunta. Pues que quereis que os diga?. Si estais esperando que os[IZQUIERDA PCT BLANCO]
+diga que abandoneis WINDOWS por usar LINUX, BeOS, MAC OS, QNX, FreeDOS, POWER
+OS, AtheOS, TheOS, etc..., estais equivocados. Sin embargo, debemos de saber
+usar varios sistemas operativos, y aprobechar los pros y los contras de cada
+uno en sus respectivos campos. [NO]
+
+  Pero de una manera u otra, al final, tendremos que saber LINUX, pero quizas[IZQUIERDA]
+no el LINUX al que estamos acostumbrados. Actualmente LINUX est  migrando hacia
+la comodidad del usuario, y cada vez se hace m s FATWARE, y ya existen muchos
+proyectos basados en LINUX, como LINDOWS (LINUX + WINE), BlueOS (LINUX + BeOS).
+En definitiva, que las empresas apuestan por LINUX, y cuando las empresas se
+meten, hay dinero. Y claro, al final, el GNU, ya no es lo que era. Esto le
+pasa a los radioaficionados. Cuando los radioaficionados inventaron las bandas
+laterales, no lo hicieron pensando en dinero. Y ha nadie le import¢, hasta que
+las empresas vieron negocio, y decidieron incluirlo en los tel‚fonos m¢viles,
+es decir, nos acabamos de meter en TELECOMUNICACIONES.[NO]
+
+  Pues con LINUX, no vais a poder hacer lo mismo que con WINDOWS, pero podreis[IZQUIERDA]
+hacer cosas muy parecidas e incluso mejores. LINUX no est  pensado para hacer
+trabajos multimedia para usuario final, al estilo de AMIGA, sino que intenta
+llebar el mundo de los MAINFRAMES al ordenador personal tradicional. Esto nos
+permite hacer proyectos complejos, como render sim‚trico, con varios PC en
+paralelo, o un cluster, con un precio de insulto, de lo barato que es. Esto,
+con MAC OS, o WINDOWS XP, ser¡a impensable, al menos para un usuario de a pie.
+
+  Claro, muchos pensareis, ¨pero que dice este, si WINDOWS lo tiene todo el[IZQUIERDA]
+mundo? Si claro, pero de forma ilegal. Poneos a mirar las licencias, si eso,
+que os saltais siempre al instalar. 8-D))) Por cierto, no os leais muchas
+licencias o acabareis locos. Yo me he tragado unas cuantas, y acabas cansado,
+en cuanto llegas a la p gina 12.
+
+  Si estais esperando que diga algo bonito de LINUX, ahora empiezo: Pues tiene[IZQUIERDA]
+una buena concurrencia aparente en PC, sobre todo en E/S. Pero no os fieis, ya
+que LINUX basa todo en paso de mensajes, y cuando envia un proceso de E/S, dice
+que ya est  hecho, ya que lo envia al planificador de corto plazo, pero eso no
+quiere decir, que lo haya hecho f¡sicamente. Para ello, debeis de monitorizar
+las se¤ales. Por cosas como estas, no se puede apagar un equipo LINUX a golpe.
+  Esta pensado para la red, en concreto para TCP-IP, lo que implica,que dispone[IZQUIERDA]
+de TELNET, FTP, TALK, y dem s utilidades. Pero eso no quiere decir, que sea un
+sistema operativo de red, como NOVELL NETWARE, por lo que tiene fallos.
+  Incorpora un maravilloso compilador GNU, el gcc, que nos permite desarrollar
+aplicaciones r pidamente y de forma muy c¢moda para LINUX, sin tener que
+preocuparnos de comprar el BORLAND C++ o el Microsoft Visual C++. Adem s al
+estar implementado LINUX en C, casi todo lo podremos compilar con este
+compilador, incluido el propio KERNEL.[NO]
+
+  Tambi‚n hay programas de retoque fotogr fico, como el GIMP, el PAINT, y[IZQUIERDA]
+varios desktop gr ficos, basados en el servidor gr ficos de X-WINDOWS. As¡
+tenemos las KDE y GNOME. Hay otros, pero estos son los m s bonitos y vistosos,
+de hecho superan a WINDOWS, incluido XP. Por supuesto, el desktop por
+excelencia, es el ENLIGHMENT, creado por demoesceners. Eso si consume mucho,
+pero es un gusto para los sentidos.[NO]
+
+  Hay editores de texto, tanto en modo gr fico, como en texto, as¡ como[IZQUIERDA]
+procesadores de texto, como el ABIWORD y las STARTOFFICE. Y en versiones demo,
+est  el COREL WORDPERFECT y el CORELPHOTOPAINT.[NO]
+
+  Disponemos de gran variedad de lenguajes de script y de shells, as¡ como de[IZQUIERDA]
+reproductores de MP3, e incluso de DIVX. En definitiva, tenemos para rato.[NO]
+
+  Existen emuladores de PC, como el VMWARE y el Boch, as¡ como emuladores para[IZQUIERDA]
+consolas. En el tema l£dico, actualmente, LINUX no se queda corto, ya que
+existen gran cantidad de juegos portados para ‚l, como el DOOM, QUAKE III,
+el Wolftstein 3D (Retorno al castillo), Soldado de Fortuna y dem s. Todos estos
+juegos corren a cargo de la compa¤¡a LOKI y de las librerias SDL. En el tema de
+juegos espec¡ficamente creados para LINUX, la cosa cambia.[NO]
+
+  Para el tema de desarrollo, hay que destacar, que el KIT para programar la[IZQUIERDA[
+juegos para PSX 2, esta hecho para LINUX. Y adem s se dispone de un kit de SDL
+para la distribuci¢n de MANDRAKE, par hacer juegos en PSX2. Es decir, LINUX es
+una de las mejores herramientas para desarrollar software de GRAN ESCALA, ya
+que como se coment¢, permite tener la potencia de los grandes MAINFRAMES en un
+simple ordenador personal.[NO]
+
+  Tambi‚n disponemos de herramientas de desarrollo visual, como las librerias[IZQUIERDA]
+GTK, o incluso el KILIX (Delphi 6 para LINUX). Eso si, no intenteis buscar el
+MICROSOFT VISUAL C++ o el VISUAL BASIC, ya que LINUX y MICROSOFT se lleban a
+muerte, al menos, cuando les interesa.[NO]
+
+
+
+Que no es LINUX.[AMARILLO GRANDE]
+
+
+
+  LINUX se pongan como se pongan, no es un sistema operativo que consuma poco.[PCT BLANCO IZQUIERDA]
+En primer lugar pide un 80386, y en segundo, se necesitan, al menos 8 MB de RAM
+para arrancarlo. Debido a que es GNU, han portado muchas versiones de LINUX a
+varias plataformas, como AMIGA, APPLE, PLAY STATION, e incluso 8086. Sin
+embargo, bajo un 8086, se consumen los 640 KB de RAM. Es decir, con un OpenDOS
+y un 80386, incluso con 8 MB de RAM se hace m s que con LINUX. De hecho, se
+podr¡a tener un servidor de FTP, WEB y todab¡a se podr¡a usar el equipo. Yo
+he probado LINUX en un 80486 a 75 Mhz con 16 MB de RAM y va mal. Lo he visto
+en un 80486 a 100 Mhz y 64 MB y va regular, tirando a mal. He probado con
+distribuciones para equipos cutres, como la MULINUX o la MAT, y va muy mal.
+Claro, alguno cuando lo vea, dira, pues va bien, pero claro, eso es, porque no
+ha visto nunca un sistema operativo bien configurado y bien montado a medida en
+una m quina. La respuesta debe ser de tiempo real, y LINUX no la tiene.[NO]
+
+  Por cierto, lo de los requerimientos m¡nimos, si quereis gr ficos, salvo que[IZQUIERDA]
+useis la SVGALIB, olvidaros, porque, como no tengais un PENTIUM con 64 MB, lo
+llebais de B.[NO]
+
+
+
+Licencia GNU[AMARILLO GRANDE]
+
+
+
+  Brevememte, se coment¢ lo que era GNU, pero ahora se intentar  explicar de[PCT BLANCO IZQUIERDA]
+forma m s sencilla. Imaginaros por un momento, que os vais a comprar un coche
+en un concesionario. Pues, ahora pensad, que por misterios de la vida, os dejan
+probar un Ferrari para dar una vuelta a la ciudad, por ejemplo en TURON
+(ASTURIAS). ¨Quien no quedria dar una vuelta por TURON en Ferrar? 8-D)) Pues
+esto, es lo que se llama, en t‚rminos de software, como DEMO o SHAREWARE. Es
+decir, os dejan probar el coche completa o parcialmente durante un breve
+periodo de tiempo.[NO]
+
+  Si os ha gustado hasta aqui, podeis seguir imaginando. Ahora vamos al mismo
+concesionario, y nos dan la posibilidad de llebarnos un FORD KK o un SEAT 600,
+eso si gratis, para nosotros. Esto en t‚rminos de software, se llama FREEWARE.
+Pero, daros cuenta, que los tramites de papeles y seguro, as¡ como la gasolina,
+corren a cargo nuestro. Adem s el coche tiene derechos de f brica, y nos impide
+que lo podamos rebender o manipular. Esto es igual, que los derechos de autor
+de los programas FREEWARE.[NO]
+
+  Parece que cada vez os gusta m s imaginar. Pues ahora llega lo mejor. Pensad[IZQUIERDA]
+por un momento, que os dejan llebaros el Ferrari de antes, o el FORD KK, o un
+SEAT 600, o incluso un LAMBORGINI, y hacer lo que querais con ‚l. Podeis,
+incluso cambiarle las piezas, remarcar el motor, y por supuesto, rebenderlo al
+mejor postor. Pues esto, se llama GNU, es decir, teneis la libertad sobre el
+producto. Sin embargo, hay una cosa que no he comentado, y es el dinero. Quizas
+el SEAT 600 o incluso el FORD KK, lo podeis conseguir gratis, pero salvo que
+sea una oferta especial, el FERRARI, tendreis que pagar por ‚l, ya que la
+licencia GNU no impide cobrar dinero por ella. Esto es algo que algunas
+empresas han sabido aprobechar, y han puesto el precio de sus productos con
+c¢digo fuente muy caros, para impedir que les compren la patente, dejando los
+productos finales sin c¢digo fuente, a precio de usuario. Tal y como esta la
+norma GNU, podriamos comprar el FERRARI, y luego regalarlo a un amigo. Claro,
+a m s de uno le parecer  una idea descabellada, pero puede suceder, y de hecho
+sucede, sobre todo en el mundo del software.[NO]
+
+  Ya se que con los coches, la mayor¡a del mundo lo entiende mejor, pero hay[IZQUIERDA]
+determinados casos, que lo f¡sico complica lo abstracto del software. Recordad,
+que con el GNU se puede ganar dinero, pero por supuesto tambi‚n perderlo. Un
+programa, dependiendo de su complejidad, no se hace en un d¡a, incluso ni tan
+siquiera en una semana, Ya se que hay trabajos que se hacen en una semana, pero
+esto es como la buena pintura. Los bodegones, suelen llebar varios a¤os en su
+realizaci¢n. Por tanto, los programadores necesitan comer, es decir, dinero
+para vivir. Y si al final deciden vender su producto bajo licencia GNU o
+simplemente regalarlo, quizas no sea una buena soluci¢n, salvo que lo mantenga
+una empresa, como el gobierno. Si vende el producto, puede sacar dinero, pero
+eso no impide, que otra empresa modifique peque¤as tonterias en el producto y
+le de mas colorido visual, es decir, que sea mas vistoso, pero hace lo mismo.
+Al final, los usuarios finales, se decidiran por este £ltimo producto, y no
+por los originales, siendo el trabajo de los programadores originales, un
+fracaso. Esto sucede con las distribuciones de LINUX. La mayor¡a de los
+usuarios finales, prefieren RED HAT o MANDRAKE, mientras que los
+administradores prefieren CALDERA, y los profesionales avanzados SLACKWARE.
+Pero, si nos damos cuenta, al final son todos el mismo LINUX.[NO]
+
+  De cara a investigaci¢n, la licencia GNU es muy buena, ya que nos da libertad[IZQUIERDA]
+total para desarrolladores. Si encontramos problemas de software, podemos
+directamente cambiarlos, sin falta de avisar al creador, o de incumplir
+contratos. Es decir, esta pensado para ambiente de estudio como un INSTITUTO,
+un COLEGIO o una UNIVERSIDAD.[NO]
+
+  Sin embargo, no se necesitan licencias tan generosa para el desarrollo, ya[IZQUIERDA]
+que existen licencias como el POVRAY (Renderizador), que nos permite disponer
+del c¢digo fuente del mismo, pero aunque nos deja cambiar el c¢digo para
+nuestro propio uso en ambientes de estudio, no podremos incluirlo en el
+producto, si no es con consentimiento del creador.[NO]
+
+  Otras licencias que no son GNU, ser¡an las de la compa¤ia TMT, con el TMT[IZQUIERDA]
+PASCAL o la propio BORLAND, con el DELPHI y KILIX, que dejan usar el
+producto libremente, pero impiden sacar dinero con los programas que
+construyamos, es decir, debemos de darlos gratis. Esto es algo l¢gico, teniendo
+en cuenta, que es para ambientes de estudio y no de  nimo ed lucro.[NO]
+
+  En el caso de MICROSOFT, tenemos que ha permitido liberar el c¢digo de su[IZQUIERDA]
+Sistema Operativo Windows CE, pero eso si, sigue la misma licencia que el
+POVRAY.[NO]
+
+  En el caso de APPLE, es tajante, no existe libertad del sistema. Y en el caso[IZQUIERDA]
+de las consolas, lo mismo, ya que hay mucho dinero por medio, y el secretismo
+es la clave. La compa¤ia GNU ha intentado crear una consola GNU con LINUX, pero
+todo a quedado en pruebas e intentos. Ser¡a una gran idea, pero es dificil de
+llebarla al mercado competitivo. Y en el caso del hardware OpenSOURCE, ha
+sucedido lo mismo, pero por algo se empieza.[NO]
+
+  Quizas la licencia mas extra¤a, es la del Sistema Operativo BeOS, que deja su[IZQUIERDA]
+producto binario de forma gratuita, pero s¢lo libera parte del c¢digo fuente,
+como el DESKBAR, TRACKBAR y algunos drivers. Esto es asi, porque la compa¤ia
+ha arriesgado mucho, y han muchas empresas que poseen inversiones, y no les ha
+interesado dar las partes libres, sobre todo a fabricantes de hardware.[NO]
+
+  En el tema de HARDWARE, existe la licencia FRIENDWARE, que consiste, en que[IZQUIERDA]
+los fabricantes dan toda la informaci¢n referente a como programar su hardware,
+pero no como lo han construido. En este aspecto, el mejor hardware ha sido la
+aceleradora VOODO. El resto de hardware, tiene el monopolio de INTEL-MICROSOFT.
+  Pero claro, en el apartado f¡sico del harware, ya nos metemos en espionaje
+industrial, y si quereis saber m s id a la FORMULA UNO. Alli si que se lo toman
+en serio.[NO]
+
+
+
+Instalacion[AMARILLO GRANDE]
+
+
+
+  Pues despu‚s de tanta introducci¢n, ya va siendo hora de comentar como se[IZQUIERDA PCT BLANCO]
+instala LINUX. Como existen tantas distribuciones, he decidido empezar por la
+SLACKWARE. No obstante, el proceso en otras distribuciones es similar, pero de
+forma mas sencilla.[NO]
+
+  Llegados a este punto, dir‚ que la versi¢n que se va a instalar es la 8.0,[IZQUIERDA]
+aunque podriamos instalar perfectamente, la 7.0, o alguna anterior. Pero es
+mejor disponer de la £ltima versi¢n, para poseer las £ltimas novedades. Si no
+disponen de la SLACKWARE, deben ir a la p gina web a traves de alg£n enlace,
+gracias al buscador GOOGLE o alguno parecido.[NO]
+
+
+
+  En primer lugar, debemos de crear algo que es muy importante en LINUX,que son[IZQUIERDA]
+las particiones. Si habeis instalado WINDOWS NT, 2000 o XP, sabreis de lo que
+estoy hablando. Si no lo sabeis, os comentar‚, que una partici¢n, no es mas que
+una porci¢n l¢gica del disco duro, que nos permite dividir el disco duro real
+en varias fracciones, que pueden ser interpretadas como unidades. Si habeis
+instalado WINDOWS 9x o el ME usando todo el disco duro, debereis de crear las
+particiones, igualmente.[NO]
+
+  Pues en este paso, he de decir, que teneis que borrar todo el disco duro.[IZQUIERDA]
+Seguro que mas de uno de ha puesto nervioso 8-O. Pues tranquilos, no hay para
+tanto. No hace falta que lo borreis, pero si es necesario que hagais unas
+peque¤as copias de seguridad de lo m s importante, po si sale algo mal. Debeis
+de conseguir la utilidad PARTITION MAGIC, ha ser posible, la 7.0. Todab¡a me
+acuerdo la primera vez que use el PARTITION, por aquel entonces, la 1.0 y bajo
+D.O.S. Si no quereis hacerme caso, y os gusta el riesgo, usad el FIPS, que
+viene en el CD de LINUX. Suele funcionar bien, pero tiene varios problemas. El
+primero es que divide el espacio libre en dos trozos, y no de lo que querais,
+y el segundo, que teneis que tener el disco defragmentado, de lo contrario, el
+riesgo es muy alto.[NO]
+
+  Si usais el PARTITION, podeis a golpe de rat¢n, crear, borrar, formatear y[IZQUIERDA]
+mover particiones, de casi cualquier tipo. Eso si, recomiendo, que paseis un
+scandisk a las unidades antes, y si quereis desfragmentar, mejor, para que vaya
+m s r pido. Lo £nico que puedo decir del PARTITION, es que de todos los a¤os
+que lo he usado, y mucho, s¢lo me ha dado un problema, y pude solucionarlo a
+tiempo.[NO]
+  Aunque la SLACKWARE se podr¡a instalar en tan s¢lo 20 MB de disco duro, es[IZQUIERDA]
+mejor que dejeis 1 GB o mas, para poder meter muchas aplicaciones, sobre todo
+visuales. As¡ que coged el espacio que os queda libre y mandar crear 2
+particiones de tipo FAT16:[NO]
+
+  - 1 GB para LINUX[AMARILLO]
+  - 32 MB o m s para el SWAP de LINUX
+
+  Si teneis m s de 64 MB de RAM, es seguro, que no necesitareis ni siquiera el[IZQUIERDA BLANCO]
+SWAP. Aunque si dejais 32 o 128 MB de SWAP, mejor. El SWAP (intercambio) tiene
+las mismas funciones que en WINDOWS, pero las realiza mucho mejor.[NO]
+
+  Ahora viene la secci¢n de arranque. Si teneis la posibilidad de arrancar[IZQUIERDA]
+desde CD-ROM, pues ya sabeis, lo meteis dentro y a arrancar. Si no, tendreis
+que hacer los siguiente:[NO]
+
+  Se debe arrancar desde la disquetera de la unidad A. Es decir, debe estar[IZQUIERDA]
+activo la opci¢n de BOOT de la unidad A desde la BIOS, o alg£n gestor parecido.
+El disquete que se introduce para arrancar es el BOOT, que se ha creado con las
+utilidades RAWRITE, previamente. Este tipo de BOOT contiene un LINUX con poca
+funcionalidad y que se carga enteramente en memoria.[NO]
+  Si por alg£n motivo, no tenemos estos disquetes, tenemos varias opciones,para[IZQUIERDA]
+poder arrancar LINUX. Debemos hechar mano de la utilidad RAWRITE del DOS, as¡
+como de disponer de dos disquetes de alta densidad de 3 «, para poder crear el
+BOOTDISK y el ROOTDISK.[NO]
+  Para crear el bootdisk, debemos de usar el fichero BARE.GZ. Debemos de[IZQUIERDA]
+descomprimirlo con la utilidad GZIP, la cual se suele encontrar en un CD-ROM de
+LINUX, o alg£n sitio FTP an¢nimo. Para ello, haremos:[NO]
+
+  GZIP -d BARE.GZ[AMARILLO]
+
+  Ahora ya tenemos la imagen de disco llamada BARE. Para poder grabarla a un[BLANCO IZQUIERDA]
+disquete, al estilo de una imagen cd CDROM, debemos ejecutar:[NO]
+
+  RAWRITE BARE A:[AMARILLO]
+
+  Si por algun motivo, no queremos usar la linea de comandos, podemos usar la[IZQUIERDA BLANCO]
+forma interactiva, que consiste en ejecutar tan s¢lo RAWRITE, y este nos
+preguntar  donde se encuentra la imagen, y donde la unidad de destino. Despu‚s,
+procederemos con el disco ROOT, de forma similar, pero esta vez, cojeremos el
+archivo COLOR144.GZ. Y haremos, lo mismo que en el caso anterior, pero con
+COLOR144.GZ y un disquette nuevo.[NO]
+
+  Si todo va bien, tendremos nuestros disquettes de LINUX de arranque, que nos[IZQUIERDA]
+pueden servir, para caso de m xima emergencia, como perdida del cargador, o
+destrucci¢n de datos.[NO]
+  Hay que tener en cuenta, que todo lo comentado anteriormente, se ejecuta bajo[IZQUIERDA]
+DOS. Si queremos crear los discos de BOOT y ROOT desde LINUX, se har  algo
+similar, a esto:[NO]
+
+  $ gunzip bare.gz[VERDEFOSFORITO]
+  $ dd if=bare of=/dev/rfd0 obs=18k
+
+
+
+Arranque[AMARILLO GRANDE]
+
+
+
+  Cuando arranquemos LINUX, nos saldr  un mensaje pidi‚ndonos que seleccionemos[PCT BLANCO IZQUIERDA]
+el tipo de mapa de teclado, que en nuestro caso, ser  el es.map. Luego, debemos
+de particionar el disco duro, para poder introducir el sistema de ficheros de
+LINUX. Para ello, usaremos las utilidades fdisk o cfdisk. La primera es casi
+id‚ntica al fdisk del DOS, pero con muchos m s a¤adidos. La segunda, ser  la
+que usemos en esta pr ctica. Las particiones, ya las hemos creador, pero son de
+tipo FAT. Por tanto, debemos de cambiarlas para que sean reconocidas por LINUX.
+  Si tubiesemos que usar las herramientas, tendriamos la opci¢n de pulsar los
+cursores izquierda y derecha para navegar por el men£ de opciones, mientras que
+los cursores arriba y abajo, nos permiten movernos por las particiones.[NO]
+
+  Podemos crear, borrar y cambiar el tipo de partici¢n, del rango de las[IZQUIERDA]
+permitidas. Cada tipo de partici¢n tiene un n£mero asignado. Para LINUX,
+necesitaremos la PARTICION NATIVA (para el S.O.) y la de SWAP (intercambio). Si
+hubiesemos usado el fdisk, tendriamos un men£ similar al siguiente:[NO]
+
+  Command (m for help): m[AMARILLO]
+  Command action
+  a toggle a bootable flag
+  d delete a partition
+  l list known partition types
+  m print this menu
+  n add a new partition
+  p print the partition table
+  q quit without saving changes
+  t change a partition's system id
+  u change display/entry units
+  v verify the partition table
+  w write table to disk and exit
+  x extra functionality (experts only)
+  Command (m for help):
+
+  Donde el comando n se usa para crear una nueva partici¢n. Y con q, se sale[BLANCO IZQUIERDA]
+sin grabar, mientras que con w, se consigue salir del programa, grabando el
+contenido de las particiones. Tanto en fdisk, como en cfdisk, se puede
+especificar la unidad sobre la que se va a trabajar desde linea de comandos, de
+la siguiente forma, por ejemplo:[NO]
+
+  cfdisk /dev/hda[AMARILLO]
+  fdisk /dev/hdb
+
+  Por supuesto, en estas utilidades, en caso de crearnos particiones, se nos[BLANCO IZQUIERDA]
+preguntar , el origen, y tama¤o de la misma, o bien en bloques, o bien en
+Mbytes. Si ya hemos creado las particiones con herramientas como el FDISK del
+MSDOS, FDDISK del FreeDOS, o con el PARTITION MAGIC, tan s¢lo hay que
+asegurarse de que tienen el tipo anteriormente comentado de LINUX. En concreto,
+el LINUX SWAP suele tener el n£mero 82. Y con el fdisk, se puede seleccionar
+con el comando t, y luego poniendo el n£mero 82.[NO]
+
+  Hay que tener en cuenta, que el swap se puede crear manualmente, con el[IZQUIERDA BLANCO]
+comando mkswap:[NO]
+
+  # mkswap -c /dev/hda10 10336[AMARILLO]
+  # swapon /dev/hda10
+
+  Esto crear¡a un swap de 10326 bloques en la 5¦ partici¢n extendida. Y el[IZQUIERDA BLANCO]
+segundo comando, nos permite activar el espacio de intercambio.[NO]
+
+  Para aclararnos, los dispositivos IDE van ordenados de la forma hda para el[IZQUIERDA]
+maestro del IDE1, hdb para el exclavo del IDE1, hdc para el maestro del IDE2 y
+hdd para el exclavo del IDE2. A su vez, Las 4 primeras particiones primarias
+del disco duro, seran hda1, hda2, hda3, hda4. Y para las extendidas, ser n
+hda5, hda6,....[NO]
+  Las particiones aqui usadas, son ficticias, y tendreis que ajustarlas a[IZQUIERDA]
+vuestro equipo. As¡ si quereis meter LINUX en la primera partici¢n extendida,
+ser  /dev/hda5.
+
+  Si no queremos hacer lo de asignar las particiones al tipo de LINUX, podemos[IZQUIERDA]
+desde el PARTITION MAGIC, directamente crear una PARTICION de LINUX y otra de
+SWAP, que desde la versi¢n 6.0, ya deja. Y naturalmente, ya no tendremos que
+especificar nada, ya que LINUX se dar  cuenta de estas particiones.[NO]
+
+
+
+Setup[AMARILLO GRANDE]
+
+
+
+  Despu‚s, podemos o bien cargar el comando network y meter el disco de red,[IZQUIERDA PCT BLANCO]
+para el caso de que queramos instalar LINUX desde una red remota o local, o
+bien cargar el comando SETUP. Dentro del SETUP, nos aparecer n varias opciones,
+entre las cuales, la m s interesante es el HELP (ayuda).[NO]
+
+  Para movernos por el men£, usaremos los cursores de arriba y abajo, y para[IZQUIERDA]
+aceptar una condici¢n, el ENTER.[NO]
+
+  En la opci¢n KEYMAP, seleccionaremos el idioma del teclado, para el LINUX que[IZQUIERDA]
+vamos a instalar. Aunque antes, cargamos un tipo de teclado, ‚ste hace
+referencia al LINUX que vamos a instalar, y no al que est  ejecut ndose.[NO]
+
+  La opci¢n AddSwap, nos permite asignar una partici¢n como unidad de[IZQUIERDA]
+intercambio de LINUX. Para ello, debemos de tenerla creada previamente, tal y
+como es nuestro caso. En nuestro caso, la partici¢n ser  /dev/hda8, es decir,
+3 ¦ partici¢n extendida del IDE 1.[NO]
+
+  La opci¢n TARGET, nos permite elegir en que partici¢n vamos a instalar el[IZQUIERDA]
+sistema de archivos de LINUX. En nuestro caso, ser  en /dev/hda10, es decir, 5 ¦
+partici¢n extendida del IDE 1, aunque depender  de vuestro equipo.[NO]
+
+  Y la opci¢n Source, nos permite elegir desde donde vamos a instalar LINUX, es[IZQUIERDA]
+decir, los archivos originales de LINUX. Si tuviesemos LINUX en una partici¢n
+de tipo FAT en el disco duro, le especificariamos el sitio de dicha partici¢n,
+de la forma /dev/hda2/linux8 por ejemplo, si estuviese en la la 2 ¦ partici¢n
+primaria del IDE 1. Pero como tenemos el CD-ROM, debemos de especificar el
+dispositivo donde esta el CD-ROM, como puede ser /dev/hdd si fuera el exclavo
+del IDE 2.[NO]
+
+  Despu‚s es cuando pasar  a formatear la partici¢n de LINUX y SWAP, con el[IZQUIERDA]
+tama¤o por inodo especificado por defecto. La opci¢n de SOURCE MEDIA, nos
+permite elegir paquetes de instalaci¢n, es decir, utilidades y programas. Estos
+paquetes, van ordenados por letras, con un significado:[NO]
+
+  A   -->  Paquete Base de Sistema de Linux[AMARILLO]
+  AP  -->  Aplicaciones variadas, sin falta de servidor X (joe, jove, term, sc,
+           quota patches).
+  D   -->  Desarrollo de aplicaciones (GCC, G++ /Objective C).
+  E   -->  GNU EMACS
+  F   -->  FAQ's y documentos
+  I   -->  P ginas de informaci¢n sobre software GNU.
+  N   -->  Redes
+  Q   -->  C¢digo fuente de Linux
+  TCL -->  Tcl, Tk, TclK, blt, itcl
+  Y   -->  Colecci¢n de juegos
+  X   -->  El sistema base Xfree86
+  XAP -->  Aplicaciones bajo servidor X (X11)
+  XD  -->  Desarrollo de programas X11
+  XV  -->  Aplicaci¢n y librerias de Xview
+  IV  -->  Librerias interviews, includes, y las aplicaciones doc e idraw.
+
+  La que vamos a necesitar como m¡nimo, es la A, pero debemos de usar A, AP, D,[BLANCO IZQUIERDA]
+F, K y N. Y despu‚s es cuando especificamos el modo de instalaci¢n, que puede
+ser con todo, en donde no se nos pregunta, o nada, o bien, modo interactivo. En
+este caso, hemos usado el modo CUSTOM, en donde se nos pregunta que queremos
+instalar.[NO]
+
+  Debemos de instalar el kernel, b sico, y no crearemos un disco de arranque,[IZQUIERDA] por ahora, y tampoco
+debemos de poner modem, y no se montar  el CD-ROM por defecto, as¡ como que no
+usaremos otras fuentes. Por tanto, pondremos skip a estas opciones, e
+instalaremos el kernel vmlinuz de por defecto.[NO]
+
+  Esto ser¡a para el caso de querer instalar LINUX con red, y para ocupar unos[IZQUIERDA]
+400 MB de disco duro, 100 MB menos, si quitamos el c¢digo fuente del KERNEL. Es
+decir, ser¡a la instalaci¢n para ser un servidor WEB, FTP, y para desarrollo,
+pero todo en modo TEXTO.[NO]
+
+  Si queremos alegrar un poco la vida, debemos de instalar las aplicaciones de[IZQUIERDA]
+X-WINDOWS, as¡ como los diferentes DEKSTOP, como son GNOME o KDE. Podemos tener
+los dos instalados, pero si queremos ahorrar espacio, con uno basta. Probad,
+y quedaros con el que mas os guste. Tambi‚n podeis elegir el modo interactivo,
+por defecto, que elige las opciones por defecto, y podeis a¤adir alguna, si
+quereis.[NO]
+
+
+
+Cargador LILO[AMARILLO GRANDE]
+
+
+
+  Mas tarde, debemos instalar y configurar el cargador LILO. Aunque hay muchos[PCT BLANCO IZQUIERDA]
+cargadores para LINUX, como el GRUB, e incluso el Power Boot o el Boot Manager,
+e incluso el cargador de BeOS, se ha decidido usar el LILO.[NO]
+
+  Para ello, debemos de entrar en LILO en modo experto. Y le damos a la opci¢n[IZQUIERDA]
+de BEGIN, para hacer una configuraci¢n nueva. La opci¢n de APPEND no le ponemos
+nada. Y elegimos el modo standard de consola, as¡ como arranque desde
+disquette, y no desde el MBR del disco duro, para no estropear el cargador de
+WINDOWS NT o 2000. No obstante, se puede instalar perfectamente en el MBR,
+junto a WINDOWS NT, 2000, XP, e incluso con FreeDOS, MSDOS y BeOS con sus
+cargadores respectivos previamente.[NO]
+
+  Despu‚s debemos de a¤adir LINUX para poder arrancar. El fichero lilo.conf[IZQUIERDA]
+situado en /etc/, presentar  algo similar a esto:[NO]
+
+  boot = /dev/fd0[AMARILLO]
+  delay = 5
+  vga = normal
+  image = /vmlinuz
+  root = /dev/hda10
+  label = linuxOS
+  read_only
+
+  Y luego, es cuando pasamos a instalar el lilo en un disquette, que es tan[IZQUIERDA BLANCO]
+sencillo, como de ejecutar desde una consola,el comando lilo. Si por alg£n
+motivo hemos instalado el LILO en el MBR del disco duro, en cualquier momento
+podemos desinstalarlo, con el simple comando de FDISK /MBR, bajo el DOS
+cl sico.[NO]
+
+  Si por alg£n motivo l¢gico, queremos hacer una copia de nuestro disquette que[IZQUIERDA]
+contiene el LILO, debemos hacer uso de los comandos, que se explican a
+continuaci¢n:[NO]
+
+  dd if=/dev/fd0 of=disco.img[AMARILLO]
+
+  Con esto, se ha conseguido extraer el contenido del disquette de la unidad A.[BLANCO]
+Y despu‚s podemos hacer algo similar a esto:[NO]
+
+  dd if=disco.img of=/dev/fd0[AMARILLO]
+
+  Y ahora, es cuando pasamos a configurar la red, de la siguiente forma:[BLANCO]
+
+  HOST        --> El que queramos[AMARILLO]
+  DOMINIO     --> El que queramos   
+  IP ESTATICA -->  x.x.x.x
+  MASCARA     -->  x.x.x.x
+  GATEWAY     -->  x.x.x.x
+  DNS         -->  x.x.x.x
+
+  Configuramos el rat¢n como PS2, en el caso de que sea PS2. Si por alg£n[IZQUIERDA BLANCO]
+motivo, tuvieramos un rat¢n serie, configurariamos el rat¢n colgando del puerto
+/dev/ttyS0, /dev/ttyS1, /dev/ttyS2, /dev/ttyS3, seg£n sea COM1, COM2, COM3 o
+COM4.[NO]
+
+  Configuramos el horario GPM, as¡ como aceptar el SENDMAIL, y la zona horaria,[IZQUIERDA]
+y la clave de root en el primer arranque.[NO]
+
+
+  Y con todo esto, ya queda instalado LINUX. Hay que tener en cuenta, que todo[IZQUIERDA]
+el proceso de instalaci¢n puede ser visto desde la consola 3 o 9, en modo
+debug. Y una vez acabado todo, le damos al menu de salir, y desde linea de
+comandos, podemos hacer una sincronizaci¢n, con el comando:[NO]
+
+  # sync[AMARILLO]
+
+  Esto sincronizar  las caches de E/S. Y tan s¢lo nos queda reiniciar nuestra[IZQUIERDA BLANCO]
+m quina, y arrancar con el disquette que contiene el LILO. Para reiniciar,
+podemos usar uno de los dos comandos, que se muestran a continuaci¢n:[NO]
+
+  # shutdown -r now[AMARILLO]
+  # reboot
+
+  Si a pesar, de esto, no se reinicia, podemos usar las t¡picas teclas de alt[BLANCO IZQUIERDA]
++ ctrl + del.[NO]
+
+
+
+Aclaraciones[AMARILLO GRANDE]
+
+
+
+  Ahora, cada vez que arranquemos debemos de meter el disquette de LILO, y nos[PCT BLANCO IZQUIERDA]
+arrancar . No tarda mucho tiempo, porque realmente, no ha copiado todo el
+KERNEL, sino, el cargador. En pr¢ximos n£meros se veran como solucionar
+problemas de arranques y otras posibles instalaciones de LINUX, que son muy
+variadas.[NO]
+
+
+
+X-WINDOWS[AMARILLO GRANDE]
+
+
+
+  Pues claro, a mas de uno se le habr  quedado[PCT BLANCO]
+las ganas de ver mas sobre LINUX,sobre todo en
+modo  gr fico,  ya  que  el  TEXTO  no  es muy
+divertido,salvo que probemos demos como TEXTRO
+de la demoscene.
+
+  Pues gracias a DIOS,  disponemos de ejemplos
+en SVGALIB, que es una libreria al puro estilo
+de la VGA,que accede a los modos VGA y VESA de
+la tarjeta gr fica,trabajando con buffers. Hay
+incluso juegos y DESKTOPS hechos en ella, pero
+claro, debereis  instalarla desde el CD-ROM, y
+descargar los ejemplos de INTERNET.
+
+  Pero si quereis algo m s inmediato, al puro estilo de WINDOWS, debeis de[IZQUIERDA]
+configurar las X-WINDOWS, que es un servidor gr fico. Para ello, debereis
+ejecutar el comando:[NO]
+
+  # xf86config[AMARILLO]
+
+  Y a continuaci¢n, en modo interactivo, elegireis los distintos par metros de[BLANCO IZQUIERDA]
+rat¢n, teclado, monitor y resoluciones. Debeis de elegir la que m s se adapte
+a vuestras necesidades y por supuesto, no falsear los datos. Ya se que es mucho
+m s r£stico que usando las herramientas que vienen con RED HAT, pero en el
+fondo hacen lo mismo.[NO]
+
+  Y despu‚s, s¢lo hemos de elegir el escritorio que arranque por defecto, si no[IZQUIERDA]
+lo hemos elegido antes en el SETUP, que podr  ser KDE, GNOME, ENLIGHMENT, y
+dem s. Podemos elegir el KDE, si lo hemos instalado, y luego ejecutar:[NO]
+
+  # startx[AMARILLO]
+
+  Los par metros que permite este comando son:[BLANCO]
+
+  # startx -bpp 16[AMARILLO]
+
+  Para arrancar en modo 16 bits por ejemplo.[BLANCO]
+
+
+
+
+Conclusion[AMARILLO GRANDE]
+
+
+
+  Pues aqui ha llegado el fin de la explicaci¢n e instalaci¢n de LINUX. En el[PCT BLANCO IZQUIERDA]
+pr¢ximo n£mero comentar‚ como se configuran los dispositivos, como las tarjetas
+de sonido, as¡ como la posibilidad de instalar aplicaciones y ejecutar
+programas, entre ellos, los juegos y las demos de la DEMOSCENE.[NO]
+

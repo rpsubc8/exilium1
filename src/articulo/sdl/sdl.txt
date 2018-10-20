@@ -1,0 +1,420 @@
+[FOTOS 2]
+49 100 47 6
+50 101 53 390
+Librerias SDL.[AZULCLARO GRANDE]
+[PCT BLANCO NO]
+
+
+
+  SDL significa  Simple Direct Layer (Capa de
+acceso directo), y son  unas  librerias  para
+trabajar con los dispositivos de video, audio
+y E/S de forma c¢moda y  r pida, en  especial
+para juegos y aplicaciones multimedia.
+
+  Si creador, SAM LATINGA se ha  encargado de
+perfeccionar las librerias, y  actualmente se
+dispone de SDL para WINDOWS, LINUX, BeOS, MAC
+OS, AMIGA  OS, FreeBSD y  QNX, e incluso para
+PSX2 bajo LINUX.
+
+  En este art¡culo veremos  como  instalar  y
+programar aplicaciones bajo estas librerias.
+
+
+
+
+Instalacion[AMARILLO GRANDE]
+
+
+
+  Antes de todo, debemos de descargar las librerias SDL del sitio web m s[PCT BLANCO IZQUIERDA]
+cercano, que en este caso, es:[NO]
+
+  http://www.libsdl.org[AMARILLO]
+
+  Aqui podemos elegir entre el binario (las librerias) para poder ejecutar las[IZQUIERDA BLANCO]
+aplicaciones que usan estan librerias, o bien el kit de desarrollo. Podemos
+descargar los dos. El primero contendr  las .dll, si las bajamos para WINDOWS,
+entre ellas la SDL.DLL. Para los curiosos, eta libreria se puede comprimir con
+la utilidad UPX, que os la podeis descargar del sitio web del DJGPP.
+
+  Despu‚s podemos descargar ejemplos de juegos o aplicaciones, e incluso demos[IZQUIERDA]
+que hagan uso de las librerias SDL. Esto se puede hacer desde la misma p gina
+web. Y s¢lo nos queda o bien copiar la libreria SDL.DLL al directorio donde
+tenemos instalados WINDOWS, por ejemplo:[NO]
+
+  C:\WINDOWS\SYSTEM[AMARILLO]
+
+  O bien, en el mismo PATH, donde se encuentra la aplicaci¢n que queremos[IZQUIERDA BLANCO]
+ejecutar. As¡ que probad suerte, y bajaros muchos ejemplos.[NO]
+
+
+  Si en vez de usar el sistema WINDOWS 9x, decidimos usar BeOS, pues se har [IZQUIERDA]
+algo parecido, salvo que las librerias, ahora se copiaran en /home/config/lib
+Por supuesto, la libreria, ahora ser , libSDL.so. Las aplicaciones de SDL para
+BeOS no son tan elebadas como para WINDOWS, ya que la aceleraci¢n hardware 3D
+no es tan buena, pero son considerables. En concreto, existe un emulador de
+GAME BOY ADVANCED. Tambi‚n hay juegos, como el QUAKE y dem s que usan las SDL.
+
+
+  Y para el caso de optar por LINUX, podemos directamente, bajarnos el kit de[IZQUIERDA]
+desarrollo, y seguir los siguiente pasos. El KIT de desarrollo, tambi‚n sirve
+para el resto de los S.O., pero debemos de najarnos la versi¢n concreta para
+nuestro entorno.[NO]
+
+  Una vez descargado, que ser n cerca de los 2 MB, debemos ejecutar desde linea[IZQUIERDA]
+de comandos, lo siguiente:[NO]
+
+  # ./configure[AMARILLO]
+  # ./make
+  # ./make install
+
+  Y con esto, ya quedar  no s¢lo recompilado todas las librerias, sino que nos[IZQUIERDA BLANCO]
+habr  creado los enlaces en LINUX a estas librerias din micas.[NO]
+  Un problema que nos podemos encontrar, es que los ejemplos de SDL no[IZQUIERDA]
+funcionar n desde el modo terminal TEXTO. Esto se debe, porque a diferencia de
+las librerias ALLEGRO, las SDL usan por debajo las X-WINDOWS. Por tanto, debeis
+de arrancar las X-WINDOWS, con el comando de siempre:[NO]
+
+  # startx[VERDEFOSFORITO]
+
+
+
+Programar[AMARILLO GRANDE]
+
+
+
+  Pues ahora, es cuando viene como se programa en SDL, y algunas sintaxis de[PCT BLANCO IZQUIERDA]
+compilaci¢n en los diferentes Sistemas Operativos. El programa m s sencillo
+bajo SDL, ser¡a:[NO]
+
+  #include <stdlib.h>[AMARILLO]
+  #include "SDL.h"
+
+  main(int argc, char *argv[[]){
+   if ( SDL_Init(SDL_INIT_AUDIO|SDL_INIT_VIDEO) < 0 ) {
+       fprintf(stderr,"No se puede inicializar las SDL: %s\n", SDL_GetError());
+       exit(1);
+   }
+   atexit(SDL_Quit);
+  }
+
+  Lo que estamos haciendo aqui es Inicializar la libreria SDL, con el video y[BLANCO IZQUIERDA]
+el audio, y en caso de error a la hora de cargarla, mostrar  un mensaje de
+error. Y por supuesto, al final, cerrar  la libreria SDL.[NO]
+
+  Para compilar este ejemplo, haremos algo as¡:[NO]
+
+  WINDOWS --> gcc main.c -omain -lsdl[AMARILLO]
+  LINUX   --> gcc main.c -omain -lsdl -lpthread
+  BEOS    --> gcc main.c -omain -lsdl
+
+  Para WINDOWS, necesitaremos la versi¢n del GCC, que es el MINGW32, que[IZQUIERDA BLANCO]
+podemos descargarnoslo de INTERNET. Tambi‚n existen versiones para Microsoft
+VISUAL C++.[NO]
+
+  Si todo ha salido bien, ya estais dispuestos a poder ejecutar vuestra[IZQUIERDA]
+aplicaci¢n desde linea de comandos o desde terminal.[NO]
+
+  Si queremos optimizar un poco nuestro c¢digo, podemos hacer uso de la[IZQUIERDA]
+siguiente sintaxis:[NO]
+
+  gcc -s -O3 main.c -omain -lsdl[AMARILLO]
+
+  Y luego, podemos hacer uso de la herramienta UPX en WINDOWS y LINUX para[IZQUIERDA BLANCO]
+reducir todab¡a mas nuestro ejecutable.[NO]
+
+
+  No obstante, un dato a destacar, es que cuando ejecutamos nuestro ejecutable,[IZQUIERDA]
+no sucede gran cosa. Esto se debe, a que s¢lo se carga e inicializa la libreria
+din mica, pero no se accede a nada del dispositivo, es decir, no se incializan
+los modos gr ficos, no se lee del joystick o del teclado, etc... Por tanto, nos
+pondremos a ello.[NO]
+
+
+
+Ejemplo[AMARILLO GRANDE]
+
+
+
+ Aqui viene un ejemplo que inicializa el modo de video de 640 x 480 con 16 bits[PCT BLANCO IZQUIERDA]
+de color, por supuesto en una ventana:[NO]
+
+  #include <stdlib.h>[AMARILLO]
+  #include "SDL.h"
+
+  SDL_Surface *screen;
+
+  void main() {
+   if ( SDL_Init(SDL_INIT_AUDIO|SDL_INIT_VIDEO) < 0 ) {
+       fprintf(stderr,"No se puede inicializar las SDL: %s\n", SDL_GetError());
+       exit(1);
+   }
+   else{
+    screen = SDL_SetVideoMode(640, 480, 16, SDL_SWSURFACE);
+    if ( screen == NULL ) {
+        fprintf(stderr, "No puedo poner 640x480: %s\n", SDL_GetError());
+        exit(1);
+    }
+   }
+   atexit(SDL_Quit);
+  }
+
+  Como se puede observar, el comando usado, es el SDL_SetVideoMode, en donde[BLANCO IZQUIERDA]
+se pasa la resoluci¢n en ancho y alto de pixels, as¡ como los bits de
+profundidad, y el modo de dibujo, que en este caso es un SURFACE o CAPA. Si
+quisiesemos un modo de 256 colores, es decir, de paleta, usariamos 8, en lugar
+de 16 bits. Por supuesto, estos modos son independientes del modo visual real
+en el que estemos, ya que de todo esto se encarga el sistema.[NO]
+
+  Si os dais cuenta, debemos de pasarle una varible de tipo SDL_Surface, que no[IZQUIERDA]
+es mas que un entero largo de 32 bits, que actua de puntero a una zona de
+memoria con estructura de SDL, donde poder dibujar. Contiene datos, como el
+ancho, el alto y dem s del SURFACE al que apunta.[NO]
+
+  Ahora ya teneis como crear o inicializar un modo de video, en concreto una[IZQUIERDA]
+ventana. Como podeis obserbar esto es comun para WINDOWS, LINUX y BeOS. Por
+tanto, una vez hecho esto, funcionar  para casi cualquier plataforma.[NO]
+
+
+
+Dibujar pixels[AMARILLO GRANDE]
+
+
+
+  Claro, ahora ya teneis como inicializar un modo de video, pero claro, queda[PCT BLANCO IZQUIERDA]
+como dibujar un pixel en pantalla. Para ello, debemos de tener en cuenta, que
+las SDL al trabajar en sistemas operativos concurrentes, deben de poder
+bloquear las zonas de memoria sobre las que se trabaja, para que otros procesos
+no puedan acceder al mismo tiempo, al puro estilo de modo protegido. Por tanto
+debemos de hacer uso del comando SDL_LockSurface. Lo que hace este comando es
+bloquear el SURFACE, para que nadie pueda usarlo, salvo nosotros mismos. En ese
+momento, es cuando dibujamos en ‚l, y cuando terminemos, desbloqueamos el
+SURFACE. Por tanto, el c¢digo seria algo como esto:[NO]
+
+
+  #include <stdlib.h>[AMARILLO]
+  #include "SDL.h"
+  #include <SDL_endian.h> /* endian-dependent 24 bpp mode */
+
+  SDL_Surface *screen;
+
+  void DrawPixel(SDL_Surface *screen,int x,int y,Uint8 R,Uint8 G,Uint8 B){
+    Uint32 color = SDL_MapRGB(screen->format, R, G, B);
+    if ( SDL_MUSTLOCK(screen) ) {
+        if ( SDL_LockSurface(screen) < 0 )  return;
+    }
+    switch (screen->format->BytesPerPixel) {
+        case 1: { /* Assuming 8-bpp */
+            Uint8 *bufp;
+            bufp = (Uint8 *)screen->pixels + y*screen->pitch + x;
+            *bufp = color;
+        }
+        break;
+
+        case 2: { /* Probably 15-bpp or 16-bpp */
+            Uint16 *bufp;
+            bufp = (Uint16 *)screen->pixels + y*screen->pitch/2 + x;
+            *bufp = color;
+        }
+        break;
+
+        case 3: { /* Slow 24-bpp mode, usually not used */
+            Uint8 *bufp;
+            bufp = (Uint8 *)screen->pixels + y*screen->pitch + x * 3;
+            if(SDL_BYTEORDER == SDL_LIL_ENDIAN) {
+                bufp[[0] = color;
+                bufp[[1] = color >> 8;
+                bufp[[2] = color >> 16;
+            } else {
+                bufp[[2] = color;
+                bufp[[1] = color >> 8;
+                bufp[[0] = color >> 16;
+            }
+        }
+        break;
+
+        case 4: { /* Probably 32-bpp */
+            Uint32 *bufp;
+            bufp = (Uint32 *)screen->pixels + y*screen->pitch/4 + x;
+            *bufp = color;
+        }
+        break;
+    }
+    if ( SDL_MUSTLOCK(screen) ) {
+        SDL_UnlockSurface(screen);
+    }
+    SDL_UpdateRect(screen, x, y, 1, 1);
+  }
+
+
+
+  void main(){
+   if ( SDL_Init(SDL_INIT_AUDIO|SDL_INIT_VIDEO) < 0 ) {
+       fprintf(stderr,"No se puede inicializar las SDL: %s\n", SDL_GetError());
+       exit(1);
+   }
+   else{
+    screen = SDL_SetVideoMode(640, 480, 16, SDL_SWSURFACE);
+    if ( screen == NULL ) {
+        fprintf(stderr, "No puedo poner 640x480: %s\n", SDL_GetError());
+        exit(1);
+    }
+    else DrawPixel(screen,320,200,255,255,255);
+   }
+   atexit(SDL_Quit);
+  }
+
+
+  Si todo sale bien, hemos podido dibujar un punto por pantalla en modo RGB, es[BLANCO IZQUIERDA]
+decir, con la componente Rojo, Verde y Azul. En este caso, se tiene en cuenta
+el modo de video en el que estamos, pero s¢lo la profundidad de color, ya que
+no es lo mismo dibujar en 8, 16, 24 o 32 bits. En los modos de 8 bits, tenemos
+1 byte por cada pixel, en donde puede tomar valores de 0 a 255 de una paleta de
+262144 colores. En total s¢lo se pueden tener 256 colores en pantalla.[NO]
+
+  Para el modo de 24 bits, tenemos 1 byte para cada componente de color, es[IZQUIERDA]
+decir, 1 byte para el rojo, otro para el azul y otro para el verde. En
+definitiva, tenemos TRUE COLOR. A la hora de meter los colores de cada pixel,
+iria primero el rojo, luego el verde y al final el azul.[NO]
+
+  Para calcular de forma matem tica la situaci¢n de cada pixel en pantalla, tan[IZQUIERDA]
+s¢lo hay que seguir la formula de:[NO]
+
+  (PosicionY * AnchoX) + PosicionX[AMARILLO]
+
+  Siempre y cuando, sean del mismo tipo. De lo contrario, tendriamos que[BLANCO IZQUIERDA]
+calcular el desplazamiento dentro de cada byte. Si mirais el c¢digo, que en
+este caso pertenece a un ejemplo de las SDL, quizas no resulte la f¢rmula tan
+inmediata, pero esto se debe, porque usa la estructura de los SURFACE, tal y
+como se coment¢ anteriormente.[NO]
+
+  Nosotros siempre tenemos informaci¢n de un SURFACE, como:[NO]
+
+  screen->pixels        --> El buffer donde empieza el dibujo del SURFACE[AMARILLO]
+  screen->pitch         --> El ancho en bytes de cada linea del SURFACE
+  screen->format        --> El formato del SURFACE
+
+  Por supuesto, la variable screen puede ser sustituida por cualquiera que[BLANCO IZQUIERDA]
+nosotros queramos, siempre y cuando sea del tipo SDL_SURFACE. El PITCH al venir
+en bytes, debemos de ajustarlo a la f¢rmula del AnchoX de tal forma que si el
+bitratio, es de 8 bits (1 byte), lo dejamos como est  a la hora de calcular la
+posici¢n en el buffer del SURFACE para poner un pixel. Pero si es de 16 bits
+(2 bytes), debemos de dividirlo por 2. Y si es de 24 bits (3 bytes), pues por
+3. En caso de ser de 32 bits (4 bytes) se dividir  por 4. De ahi, todos esos
+c lculos que se ven a la hora de poner los pixels.[NO]
+
+  En cuanto a screen->pixels, nos da el buffer de memoria en donde se dibuja,[IZQUIERDA]
+realmente. Todo lo que pongamos a partir de este buffer, quedar  dibujado, ya
+que toda la informaci¢n que no est  en este buffer, es referente a la
+estructura del SURFACE. Y como esta zona es un puntero, podemos dibujar
+directamente, referenciando a la zona en modo puntero, y por tanto, en modo
+ARRAY, que es la notaci¢n de C.[NO]
+
+  Cuando acabemos de dibujar todo, debemos de desbloquear el SURFACE, con el[IZQUIERDA]
+comando SDL_UnlockSurface(screen). Pero debemos de comprobar, si podemos
+desbloquearlo, con la funci¢n SDL_MUSTLOCK(screen), que comprueba, si esta
+bloqueado.[NO]
+
+  Pero con esto no basta, ya que no redibuja nuestro pixel. Para ello, debemos[IZQUIERDA]
+de invocar a la funci¢n SDL_UpdateRect(screen, x, y, 1, 1). Esta funci¢n
+actualiza el rectangulo que empieza en la posici¢n x e y. Las otras dos
+coordenadas, que en este caso valen 1, 1, indican el ancho y alto del mismo.
+Como en este caso, es de 1 pixel, se pone 1. Es decir, se est  optimizando.
+Si quiseramos actualizar todo el SURFACE, sin falta de mirar que zona
+actualizar, pondriamos todo a 0, de la siguiente forma:[NO]
+
+  SDL_UpdateRect(screen,0,0,0,0);[AMARILLO]
+
+  Por cierto, el color del punto elegido en este caso, ha sido el blanco, es[BLANCO IZQUIERDA]
+decir todas las componentes a su valor m ximo 255. Adem s el punto debe
+aparecer en las coordenadas X = 320 e Y = 200.[NO]
+
+  Si a pesar de todo lo explicado, seguis sin enteraros muy bien del asunto,[IZQUIERDA]
+os pondre un peque¤o ejemplo, que dibuja un pixel, pero en modo 8 bits, mas
+sencillo:[NO]
+
+
+  #include <stdlib.h>[AMARILLO]
+  #include "SDL.h"
+
+  void DibujaPunto(SDL_Surface *pantalla,int x,int y,Uint8 color){
+    if (SDL_MUSTLOCK(pantalla)) {
+        if (SDL_LockSurface(pantalla)<0) return;
+    }
+
+    Uint8 *pantallaAux;
+    pantallaAux = (Uint8 *)pantalla->pixels + y*pantalla->pitch + x;
+    *pantallaAux = color;
+
+    if (SDL_MUSTLOCK(pantalla)) {
+        SDL_UnlockSurface(pantalla);
+    }
+    SDL_UpdateRect(pantalla, x, y, 1, 1);
+  }
+
+
+  SDL_Surface *screen;
+
+
+  void main(){
+   if ( SDL_Init(SDL_INIT_AUDIO|SDL_INIT_VIDEO) < 0 ) {
+       fprintf(stderr,"No se puede inicializar las SDL: %s\n", SDL_GetError());
+       exit(1);
+   }
+   else{
+    screen = SDL_SetVideoMode(640, 480, 16, SDL_SWSURFACE);
+    if ( screen == NULL ) {
+        fprintf(stderr, "No puedo poner 640x480: %s\n", SDL_GetError());
+        exit(1);
+    }
+    else DibujaPunto(screen,320,200,15);
+   }
+   atexit(SDL_Quit);
+  }
+
+  Si no me he equivocado transcribiendo, esto deber¡a hacer lo mismo que antes,[BLANCO IZQUIERDA]
+pero dibujando en modo de 256 colores. He mandado dibujar el color 15, que por
+defecto, en estos modos es el blanco. El puntero auxiliar pantallaAux nos
+permite trabajar comodamente sobre la zona que contiene el buffer donde dibujar
+sin falta de trabajar sobre pantalla. Como veis, pantalla es un puntero que
+apunta a lo mismo que screen, que es donde he creado la ventan de 640x480 con
+8 bits. Como este modo se de sobra que tiene 640 bytes de ancho por linea, por
+ser de 640x480 y 1 byte por pixel, pues podria saltarme la linea:[NO]
+
+    pantallaAux = (Uint8 *)pantalla->pixels + y*pantalla->pitch + x;[AMARILLO]
+
+    Y poner:[BLANCO]
+
+    pantallaAux = (Uint8 *)pantalla->pixels + y*640 + x;[AMARILLO]
+
+    directamente. Eso ya es asunto vuestro.[BLANCO]
+
+
+
+
+Conclusion.[AMARILLO GRANDE]
+
+
+
+  Bueno, pues hasta aqui, ya sabeis  inicializar un[PCT BLANCO]
+modo  de  video y  dibujar pixels por pantalla bajo
+SDL.Esto os permitir  hacer alguna cosa sobre BeOS,
+WINDOWS y LINUX de forma r pida y sencilla.
+
+  En el pr¢ximo n£mero os ense¤ar‚ como hacer cosas
+m s complejas, como leer im genes,realizar SCROLLS,
+controlar  el  teclado,  rat¢n, joystick, e incluso
+hacer efectos de la demoscene, como FUEGO, y dem s.
+
+  Recordad, que este a¤o en la EUSKAL PARTY 9, se dejo la oportunidad de usar[IZQUIERDA]
+librerias SDL, tanto en WINDOWS, como en LINUX, en las m quinas de la COMPO[NO]
+
+  Mientras tanto, podeis hechar un vistazo a la foto del minimotor 3D, que he[IZQUIERDA]
+realizado bajo SDL. En esta foto aparece para LINUX, pero existe para WINDOWS
+y BeOS. Si quereis descargarlo, podeis bajarlo de:[NO]
+
+  http://www.lanzadera.com/ensamblador[VERDEFOSFORITO]
+
+  Y por supuesto, en pr¢ximos n£meros, explicar‚ como consegui hacerlo.[BLANCO]

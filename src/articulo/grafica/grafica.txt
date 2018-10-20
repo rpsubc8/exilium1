@@ -1,0 +1,147 @@
+[FOTOS 2]
+38 89 53 1
+39 90 53 60
+               Programacion grafica[AZULCLARO GRANDE NO]
+[PCT BLANCO]
+
+
+  Estimado  lector,  como  mi  tiempo  es  demasiado[PCT BLANCO]
+precioso, para  malgastarlo  en introducciones, o en
+lamers como tu, voy a acortar este articulo para que
+sea lo mas did†ctico y r†pido posible, igual que  el
+harakiri.
+
+
+  Pues  veras  lector, lo  m†s f†cil para comenzar a
+hacer  gr†ficos, pero  desde ya, es usar  el afamado
+modo 13h.En dicho modo se usan unos 65000 bytes para
+representar  la  informaci¢n necesaria a 320 por 200
+pixeles en pantalla, cada uno de 256 colores.Aqui el
+inteligente y avezado lector se habr† dado cuenta de
+que  las  cuentas  salen (no  es  redundancia,  sino
+brillantez lingÅistica). 320x200=64000. Por esto es adem†s el m†s sencillo de[IZQUIERDA]
+programar, pues no se necesita cambiar el procesador a modo protegido o usar
+alg£n truco (modo flat o algo raro). Lo £nico que se necesita es un acceso
+intersegmento. Y a donde? preguntar† el lector m†s impaciente. Pues en este
+caso al inicio de la memoria gr†fica (memoria que almacenar† la pantalla a
+visualizar),que es el segmento A000 y offset 0. El listillo de turno volver† a
+decir, co§o las cosas coinciden 64000 bytes (256 valores cada byte = 256
+colores) = un segmento completo = 64000 valores entre 0 y 255. Cada cosa que
+escribamos en esa memoria se visualizar† en pantalla en el siguiente refresco
+de pantalla (otra brillantez lingÅistica). Como sabemos las coordenadas de
+pantalla donde visualizar?. Recordemos que la memoria es lineal y no podemos
+direccionar por dos coordenadas, cosa que si haremos para la pantalla. Y la
+formulina que hace esto ye:[NO]
+
+  (Y x 320) + X = offset del pixel.[AMARILLO]
+
+  Esto es lento, pues como vemos hay una multiplicaci¢n en el medio de la[BLANCO IZQUIERDA]
+f¢rmula. Para quitarla se usar† lo que se llama una lookup table. Es decir, una
+tabla donde guardaremos todos los posibles valores de (Y x 320), en un rango
+desde 0 a 319. Y asi, lo que haremos realmente es:[NO]
+
+  Ytable[[Y] + X[AMARILLO]
+
+  Buala! solo una suma. Y esto sin usar asm, que es que sino me salgo y aqui no[BLANCO IZQUIERDA]
+no me entiende ni el tato.[NO]
+
+
+  Otra cosa que debe saber el lector, adem†s de estar malgastando su vida, es[IZQUIERDA]
+que las pantallas virtuales son esenciales en este punto. Estas, hacen m†s
+r†pida la visualizaci¢n de datos.[NO]
+
+
+  Y ahora para terminar vamos a ver todo esto en c¢digo. Por supuesto como ya[IZQUIERDA]
+sabran, usarÇ C con asm, pues cualquier otra cosa es perder el tiempo, excepto
+claro asm s¢lo, pero esto que lo haga el lector con mas tiempo (tiempo que a mi
+no me sobra):[NO]
+
+
+  Para inicializar el modo, se usar† la interrupci¢n 10h, con el valor 13 en
+el registro AX:
+
+   void modo13h(void){[AMARILLO]
+    asm{
+     mov ax, 0x13
+     int 10h
+    }
+   }
+
+
+  Para volver al aburrido texto:[BLANCO]
+
+   void text(void){[AMARILLO]
+    asm{
+     mov ax, 0x03
+     int 10h
+    }
+   }
+
+
+  Para crear un puntero a la memoria grafica:[BLANCO]
+
+   unsigned char *video = (unsigned char *) MK_FP(0xA000, 0);[AMARILLO]
+
+
+  Para hacer la lookup table:[BLANCO]
+
+   for (y = 0; y < 319; y++)[AMARILLO]
+     Ytable[[y] = y * 320;
+
+
+  Y para visualizar un punto en pantalla es algo asi:[BLANCO]
+
+   video[[Ytable[[y]+x]= color;[AMARILLO]
+
+
+  Que si que si, que no he dicho lo de los colores, ahhhh impacientes. Asi me[BLANCO IZQUIERDA]
+pagais estas horas haciendo el mono.[NO]
+	
+
+  En cuanto a los colores, este modo usa paleta de colores. Que no sabes que es[IZQUIERDA]
+eso?, te jod... Bueno pues una memoria donde se guardan los colores a dibujar.
+La explicaci¢n es simple. Este modo puede hacer 256 colores distintos
+simultaneos. Pero estos colores se configuran en una paleta con tres valores
+(red, green, blue de la famosa tripleta RGB) cada uno de ellos con 64 valores
+distintos de tonalidad. Pero bueno, alguno dir† "man estafao". O sea 256
+colores simultaneos, pero cada uno de ellos puede estar configurado con 64
+valores de rojo, 64 valores de verde y 64 valores de azul. Eso dan m†s de 256
+colores distintos. Pues si, pero te jodes como herodes, pues en este modo s¢lo
+se pueden visualizar simultaneamente 256 colores distintos, pero elegidos de un
+rango m†s amplio.[NO]
+
+
+  Que conste que para los buenos, esto es m†s que sufuciente, El quake II por[IZQUIERDA]
+ejemplo, gracias a un truco de paletas usaba solo 256 colores, para simular
+truecolor (con paletas de aproximaci¢n y dem†s, pero esto es demasiado fuerte
+para vuestras tiernas mentes).[NO]
+
+
+  Pues aqui esta el codigo:[CHAR14B GRIS]
+
+
+   Los puertos son el 0x3C9 y el 0x3C8. Y la m†scara de la paleta es 0x3C6.[IZQUIERDA BLANCO PCT]
+   Primero le decimos que queremos direccionar los puertos de la tarjeta
+   gr†fica con esto:[NO]
+
+
+    outp(0x3C6, 0xff);[AMARILLO]
+
+
+   y despuÇs le decimos que color queremos actualizar:[BLANCO]
+
+
+    outp(0x3C8, index);[AMARILLO]
+
+
+   y por £ltimo le contamos los valores rgb que queremos poner en esa index:[BLANCO]
+
+
+    outp(0x3C9, red);[AMARILLO]
+    outp(0x3C9,green);
+    outp(0x3C9,blue);
+
+
+
+          Y ya esta. El resto te lo imaginas. Ala a cascala...[GRIS CHAR14B]
+

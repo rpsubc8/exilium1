@@ -1,0 +1,760 @@
+[FOTOS 2]
+40 91 52 456
+41 92 47 654
+ El RadioPacket.[AZULCLARO GRANDE]
+[PCT BLANCO]
+
+
+
+  El radioPacket es una forma de comuniacion digital via radio. En concreto es[IZQUIERDA]
+una modalidad que surgi¢ en los a¤os 80 principalmente, aunque los experimentos
+ya datan de los 70, en el que los radioaficionados se podian comunicar en forma
+digital.[NO]
+
+
+Analogico y Digital.[AMARILLO GRANDE]
+
+
+
+
+  No se puede explicar este art¡culo, sin aclarar las diferencias que existen[PCT BLANCO IZQUIERDA]
+entre el medio anal¢gico y el digital. El anal¢gico es aquello que m s se
+aproxima al mundo real, y que supuestamente es infinito. De puro sentido f¡sico
+y a traves del mundo emp¡rico, se puede afirmar que no existe el infinito, ya
+que es algo que los MATEMATICOS se inventaron para poder explicar todo el lio
+que hab¡an montado. Pero gracias a DIOS, los inform ticos al igual que los
+f¡sicos, admitimos nuestro propio desconocimiento de las cosas, e intentamos
+buscar respuestas,y no nos quedamos estancados en LEYES y IDEAS que se caen por
+su propio peso.[NO]
+
+  En el mundo anl¢gico entran cosas como el margen de frecuencias de la voz,[IZQUIERDA]
+que alcanza los 3000 Hz, o el voltaje, e incluso las se¤ales de la luz. En
+concreto, los primeros ordenadores, eran anal¢gicos. Hacian algo parecido a las
+calculadoras. Pero la mente humana no estaba ni est  capacitada para comprender
+los datos tan elebados que puede procesar una se¤al anal¢gica, y tubimos que
+recurrir a los digital.[NO]
+
+  As¡, cuando acotamos una se¤al, se puede decir que pasa a ser digital. Si[IZQUIERDA]
+tenemos una se¤al de voltaje que puede tomar muchos valores (no voy a usar la
+palabra infinito, ya que no existe), la llamamos anal¢gica, y podr¡a tomar
+valores como 1 Voltio, 15 Voltios, 10.5678 Voltios, 220 Voltios. Pero si la
+pasamos a digital, ahora estar  acotada, es decir, en un intervalo, ya sea
+abierto o cerrado en los extremos. As¡ podriamos acotarlo a dos simple valores,
+que ser¡an -15 Voltios y 15 Voltios. En concreto podemos asignar un valor
+l¢gico '0' a los -15 Voltios, y un valor l¢gico '1' a los 15 Voltios, y aplicar
+las leyes l¢gicas binarias para poder hacer pseudoperaciones, que luego pueden
+interpretarse para hacer sumas, restas, y dem s, en definitiva, lo que son hoy
+los ordenadores. Sin embargo, el sr humano, ni tan siquiera es tan perfecto
+para poder acotar estos dos valores, as¡ que se usa un umbral, de tal forma que
+cualquier se¤al que este por debajo de ese umbral, por ejemplo 0 Voltios, ser 
+considerada como un '0' l¢gico, y si est  por encima del 0 Voltios, ser  un '1'
+l¢gico. Como podeis ver, esos valores l¢gicos son s¢lo un bit en l¢gica
+binaria. Si quisiesemos enviar un caracter ASCII de 8 bits, se requerir¡a 8
+veces el c lculo. Es decir, de entrada es 8 veces inferior. ¨Os imaginais un
+ordenador 8 veces superior?, pues se puede, s¢lo falta que las personas sean
+capaces de entender los fallos que se tuvieron en el pasado. Pero, no s¢lo es
+problema de los bits, porque podemos enviar m s tipos de se¤ales, es decir,
+podemos tener 3 valores, por ejemplo, una se¤al de -15 Voltios es un '0' y una
+de 0 voltios es un '1', y una se¤al de 15 Voltios, podria ser un estado nuevo,
+como '2'. Y entonces tenemos una se¤al digital, pero trinaria. Y esto seguir¡a
+siendo un ordenador. En concreto, se esta trabajando con ordenadores Qbit, que
+tienen 3 estados, bas ndose en la teoria cu ntica, de que una mo‚cula puede
+estar en dos estados al mismo tiempo, as¡ tendremos o bien '0', '1', o '0' y
+'1' a la vez. Habr  que esperar, pero tendremos que tener los ojos abiertos a
+esta tecnolog¡a, y no a las tonterias que proponen cierto GURUS y ANALFABETOS
+burocr ticos, sobre los comercios e-BUSINESS. Sencillamente, vender por
+INTERNET es ILEGAL, me da igual lo que diga el gobierno. Si una empresa puede
+vender por INTERNET, entonces, cualquier persona, puede vender algo por la
+calle, que tambi‚n es p£blica. Si las empresas quieren negocio, que se
+construyan una red privada, y NO HAY VUELTA DE HOJA. Que dejen paso a los que
+saben, y no interfieran en el progreso conceptual.[NO]
+
+  Pues alg£n d¡a, podremos volver a retomar los ordenadores anal¢gicos, y[IZQUIERDA]
+podremos hacer sumas, restas y multiplicaciones de forma anal¢gica, es decir,
+con mucha precisi¢n, y de un s¢lo golpe de reloj. Estos ordenadores, seran
+excesivamente perfectos, y much¡simo m s r pidos, pero no 2 o 10 veces que los
+actuales, sino, del orden de hasta las mol‚culas que tiene 1 mil¡metro cuadrado
+de SI (Silicio). Por tanto, los digital y lo anal¢gico, no existen, ya que son
+iguales, pero con menos n£meros.[NO]
+
+  Ya se que alguno se armar  un lio, al llegar a este punto, pero es lo que[IZQUIERDA]
+hay en este mundo, del que tanto se habla sobre DIGITAL y binario.[NO]
+
+
+Comunicaciones[AMARILLO GRANDE]
+
+
+
+
+  Desde siempre, el hombre a querido comunicarse con otros. Las formas para[PCT BLANCO IZQUIERDA]
+ello han sido muy variadas, desde dar voces, hasta mandar algo escrito, como
+es el caso de las cartas. Sin embargo, con la llegada del TELEGRAFO, las cosas
+cambiaron, ya que se podian enviar mensajes a largas distancias y casi sin
+errores, con un c¢digo tan sencillo como el BAUDOT. El inconveniente, que se
+requeria de personas que dominasen el MORSE, as¡ como que se requeria de unos
+cables que uniesen los dos puntos a comunicar. El problema, era que en clara
+‚poca de guerra, o por alg£n gracioso, se pod¡a cortar el cable, y se pod¡a dar
+por acabada la conversaci¢n. Sin embargo, tambi‚n se uso el c¢digo de banderas
+en los BARCOS (el cual le toc¢ a mi abuelo). Esto era m s visual, y las
+distancias eran m s cortas, pero no hab¡a cables.[NO]
+
+  M s tarde llegaron los primeros comienzos del tel‚fono de BELL. Aunque al[IZQUIERDA]
+principio no le tomaron en cuenta (suele suceder), con el paso del tiempo, se
+convirti¢ en un art¡culo obligatorio, como es el caso del fuego o la BOMBILLA.
+Fue r pidamente aceptado por las personas, ya que no exig¡a un estudio muy
+excesivo por parte de las personas, incluso en el siglo XIX y XX. Hoy en d¡a,
+el tel‚fono sigue sin requerir grandes estudios para su manejo. Tan s¢lo hay
+que marcar el n£mero de destino, y hablar. A nadie le importa lo que sucede por
+debajo, si se usa un modo conmutado, o el ancho de banda. A pesar de todo esto,
+hay dos problemas muy importantes en el telefono:[NO]
+
+  - El ancho de banda es baj¡simo, aunque justo para la voz (4000 Hz).[PC GRIS]
+  - Pertenece a una compa¤¡a, aunque sea p£blico
+  - Requiere de cables, y conmutaci¢n. Si se corta el cable,o se equivoca en la
+    conmutaci¢n, fallar  la comunicaci¢n.
+
+  Os imaginais en ‚poca de guerra, o que tan s¢lo vuestro vecino os corta el[PCT BLANCO IZQUIERDA]
+cable, y os qudais sin mandar vuestro mensaje al destinatario. Por supuesto, la
+carta no es el medio m s seguro para enviar datos, y por supuesto de forma
+r pida. As¡ que han surgido nuevos medios de comunicaci¢n, que la ventaja que
+tienen, es que no usan cables. Algunos no se han dado, ni se dan cuenta, de que
+las comunicaciones sin cables, no es que sean seguras en tanto que se puedan
+captar los mensajes, sino, que son seguras f¡sicamente con lo que deben enviar.
+
+  Aunque INTERNET se caiga completamente (cosa casi improbable, debido a su[IZQUIERDA]
+estructura descentralizada), todab¡a se podr¡an mandar bien por voz, o por
+datos digitales, la informaci¢n a enviar, por medio de las ondas de radio.
+INTERNET es dificil de reventar al 100%, pero se puede hacer que caigan nodos
+principales, sobre todo los bancos, que dejar¡an sumida a INTERNET en el caos
+indirectamente. Sin embargo, por via radio, aunque caiga un nodo, todab¡a queda
+el resto, y no se requiere de dinero excesivo para poner un repetidor, usar un
+sat‚lite, o en el mejor de los casos, usar la banda de 27 Mhz, o menos, para
+recorrido global. Hay que recordar, que los 27 Mhz pueden dar la vuelta a la
+TIERRA, sin falta de repetidores, con tan s¢lo situarnos en un lugar alto o
+plano, y con poco potencia, en Banda Lateral y con una buena antena. Y por
+supuesto gastando 0 Centimos por enviar datos. Eso, en la vida COMERCIAL y
+burocr tica, es imposible.[NO]
+
+  Pues con todo esto, a lo que voy. Para comunicarme con una persona, necesito[IZQUIERDA]
+un emisor (Yo mismo), un destinatario (Mi vecino), un medio de comunicaci¢n
+(linea telef¢nica) y unos moduladores y demoduladores (tel‚fono) para poder
+enviar la informaci¢n. Cualquiera que tenga TELEFONO, en concreto TIMOFONICA,
+sabe que no es gratis, es m s hay que pagar por mantenimiento, y lo normal, es
+que no tengamos ni comprado el tel‚fono, ya que suele ser alquilado. Es decir,
+si un sujeto A no hace una s¢lo llamada en un mes, tendr  que pagar el dinero
+de mantenimiento igualmente. En concreto, es m s rentable tener el tel‚fono
+para que nos llamen, que para llamar.[NO]
+
+  La otra opci¢n es usar una linea privada. Por supuesto es mejor que la[IZQUIERDA]
+p£blica de TIMOFONICA, pero ¨a que precio?. S¢lo es apta para los ricos. Por el
+camino nos encontramos a la competencia, como ONO, y dem s, pero claro, no son
+100% independientes, y en el fondo pagan a TIMOFONICA, y usan sus lineas.[NO]
+  Si somos de los que tenemos tel‚fono pagado por la empresa, todo esto no les[IZQUIERDA]
+importa, ya que se lo pagan, y como si quieren llamar al 906 todo el d¡a.[NO]
+
+  Sin embargo, podemos usar la emisora para comunicarnos, al puro estilo de la[IZQUIERDA]
+policia en las peliculas. No tendremos que pagar por hablar, pero debido a unas
+reglas que existen en ESPA¥A sobre leyes p£blicas,tendremos que abonar una tasa
+cada 5 a¤os de menos de 60 Euros, dependiendo de las frecuencias que usemos.Por
+supuesto todo esto, es si elegimos usar el m‚todo legal. Hay que recordar, que
+no hay que pagar por hablar o escuchar, sino por usar un medio p£blico y usar
+unas letras ASIGNADAS. Esto s¢lo afecta a los radioaficionados que poseen
+licencia A, B o C. Seguro que a muchos os sonar  a INTERNET, a los servidores
+y provedores. si yo quiero tener el dominio JJ.ORG, debo abonar un canon para
+disponer de este nombre en INTERNET, al igual que los usuarios hacen a los
+proveedores en INTERNET para conectarse. Pues un radioaficionado debe de pagar
+un canon por poder tener un IDENTIFICATIVO, como puede ser EB456C, que es
+£nico.[NO]
+
+  En el caso de la Banda Ciudadana, en 27 Mhz, se puede sacar un permiso de[IZQUIERDA]
+licencia, pero no se lleba control como en el resto de licencias, por lo que
+cualquiera puede comprar una emisora o un talki de Banda Ciudadana y usarlo,
+es decir, es legal, siendo la licencia un mero formalismo y una forma de sacar
+dinero el gobierno.[NO]
+
+
+INTERNET[AMARILLO GRANDE]
+
+
+
+
+  Como coment‚ brevemente antes, para ser radioaficionado hay que presentarse a[PCT BLANCO IZQUIERDA]
+un ex men de varias partes, y luego hay que abonar unas cuantas TASAS. Por lo
+que muchos pensareis, que vale m s la pena no pagar nada, y seguir usando el
+tel‚fono. Sin embargo, puedo decir, que si eres radioaficionado, tu mismo te
+puedes hacer una emisora o una antena, mientras que en la vida real, si te
+haces un tel‚fono, y lo usas, estas actuando de forma ilegal.[NO]
+
+  Y lo mejor viene ahora. INTERNET es libre, es decir, cualquiera puede[IZQUIERDA]
+conectarse a INTERNET, como sucede en AMERICA, ya sea por medio de la
+biblioteca o por un TELECENTRO. Sin embargo, si lo hacemos en casa, hay que
+pagar y mucho. Esto es as¡, porque nosotros no pagamos a INTERNET, sino al
+medio de comunicaci¢n. INTERNET s¢lo son nombres como:[NO]
+
+  http://www.porno.com[VERDEFOSFORITO]
+
+  Y tambi‚n, es un conjunto de encaminamiento de redes, de tal forma que une[BLANCO IZQUIERDA]
+las redes de AMERICA y la de ESPA¥A (IRIS). Pero en ning£n momento pagas por
+usar el tel‚fono o el ordenador. Por ello, esta tasa corre de cargo de
+TIMOFONICA si usamos el acceso al tel‚fono, o de RDSI, o de ADSL, etc... Muchos
+deciden no romperse los cuernos, y pagan a un provedor, siendo este £ltimo el
+que paga a TIMOFONICA.[NO]
+
+  Y aqu¡ viene la trampa. Actualmente existe una ley de tal forma, que hay[IZQUIERDA]
+tarifa semiplana, de tal forma, que a partir de las 18:00 de Lunes a Viernes, y
+todo el S bado y Domingo, la conexi¢n es plana, pero el resto de horas, hay
+que pagarlo normalmente. A mi esto me da igual, ya que gracias a esta ley, yo
+aprobecho las ma¤anas para bajarme desde la FACULTAD archivos a m s de 500 KB/s
+As¡ que seguid adorando en esos estafadores, y protestad por otras cosas, que
+es mejor. Aunque lo mejor viene ahora. La mayor¡a de las personas, apuntan las
+cosas que quieren coger, como el correo electr¢nico, este archivo, etc..., y
+esperan a que sea la dichosa hora de tarifa plana para conectarse y hacerlo. Si
+por alg£n motivo, no les da tiempo a cogerlo, debido a esa velocidad de 5 KB/s,
+o necesitan eso para ya mismo, por necesidad de trabajo, tendr n que
+fastidiarse o pagar tarifa normal. No se si alguien ha hechado los calculos,
+pero estar 1 hora conectado fuera de la tarifa normal, es bastante. Y por
+supuesto, la aut‚ntica trampa. A nosotros nos dicen que nos podemos conectar
+a INTERNET con nuestro proveedor cumpliendo la tarifa plana, pero yo no puedo
+conectarme con mi vecino y hechar una partida al QUAKE como dios manda con la
+tarifa plana. Muchos me direis, ¨que dice este?. Pues es muy sencillo, tu pagas
+por conectarte a un proveedor, el cual hace de puente entre INTERNET y todos
+sus clientes. Si por alg£n motivo este proveedor se cuelga, todos los clientes,
+ya no podr n conectarse a INTERNET. Y por supuesto, si queremos usar un
+servicio que el proveedor no tiene, nos quedaremos sin poder usarlo.
+  Los servicios que ofrece este proveedor son el maravilloso TCP-IP, junto los
+puerto de escucha. Si por alg£n motivo, nosotros queremos usar un protocolo,
+como el IPX, tendremos que esperar a que nuestro proveedor lo ponga, si es que
+tiene pensado hacerlo. Sin embargo, gracias a dios, hoy en dia, el protocolo
+IPX puede ir dentro del TCP-IP. Y por supuesto, est  el tema del modem. Nuestro
+proveedor est  preparado para una conexi¢n de a lo sumo 5 KB/s. Si nosotros
+tenemos un maravilloso modem de los nuevos de 6 KB/s,pues se acab¢ la conexi¢n,
+al menos, hasta que nuestro proveedor ponga uno parecido. Esto quiere decir,que
+a nosotros no nos importa como esta conectado el proveedor al resto de INTERNET
+, sino que s¢lo nos importa, como nos conectamos a nuestro proveedor, ya que
+‚ste actua de PASARELA. Si por alg£n motivo, quisieramos jugar al QUAKE con un
+protocolo distinto al TCP-IP con nuestros amigos, para ir m s r pido, no
+podriamos, al menos, a trav‚s del proveedor. Sin embargo, si usamos la potencia
+de la red commutada de telef¢nica, podemos hacer el uso de conexi¢n telef¢nica,
+como se hacia antes para conectarse a una BBS, y todo hecho. El problema,es que
+como se coment¢, todo lo que pasa por el proveedor, entra en el contrato de la
+tarifa plana, y vosotros en este caso, no estais pasando por el proveedor, as¡
+que teneis que pagar mucho, pero mucho. Y si por alg£n motivo, sois capaces de
+crear un nuevo modem, pues se acab¢ la tarifa plana, ya que este modem generar 
+tonos incompatibles con la conexi¢n al proveedor, y por tanto, estais fuera de
+la tarifa plana. Por tanto, el tema de investigaci¢n, en la red commutada de
+TELEFONICA, deja mucho que desear, ya que sale caro. Sin embargo, existen otros
+medios de investigaci¢n, en donde el precio del material transferido es gratis,
+como es el caso de las comunicaciones via radio. Aunque este tipo de
+comunicaci¢n es inal mbrico, no implica, que todas las comunicaciones de este
+tipo, sean gratis, ya que via sat‚lite, hay que pagar.[NO]
+
+  Y por supuesto, el tema mas candente en esta ‚poca actual, es el tema de las[IZQUIERDA]
+direcciones IP. Pues este tema es muy sencillo. Al ser INTERNET p£blico, quiere
+decir, que cualquiera tiene derecho a mirar, es decir, yo puedo mirar tu correo
+electr¢nico, tus p ginas webs, etc..., siempre y cuando, no robe la informaci¢n
+real de tu disco duro situado en tu casa real, y cosas similares. Al ser un
+espacio p£blico, hay que pagar un can¢n (proveedor), al igual que por usar el
+espectro radioel‚ctrico. Para eso, se usan las direcciones IP, que son como un
+DNI de cada m quina. Este n£mero es un poco m s complejo, y permite dividir
+redes y subredes, en varios tipos: A, B, C, D y E.[NO]
+
+  Este n£mero se direcciona con 32 bits, y por tanto, permite hasta 4 Gigas de[IZQUIERDA]
+direcciones. En realidad son muchas menos, ya que se usan determinadas
+direcciones para pasarelas, y para denotar la red entera. Aunque pueda paracer
+muchas, teniendo en cuenta el n£mero de ciudadanos que existen en el mundo, es
+muy poco. Pero como las £nicas direcciones IP importantes, son las de los
+servidores, pues, parece que esta bien. De hecho, tambi‚n se usan IP's
+din micas, al puro estilo de TELEFONICA, cuando las lineas no estan saturadas.
+
+  Por tanto, si queremos tener el dominio de "PORNO.COM", debemos de pagar un
+canon por tenerlo, o bien, que nos lo den gratis, salvo que no est‚ cogido. Por
+supuesto, ese dominio, por detr s tiene una direcci¢n IP, por ejemplo:[NO]
+
+  160.35.67.6[VERDEFOSFORITO]
+
+  Y este n£mero es como nuestro tel‚fono, pero eso no implica que tenga nada,[BLANCO IZQUIERDA]
+ya que no hemos pagado ni por albergar la p gina web, ni archivos, ni nada.
+Todo eso corre de nuestra cuenta. Tan s¢lo hemos pagado por una IP y porque el
+servidor de dominio de nombres global, nos reconozca ese nombre a nuestra IP.
+
+  Para el caso de estar conectados a un proveedor, esto no nos importa mucho,[IZQUIERDA]
+ya que eso corre a cargo del proveedor. A nosotros, s¢lo nos interesa la subred
+del proveedor.[NO]
+
+  Como cada vez quedan menos IP's libres, ya se lleba trabajando tiempo en la[IZQUIERDA]
+INTERNET2, con direcciones de 64 bits, alegando que son mas que suficientes. Y
+claro, s¢lo hay que recordar la frase de Bill Gates en los 80's:[NO]
+
+  "640 KB son m s que suficientes"[VERDEFOSFORITO]
+
+  No importa la cantidad, tarde o temprano se quedar  corta.[BLANCO]
+
+
+
+
+ Radio[AMARILLO GRANDE]
+
+
+
+  Pues como se coment¢, vamos a tratar de las posibilidades de la radio. La[PCT BLANCO IZQUIERDA]
+radio la cre¢ MARCONI por el siglo XIX. Pues, gracias a la investigaci¢n de
+los radioaficionados, hoy por hoy disponemos de varias modalidades digitales.
+
+  La primera de ellas, es el MORSE. Esta modalidad est  basada en el c¢digo de
+morse. Y como muchos sabreis, sobre todo si sois radioaficionados, es que se
+forman por dos se¤ales:  PUNTO y RAYA.[NO]
+
+  El morse esta muy bien, ya que con un m¡nimo de energ¡a, se llega muy lejos,[IZQUIERDA]
+pero es muy lento, salvo que sea para conversaciones en tiempo real, como un
+chat.[NO]
+
+
+  Otra modalidad es el RTTY. Fue creado por el ingeniero franc‚s Baudot, haya[IZQUIERDA]
+por el a¤o 1877. Se basaba en un nuevo teletipo que funcionaba con 5 teclas. Su
+velocidad de transmisi¢n se mide en BAUDIOS. Y suele tener una velocidad
+inferior a los 100 baudios. Puesto que cada caracter se consigue con la uni¢n
+de 5 bits, y cada bit se transmite a 100 Baudios por segundo, podemos enviar
+20 caracteres por segundo. Al final queda en algo menos, puesto que necesitamos
+c¢digos de control entre emisor y receptor. Para muchos, esto puede parecer
+realmente lento, pero sirve para tiempo real. Daros cuenta, que esto es m s
+r pido que mandar un mensaje por tel‚fono m¢vil.
+  M s tarde se cre¢ el RTTY extendido, que permite trabajar con 7 u 8 bits, por
+lo que podemos incluso enviar archivos. La velocidad del RTTY, puede llegar en
+principio hasta los 1200 Baudios, aunque podr¡a llegar a m s. Sin embargo
+para distincias lejanas se suele usar 45 Baudios. La separaci¢n entre las dos
+se¤ales para enviar (MARCA y ESPACIO) es de 170 Hz, aunque se pueden usar otros
+valores, como 450 Hz y 850 Hz. Y la frecuencia central de de audio suele ser
+del orden de 1350 Hz.[NO]
+
+  Otra modalidad antiga es el SSTV o televisi¢n de barrido lento, que nos[IZQUIERDA]
+permite enviar im genes via radio. La velocidad suele ser de 8 segundos por
+im gen, e incluso 4 minutos.[NO]
+
+  Existen modalidades m s modernas, como el PSK31, creado menos de 3 a¤os. Y[IZQUIERDA]
+esta pensado principalmente para comunicaciones en tiempo real, como chat,
+llegando a 3 caracteres por segundo.[NO]
+
+  Existen otras modalidades m s viejas, como el CLOVER, PACTOR y AMTOR, pero[IZQUIERDA]
+tan s¢lo las comento a t¡tulo de nombre.[NO]
+
+  Y por £ltimo, y m s importante, existe la modalidad de PACKET RADIO, basado[IZQUIERDA]
+en el protocolo AX.25 (Amateur X.25). Esta basado en el X.25 convencional de
+los 80's, pero con mejoras y adaptaciones para la radio. El Radio Packet,cuenta
+sus experimentos, ya desde los 60's, pero no fue hasta los 80's, cuando alcanz¢
+el culmen. Y actulamente, gracias al TCP-IP sobre AX.25, cuenta con mayor
+aceptaci¢n. Las velocidades, van desde los 300 baudios hasta los 100 Mbaudios.[NO]
+
+
+
+ SSTV[AMARILLO GRANDE]
+
+
+
+  Como se coment¢, anteriormente, SSTV, es la televisi¢n de barrido lento. Esto[PCT BLANCO IZQUIERDA]
+quiere decir, que podemos enviar im genes en supuestamente tiempo real, de un
+nodo A a un nodo B. Cuando me refiero a nodos, me refiero a estaciones de
+radioescucha. Esta modalidad fue creada por radiooperadores de licencia A, como
+la mayor¡a de las modalidades. Esto es lo m s parecido a tener una WEBCAM, ya
+que podemos enviar im genes fijas o en movimiento de un nodo a otro.
+Antigamente se requer¡a el uso de camaras especiales, que transformaban las
+se¤ales visuales a tonos de audio, para enviar por la emisora. Por tanto, eran
+aparatosos y caros. Gracias a la proliferaci¢n de los ordenadores dom‚sticos,
+en especial del ordenador AMIGA, y posteriormente del PC, podemos disfrutar de
+SSTV con una simple tarjeta de sonido. Por supuesto, tambi‚n se pueden usar
+modems destinados a tal tarea, pero si tenemos el equipo, ¨por qu‚ molestarnos?
+
+  Existen muchas opciones, dentro del SSTV, como son, el formato Robot, que nos[IZQUIERDA]
+premite enviar una imagen en escala de grises en 8 segundos. Al semejarse la
+SSTV a la TV normal, sigue un patr¢n de resoluciones, como son un acho y alto
+fijo de im genes. Por tanto, aunque nuestra imagen tenga 100 x 100 pixels y sea
+en color, si la enviamos por SSTV en modo ROBOT 8, nos enviar  a 160 x 120
+pixels y en escala de grises. El resto de pixels, se dejan sin rellenar. Y si
+la imagen fuese mayor, se recortaria.[NO]
+
+  Para el caso de mayor calidad, podemos usar el formato Scottie DX, que est [IZQUIERDA]
+en 320 x 256 en color, que tarda 269 segundos, es decir, 4 minutos. Existen
+mas formatos, que compensan la calidad y el tiempo, como son el PD 180, que
+permite una resoluci¢n de 640 x 480 pixels, y por supuesto tarda 180 segundos,
+es decir, 3 minutos.[NO]
+
+  Quizas, para los usuarios de INTERNET, que incluso a 5 KB/s, se descargan[IZQUIERDA]
+gran cantidad de fotos guarras en poco tiempo, les pueda parecer muy lento, y
+es cierto, quizas!!. Pero no se basa, en la velocidad, sino, que en esos 8
+segundos, si el nodo A, est  bien comunicado con el nodo B, le va a llegar esa
+foto, sin preocuparnos, si tiene que pasar por miles y miles de ordenadores y
+subredes, para enviar el archivo. Es decir, est  pensado para tiempo real, y
+nos sirve como FAX. La calidad de la imagen, depende del formato usado, as¡
+como de la distancia en que se encuentram los nodos, y las frecuencias en que
+trabajan, as¡ como las condiciones ambientales (obstaculos, lluvia). As¡, en
+una emisora, en la banda de 14 Mhz, podemos dar la vuelta al mundo, si las
+condiciones son faborables, enviando una foto en SSTV. Aunque, si lo que
+queremos, es enviar una foto a un amigo de nuestra propia ciudad, con una
+emisora de 27 Mhz, incluso un talki, llegar  sin problemas.[NO]
+
+  Las se¤ales del SSTV se basan en el audio, es decir, en tonos o frecuencias.[IZQUIERDA]
+Puesto que las emisoras, al igual que los tel‚fonos, estan pensados para
+trabajar s¢lo en fonia (300 Hz y 3400 Hz), pues se debe de conseguir introducir
+se¤ales, que luego el ordenador, a trav‚s de un modem pueda entender. El modem,
+en este caso, es la tarjeta de sonido y el programa de ordenador. Y lo que hace
+es separar las se¤ales de sincronismo de lineas, que se hace corresponder,
+generalmente, con un tono de 1200 Hz, durante 5 milisegundos. Si le llega esa
+se¤al, significa que debe empezar una nueva linea, como en los televisores.
+Para el que no lo entienda, una TV,el haz de electrones que recorre la pantalla
+para dibujar una imagen, recorre las lineas de izquierda a derecha y e arriba
+a abajo.[NO]
+  El resto de informaci¢n, que no es de sincronismo, son datos, es decir,[IZQUIERDA]
+pixels con color o en blanco y negro, dependiendo de la modalidad. Para guardar
+distancias de seguridad, se ha decidido poner estos datos entre los 1500 Hz y
+los 2400 Hz. Es decir, los colores de cada pixel se codifican con una
+frecuencia entre 1200 Hz y 2400 Hz. Por supuesto, deben de tener una duraci¢n
+dada, para as¡ tener sentido. Adem s la se¤al de sincronismo de 1200 Hz, nos
+da la sincronizaci¢n de cada l¡nea, en caso de interferencias.[NO]
+
+  Las mejores recepciones, se consiguen en las Bandas de 144 Mhz, es decir,[IZQUIERDA]
+con longitud de onda de 2 Metros, y similares. A mayor frecuencia, mejor
+calidad, pero mayor atenuaci¢n, y por tanto, llegan menos lejos. En HF, tanto
+en 14 Mhz, como en 27 Mhz, se consigue llegar m s lejos, pero la calidad es
+peor, aunque si estamos cerca, o aumentamos la potencia, la calidad es mejor.
+  Hay que tener en cuenta, que SSTV, esta pensado para trabajar en modulaci¢n[IZQUIERDA]
+AM de emisora, pero eso si, en modulaci¢n AFSK (Audio Frecuency Shift Key), es
+decir, por modulaci¢n de desplazamiento de Audio, o lo que es lo mismo, por
+tonos de audio.[NO]
+  Adem s tambi‚n se puede usar en Bandas Laterales, tanto en USB, como en LSB,[IZQUIERDA]
+por ser el margen de ancho de banda de 2400 Hz. Sin embargo, eso no quiere
+decir, que no se pueda usar en FM. De hecho, se puede usar perfectamente,
+aunque claro, la distancia de alcance es menor. Pero para ello, s¢lo debemos de
+poner nuestra emisora en modo FM. Al usar FM, nuestro ancho de banda aumenta,
+y por tanto, podriamos usar hasta los 18 Mhz del canal, y por consiguiente,
+aumentar la velocidad de transmisi¢n del SSTV, al permitir m s ancho de banda
+para los tonos. Sin embargo, las emisoras actuales, como coment‚,estan pensadas
+para fon¡a, y les suelen poner filtros de f brica, que incluso en FM, las
+recortan a los 4000 Hz, por lo que hay que modular directamente la se¤al, sin
+pasarla por el micro de audio, al que le afectan los filtros paso bajo.[NO]
+
+  En las pruebas que he hecho en una emisora INTEK de CB normal y corriente, y[IZQUIERDA]
+sin Bandas laterales, con s¢lo AM y FM, s¢lo he podido enviar se¤ales, entre
+los 300 Hz y los 5000 Hz. A partir de 5000 Hz, las se¤ales se confund¡an con
+el ruido, y empezaban a desincronizarse, es decir, si el nodo A, envia una
+se¤al de 4000 Hz, el nodo B, recibe una se¤al de 3800 Hz. Esta desincronizaci¢n
+o desfase empezaba a aparecer a partir de los 3500 Hz, en peque¤os desfases,
+pero al llegar a los 4000, se hac¡an mayores.[NO]
+
+  Para hacer SSTV de forma barata, podeis empezar por un PC, con tarjeta de[IZQUIERDA]
+sonido SOUND BLASTER. Tambi‚n podeis usar la COVOX SOUND, que se coment¢ en el
+art¡culo de la DISKMAG, pero recordar, que s¢lo emite, y no recibe, y adem s
+necesitais amplificarla.[NO]
+  El equipo necesario, puede ser un simple 8088, con S.O. DOS, pero para mayor[IZQUIERDA]
+comodidad, podemos coger un Pentium, con WINDOWS 9x. En el tema de software, se
+necesita un programa, como puede ser, el MMSSTV v1.06. Esta programa es
+Freeware y muy c¢modo de usar, as¡ como el que menos fallos le he encontrado,
+es decir, el que menos se ha colgado. Permite gran variedad de formatos de
+SSTV, as¡ como modo autom tico de recepci¢n, es decir, que es capaz de
+autodetectar el tipo de formato de SSTV que nos envian, en caso, de no tener
+el mismo.[NO]
+
+  En el tema de hardware, teneis que hacer unos peque¤os apa¤os, que se[IZQUIERDA]
+comentan en la secci¢n de RADIO PACKET, m s abajo.[NO]
+  En estas fotos, podeis ver unos peque¤os ejemplos de SSTV, en la imagen[IZQUIERDA]
+original, y la recibida. Los envios se realizaron con una emisora de 27 Mhz
+normal y corriente, junto con un talki de 27 Mhz.[NO]
+
+  Existen otros  programas, como  el  MAPSTV,  que
+permite tambi‚n hacer SSTV.El £nico inconveniente,
+es que es SHAREWARE, y s¢lo permite usar  el  modo
+SCOTTIE. Y por suspuesto, el programa culmen,es el
+Chroma Pix 1.6, de la compa¤ia, SILICON PIXELS. Lo
+podeis descargar, de la p gina web:
+
+  http://www.siliconpixels.com[AZULCLARO]
+
+  Ls presentaci¢n visual del mismo es muy competitiva, as¡ como su f cil[IZQUIERDA BLANCO]
+manejo, y la gran cantidad de filtros visuales de los que dispone. Sin embargo
+sus punto flacos, son que es algo lento, requiere bastante m quina y se cuelga
+bastante. As¡ que es recomendable, no ejeutar m s aplicaciones, que la propia
+Chroma Pix.[NO]
+
+  Si nos da por probar esta modalidad, he de comentar, que lo m s probable, es[IZQUIERDA]
+que nos surja un problema t¡pico, que consiste en el desajuste de la imagen, es
+decir, que nos sale torcida. Esto se debe, a que el sincronismo esta desfasado,
+y dependiendo del desfase, puede salir un poco torcida hacia un lado, o
+irreconocible. A nivel f¡sico, se suele deber, a que no todas las emisoras, se
+encuentran exactamente ajustadas, es decir, un nodo A, puede emitir una se¤al
+de 1200 Hz en el canal de 1 de CB (Banda Ciudadana), que se corresponde con los
+27415 Hz., y un nodo B, puede recibirlo en el mismo canal. Pero el nodo A, no
+emite exactamente en 27415, sino, que puede emitir en 27415.5 Hz o 27416 Hz.
+Y por tanto, el receptor, no recibir  exactamente los 1200 Hz, sino, que ser n
+1200.5 Hz o 1201 Hz. Este desfase, se puede solucionar en emisoras modernas,
+con un regulador de VARICAP, que suele ser un mando, al estilo del regulador de
+volumen. Esto nos permite calibrar nuestro aparato, pero otras veces, este
+desfase, es muy pero que muy peque¤o, y no podremos ajustarlo as¡, o puede
+darse el caso, de que no dispongamos de ese regulador. Para esto, se usa un
+peque¤o calibrador, que suele venir con los programas de SSTV, y nos permite
+ver la gr fica de sincronismo de comienzo de cada linea (1200 Hz). Si vemos que
+est  torcida, debemos de ponerla recta. Dependiendo del programa, tendremos o
+bien que girar la imagen en modo vector, o meter los valores a mano. Otras
+veces incorpora un calculador autom tico, que lo modifica el programa. Y si
+esto no es suficiente, quizas haya que cambiar la frecuencia de muestreo. Un
+valor t¡pico de muestreo, suele ser 11000 Hz, ya que la se¤al m xima suele ser
+de 2400 Hz, y siguiendo el teorema de escanear al menos al doble de la se¤al
+que queremos recibir, se cumple. Cuanto m s alto sea el muestreo, m s CPU se
+requerira, para poder decodificar las se¤ales.[NO]
+
+  Y con esto, creo que va siendo hora, de que hagais una prueba de SSTV. As¡[IZQUIERDA]
+que avisad a un amigo, y que se sintonice en el mismo canal que tu, as¡ como
+que use el mismo formato de SSTV que tu, y ponte a transmitir. El receptor,
+sentir  unos ruidos muy originales, al igual que tu, si tienes los altavoces
+activos.[NO]
+
+  Como podras obserbar, cuando pasas a mandar la imagen, se abrir  la pastilla[IZQUIERDA]
+de tu emisora, y empezar  a enviar los sonidos. Y cuando, acabe, se cerrar  la
+pastilla. Tu amigo, en modo receptor, es aconsejable que tenga el squeltch
+cerrado, al menos lo justo para escucharte a ti. No obstante, esta modalidad,
+al tener se¤ales de sincronizaci¢n, tener el squeltch abierto, no influye mucho
+, por lo general.[NO]
+
+
+
+
+Radio Packet[AMARILLO GRANDE]
+
+
+
+  La modalida de SSTV, est  muy bien para enviar imagenes de tiempo real, pero[PCT BLANCO IZQUIERDA]
+quizas, un d¡a, alguien tenga pensado enviar un mensaje o incluso un archivo a
+una estaci¢n o nodo vecino, al puro estilo de INTERNET. Si lo que quereis, es
+mantener una conversaci¢n a golpe de teclado, como pueda ser con el comando
+talk de LINUX, o con un chat, podeis probar suerte con el PSK31 o incluso RTTY.
+  Sin embargo, estos modos tienen el inconveniente, de seguir las normas[IZQUIERDA]
+cl sicas de comunicaci¢n, es decir, dejan abierto siempre el circuito, incluso
+cuando no emitimos nada.[NO]
+  En el mundo de los radioaficionados, significa, que estaremos con la pastilla[IZQUIERDA]
+apretada todo el rato, es decir, estaremos metiendo portadora, en caso, de no
+emitir nada. Si estamos un rato muy pero que muy prolongado con la pastilla
+apretada, podemos quemar los anfenoles. Pero bueno, para ello, se ha a¤adido
+un opci¢n en lor programas para abrir y cerrar pastilla. Pero claro, tenemos
+que estar pendientes, de ello. Una soluci¢n, es hacernos nosotros mismos el
+programa, y la otra, usar el RADIOPACKET.[NO]
+
+  Si usamos el RADIOPACKET, tambi‚n mejoraremos la velocidad de transmisi¢n, y[IZQUIERDA]
+por supuesto, nos permitir  enviar archivos, imagenes, e incluso chatear, pero
+todo ellos, bajo el protocolo AX.25. Cuando queremos enviar datos de un nodo A
+a un nodo B, via radio con AX.25, estos datos se trocean en paquetes, al estilo
+de IP. Y por supuesto, s¢lo se envian, cuando se necesita, es decir, no hace
+falta tener todo el rato la pastilla apretada. El AX.25 se basa en los niveles
+de red. En concreto hay 3 niveles b sicos:[NO]
+
+  - Fisico[AMARILLO]
+  - Comunicacion
+  - Aplicacion
+
+  Sin embargo, pueden existir hasta 7 niveles. En el nivel l¢gico, los paquetes[IZQUIERDA BLANCO]
+estan formados por tramas. Y existen tres tipos de tramas:[NO]
+
+  - Trama I    --> Informaci¢n.[AMARILLO]
+  - Trama II   --> Supervisi¢n o Control.
+  - Trama III  --> No numeradas.
+
+  Cada trama comprende un FLAG (campo de bandera), un campo de direcciones, un[IZQUIERDA BLANCO]
+campo de control, un campo de informaci¢n, un campo de CRC y una bandera final.
+Por supuesto el FLAG indica el comienzo y el final de una trama, y puede ser
+compartido por dos tramas. Su longitud es de 8 bits (1 byte), y su valor es
+£nico, y vale:[NO]
+
+  01111110 (binario) --> 7E (hexadecimal)[AMARILLO]
+
+  Como los valores posibles de codificaci¢n, son 0 o 1, esto quiere decir, que[IZQUIERDA BLANCO]
+no podremos en ning£n caso, encontrar una secuencia en que se repitan los seis
+1 del FLAG, ya que es un c¢digo de distinci¢n.[NO]
+
+  El campo de direcciones, contiene el indicativo de la fuente y del[IZQUIERDA]
+destinatario. Como esta pensado por radioaficionados, sus nombres suelen ser de
+la forma EA12B2. Por tanto, se han dejado 7 bytes para el origen y 7 para el
+destino, en total 14 bytes. Sin embargo, el AX.25, puede trabajar en modo
+digipeater, es decir, lo mismo que los nodos repetidores de INTERNET.Por tanto,
+se ha ampliado este campo, para admitir hasta 8 digipeaters con su indicativo,
+y por consiguiente, se amplia a 70 bytes.[NO]
+
+  El campo de CRC (CHECK REDUNT CYCLIC) es de 16 bits, y permite hacer chequeos[IZQUIERDA]
+redundantes, para comprobar a nivel l¢gico si la trama es correcta o no. En
+caso de no ser correcta, se desecha.[NO]
+
+  Existen muchas opciones que no se han comentado todab¡a, pero eso queda para[IZQUIERDA]
+n£meros siguientes. Por ahora, s¢lo quedaros con esto. En concreto, lo £nico
+que nos interesa a nivel extra, es el tipo de trama III (Unproto). Esta trama,
+indica, que se va a enviar una trama sin protocolo. Esto nos sirve para montar
+TCP IP bajo AX.25. Daros cuenta, que si s¢lo queremos contactar con un nodo
+vecino, todo parece sencillo, pero en ESPA¥A existe una red de packet, en
+concreto tenemos la URE,y han gastado bastante dinero en poner rooters hardware
+basados en NET-ROM, que trabajan sobre AX.25. Si ahora mismo, pusiesemos TCP-IP
+sin AX.25, tendriamos que gastar dinero en cambiar todos los rooters, ya que el
+hardware siempre es m s caro que el software.[NO]
+
+  Para hacer radio packet, necesitamos una emisora, y un equipo emisor y otro[IZQUIERDA]
+receptor sintonizados en la misma frecuencia y a la misma velocidad. A
+diferencia de INTERNET, si un nodo A emite datos de 300 baudios, y un nodo B
+los recibe a 1200 baudios, los dos equipos no se podr n comunicar. Esto se
+puede solucionar, pero claro, program ndolo nosotros mismos. En el tema de
+ordenador, la cosa varia. Por un lado, podemos usar un TNC con modem. TNC es
+un Nodo Terminal, y es un ordenador, que dispone de memoria para guardar no
+s¢lo tramas AX.25, sino, correo electr¢nico, y dem s. Dispone de una ROM, en
+donde estan todas las rutinas del AX.25. Y normalmente suele venir con un modem
+que se conecta a la emisora. Este modem es el que envia los 1's y 0's
+transformados en tonos, por ejemplo, en 1200 Hz y 2200 Hz. Tambi‚n dispone de
+un puerto serie o paralelo para conectar con un PC, en el caso de querer enviar
+o recibir datos el ordenador. Es decir, un TNC, es un ordenador de red. El
+problema que tienen es que son caros, al menos de primera mano. El m s barato
+son 240î. Y por supuesto, suelen traer un modem de 1200 baudios, y como mucho
+9600 baudios. Por supuesto, normalmente, dejan poder sustituirlo por un modem
+diferente, m s r pido, por ejemplo de 14000 baudios, etc...[NO]
+
+  Seguro que m s de uno, estar  pensando que estoy loco. ¨Como voy a gastar[IZQUIERDA]
+240î para navegar a 1200 baudios? 8-D)))  Pero tranquilos, existen muchas
+soluciones:[NO]
+
+  - Pedir una hipoteca al banco[AMARILLO]
+  - Vender tu cuerpo a la ciencia
+  - Trabajar de noche
+  - Mantener un servidor porno
+
+  Es broma. La respuesta es m s sencilla. Puesto que la mayor¡a de vosotros[IZQUIERDA PCT BLANCO]
+teneis un PC, podeis prescindir del TNC, y usar un modem. Ahora el TNC ser  el
+programa que corre en vuestro PC, y dependiendo de vuestro equipo, podreis
+hacer m s o menos cosas. Y claro, ahora viene el tema del modem. Pues claro, el
+modem es m s barato que el TNC, pero lo m s t¡pico, suele ser 66î. Si disponeis
+de tarjeta de sonido, podeis pillar el SOUND BLASTER PACKET, que suele andar en
+torno a los 40î. Por supuesto, todo esto no incluye los cables y los
+adaptadores, que correran de vuestra cuenta.[NO]
+
+  Y claro, llegados a este punto, la mayor¡a dir : ¨Pero como voy a gastar yo[IZQUIERDA]
+60 î para hacer packet?. Y luego, tengo que convencer a mi vecino para que
+gaste otros 60 î, para conectarse conmigo.[NO]
+
+  Pero tranquilos, hay remedio para todo, menos para la muerte. Para ello, si[IZQUIERDA]
+disponeis de PC y tarjeta de sonido, podeis construiros vuestra SOUND BLASTER
+PACKET, por menos de 6î, y con cables y conectores incluidos. Eso si, si
+necesitais 50 metros de cable, pues claro, os saldr  un poco m s caro.[NO]
+
+  El plan consiste, en tiraros al manual de la emisora de radio m s cercano que[IZQUIERDA]
+tengais, y mirar para que sirve cada pin del micr¢fono de la pastilla de la
+emisora. Debemos de dar con la masa, con la PTT (Abre y cierra pastilla) y
+con el pin de emisi¢n de audio. En total hay 3 pines involucrados. Si teneis
+una emisora de CB normal, vuestro enganche ser  de 4 conectores. El 4§ suele
+ser de recpci¢n, es decir, lo mismo que si conectamos un altavoz a ‚l. Pero
+claro, este pin no nos interesa, ya que para recepci¢n vamos a usar el jack de
+la salida de la emisora, es decir, donde conectamos los altavoces. Si vuestra
+emisora es de 5,7 o m s enganches, no os desespereis, ya que todas, tienen
+esos 3 pines.[NO]
+
+  Esto s¢lo era para calentar. En la parte de recepci¢n, es decir, si por[IZQUIERDA]
+ejemplo queremos recibir una trama AX.25 UMPROTO, o una imagen de SSTV,tan s¢lo
+hemos de conectar la salida de audio de la emisora a la entrada de audio de la
+tarjeta de sonido. Normalmente, desde Windows, en panel de control de volumen,
+debemos de bajar los par metros de recepci¢n, ya que suele salir muy alto. Otra
+opci¢n, es meter un atenuador, de tal forma, que ponemos una resistencia de
+100 Kê en serie junto a una resistencia de 1 Kê en paralelo. Esto se puede
+hacer dentro del encapsulado, pero para recepci¢n no es necesario. Adem s se
+deber¡a de hacer un atenuador para el canal izquierdo y el derecho.[NO]
+
+  Ahora volvemos a la parte de  emisi¢n. Para
+emitir, debemos de usar el  puerto serie, m s
+que nada por motivos de seguridad, ya que  el
+paralelo, es  m s  d‚bil, y ante tensiones de
+m s  de  5 V, podr¡a quemarse, si no se toman
+las medidas oportunas. Recordar,que el puerto
+serie trabaja con valores de +12 V y -12 V.
+  En  caso  de  usar  un encapsulado serie de
+DB25, la patilla implicada ser  la 4,mientras
+que  la  masa ser  la 7. Si el encapsulado es
+DB9, ser  el pin 7 y para masa el pin 5.
+  Podemos usar un  transistor  2N2222, y  dos
+diodos 1N4148. Las resistencias pueden ser de
+10 Kê o 4,7 Kê, pero valdr¡a de m s.Seguir el
+circuito, exacto a la figura, y tened cuidado, ya que podr¡ais da¤ar el puerto
+serie.[NO]
+  Luego, debeis de unir el pin PTT de la emisora al colector del transistor,[IZQUIERDA]
+en donde aparece como PTT del dibujo. Y el pin de masa de la pastilla, debe
+unirse al mismo punto de masa del puerto serie. Si todo funciona, cuando se
+envi‚ un dato al pin RTS del puerto serie, se estar  haciendo un cortocircuito
+entre la linea PTT y la masa de la emisora, y por tanto, es como si se apretar 
+la pastilla.[NO]
+
+  Ahora queda el tema del audio. Para ello, debemos de hacer un cable que salga[IZQUIERDA]
+de la tarjeta de sonido y vaya al pin de entrada de audio de la emisora, es
+decir, al MIC de la emisora. El problema, es que la se¤al, aunque bajemos el
+volumen, es muy potente, y har  que nuestros datos salgan sobremodulados por
+los dem s canales, es decir, diafonia. Para ello, debemos de ponerle un
+atenuador con una resistencia de 100 Kê en serie y 1 Kê en paralelo. Como por
+lo general, la se¤al es mono, podemos coger cualquier canal, ya sea el
+izquierdo o el derecho. Y cuando, todo est‚ soldado, s¢lo nos queda, probarlo.
+  Si por alg£n motivo, nuestra emisora, tiene un manos libres, no necesitaremos[IZQUIERDA]
+construir este aparato al puerto serie, ya que con meter un cable de salida de
+sonido, ya activar¡a la pastilla.[NO]
+
+  Los programas que podemos usar, son el FLEXNET, algo dificil de configurar[IZQUIERDA]
+bajo WINDOWS, o bien el AGW PACKET. La ventaja de usar el AGW PACKET, es que
+permite no s¢lo usar el AX.25 con nuestro aparatito, sino, que permite usar
+TCP-IP bajo AX.25 y de forma muy f cil. El inconveniente, es que es shareware,
+y la versi¢n TCP-IP, s¢lo dura 1 hora. Al cabo de 1 hora, hay que volver a
+cargar el programa. Sin embargo, el AX.25 es plenamente operativo. El Flexnet
+tambi‚n permite usar el TCP-IP, pero hay que deshabilitar el dispositivo de
+Sonido y es m s dificil de configurar. En los pr¢ximos n£meros comentar‚ como
+configurarlo de manera optima.[NO]
+
+  Pues, el AGW PACKET, permite usar el AX.25, de hecho podemos descargar no[IZQUIERDA]
+s¢lo un programa de BSS y monitorizaci¢n de AX.25, sino un TELNET. Por
+supuesto, una vez que funcione el TCP-IP, podemos usar todas las aplicaciones
+de INTERNET, sin preocuparnos de si son compatibles con AX.25. De hecho, he
+podido jugar al QUAKE III en red, con AGW PACKET, eso si, no muy r pido.[NO]
+
+  Una vez que os descargueis el AGW PACKET, debeis de instalar el driver[IZQUIERDA]
+SV2AGW TCP/IP Adapter. Este controlador no se permitir  instalar en WINDOW ME
+de la forma tradicional en agregar nuevo controlador de red, sino que tendreis
+que agregar nuevo hardware, y luego ir a controlador de red, y poner el driver
+que viene adjunto con el AGW PACKET. Luego reinicias el ordenador y cargais el
+programa AGW. Luego en propiedades, debeis de a¤adir un nuevo puerto. Si es
+simple, os cojer  el canal izquierdo. Este programa permite trabajar con el
+canal izquierdo y el derecho para controlar dos emisoras. Y en DialNet podeis
+activar o no el TCP-IP. A partir de ahora asignais un IP en propiedades de red
+sin que intervenga con subredes que tengais montadas, y terminado. Si quereis
+contactar con otra persona, podeis hacer algo as¡:[NO]
+
+  ping 168.95.34.2[AMARILLO]
+
+  Si la estaci¢n con la que quereis contactar es esa. Si usais el AX.25[IZQUIERDA BLANCO]
+tradicional, debeis de poner un nombre de estaci¢n, para contactar con ella.
+Con este programa, yo he alcanzado velocidades de 1200 baudios en HF. As¡ que
+ahora, s¢lo necesitais un servidor web, y vuestros amigos radioaficionados,
+podr n navegar por vuestra p gina via radio. Tambi‚n existen programas que
+hacen de pasarela entre diferentes subredes, como el TNOS. Esto nos permitir¡a
+navegar por INTERNET via radio a traves de un ordenador que est  conectado a la
+radio y a un modem telef¢nico. Esto, en Espa¤a, en la ‚poca actual, es ilegal,
+pero en otros paises es legal. De hecho, los radioaficionados tiene el IP
+44.x.x.x comprado. Y por consiguiente, cualquier direcci¢n a la que intentemos
+acceder que empiece por ese n£mero est  conectada via radio. Yo he probado
+alguna, y van muy r pido. Suelen tener un comprobador de indicativo, y si no
+estas registrado como radioperador de licencia A, B o C, pues no te dejan
+pasar, aunque alguno deja entrar en modo an¢nimo.[NO]
+
+  Bajo LINUX, necesitaremos recompilar el kernel y activar la opci¢n de AX.25,[IZQUIERDA]
+as¡ como cargar los m¢dulos para usar la tarjeta de sonido, y modular en AM
+o FM.[NO]
+
+
+
+Conclusion.[AMARILLO GRANDE]
+
+
+
+  Pues hasta aqu¡, ha llegado el cap¡tulo de hoy, que ha sido largo. En[IZQUIERDA PCT BLANCO]
+pr¢ximos n£meros, vereis como se modula las se¤ales digitales en los
+diferentes modems via radio, as¡ como la situaci¢n actual del packet en Espa¤a
+y en el mundo, en especial, la red de alta velocidad de Ucrania.[NO]
+
+  Y por supuesto, explicar‚ un poco el proyecto, que tengo pensado para hacer[IZQUIERDA]
+un modem econ¢mico y r pido, basado en tarjeta de sonido, pero con un protocolo
+diferente al AX.25, y similar al NEWQPSK de m s de 2400 Baudios en HF.[NO]
+
+  Espero eso si, que hagais pruebas en radio packet, pero por supuesto de forma[IZQUIERDA]
+legal, o para investigaci¢n (27 Mhz), al menos hasta que tengais la licencia de
+radioaficionado, como yo, que desde Noviembre, ya dispongo de licencia de
+radiooperador de clase B, pero todab¡a no he comprado las letras.[NO]

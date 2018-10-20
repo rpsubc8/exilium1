@@ -1,0 +1,568 @@
+[FOTOS 3]
+21 72 15 1
+22 73 56 400
+23 74 53 541
+[PCT BLANCO]
+
+
+
+
+
+
+
+
+
+
+  GameBOY es una consola port til creada por los a¤os 80. Muchos ni¤os por[IZQUIERDA]
+aquella ‚poca deseaban tener una consola portatil de este estilo. Y hoy por
+hoy todab¡a se sigue vendiendo, y sino, id por las tiendas de videojuegos.
+  Actualmente existen modelos mejorados, como la GAME BOY COLOR y la m s
+novedosa GAME BOY ADVANCED, a la cual le dedicaremos un n£mero proximamente.
+  En los a¤os 90's, a la GAME BOY de NINTENDO le toco luchar contra la GAME
+GEAR de SEGA. Las dos heran port tiles, pero la de SEGA era en color y de 16
+bits, frente a los 8 bits de NINTENDO. Incluso se podia ver la tele, poni‚ndole
+un aparato especial (muy caro). Pero el destino le jug¢ una mala pasada, y hoy
+por hoy, NINTENDO sigue siendo el rey en conolas port tiles, ya que incluso mas
+de 10 a¤os despu‚s de la creaci¢n de la GAME BOY, se sigue vendiendo. Su punto
+a favor, era la poca consumici¢n de baterias, que en el caso de SEGA era muy
+elebado. Y por supuesto, el precio de los cartuchos (era bajo), favorecio a su
+venta maxiva.[NO]
+
+  Quizas alguno este pensando ¨Y a mi que me importa esto?. Pues una cosa est [IZQUIERDA]
+clara, y es que aqui no os voy a ense¤ar como jugar a la GAME BOY, ni como
+piratear ROMS para ella. Tan s¢lo os voy a ense¤ar a programar para GAME BOY.
+Lo que hagais luego con esto, es cosa vuestra, ya sea realizar un preview de
+un juego, o una demo. Si quereis desarrollar juegos para GAME BOY, debereis
+pagar derechos a NINTENDO. As¡ que es mejor, que primero aprendais y luego
+intenteis mandar un preview a una empresa, para que os contraten. Si por el
+contrario, quereis hacer una demo para la DEMOSCENE, os dir‚, que podeis seguir
+este cap¡tulo, ya que se explicar  como usar un EMULADOR de GAME BOY y las SDK
+para programar ROMS de GAME BOY.[NO]
+
+  Hay que recordar, que aunque en ESPA¥A no existe una gran movilizaci¢n de la[IZQUIERDA]
+demoscene en las CONSOLAS, en otros paises, si, sobre todo de GAME BOY, PSX y
+PSX2. Un ordenador no es s¢lo un PC, sino que los son tambi‚n las CONSOLAS.[NO]
+
+
+
+
+Caracteristicas.[AMARILLO GRANDE]
+
+
+
+  Posee un procesador central de 8 bits y 4 Mhz. Muchos podreis pensar que[PCT BLANCO IZQUIERDA]
+es igual a un CPC o un COMMODORE, pero posee varias diferencias.[NO]
+
+  Alcanza resoluciones visuales de 160 x 144 pixels, que teniendo en cuenta el[IZQUIERDA]
+peque¤o tama¤o de su pantalla, es perfecto. El £nico inconveniente, es que es
+en blanco y negro, en concreto, en escala de grises. Pero esto se ha
+solucionado, introduciendo la GAME BOY COLOR.[NO]
+
+  Su memoria de video, esta basada en chips de VRAM, que le permiten guardar[IZQUIERDA]
+im genes de hasta 256 x 256 pixels. Ademas dispone de una serie de efectos
+hardware, como son los scrolls, y algun FADE OUT.[NO]
+  La memoria de video VRAM empieza en la zona de memoria 8000 y termina en la[IZQUIERDA]
+97FF en hexadecimal. Esto es importante, para los que os guste el ensamblador.[NO]
+
+  Una pantalla puede trabajar con hasta 1024 TILES. M s tarde se explicar  lo[IZQUIERDA]
+que son. Y cada TILE puede poseer 4 colores. Los TILES poseen una resoluci¢n de
+8 x 8 pixels.[NO]
+
+  Tambi‚n se permite trabajar con SPRITES, que pueden ser de 8 x 8 pixels o de[IZQUIERDA]
+8 x 16 pixels. Adem s cada sprite puede tener 4 colores de 2 paletas posibles.
+  Al ser las consolas un sistema empotrado, poseen todo lo referente a los
+gr ficos integrado en hardware, es decir, posee ACELERACION HARDWARE.Por tanto,
+la memoria RAM de los SPRITES empieza en FE00 y termina en FE9F en hexadecimal.
+Esta memoria no pertenece a la memoria de video.[NO]
+
+  La memoria del DISPLAY es de 64 Kbits, es decir 8192 bytes, al igual que la[IZQUIERDA]
+de trabajo. Existen dos controladores de bancos de memoria (MBC), que pueden
+ser usados. El primero (MBC1) es el estandard, y se usa por muchos cartuchos
+ROM. El segundo (MBC2) es usado por muchos cartuchos ROM que necesitan grabar
+datos RAM extra, que es de 256 Kbits, es decir, 32768 bytes. [NO]
+
+  El MBC1 cuando controla ROM, s¢lo puede leer hasta 16 Mbits, es decir, 2 MB.[IZQUIERDA]
+Y cuando controla RAM, s¢lo puede leer 4 Mbits, es decir, 512 KB.[NO]
+
+  EL MBC2 controla los BACKUP de RAM y es de 512 x 4 bits. Se puede ampliar[IZQUIERDA]
+hasta 2 Mbits (16 KB x 16).[NO]
+
+
+  En el tema del sonido, se dispone de 2 canales, el izquierdo y el derecho.[IZQUIERDA]
+Pero hay cuatro formas de producir sonido, entre ellas, ondas cuadrangulares,
+con samples y con ruido.[NO]
+
+
+  La GAMEBOY posee, como alguno sabr , un jostick. Bueno en concreto, unos[IZQUIERDA]
+botones, que actuan en modo de cursores. Pues la zona de memoria para
+controlar el JOY PAD, es la FF00 en hexadecimal. En concreto, en la GAME BOY
+s¢lo hay 8 botones, que son el A, B, Select, Start, Up, Down, Left y Right. Por
+tanto hay 8 bits posibles. Pero por ahora, no vamos a trabajar en modo tan a
+bajo nivel, ya que esto s¢lo es introductorio para el hardware.[NO]
+
+  Tenemos un enganche para transferencia serie en nuestra GAME BOY, cuya zona[IZQUIERDA]
+de memoria es la FF01 en hexadecimal, es decir, 1 byte despu‚s del JOY PAD.Esto
+nos permite jugar con otro amigo conectado a otra GAME BOY con un cable, o
+para hacer transferencias de las ROMS de la GAME BOY.[NO]
+
+  Por el medio, existen varios registros, como contadores, interrupciones y[IZQUIERDA]
+dem s, que nos vamos a salar, por ahora, para ir directamente al registro del
+LCDC (Control de la pantalla). Su zona de memoria es la FF40 en hexadecimal, y
+posee 8 bits (1 byte) de lectura y escritura, que nos permite apagar la
+pantalla o encenderla, dejar de dibujar o coger zonas de memoria en concreto.[NO]
+
+   En la siguiente posici¢n, FF41,tenemos el estado del control de la pantalla.
+   El registro FF42, FF43, FF44 y FF45, nos permiten hacer SCROLLS, y el FF47[IZQUIERDA]
+nos deja trabajar con la paleta de colores.[NO]
+
+
+  Bueno, creo que con esto basta por ahora, aunque nos quedan muchos m s[IZQUIERDA]
+registros por explicar. Pero por ahora, podeis quedaros con esto:[NO]
+
+  El procesador de la GAME BOY direcciona hasta 4 Mbits de direcciones[AMARILLO]
+  Para ello, usa la t‚cnica de BANK SWITCHING (COMMUTACION DE BANCOS). Al puro
+estilo de la memoria EMS (expandida) de los PC's. Trabajo con un bloque fijo, y
+cuando quiero m s, quito ese bloque y cargo otro.[NO]
+
+  La memoria ROM va desde la posici¢n 8000 hasta la 7FFF.
+  Posee una zona de memoria llamada banco 0, que va desde la 0000 hasta 3FFF.
+  El banco 1 va desde la 4000 hasta la 7FFF
+  El banco 2 va desde la 4000 hasta la 7FFF
+  El banco 3 va desde la 4000 hasta la 7FFF
+
+  Los bancos y direcciones que empiezan por 4000, se llaman direcciones de CPU.
+
+  Para commutar los bancos de memoria, se usar  el registro MBC1.
+
+  El  registro MBC2 se usa para las ROMS.
+
+  Los cartuchos pueden ser:
+
+        - Solamente ROM
+        - ROM + MBC1
+        - ROM + MBC1 + RAM
+        - ROM + MBC1 + RAM + BATERIA
+        - ROM + MBC2
+        - ROM + MBC2 + BATERIA
+
+  El tama¤o de ROM puede ser:
+
+        - 256 Kbits
+        - 512 Kbits
+        - 1 Mbit
+        - 2 Mbits
+        - 4 Mbits
+
+  El tama¤o de RAM puede ser:
+
+        - Nada
+        - 16 Kbits
+        - 64 Kbits
+        - 256 Kbits
+
+
+
+
+
+Caracteristicas breves[AMARILLO GRANDE]
+
+
+
+  Si a pesar de todo lo explicado, seguis sin tener una idea clara de las[PCT BLANCO IZQUIERDA]
+caracter¡sticas, aqui va un peque¤o resumen:[NO]
+
+  CPU:                8 bits, similar a Z80[AMARILLO]
+  RAM:                8 Kbytes
+  VideoRAM:           8 Kbytes
+  Video Pulgadas:     2.6"
+  Resoluci¢n:         160 x 144
+  N£mero sprites:     40
+  Sprites por linea:  10
+  Tama¤o sprite:      8 x 8  y  8 x 16
+  Velocidad Clock:    4.194304 Mhz
+  Sonido:             4 canales con estereo
+  Alimentaci¢n:       DC 6V 0.7W
+
+  Cuando digo, que el procesador es similar al Z80, es porque lo es. Se parece[BLANCO IZQUIERDA]
+al INTEL 8080, pero posee muchas instrucciones del Z80, pero con muchas m s
+nuevas.[NO]
+
+
+
+Manos a la obra[AMARILLO GRANDE]
+
+
+
+  Despu‚s de tanto, rollo, viene la parte interesante, que es programar la GAME[PCT BLANCO IZQUIERDA]
+BOY. Para ello, primero tenemos que conseguir una GAME BOY ORIGINAL. El precio
+de una GAME BOY est  en torno a los 42î. Y luego necesitais por supuesto un
+ordenador, a ser posible un PC, para poder programar en ‚l. M s tarde y gracias
+a la herramienta hardware XChanger, podremos pasar nuestros programillas hechos
+en PC a cartuchos, que pueden ser usados en GAME BOY. El XChanger permite
+introducir un cartucho  de hasta 16 Mbits, gracias al DOCTOR GB CARD. Esta
+cantidad es m s que suficiente en el mundo de GAME BOY, donde cada bit es un
+tesoro, pero claro, cada cartucho y todo esto, sale pero que muy caro.[NO]
+
+   Por tanto, la soluci¢n mas id¢nea es usar un ordenador, a ser posible PC, y[IZQUIERDA]
+un emulador de GAME BOY para ese ordenador. A ser posible, debemos de coger un
+ordenador r pido, ya que cuanto m s r pido sea, m s olgado ir  el emulador.
+Para el caso de PC, se requiere como m¡nimo un 80386 con S.O. DOS. Tambi‚n
+existen emulador de GB para AMIGA, APPLE, e incluso emuladores de GB dentro de
+consolas o PDA's. En cuanto al Sistema Operativo, existen emulador de GB para
+DOS, WINDOWS, LINUX, AMIGA OS, BeOS y dem s.[NO]
+  Con esto, nos deshacemos de la opci¢n de comprar una GB de 42î, a no ser que[IZQUIERDA]
+realmente queramos ver nuestro trabajo, ejecut ndose en ella.[NO]
+
+  Podemos probar suerte con el emulador SMYGB, para WINDOWS, aunque podemos[IZQUIERDA]
+bajarnos el SDL GB o alguno parecido. Toda la ROM y hardware de la GB ser 
+emulada y viene incluido en el emulador, por lo que no necesitaremos pagar
+licencias extra¤as o pasar a archivo la imagen de la ROM de la GB original.
+  Una vez que arranquemos el emulador, nos pedir  introducir una ROM de GB, que
+suelen tener la extensi¢n .GB. Esta ROM no es m s que la ROM de un juego o
+demo que queramos ejecutar. Para ello, debemos de tener esa ROM convertida a
+imagen de archivo. Hay que destacar, que las ROM's tienen derechos de copyright
+y siguen los mismos c nones que los cartuchos reales.[NO]
+
+  Mientras tanto, nos podemos entretener configurando la prioridad de emulaci¢n[IZQUIERDA]
+, as¡ como el teclado, la resoluci¢n y otros par metros del emulador. Y despu‚s
+nos podemos descargar alguna DEMO o ROM que este libre de COPYRIGHT, para
+probar si funciona bien el emulador. Si por alg£n motivo no funciona bien,
+probad con otro emulador, o a descargar de nuevo la ROM. Al final, tendreis que
+tener ‚xito. Cuando salga la m£sica y los gr ficos por pantalla, quiz s no os
+guste mucho, ya que ver las 2.6" de la GB real es m s c¢modo que verlo en la
+pantalla del ordenador, donde se ven los PIXELS a leguas.[NO]
+
+
+
+SDK[AMARILLO GRANDE]
+
+
+
+  Pues una vez descagado y ejecutado el emulador, podeis buscar el KIT de[PCT BLANCO IZQUIERDA]
+desarrollo de GB, es decir, las SDK. Para ello debeis de buscar las GAME BOY
+Development por INTERNET, y que gracias a DIOS son libres. Actualmente, las
+tenemos para DOS, pero tambi‚n existen para WINDOWS y desde hace pocos meses,
+para BeOS. Todas funcionan igual, pero personalmente, prefiero las del DOS,
+porque se cuelgan y consumen menos.[NO]
+
+
+  Estas SDK, no son m s que las herramientas necesarias para poder programar la[IZQUIERDA]
+GB de forma c¢moda en un ordenador. Para ello, usan un compilador cruzado, es
+decir, un compilador que funciona en una m quina, y que genera c¢digo binario
+para otra. Existen compiladores cruzados para casic cualquier m quina, como
+PSX, CPC, AMIGA, e incluso para el procesador MERCED.[NO]
+
+  Las SDK, nos traen no s¢lo un compilador de C para GB, junto a sus librerias,[IZQUIERDA]
+sino un linkador y un ensamblador para la misma. Por ahora, nos aprobecharemos
+de la facilidad del C y de las librerias para programar la GB en C, pero m s
+en pr¢ximos cap¡tulos, pasaremos a trabajar en ensamblador, para sacar un mayor
+provecho de la m quina.[NO]
+
+
+  Una vez descargadas las GBDK-2.0 de la direcci¢n:[NO]
+
+  http://lsewww.epfl.ch/~felber/GBDK[VERDEFOSFORITO]
+
+  Podemos pasar a descomprimirlas a un directorio del disco duro. Nos quedar [IZQUIERDA BLANCO]
+un  rbol de la siguiente forma:[NO]
+
+  /bin[AMARILLO]
+  /doc
+  /examples
+  /include
+  /lib
+  gbdk.bat
+
+  El GBDK.BAT es un archivo con las varibles de entorno de la GB. En el directorio DOC[BLANCO IZQUIERDA]
+se encuentra toda la documentaci¢n de la GB, en EXAMPLES, algunos ejemplos, y
+en INCLUDE y LIB, las librerias y .H para programar en C. En el directorio BIN,
+est n los compiladores, entre ellos: AS, CPP, LCC, LINK, MACCER y RCC, que nos
+permiten trabajar en C o ensamblador.[NO]
+
+
+
+Primer programa[AMARILLO GRANDE]
+
+
+
+  Vamos a crear nuestro primer programa en GB. Para ello, se proceder  a[PCT BLANCO IZQUIERDA]
+introducirnos en el directorio EXAMPLES, y ejecutar el comando MAKE.BAT. Si
+mirais dentro del archivo MAKE.BAT, veremos como va llamando al linkador del
+directorio correspondiente en BIN. Si todo sale bien, al cabo de unos segundos,
+tendremos creados una serie de archivos en formato .GB, que podran ser usados
+en nuestro EMULADOR. As¡ que ahora, s¢lo os queda arrancar el emulador y probar
+por ejemplo, el archivo GALAXY.GB. Os saldr  un planeta movi‚ndose. Si sois
+valientes, podeis hecharle un vistazo al c¢digo fuente. Pero tranquilos, podeis
+seguir mirando m s ejemplos, como:[NO]
+
+  BANKS.GB    --> Trabaja con los bancos de memoria (comentado anteriormente).[AMARILLO]
+  COMM.GB     --> Compruba el JOY PAD
+  PAINT.GB    --> Programa de dibujo
+  RAND.GB     --> Genera n£meros aleatorios
+  RPN.GB      --> Trabaja con la pila de memoria
+  SOUND.GB    --> Genera sonidos
+  FILLTEST.GB --> Uso de las primitivas gr ficas
+  FONTS.GB    --> Trabaja con las fuentes de letra
+  RAM_FM.GB   --> Trabaja con la memoria
+
+  Por supuesto, los archivos con el c¢digo fuente, tendran la extensi¢n .C.[BLANCO]
+
+
+
+
+Programa propio[AMARILLO GRANDE]
+
+
+
+  Mas de uno estar  pensando, que estan muy bien los programillas anteriores,[PCT BLANCO IZQUIERDA]
+pero seguro que estareis pensando en hacer algo por vosotros mismos. As¡ que
+aqui va:[NO]
+
+
+#include <gb.h>[AMARILLO]
+unsigned char Buffer_Avion[]={
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,
+0x01,
+0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x01,0x07,0x06,0x1B,0x1C,0x7D,0x62,0xFF,
+0x80,
+0x00,0x00,0x1C,0x1C,0x7E,0x62,0xFE,0x82,0xDE,0x22,0xEE,0x1E,0xFE,0x3A,0xFF,
+0xC9,
+0x06,0x07,0x1F,0x18,0x7F,0x60,0xF7,0x88,0xFB,0x87,0x7F,0x4C,0x7F,0x74,0x77,
+0x6C,
+0xFF,0x03,0x7F,0x8E,0xBF,0x77,0xFF,0xE7,0xFF,0x30,0x73,0x9C,0xB9,0x4E,0xF5,
+0x36,
+0xDF,0x29,0xEF,0x11,0xFE,0x06,0xF8,0x18,0xE0,0xE0,0xC0,0x40,0xE0,0x20,0xE0,
+0x20,
+0x7F,0x44,0x3F,0x23,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+0x00,
+0xC2,0xC3,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x01,0x00,
+0x00,
+0xB0,0x70,0x68,0xD8,0xEE,0x9E,0x7F,0x49,0x79,0x4F,0xB6,0xCE,0x68,0x98,0xF0,
+0xF0,};
+
+unsigned char Map_Avion[]={
+1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,
+} ;
+
+UWORD BkgPaletas[]=
+{
+992, 11996, 7703, 0, 
+} ;
+
+unsigned char Map_Avion_Pal[]={1,1,1,1,1,1,1,1,1} ; //Mapa para las paletas, en
+                                                    //este caso solo hay una
+
+void main(void){
+ int contador , contador2;
+ UBYTE tecla ;
+
+
+ set_bkg_palette(1,1,&BkgPaletas[0]); //Indicamos que paleta(s) vamos a usar
+ set_bkg_data(1,9,Buffer_Avion) ; //Asignamos el Buffer al fondo, en este caso
+                                  //solo 9 tiles...
+
+ //Ponemos las paletas
+ VBK_REG = 1; //Indica que vamos a poner las tiles
+
+ for(contador=0 ; contador !=32 ; contador++)
+ for(contador2=0 ; contador2 !=32 ; contador2++)
+ set_bkg_tiles(contador,contador2,1,1,Map_Avion_Pal) ; //Escribimos las paletas 
+
+ //Ponemos las Tiles
+ VBK_REG = 0; //Indica que vamos a poner las paletas
+ set_bkg_tiles(1,1,30,30,Map_Avion) ; //Escribimos las tiles
+
+ SHOW_BKG; //Mostrar el fondo
+
+ while(1){  //Bucle infinito
+  tecla = joypad() ;
+
+  if (tecla & J_LEFT) scroll_bkg(-1,0) ;
+  if (tecla & J_RIGHT) scroll_bkg(1,0) ;
+  if (tecla & J_UP) scroll_bkg(0,1) ;
+  if (tecla & J_DOWN) scroll_bkg(0,-1) ;
+
+  wait_vbl_done(); //retardo
+ }
+} 
+
+
+  Realmente, este c¢digo no es  mio, sino  que  es  de[BLANCO]
+otras personas, que lo  han  dejado  por INTERNET. Sin
+embargo,he decidio usar este, porque es bastante f cil
+y muy  visual. Se trata de mostrar un SPRITE avion por
+toda la pantalla, as¡  como  la  posibilidad de  hacer
+scrolls  del  BACKGROUND, con los botones del JOY PAD.
+  En vuestro emulador, por defecto, los botones de IZQUIERDA, DERECHA y dem s,[IZQUIERDA]
+suelen ser los de los cursores.[NO]
+
+  Hay que destacar, que este programa funciona no s¢lo en la GAME BOY[IZQUIERDA]
+tradicional, sino que en la GAME BOY COLOR nos dar  los colores
+correspondientes, como el verde y amarillo.[NO]
+
+
+  Todo programa en GAME BOY debe contener esto:[NO]
+
+  #include <gb.h>[AMARILLO]
+  void main(void){
+   while(1){  //Bucle infinito
+   }
+  } 
+
+  Y con esto conseguimos tener un programa que se ejecuta hasta la saciedad.[BLANCO IZQUIERDA]
+Quizas los programadores de aplicaciones para Sistemas Operativos (Gestion), no
+entiendan muy bien esta estructura, pero esto se debe a que las consolas no
+poseen S.O., y por tanto los cartuchos o ROMS se deben de ejecutar hasta la
+vida util del juego.[NO]
+
+  Para poder compilar este ejemplo, debemos de ejecutar:[NO]
+
+  gbmake sprite[AMARILLO]
+
+  El GBMAKE.BAT, es un archivo de proceso por lotes, que se encuentra en el[BLANCO IZQUIERDA]
+raiz de las GBSDK. Por tanto, deberemos poner un PATH adecuado. Por defecto, el
+GBMAKE est  preparado para coger .C, pero si no, debemos de especificar el
+archivo con extensi¢n .C.[NO]
+
+  Ahora pasamos a explicar como se puede leer del JOY PAD, que viene en el[IZQUIERDA]
+programa. Para ello, tenemos la variable tecla, que es de tipo UBYTE, es decir,
+UNSIGNED BYTE (8 bits sin signo). Como se dijo en las caracter¡sticas t‚cnicas,
+la GAME BOY posee un registro de JOY PAD de 8 bits para cada tecla. Por tanto,
+para saber que tecla hemos pulsado, se debe hacer una operaci¢n l¢gica AND, que
+en este caso, puede ser:[NO]
+
+  if (tecla & J_LEFT)         --> Tecla derecha[AMARILLO]
+  if (tecla & J_RIGHT)        --> Tecla izquierda
+  if (tecla & J_UP)           --> Tecla arriba
+  if (tecla & J_DOWN)         --> Tecla abajo
+
+  Por supuesto, esto se hace dentro del bucle WHILE(1), para que se ejecute[BLANCO IZQUIERDA]
+siempre. Y debemos pasar a los gr ficos.[NO]
+
+  El buffer Buffer_Avion y Map_Avion hacen referencia al SPRITE avion. El[IZQUIERDA]
+Buffer_Avion contiene el Sprite Avion directamente en formato hexadecimal. Como
+se coment¢, los sprites pueden tener 4 colores de 2 paletas posible, por tanto
+se codifica con 2 bits.[NO]
+
+  El Map_Avion contiene los TILES. Como no podemos trabajar en modo lineal, al
+igual que otras consolas o PC's, debemos de trabajar como en bancos, pero en
+este caso, con TILES, que son como SPRITES, que tienen un n£mero. Podemos tener
+hasta 1024 TILES, pero en este caso, s¢lo tenemos 9. Y cada TILE es de 8x8.
+Si obserbais la tabla de Map_Avion, podeis ver algo, as¡:[NO]
+
+  1 2 3         1 2 3         1 2 3    ...      1 2 3[AMARILLO]
+  4 5 6         4 5 6         4 5 6    ...      4 5 6
+  7 8 9         7 8 9         7 8 9    ...      7 8 9
+
+    .             .             .                 .
+    .             .             .                 .
+    .             .             .                 .
+
+  1 2 3         1 2 3         1 2 3    ...      1 2 3
+  4 5 6         4 5 6         4 5 6    ...      4 5 6
+  7 8 9         7 8 9         7 8 9    ...      7 8 9
+
+  Seguro, que ahora lo veis mejor. El SPRITE del avi¢n es de una resoluci¢n[BLANCO IZQUIERDA]
+de 24 x 24 pixels. Al intentar llebarlo a TILES de 8 x 8, nos queda una matriz
+de 3 x 3. Sin embargo, como queremos que el dibujo del AVION se repita por
+toda la pantalla de 160 x 144 pixels, debemos de poner una matriz de 30 x 30,
+es decir, de 240 x 240 pixels, que en este caso no son reales, sino virtuales.
+No hay problema, porque la GB puede direccionar hasta im genes de 256x256.
+  Con esto se prentende decir, que los TILES apuntan al buffer del SPRITE, pero
+debemos de dividir el SPRITE en TILES de 8x8, para optimizar el trabajo con la
+GB. As¡ cuando nos refiramos al TILE 1, ser  la zona superior izquierda de 8x8
+del SPRITE avi¢n.[NO]
+
+  El buffer Map_Avion_Pal hace referencia a la paleta del sprite AVION. Como se[IZQUIERDA]
+coment¢, cada sprite puede tener 4 colores de 2 paletas. Por tanto, aqui
+decimos, si se trata de la paleta 1 o la 2. Como hemos usado 9 TILES para
+definir el SPRITE, debemos de poner 9 n£mero que pueden ser la paleta 1 o la 2.
+
+  
+  El BkgPaletas son la paletas de colores del BACKGROUND, es decir, del fondo.[NO]
+
+  Dentro del cuerpo principal del programa, es cuando pasamos a ejecutar:[NO]
+
+  set_bkg_palette(1,1,&BkgPaletas[0]);[AMARILLO]
+
+  Que se encarga de carga la paleta de fondo. El primer par metros es el 1,[BLANCO IZQUIERDA]
+he indica que lo cargue en el banco de memoria 1. El segundo par metros, indica
+que se pasa s¢lo una paleta. Y el £ltimo par metro es el buffer de las paletas.
+   
+  set_bkg_data(1,9,Buffer_Avion);[AMARILLO]
+
+  Se encarga de introducir en el banco de memoria 1 los 9 TILES del buffer[BLANCO IZQUIERDA]
+donde se ecuentra el sprite avion, es decir, Buffer_Avion. Hay que recordar,
+que la GB posee 2 bancos de memoria.[NO]
+
+  VBK_REG = 1;[AMARILLO]
+
+  Esto activa el registro de la GB, que indica que vamos a poner los TILES[BLANCO]
+
+  for(contador=0 ; contador !=32 ; contador++)[AMARILLO]
+   for(contador2=0 ; contador2 !=32 ; contador2++)
+    set_bkg_tiles(contador,contador2,1,1,Map_Avion_Pal);
+
+  Esto escribe las paletas de fondo.[BLANCO]
+
+  VBK_REG = 0;[AMARILLO]
+  set_bkg_tiles(1,1,30,30,Map_Avion);
+
+  Aqui ponemos los TILES, es decir, rellenamos de aviones la pantalla.[BLANCO]
+
+  SHOW_BKG;[AMARILLO]
+
+  Y aqui, por fin, rellenamos la pantalla f¡sicamente de aviones, ya que hasta[BLANCO IZQUIERDA]
+ahora, se trabajaba sobre buffers.[NO]
+
+
+
+Conclusion[AMARILLO GRANDE]
+
+
+
+  Pues por ahora, ya sabeis instalar las SDK de GB,[PCT BLANCO NO]
+cargar y  ejecutar demos y ROMS de la GB, as¡  como
+las  caracter¡sticas  t‚cnicas  de  la  GB. Tambi‚n
+sabeis instalar las SDK, as¡ como recompilar c¢digo
+de programas hechos para GB. Pero lo mejora, es que
+podeis hacer  un  peque¤o programilla, donde haceis
+uso de sprites, as¡ como del JOY PAD y de SCROLLS.
+
+  En pr¢ximos n£meros haremos cosas m s potentes, como efectos visuales,[IZQUIERDA]
+sonido, as¡ como la posiblidad de trabajar con la GAM BOY ADVANCED, que como
+mejora, esta la posiblidad de trabajar en 3 bits, a todo color, con mejor
+sonido, y por supuesto con modo lineales de video, as¡ como una mayor
+velocidad. Adem s, como muestra, un bot¢n, y aqui os dejo una foto de una demo
+de un juego para la GAME BOY ADVANCED de tanques.[NO]
+
+  As¡ que hasta la pr¢xima entrega de la DISKMAG.[NO]

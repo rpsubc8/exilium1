@@ -1,0 +1,721 @@
+[FOTOS 3]
+0 52 61 0
+1 53 53 79
+2 54 53 657
+ S.O. BeOS.[AZULCLARO GRANDE]
+[PCT BLANCO]
+
+
+
+  BeOS es un Sistema Operativo orientado a la multimedia. Por tanto, se acabo[IZQUIERDA]
+estar pendiente, de si estoy en modo texto o gr†fico, o si tengo esta tarjeta
+de sonio, o esta otra. Es decir, se da por supuesto, que el equipo sobre el
+que corre el Sistema Operativo, tiene tarjeta gr†fica y Sonido. Es un sistema
+de los m†s modernos, por lo que aprobecha las £ltimas instrucciones de los
+microprocesadores. En concreto, aprobecha el procesado en paralelo de varias
+intrucciones, que se suele conocer como PIPE, pero sobre todo, esta orientado
+a PENTIUM. De hecho, es el m°nimo equipo que se requiere, a diferencia de
+LINUX, WINDOWS y DOS. Ante este momento, debemos de ser realistas, ya que
+aunque LINUX, WINDOWS y DOS puedan funcionar en un 80386 o en un 80486, la
+velocidad multimedia, es nefasta, ya que no estamos en un AMIGA, sino, en un
+PC.[NO]
+
+  Su tiempo de respuesta es muy bajo, por lo que est† pensado para tiempo real.[NO]
+
+
+Caracteristicas[AMARILLO GRANDE]
+
+
+
+  Para los que no hayan oido hablar de este S.O., puedo resumir brevemente que[PCT BLANCO IZQUIERDA]
+es un autÇntico S.O. multimedia. Lamentablemente para algunos, se trata de un
+sistema propietario, por el que hay que pagar, pero BeOS Personal Edition 5.0
+es totalmente gratis, y tiene algunas partes de c¢digo abierto, como el
+TRACKBAR y DESKBAR (para los programadores amantes del GNU y GPL de Linux).
+
+  No voy a enga§aros, con BeOS podeis hacer entre el 50% y 70% de lo que haceis
+en Windows directa o indirectamente mediante emuladores. Pero lo importante, no
+es esto, sino que se puede llegar a realizar cosas superiores a Windows, y eso
+que este sistema es uno de los mas j¢venes. A nivel de usuario, este sistema
+esta totalmente orientado a la multimedia. Sus requerimientos son:[NO]
+
+   * Pentium 90 Mhz[GRISCLARO PC]
+   * 16 MB de RAM
+   * 500 MB de disco duro para la imagen de disco Personal Edition
+     (85 MB m°nimo hasta 120 MB si se hace con particiones nativas).
+   * Tarjeta gr†fica compatible 100% con standard VESA 2.0 (aviso para
+     aceleradoras de marca de dudosa calidad).
+   * Tarjeta de sonido opcional (soporte SB 100% compatible)
+   * Teclado standard DIM-A5, PS/2, etc.
+   * Raton standard Serie Microsoft RS-232 o compatible, PS/2, etc.
+   * Disco Duro IDE, ATA, SCSII, etc.
+   * Tarjeta capturadora de video BT-878, BT-848, etc.
+   * WebCAM standard
+
+
+Instalacion[AMARILLO GRANDE]
+
+
+
+  EL proceso de instalar BeOS, se puede clasificar en dos modalidades:[PCT BLANCO]
+
+   1.- Instalarlo en una partici¢n de DOS, WINDOWS o LINUX como imagen[GRIS PC IZQUIERDA]
+       (recomendada para usuario iniciados) sin riesgo de perder datos en las
+       particiones originales.[NO]
+
+   2.- Instalarlo en una partici¢n de tipo BFS BeOS (para usuarios avanzados)[IZQUIERDA]
+       con el riesgo de perder datos en el disco duro, si se hace sin
+       precauci¢n.[NO]
+
+  Tanto en uno como en otro caso, BeOS cuanta con unas grandes herramientas que[PCT BLANCO IZQUIERDA]
+simplifican mucho la labor. Si queremos hacer caso a la primera opci¢n tan s¢lo
+deberemos de bajar un archivo de 50 MB de:[NO]
+
+  http://www.bebits.com[GRIS]
+
+  Contiene todos los archivos necesarios comprimidos para poder instalarse bien[IZQUIERDA BLANCO]
+bajo WINDOWS o bajo LINUX. DespuÇs procederemos a descomprimirlo, y
+posteriormente a instalarlo. La versi¢n de WINDOWS ya biene incorporado con un
+instalador, que lo £nico que hace es descomprimir todos los archivos necesarios
+en un directorio de BEOS de la unidad de disco duro que decidamos.
+Autom†ticamente, tambiÇn crear† un acceso directo para arrancar BeOS desde
+Windows. Este acceso lo £nico que hace es apagar WINDOWS en modo DOS y arrancar
+BeOS.[NO]
+
+  Si  decidimos arrancar  BeOS  a  mano,  habr†  que
+apagar WINDOWS en modo DOS, o arrancar en  modo  DOS
+antes de WINDOWS. Para eso, desde el  prompt del DOS
+nos iremos  al  directorio  de  BeOS  y  teclearemos
+"loadbeos", que autom†ticamente se encarga de cargar
+el S.O. BeOS. El fichero "image.be" es un archivo de
+500 MB que contiene todo el S.O. Esta imagen es como
+un disco duro virtual. Sin embargo el S.O. no  ocupa
+los 500 MB, sino que tan s¢lo llega a los 110 MB.Hay
+que tener en cuenta que BeOS usa memoria virtual,por
+tanto, el fichero de intercambio a§ade  entre  128 y
+512 MB m†s. Sin embargo, la memoria virtual se puede
+desactivar (recomendado s¢lo si se dispone de  32 MB
+para  arriba).  Adem†s  el  S.O.  viene  con  varios
+programas, utilidades y demostraciones,que hacen que
+llegue a los 110 MB. Si quitamos todo esto, y dejamos lo b†sico, nos queda un[IZQUIERDA]
+S.O. multimedia de 80 MB (una maravilla). Por tanto, aunque entra en el mundo
+del FATWARE, es el S.O. con caracterisiticas multimedia mas peque§o que existe.
+
+  Si el S.O. pas¢ la primera fase de arranque (suele durar entre 10 y 15
+segundos), nos aparecer† una pantalla con fondo azul (por lo general) y un
+deskbar en la parte superior derecha. Esto significa que BeOS ha arrancado
+perfectamente. Si nos sale alg£n mensaje de advertencia, o en escala de grises,
+o ni siquiera pasa la fase de carga, os recomiendo que leas la secci¢n de
+Solucionar problemas BeOS. Si os decantais por instalar BeOS en una partici¢n
+como expertos, os dirÇ que "no todo el campo es oriegano". La imagen de 500 MB
+se ha demostrado que es casi tan r†pida como usar particiones nativas, e
+incluso a veces es m†s veloz. Sin embargo, la opci¢n por la que se quiere hacer
+particiones es por dos motivos:[NO]
+
+  - Para superar el l°mite de los 500 MB[GRIS]
+  - Para reducirlo.
+
+  Yo he probado las dos opciones. La primera fue para poder probar juegos, ya[BLANCO IZQUIERDA]
+que los programas y compiladores, por lo general con 500 MB se tiene de sobra.
+Y la segunda fue para probar BeOS en un Pentium 133, que s¢lo tenia un disco
+duro de 1,2 GB. Para ello, usÇ mi 250 MMX para instalar BeOS en un disco duro
+de 220 MB en particiones BeOS, y luego lo llebÇ al Pentium 133, y arranquÇ
+BeOS. Todo fue perfecto, salvo que la TRIO 64 no queria funcionar a color, a
+pesar de usar VESA 2.0 y de ponerle el parche de BeOS para TRIO 64.[NO]
+
+
+  En caso de que querais usar particiones, debeis de seguir dos opciones:
+
+  - Una vez que se ha instalado BeOS tal y como se comento antes, procederemos[IZQUIERDA]
+    a ejecutar la utilidad INSTALLER, que se encuentra en el menu de
+    aplicaciones. Una vez ejecutada nos preguntar† en que partici¢n se
+    instalar†. Lo que har† ser† copiar todo lo que este en la imagen de BeOS
+    actualmente en esa partici¢n. El inconveniente que tenemos, es que lo que
+    habia en esa partici¢n se machacar† con esos datos, y por tanto se
+    perder†, cosa que BeOS nos va a avisar. Por tanto es recomendable que
+    preparemos una partici¢n con FDISK en caso de haber borrado todo el disco
+    duro, o con el PARTITION MAGIC, en el caso de que tengamos todo el disco
+    duro ya particionado.[NO]
+
+  - La otra opci¢n es que usemos un versi¢n de BeOS Torito. Esta versi¢n sigue[IZQUIERDA]
+    el mismo esquema que las de LINUX. Permite arrancar BeOS desde CD-ROM, y
+    posteriormente podemos dar a la utilidad de INSTALLER de BeOS para copiar
+    los datos en la partici¢n, como antes. De esta manera nos ahorramos tener
+    que instalar primero BeOS con la imagen de 500 MB.[NO]
+
+  Una vez que se termina de instalar BeOS, nos preguntar† si queremos instalar[IZQUIERDA]
+el BOOTMAN, y en que unidad lo vamos a instalar. Esta utilidad es un cargador
+del estilo de LILO, pero de forma muy mejorada. DespuÇs de esto, nos informar†
+que todo ha sido instalado correctamente, y proceder† a reiniciar. En el
+siguiente arranque de ordenador, el cargador BOOTMAN nos preguntar† que S.O.
+queremos cargar, si WINDOWS o BeOS, en caso de que antes tuviesemos WINDOWS.
+Hay que destacar, que en la instalaci¢n del BOOTMANAGER, este nos pregunta
+sobre el S.O. que arrancar† y cuanto tiempo quiere esperar para arrancar un
+S.O.[NO]
+
+  En el caso de que queramos quitar el BOOTMANAGER, s¢lo debemos ejecutar desde[IZQUIERDA]
+el terminal del BeOS, la orden "./bootman". Autom†ticamente, nos preguntar† si
+queremos desinstalarlo. La verdad, es que, aunque el LILO de LINUX ha mejorado
+mucho a lo largo del tiempo, no mejora en nada al BOOTMAN de BeOS.[NO]
+
+
+Solucionar Problemas[AMARILLO GRANDE]
+
+
+
+  En caso de que BeOS no arranque tanto en la instalaci¢n del mismo como[PCT BLANCO IZQUIERDA]
+posteriormente, se pueden solucionar de acuerdo a varios criterios. Como no se
+pueden abarcar todos, se expondran algunos.[NO]
+
+  En caso de que BeOS se cuelgue en la primera pantalla de carga sin pasar al[IZQUIERDA]
+escritorio del mismo, se puede llegar a solucionar. Para ello, se debe de
+entrar en modo de prueba de fallos. Al igual que Windows NT y 2000, BeOS se
+puede activar un menu de opciones de carga, justo cuando esta en el arranque
+del mismo. Para ello, hay que pulsar la barra de tareas (se recomienda pulsarla
+varias veces). Cuando entremos en ese menu, debemos de elegir la opci¢n de safe
+mode options. Una vez dentro debemos de activar la opci¢n enable console debug.
+
+  DespuÇs continuaremos con el arranque y miraremos en la pantalla cual fue el
+proceso en el que se ha quedado bloqueado. La opci¢n mas sencilla es elegir
+SAFE MODE, que es como entrar en el modo a prueba de fallos de WINDOWS. Sin
+embargo esta opci¢n no es la mas optimizada, ya que no hace que vaya muy
+r†pido. Si elegimos la opci¢n de consola y apuntamos el error, en el siguiente
+arranque de BeOS, seguiremos activando el menu de modo a prueba de fallos, pero
+esta vez miraremos cual de todas las opciones que aparecen ahi, se acerca mas
+al proceso en el que se quedaba colgado BeOS en el modo consola. Por ejemplo,
+si se quedo en el proceso de DMA de alg£n disco duro, debemos desactivar el
+soporte de DMA de BeOS. Si dio un error en la BIOS, pues la BIOS, y asi. La
+otra opci¢n es a prueba y error.[NO]
+
+  Hay otro tipo de error, y se debe a que a veces el hardware deja abiertos los[IZQUIERDA]
+dispositivos hardware como el modem, la tarjeta de red o la tarjeta de sonido.
+Esto se debe sobre todo a arrancar BeOS desde WINDOWS. Para ello, lo mejor es
+arrancar BeOS desde puro DOS y sin ning£n controlador adicional.[NO]
+
+  TambiÇn hay que tener en cuenta, que si tenemos el controlador de memoria[IZQUIERDA]
+QEMM, BeOS no arrancar† al ejecutar LOADBEOS. Lo mismo sucede si tenemos activo
+alg£n controlador de memoria virtual, como el dpmi de OpenDOS. Para eso, hay
+que escribir DPMI=OFF.[NO]
+
+  En caso de que la tarjeta grafica no muestre los graficos en color, se debe[IZQUIERDA]
+de bajar el parche al driver en:[NO]
+
+  http://www.bebits.com   --> http://www.bebits.com[GRIS PC]
+
+  Otra opci¢n es arrancar DOS con el driver de VESA 2.0 o 3.0 de scitech soft,[PCT BLANCO IZQUIERDA]
+y luego arrancar BeOS.[NO]
+
+
+Configuraciones[AMARILLO GRANDE]
+
+
+
+  Una vez instalado correctamente BeOS en nuestro ordenador, se proceder† a[PCT BLANCO IZQUIERDA]
+configurarlo correctamente. Para eso se proceder† por varias partes:[NO]
+
+  - Video[GRIS PC]
+  - Rat¢n
+  - Teclado
+  - Red
+  - Multimedia
+  - Impresora
+  - Salvapantallas
+  - Barra de desplazamiento
+  - Configurar sonidos
+  - Memoria virtual
+  - Espacio de trabajo
+  - Configurar el tiempo
+  - Configurar Menus
+  - Configurar Joystick
+  - Configurar Fuentes
+  - Tipos Ficheros
+  - Correo electr¢nico
+  - Setup de Unidades
+  - Acceso a internet
+  - Dispositivos
+  - Traducci¢n de datos
+  - Fondo de pantalla
+  - Servidor Web.
+
+
+Configurar Video[AMARILLO GRANDE]
+
+
+
+  Para configurar la resoluci¢n, el refresco y la profundidad de color, se debe[PCT BLANCO IZQUIERDA]
+de ir al menu de BeOS, que est† en la barra de DESKTOP (por defecto en la parte
+derecha superior), y seleccionar Preferences (preferencias) y la opci¢n Screen
+(pantalla). Alli nos aparece tambiÇn una opci¢n nueva para los usuarios de
+WINDOWS, pero no para BeOS, que es el WORKSPACE (espacio de trabajo). BeOS
+posee la opci¢n de acceder a 12 pantallas virtuales, gracias a la combinaci¢n
+de las teclas alt+f1, alt+f2, ... alt+f12. Sin embargo, a diferencias de LINUX,
+posee la opci¢n de acceder hasta 32 pantallas virtuales sin el teclado, gracias
+a una utilidad que puede ir en forma de programa. Por tanto, supera con creces
+a los escritorios virtuales de LINUX. Adem†s podemos configurar en profundidad
+y color por separado a cada escritorio.[NO]
+
+
+Configurar Raton[AMARILLO GRANDE]
+
+
+
+  Iremos a Preferences y luego a mouse (rat¢n). Alli podemos elegir el rat¢n de[PCT BLANCO IZQUIERDA]
+1, 2 y 3 botones, as° como la velocidad del rat¢n y del doble click, y la
+aceleraci¢n del mismo. Quiz†s la opci¢n m†s interesante, es la de Focus follows
+mouse, que si la activamos, nos permitir† situarnos una ventana con s¢lo
+situarnos sobre ella, sin falta de clickear como en Windows. Hay que destacar
+que esta opci¢n ya la ten°a LINUX desde sus origenes de las X-WINDOWS.[NO]
+
+
+Configurar Teclado[AMARILLO GRANDE]
+
+
+
+  En preferences, y keyboard (teclado). Nos permite elegir el radio de[PCT BLANCO IZQUIERDA]
+repetici¢n con la opci¢n KEY REPEAT RATE, y la espera de repetici¢n en caso de
+tocar la misma tecla con la opci¢n Delay until key repeat.[NO]
+
+  Se puede seleccionar el ,apa de teclado, en preferences y keymap. Aqui[IZQUIERDA]
+podemos elegir el tipo de teclado que tenemos para poder ajustarlo al mapa de
+tabla ASCII. Asi si usamos uno espa§ol podemos tener acceso a la §.[NO]
+
+
+Configurar Red[AMARILLO GRANDE]
+
+
+
+  En preferences y network. Se especificar† la tarjeta de red que tenemos ya[PCT BLANCO IZQUIERDA]
+sea compatible con NE2000 o baj†ndonos un driver para ella. Se especificar† el
+TCP.IP, as° como la mascara y el gateway. TambiÇn se puede especificar el
+servidor de nombres de dominio. Y por supuesto, luego estan los servicios,
+donde se encuentra el TELNET y el FTP. En el Dominio y el HOST NAME, podemos
+poner los que queramos en caso de ser una red LAN casera, o los que interese en
+una red INTERNET, asi como el TCP.IP y la submascara. Una vez configurado,
+podemos dar al boton de restaurar el servidor de red. De esta manera no hace
+falta reiniciar el equipo para ajustar la red, cosa que no pasa igual en
+WINDOWS o LINUX.[NO]
+
+
+Multimedia[AMARILLO GRANDE]
+
+
+
+  En preferences y media. Aqui se puede configurar la tarjeta de video, la[PCT BLANCO IZQUIERDA]
+sintonizadora de televisi¢n y la tarjeta de sonido. En caso de que los
+dispositivos no sean reconocidos, debemos de bajar los drivers de INTERNET en:[NO]
+
+  http://www.bebits.com[VERDEFOSFORITO]
+
+  Y seguir las normas de instalaci¢n. Normalmente se deben de instalar desde[BLANCO IZQUIERDA]
+terminal. Si son reonocidos, se deber°a especificar el volumen, la aceleraci¢n
+hardware y demas par†metros que veamos convenientes.[NO]
+
+
+Confgiurar Impresora[AMARILLO GRANDE]
+
+
+
+  En preferences y Printers. Aqui lo primero que hay que elegir, es la opci¢n[PCT BLANCO IZQUIERDA]
+de ADD (a§adir). Entonces nos saldr† un menu con varias impresoras estandard,
+de la cual elegiremos la mas parecida a la nuestra. En caso de tener otra
+distinta a las que nos deje elegir, deberemos bajarnos el driver de:[NO]
+
+  http://www.bebits.com[VERDEFOSFORITO]
+
+  Por supuesto, una vez instalada la impresora, el acceso a sus recursos es[BLANCO IZQUIERDA]
+igual que en WINDOWS.[NO]
+
+
+Configurar Salvapantallas[AMARILLO GRANDE]
+
+
+
+  En preferences y ScreenSavers. Es del mismo estilo que WINDOWS. Elegimos el[PCT BLANCO IZQUIERDA]
+m¢dulo a cargar y el tiempo que debe de activarse. La ventaja de los
+salvapantallas en BeOS, a parte de salvar las pantallas, es que van mucho m†s
+r†pido que bajo WINDOWS, as° como que no necesitan aceleradora.[NO]
+
+
+Barra de desplazamiento[AMARILLO GRANDE]
+
+
+
+  En preferences y Scroll Bar. Aqui podemos elegir el estilo y forma del scroll[PCT BLANCO IZQUIERDA]
+bar. Vosotros mismos podeis elegir lo que m†s os guste.[NO]
+
+
+Configurar Sonidos[AMARILLO GRANDE]
+
+
+
+  En preferences y Sounds. Al mismo estilo de Windows, podeis elegir los[PCT BLANCO IZQUIERDA]
+sonidos para los eventos de BeOS. Hay que recordar que BeOS soporta varios
+formatos de audio comprimido, a parte del wav crudo. Sin embargo, todabia no
+soporta el mp3 en formato wav, aunque si con programas creados para BeOS.[NO]
+
+
+Memoria Virtual[AMARILLO GRANDE]
+
+
+
+  En preferences y Virtual Memory. Aqui podemos activar y desactivar la memoria[PCT BLANCO IZQUIERDA]
+virtual, asi como elegir el tama§o para la misma. Sin embargo, si no disponemos
+de espacio en la partici¢n o imagen de BeOS, no podremos crearlo. Con 64 MB de
+memoria no hace falta memoria virtual, a no ser que trabajemos con datos muy
+grandes. Si queremos saber la memoria que estamos consumiendo, s¢lo hay que
+pulsar shift+ctrl+alt, al mismo tiempo que pulsamos en el menu de BeOS la
+opci¢n de About BeOS (acerca de BeOS) con el rat¢n. Autom†ticamente nos sale un
+menu con la memoria consumida y la libre.[NO]
+
+
+Espacio de trabajo[AMARILLO GRANDE]
+
+
+
+  En preferences y WorkSpaces. Nos permite andar por todas las pantallas[PCT BLANCO IZQUIERDA]
+virtuales, en caso de no poder acceder con teclado. Es del mismo estilo que en
+LINUX y UNIX con las X-WINDOWS.[NO]
+
+
+Configurar el tiempo[AMARILLO GRANDE]
+
+
+
+  En preferences y Time. Podemos elegir el dia y la hora, al estilo Windows,[PCT BLANCO IZQUIERDA]
+as° como la zona horaria.[NO]
+
+
+Configurar los menus[AMARILLO GRANDE]
+
+
+
+  En preferences y Menu. Podemos elegir el tipo de Menu y coma acceder a Çl.[PCT BLANCO IZQUIERDA]
+TambiÇn podemos a§adir programas y directorios al menu de BeOS, al puro estilo
+de Windows y KDE de LINUX.[NO]
+
+
+Configurar Joystick[AMARILLO GRANDE]
+
+
+
+  En preferences y Joysticks. Elegiremos el tipo de Joystick y lo podremos[PCT BLANCO IZQUIERDA]
+calibrar. Si no esta soportado por BeOS, hay que baj†rselo desde:[NO]
+
+  http://www.bebits.com[VERDEFOSFORITO]
+
+  en la secci¢n de drivers.[BLANCO NO]
+
+
+Configurar Fuentes[AMARILLO GRANDE]
+
+
+
+  En preferences y FONT. Aqui elegiremos el tipo de fuente TRUE TYPE que[PCT BLANCO IZQUIERDA]
+queremos elegir. TambiÇn podemos elegir la memoria reservada de RAM que se
+dedicar† para esos fines, en la opci¢n de CACHE.[NO]
+
+
+Tipos de ficheros[AMARILLO GRANDE]
+
+
+
+  En preferences y File Types. Es como la asociaci¢n de ficheros de WINDOWS.[PCT BLANCO IZQUIERDA]
+Pondremos a que extensi¢n queremos asociarla a un programa.[NO]
+
+
+Correo electronico[AMARILLO GRANDE]
+
+
+
+  En preferences y Email. Se configurar† el correo electr¢nico de acuerdo a lo[PCT BLANCO IZQUIERDA]
+que necesitemos.[NO]
+
+
+Setup de unidades[AMARILLO GRANDE]
+
+
+
+  En preferences y DriveSetup. Es una herramienta no tan bonita como el[PCT BLANCO IZQUIERDA]
+Partition Magic, pero igual de potente. Aunque no la necesitemos muy de cerca
+para BeOS, nos sirve para preparar discos para otros sistemas. Podemos crear,
+borrar y formatear particiones, de casi cualquier formato. Es muy r†pida,
+segura y flexible. Hay que tener en cuenta que BeOS no accede a los discos
+duros por medio de la BIOS, por lo que nos vendr† muy bien para aquellos discos
+duros no soportados por las BIOS que pueden ser muy antigÅas y que no puedan
+ser actualizadas.[NO]
+
+
+Acceso a Internet[AMARILLO GRANDE]
+
+
+
+  En preferences y Dial-up Networking. Para conectarse a INTERNET sigue el[PCT BLANCO IZQUIERDA]
+mismo esquema que WINDOWS.[NO]
+
+
+Dispositivos[AMARILLO GRANDE]
+
+
+
+  En preferences y Devices. Nos permite ajustar, crear y borrar dispositivos o[PCT BLANCO IZQUIERDA]
+par†metros de los mismos, que puedan estar mal. Esto es bueno, en caso de que
+no nos reconozca la tarjeta de sonido, ya que se la podemos meter a mano, con
+s¢lo especificar los canales de DMA, IRQ y puertos que consume.[NO]
+
+
+Traduccion de datos[AMARILLO GRANDE]
+
+
+
+  En preferences y Data Translation. Son como plugins que pueden ser usados por[PCT BLANCO IZQUIERDA]
+otros programas. Es como el formato TXT que se puede copiar y pegar en
+cualquier programa de WINDOWS, pero en este caso, portado a cosas mas amplias
+como los archivos de imagen JPG y dem†s.[NO]
+
+
+Fondo de pantalla[AMARILLO GRANDE]
+
+
+
+  En preferences y Background. He decidio dejar esto £ltimo para el final,[PCT BLANCO IZQUIERDA]
+debido a su gran complejidad 8-D)). Al igual que en Windows, se puede cambiar
+el fondo de pantalla, tanto en bitmap, como en colores. La diferencia que tiene
+, es que al igual que LINUX, se puede ajustar la foto al ancho y alto de
+pantalla, y que cada Workspace puede tener un background distinto. Acepta
+im†genes BMP, JPG y dem†s.[NO]
+
+
+Servidor Web[AMARILLO GRANDE]
+
+
+
+  En applications (aplicaciones) y PoorMan (hombre pobre). Aunque parece una[PCT BLANCO IZQUIERDA]
+aplicaci¢n muy simp†tica debido a su icono y nombre, es por el contrario muy
+eficiente y £til. Nos permite poner un servidor de p†ginas web. Esto es muy
+£til para probar nuestra p†gina web antes de llebarla a INTERNET en un red
+local, o para ponerla en INTERNET directamente, qued†ndonos como servidor.
+  Hay que recordar que tanto LINUX como BeOS son CASE SENSITIVE, es decir,
+hacen distinci¢n entre letras may£sculas y min£sculas en los ficheros, al igual
+que INTERNET y los navegadores, salvo el INTERNET EXPLORER, de ya sabeis quien.
+
+  Una vez que se ejecute el programa por primera vez, nos pedir† que lo
+configuremos. No obstante, posteriormente tambiÇn se puede configurar.
+Principalmente nos preguntar† en que directorio vamos a albergar la p†gina web,
+por ejemplo en /boot/home/public_html. En ese directorio podremos poner todo lo
+que queramos, que autom†ticamente ser† visto por los usurios que se conecten a
+nosotros o a INTERNET. Por supuesto tendremos que configurar permisos, que
+siguen el mismo esquema que en LINUX, con permisos para nosotros, para los
+usuarios de nuestro grupo y para los usuarios externos. Por tanto con el
+comando chmod 755 *.* en el directorio /boot/home/public_html desde el
+terminal, nos servir†. Esto nos dejar† permisos de lectura,escritura y
+ejecuci¢n para nosotros, as° como lectura y ejecuci¢n para nuestro grupo y para
+usuarios externos, que ser°an los propios de INTERNET. TambiÇn podeis
+especificar el fichero cabecera que se ejecutar† en caso de no especificar
+ninguno, y poner s¢lo la direcci¢n web. Por defecto ser† el index.htm. Pero
+recordad que debeis tener creado ese fichero en el /boot/home/public_html o
+donde reside vuestra p†gina web, ya que de lo contrario no cargar† ninguna. Por
+supuesto, al igual que los servidores de INTERNET, se lleva un control de todos
+los usuarios que entran y salen de vuestra p†gina web, por lo que no necesitais
+un contador de esos que regalan o hay que pagar y van muy lentos. Esto nos
+sirve para hacer estad°sticas por nuestra cuenta. Para ello hay que especificar
+un fichero de log. Por defecto se manda a consola, que en este caso, se ve en
+el propio programa por pantalla. Pero si queremos podemos especificar un
+fichero. La £ltima opci¢n es especificar el n£mero m†ximo de conexiones o
+usuarios conectados que se permite tener. Si ponemos un n£mero muy alto,
+nuestro equipo ira m†s lento y puede que haga imposible que trabajemos,
+teniendo que dejarlo como servidor dedicado.[NO]
+
+  Lo m†s importante, es como dar con nuestra p†gina desde el navegador. Para[IZQUIERDA]
+ello, se saca autom†ticamente con nuestra direcci¢n TCP.IP que hemos
+configurado previamente en nuestra NETWORK. Para eso desde el NetPositive o el
+BeZilla o el BeOpera o similares, podemos acceder a nuestra p†gina web, con
+s¢lo escribir el TCP.IP. En mi caso, por tener una red local he puesto
+192.168.0.1, pero eso cambia de una red a otras. De esta forma se cargar† el
+index.htm, que es el de por defecto. Pero si queremos cargar el trucos.htm,
+ser°a 192.168.0.1/trucos.htm.[NO]
+
+  Hay que destacar, que el TCP.IP es estandard en protocolos de red, ya sea[IZQUIERDA]
+DOS, LINUX, WINDOWS, BeOS, FreeBSD, MAC, etc, y en redes como ARPANET,
+INTERNET, RADIONET, etc.., por lo que desde un ordenador conectado a Windows,
+podemos acceder a esta p†gina siguiendo lo anterior escrito para el navegador,
+y teniendo en el ordenador servidor el PoorMAN de BeOS activo y bien
+configurado, as° como los protocolos de red.[NO]
+
+
+Juegos en BeOS[AMARILLO GRANDE]
+
+
+
+  Alguno pensar†, que BeOS, no le puede interesar, ya que le falta lo[PCT BLANCO IZQUIERDA]
+principal, que es la diversi¢n, es decir, los juegos. Pues para todos estos
+excÇpticos, os dirÇ, que actualmente, disponeis de muchos juegos, sobre todo de
+otros sistema operativos, portados a BeOS, como es el caso del QUAKE I, QUAKE
+II y QUAKE III. En concreto, el QUAKE I, se encuentra disponible, bajo muchas
+opciones, en concreto, tenemos software propio, o a travÇs de librerias, como
+SDL. TambiÇn tenemos m†s juegosd e IDSOFTWARE, como el DOOM. Lo m†s gracioso,
+de jugar al QUAKE II o al DOOM en un Pentium 200 MMX, es que mientras tanto,
+se puede estar escuchando un MP3, o incluso jugar a varios DOOMS, sin miedo a
+que se cuelgue el equipo, por infracci¢n de compartir recursos. De hecho,
+podemos ver la tele mientras jugamos. No es que tenga que ser una
+caracter°stica obligatoria en todos los sistemas, pero que yo sepa, muchas
+veces uno se equivoca al darle al icono de la TELE en WINDOWS, mientras se
+esta con un juego, y se cuelga todo. Y sin embargo, nadie dice que esto esta
+mal, al contrario, dicen que todos los desarrolladores deben usar DIRECTX para
+los juegos, porque as° se consigue la unificaci¢n. La verdad, cualquiera que
+haya usado DIRECTX, sabe perfectamente que:[NO]
+
+  - No son unas librerias de juegos, sino un PARCHE que hackea el nucleo.
+  - No garantizan nada, ya que si mientras jugamos a un juego, le damos a[IZQUIERDA]
+    commutar una tarea, ya no se puede restablecer el juego, a no ser que lo
+    programe el propio programador. Que yo sepa, por estas cosas, se hechaba
+    en contra del DOS.[NO]
+
+  TambiÇn tenemos juegos de pensar, como el OTHELLO, AJEDREZ, e incluso[IZQUIERDA]
+comecocos como el DIGGER, el BePACMAN Deluxe. Por cierto, recomiendo este
+£ltimo, ya que es muy gracioso y original. Hay juegos de gusanos, como la
+continuaci¢n del NIBBLES, que se llama HEROES. Lo recomiendo, es muy bonito,
+y r†pido. Casi todos estos juegos, estan hechos con las librerias SDL para
+BeOS. Y hay juegos GNU como el GUILD. En definitiva, tenemos una gran cantidad
+de juegos, sobre todo 2D y 3D por software, ya que lamentablemente, las
+aceleradoras, no son soportadas directamente por BeOS 5 PE. En la versi¢n de
+PowerPC y BeOS R5.1 DANO, as° como BeOS R6, parece ser que s°.[NO]
+
+  Sin embargo, hay juegos en OPENGL por software, como es el caso de GLTRON.[IZQUIERDA]
+Si disponeis de un gran ordenador, podeis jugar a la carrera de motos. La
+verdad que esta carrera, esta muy bien.[NO]
+
+  Y por supuesto, el mejor juego para BeOS, es el CORUM III, el cual ha sido[IZQUIERDA]
+creado unicamente, para BeOS 5, y se encuentra en formato PKG. Podeis bajaros
+o bien la demo sin videos, o con ellos. Sin embargo, s¢lo esta gratis, la demo.
+Para la versi¢n completa, hay que pagar, aunque no es muy caro.[NO]
+
+  La mayor parte de juegos, los podeis encontrar en:
+
+    http://www.bebits.com     --> En la secci¢n de GAMES[VERDEFOSFORITO]
+    http://www.libsdl.org     --> En la secci¢n de BeOS
+
+
+  Eso si, si tenemos pensado desarrollar un juego bajo BeOS, hay que reconocer[BLANCO IZQUIERDA]
+que disponemos de una gran variedad para poder crear juegos, y sobre todo de
+gran facilidad para crearlos, ya que el propio sistema puede cargar archivos
+de sonido como MP3, e incluso videos. Esto, en DIRECTX no sucede, y se
+requieren de librerias que llamen por debajo a DIRECTX.[NO]
+  Aunque en este tema, quizas, el kit de desarrollo m†s f†cil, potente y que[IZQUIERDA]
+pide pocos recursos, es las librerias SDL.[NO]
+
+
+Aplicaciones[AMARILLO GRANDE]
+
+
+
+  Pues eso, que BeOS, no va a ser el £nico sistema que no tenga aplicaciones.[PCT BLANCO IZQUIERDA]
+Dispone de gran variedad de software,pero no tiene tanto como LINUX o WINDOWS.
+Se dispone de procesadores de texto como el ABIWORD, o paquetes integrados como
+el GOVE PRODUCTIBE. En el tema de dibujo, se tiene una gran variedad de
+herramientas, como el BePhotoShop, BeCasso, BeArtPaint, BePaint, y por supuesto
+PIXEL32 y la £ltima adquisici¢n GNU de INFERNO. En concreto, este £ltimo, s¢lo
+se ha hecho para BeOS (para le mejor plataforma).[NO]
+
+   TambiÇn hay herramientas 3D, como el Blender, o por l°nea de comandos, como[IZQUIERDA]
+el POVRAY. Hay OPENGL y GLUT, as° como compiladores de BASIC, C, PASCAL, NASM
+(ensamblador bajo BeOS), y JAVA. Hay incluso servidor de X-WINDOWS, y librerias
+GTK para BeOS. En definitiva, que hay una gran variedad de software, y sobre
+todo, lo que queda por llegar.[NO]
+
+  Incluso, hay hasta el BePDF, que permite leer documentos PDF, o incluso la[IZQUIERDA]
+impresora de PDF's, que se a§ade como impresora, y a la hora de imprimir, nos
+lo envia a un fichero de tipo PDF. Hay que reconocer, que es m†s r†pido, que
+en WINDOWS con la impresora virtual del Adobe Acrobat Writer.[NO]
+
+  Y quizas, el tema m†s interesante, para desarrolladores, es el de emuladores[IZQUIERDA]
+bajo BeOS. Hay emuladores, de Z80, AMIGA, ATARY, MAC, y de PC, como el BeBOCHS,
+que permite arrancar FreeDOS, WINDOWS 3.11, WINDOWS 95, WINDOWS NT, LINUX,
+FreeBSD, y dem†s en Çl. Que conste, que funcionan todos los citados, ya que
+los he probado. Es interesante, ver la TV en BeOS, mientras que instalas
+Windows NT bajo BeOS, sin miedo a reventar nada.[NO]
+
+  Pero tambiÇn hay emuladores de consolas, como la SNES, la GAME BOY y la GAME
+BOY ADVANCED. Y or supuesto, la PLAY STATION. Todos esto los he probado, y
+funcionan bastante bien. Quizas, lo m†s prometedor, es el kit SDK de GAME BOY,
+que permite programar para la GAME BOY bajo BeOS, ya que hasta hace bien poco,
+s¢lo se podia o bajo DOS, WINDOWS o LINUX.[NO]
+
+  Y para los piratas, siento decir, que BeOS, no tiene clonadores de CD's, pero[IZQUIERDA]
+si tiene utilidades para poder grabar CD's. Para ello, podemos, o bien usar
+las cdrecord, que son GNU, y se encuentran disponibles para todas las
+plataformas, o bien, usar la utilidad que viene con BeOS para poder grabar
+CD's. Ya se que alguno creia, que el Windows XP, era una maravilla, ya que por
+fin incorporaba en el propio sistema una utilidad para grabar CD's, pero siento
+decir, que desde el a§o 1999-2000, con BeOS 5 PE, ya existia esta opci¢n.
+  Parece que alguien plagia a alguien. Recordad, que tanto Steve Jobs de APPLE,
+como Bill GATES de Microsoft, son unos piratas, el resto, lo son en mayor o
+menor medida.[NO]
+
+
+Futuro de BeOS[AMARILLO GRANDE]
+
+
+
+  A pesar del poder que puede llegar a tener BeOS, es un producto de la[PCT BLANCO IZQUIERDA]
+compa§°a Be, y por tanto, depende de ella. Actualmente, la compa§°a Be, a
+vendido sus productos a PALM, y por tanto, si  PALM,[NO]
+no quiere seguir apostando por  el  sistema  BeOS, o
+por la plataforma PC, se abandonar† el proyecto. Sin
+embargo, acaba de anunciarse el BeOS NG, que se†  el
+BeOS R6, con soporte para  aceleradoras, y  con  una
+cantidad de software equivalente a un DVD. Habr† que
+esperar, y mientras tanto seguir con BeOS 5 PE,o con
+las actualizaciones 5.01 y 5.03. TambiÇn podeis usar
+el BeOS 5.1 DANO, que  trae  unas  cuantas  mejoras,
+sobre todo visuales, como se aprecia  en  las fotos.
+TambiÇn tiene mejoras de soporte de hardware, OPENGL
+(el GLVIEWER, no  me  hace  nada), y  de  soporte  y
+configuraci¢n de red.[NO]
+  TambiÇn tenemos varios proyectos, como el BLUE OS, que va a ser la uni¢n de[IZQUIERDA]
+un kernel de LINUX, con todas las API's y SERVERS, de BeOS. Y luego est† el
+OpenBeOS, que ser† el BeOS libre, al estilo de LINUX.[NO]
+
+  Espero, que todos estos proyectos, vayan a buen puerto, porque ser°a una[IZQUIERDA]
+pena, que la potencia de BeOS, se pierda, como le sucedio a la Çpoca del AMIGA.
+
+
+Conclusiones[AMARILLO GRANDE]
+
+
+
+  Si vuestro equipo es un Pentium 166 MMX o inferior, y veis que el pobre ya no[PCT BLANCO IZQUIERDA]
+puede con Windows, os recomiendo que probeis este Sistema, ya que har† que
+renazca. La primera vez que pobrÇ BeOS Personal Edition 5.0, fue con mi 250 MMX
+, y aquello fue bueno. S¢lo el DOS y Linux pudieron sacar la velocidad al
+m†ximo de mi equipo, pero la multimedia me la dio BeOS. Y ahora tengo la
+versi¢n 5.03, y mi equipo actual es un DURON a 800 Mhz que ha 1GHz se porta muy
+bien.[NO]
+
+  Y si teneis miedo de instalarlo por poder perder todos los datos del disco[IZQUIERDA]
+duro, os dire, que NO PROBLEMO, PANIC TO DOMAIN!!, ya que en la version b†sica
+no hace falta hacer particiones, solo hay que descomprimir el archivo en el
+disco duro.[NO]
+
+  Si quereis mas informaci¢n la podeis encontrar en:
+
+   http://www.bebits.com    --> BeBits (Todo los recursos de software y[VERDEFOSFORITO]
+                                documentos de BeOS en inglÇs)
+   http://www.be.com        --> Be (La compa§ia Be (inglÇs)
+   http://www.besol.og      --> BeSOL (BeOS en espa§ol, aunque actualmente esta
+                                fuera de servicio)
+   http://www.macprogramadores.org/beos      --> BeProgramadores (Programadores
+                                                 espa§oles de BeOS)
+   http://www.beosjournal.com                --> BeOS journal (muy buena, en
+                                                 inglÇs)
+
+  Y en definitiva, doy las gracias a Fernando de BeProgramadores, por[BLANCO IZQUIERDA]
+aguantarme tanto con BeOS. Ya hace 2 a§os que llebo con BeOS como usuario, y
+un poquito menos como programador. Y tengo pensado seguir mucho tiempo. Y
+espero que con este art°culo, otros vean, lo que yo he visto en este S.O.
+
+  Recordad, que los conceptos, aunque parezcan modernos con respecto a WINDOWS,[IZQUIERDA]
+son tan antigÅos, como la Çpoca del AMIGA, en los 80. Cada vez que miro atr†s,
+es una pena lo de AMIGA. El PC simpre fue una basura, y hoy por hoy, lo sigue
+siendo. No hay que mirar lo que tenemos, sino lo que podemos llegar a hacer,
+y un PC, es tan s¢lo un PC.[NO]
+

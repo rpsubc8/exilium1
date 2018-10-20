@@ -1,0 +1,932 @@
+[FOTOS 2]
+7 59 56 1
+8 60 48 897
+ Lenguaje DARKBASIC.[AZULCLARO GRANDE NO]
+[PCT]
+
+
+
+  DarkBASIC es un lenguaje de programaci¢n  de  video-[BLANCO]
+juegos para DIRECTX, es decir,para WINDOWS. Utiliza la
+facilidad  del  BASIC ,  a¤adiendole   unas  funciones
+espec¡ficas para  trabajar  con  gr ficos,  sprites  y
+sonido, en definitiva, para hacer juegos.[NO]
+
+
+  Aunque tiene la potencia de las DIRECTX, tiene los problemas de la facilidad[IZQUIERDA]
+del BASIC, es decir, al final, no genera ni c¢digo optimizado en velocidad, ni
+permite acceder a todas las posibilidades gr ficas, que nos podr¡a dar los
+lenguajes de bajo nivel, como el ensamblador, o los de alto nivel, como C con
+la API de WINDOWS.[NO]
+
+
+  Aunque no es normal usar BASIC para poder hacer demos, se ha decicido usarlo,[IZQUIERDA]
+ya que se us¢ en la EUSKAL PARTY 9 de este a¤o, en concreto, en dos demos. Hay
+que tener en cuenta, que el DARKBASIC, genera c¢digo para DIRECTX, y por tanto
+las optimizaciones de velocidad, dependen de las DIRECTX. En concreto, las
+DIRECTX 8, tienen aceleraci¢n nula en modo software. As¡ que se recomienda
+disponer de una tarjeta aceleradora para poder hacer incluso juegos 2D con este
+pseudolenguaje.[NO]
+
+
+Requerimientos[AMARILLO GRANDE]
+
+
+
+  - DIRECTX 7.0 o superior.[PCT BLANCO]
+  - Tarjeta aceleradora 2D o 3D con al menos 4 MB de RAM. Se acepta con menos.
+  - Pentium 166. Se recomienda MMX.
+  - Al menos 10 MB de disco duro
+  - 16 MB de RAM
+  - En algunos casos paciencia, no en compilaci¢n, sino en ejecuci¢n.
+
+
+Caracteristicas[AMARILLO GRANDE]
+
+
+
+  A parte de las comentadas, hay que decir, que este lenguaje, trae[PCT BLANCO IZQUIERDA]
+incorporado un editor y un compilador, en definitiva todo un entorno de trabajo
+muy amigable, y sobre todo muy r pido. Adem s al venir en fondo negro, es muy
+relajante, sobre todo si nos pasamos largas horas trabajando, al menos, hasta
+que inventen pantallas que parpadeen menos, ya que los ojos se cansan.[NO]
+
+
+  Trae incluso, un depurador, y algunas muestras de ejemplos. Nos permite crear[IZQUIERDA]
+proyectos, y por supuesto, o bien dejar todos nuestros archivos por separado,
+es decir, si usamos SPRITES, IMAGENES, SONIDO, etc..., los dejamos en varios
+archivos, o bien, podemos empaquetarlo todo dentro del arhivo ejecutable, al
+puro estilo de una demo o un juego.[NO]
+
+
+  Aunque esta herramienta esta pensada para hacer juegos de forma r pida e[IZQUIERDA]
+incluso "potente", se puede llegar a usar en demos de la demoscene, ya que
+actualmente, se permite incluso usar JAVA.[NO]
+
+
+  Si comparamos DARKBASIC, con otros lenguajes de creaci¢n de juegos, como es[IZQUIERDA]
+el caso de DIV GAME STUDIO, no es por desanimar a los chicos espa¤oles, pero
+sencillamente, es m s rentable usar DARKBASIC, ya que es m s moderno, m s
+potente y m s f cil de usar.[NO]
+
+
+  Este lenguaje esta pensado para personas con pocos o ningun conocimiento de[IZQUIERDA]
+programaci¢n, pero que tienen ganas de hacer un juego, y no un simple nivel
+para el QUAKE. Sin embargo, no sirve, para poder crearnos nuestro propio
+motor3d de render en tiempo real, y dem s cosas, aunque podr¡a llegarse a algo
+parecido.[NO]
+
+  Si comparamos esta herramientas con otras, como el BLITZBASIC, veremos,que es[IZQUIERDA]
+menos potente y r pida, pero es muy, pero que muy, f cil. Y por supuesto, si se
+compara con el DXCREATOR, veremos lo mismo. Sin embargo, el DXCREATOR, est 
+pensado para poder acceder a las DIRECTX con un lenguaje mitad BASIC, mitad
+PASCAL, y con una tool gr fica, orientada a objetos. Es decir, esta pensado
+para poder realizar aplicaciones, juegos o demos bajo DIRECTX, en concreto, en
+2D, mientras que el DARKBASIC, permite trabajar con 2D y 3D, para realizar
+juegos o demos.[NO]
+
+
+Desventajas[AMARILLO GRANDE]
+
+
+
+  Pues como siempre, no todo es bueno, y este lenguaje tiene varios problemas:[PCT BLANCO]
+
+  - Hay que pagar por ‚l, en concreto, unos 60 Euros.
+  - La versi¢n Demo, esta limitada en c¢digo, y objetos soportados.
+  - Las librerias para trabajar con MP3, y dem s, requiere de la versi¢n
+    completa
+  - S¢lo funciona bajo WINDOWS y DIRECTX 7.0
+  - Es casi necesario disponer de ACELERADORA, incluso para juegos 2D.
+  - Los binarios de la demo traen publicidad.
+
+  Como podeis observar, la mayor¡a de los problemas, son de la versi¢n demo.
+
+
+Ventajas[AMARILLO GRANDE]
+
+
+
+   A parte, de las comentadas, ser¡an las siguientes:[PCT BLANCO]
+
+   - La versi¢n demo, permite hacer demos de juegos.
+   - Se puede realizar el programa m¡nimo en 5 minutos.
+   - Se pueden hacer salvapantallas.
+   - No hace falta aprenderse la API de WINDOWS y DIRECTX.
+   - Se puede depurar muy bien.
+   - No hace falta crear el ejecutable, para correr los proyectos.
+
+
+Conceptos iniciales[AMARILLO GRANDE]
+
+
+
+  En primer lugar, al igual que cualquier lenguaje de programaci¢n,el DARKBASIC[PCT BLANCO IZQUIERDA]
+dispone de varios tipos de datos. En concreto, hereda los del BASIC, que son
+los numericos y los alfanum‚ricos. Los num‚ricos, ser¡an los enteros y los
+reales, mientras que los alfanum‚ricos, ser¡an las cadenas. Por ejemplo:[NO]
+
+   2        --> dato num‚rico entero[GRIS]
+   2.5      --> dato num‚rico real
+   "hola"   --> dato alfanum‚rico con cadena hola
+
+  Los n£meros nos permiten realizar operaciones matem ticas, mientras que las[BLANCO IZQUIERDA]
+cadenas nos servir¡an parapoder mostrar datos o por pantallas, o por algun
+dispositivo de E/S, como un fichero.[NO]
+
+  Pero estos datos no tienen sentido, sino las almacenamos en algun tipo de[IZQUIERDA]
+datos,como ser¡a un variable. Una variable, en el fondo es una zona de memoria,
+pero en DARKBASIC, al igual que BASIC, es un tipo de datos, donde luego se
+puede acceder de forma r pida. As¡ hay variables enteras, como ser¡a:[NO]
+
+  A = 3 + 1[GRIS]
+
+  Donde A ser¡a igual al valor entero 4.[BLANCO]
+  Para el caso de valores reales, se debe de a¤adir el caracter especial '#',[IZQUIERDA]
+de tal forma, que el ejemplo:[NO]
+
+  A# =  42.5[GRIS]
+
+  Nos har¡a que A fuese igual al valor 42.5 real. Hay que recordar, que los[BLANCO IZQUIERDA]
+valores reales, son aquellos que no son enteros, es decir, que tienen coma,
+y aunque en las matem ticas entre dos numeros enteros, hay infinitos reales,
+en los lenguajes y ordenadores, no existe ese concepto, ya que es imposible.
+
+  Para el caso de cadenas de caracteres, es decir, STRINGS, se debe de usar el[IZQUIERDA]
+caracterespecial '$', de tal forma, que:[NO]
+
+  A$ = "Mi nombre es UNKNOW"[GRIS]
+
+  Guadar¡a en la variable A, la cadena "Mi nombre es UNKNOWN".[BLANCO IZQUIERDA]
+
+  Tambi‚n existen los tipos ARRAY, como en PASCAL, C, y por supuesto BASIC. Un
+ARRAY, no es m s que una ristra de elementos, es decir, finamente, una MATRIZ
+de elementos. Si queremos tener 100 valores distintos de enteros, porque
+queremos guardar la hora de llegada de 100 empleados, seguro que alguno
+pensar¡a en usar 100 variables distintas, donde cada una representa a un
+empleado. Pues me parece fant stico, de hecho, as¡ se hace por la parte baja de
+nuestro ordenador, sin embargo, esto no es eficiente de cara a entender el
+programa. Por tanto se intentan usar estructuras m s f ciles de ver, como es
+el caso de tener una MATRIZ de 100 elementos, donde cada elemento es un entero.
+  Para poder usar una matriz, primero se debe de instanciar, mediante la orden:[NO]
+
+  DIM EMPLEADO(100)
+
+  De esta forma se ha creado una matriz EMPLEADO de 100 elementos. Los que[IZQUIERDA]
+vengais del C o PASCAL, os dareis cuenta, de que no hace falta declarar el
+tipo entero, ya que de esto, se encarga el compilador. Estas son las maravillas
+del BASIC, o que pensabais, ¨que el JAVA era el futuro, y lo invent¢ todo?.
+
+  Y para poder acceder a los datos, se usa la notaci¢n ( ). Es decir:[NO]
+
+  EMPLEADO(1) = 12
+  EMPLEADO(2) = 8
+
+  Esto nos asigna al empleado n£mero 1 la hora de entrada 12. y al empleado[IZQUIERDA]
+n£mero 2, la hora 8. Y podriamos seguir hasta 100 elementos, pero nunca nos
+podriamos pasar, ya que esta delimitado.[NO]
+
+
+Operadores aritmeticos[AMARILLO GRANDE]
+
+
+
+  Un operador aritm‚ticos puede representas una suma, resta, una[PCT BLANCO IZQUIERDA]
+multiplicaci¢n o una divisi¢n. As¡, podemos hacer:[NO]
+
+  3 + 4           --> Esto ser¡a igual a 7[GRIS]
+  5 - 2           --> Esto ser¡a igual a 3
+  2 * 7           --> Esto ser¡a igual a 14
+  6 / 2           --> Esto ser¡a igual a 3
+
+
+Operadores relacionales[AMARILLO GRANDE]
+
+
+
+  Representan condiciones que son aplicadas a los datos.[PCT BLANCO]
+
+  10 = 9        --> El resultado es 0, ya que 10 no es igual a 9
+  10 = 10       --> El resultado es 1, ya que 10 es igual a 10
+  10 > 9        --> El resultado es 1, ya que 10 es mayor que 9
+  10 < 9        --> El resultado es 0, ya que 10 no es menor que 9
+
+  Son equivalentes a las expresiones booleanas de PASCAL o C.
+
+
+Operadores Booleanos[AMARILLO GRANDE]
+
+
+
+  Permiten hacer operaciones l¢gicas AND y OR.[PCT BLANCO]
+
+  0 AND 0   --> El resultado es 0[GRIS]
+  0 AND 1   --> El resultado es 0
+  1 AND 0   --> El resultado es 0
+  1 AND 1   --> El resultado es 1
+
+  Lo expuesto antes, es la tabla de verdad del AND (Y l¢gico).[BLANCO]
+
+  A = 5[GRIS]
+  B = 25
+  (A > 10) AND (B > 20)         --> Esto ser¡a (0) AND (1) = 0
+
+  Y para la puesto l¢gica OR:[BLANCO]
+
+  0 OR 0     --> 0[GRIS]
+  0 OR 1     --> 1
+  1 OR 0     --> 1
+  1 OR 1     --> 1
+
+
+Asignaciones[AMARILLO GRANDE]
+
+
+
+  Como se comento brevemente, la asignaci¢n de valores, se realiza, mediante,[PCT BLANCO IZQUIERDA]
+el signo '='. Por ejemplo:[NO]
+
+  A = 42   --> Nos har¡a que la variable A valga el valor entero 42[GRIS]
+
+
+DATA[AMARILLO GRANDE]
+
+
+
+  Si queremos almacenar datos en memoria de forma lineal, podemos usar el[PCT BLANCO IZQUIERDA]
+comando DATA, de la siguiente forma:[NO]
+
+  DATA 12,15,6,"Hola","Adios",6,8[GRIS]
+
+  En memoria, tenemos 3 valores enteros, 2 cadenas y 2 valores entero m s. Si[BLANCO IZQUIERDA]
+por alg£n casual, queremos acceder a estos datos, debemos de usar el comando
+READ, de la siguiente forma:[NO]
+
+  READ a,b,c,a$,b$,d,e[GRIS]
+
+  De esta forma, se leen las 3 variables enteras, las 2 cadenas y los otros 2[BLANCO IZQUIERDA]
+enteros. El problema que trae esto, es que hay que acordarse como se dejaron
+los datos en memoria, pero la ventaja, es que los datos permanecen fijos e
+inalterables, y son muy r pidos, en definitiva, es como si fuesen valores
+constantes.[NO]
+
+
+Etiquetas[AMARILLO GRANDE]
+
+
+
+  El DARKBASIC permite usar etiquetas, de la siguiente forma:[PCT BLANCO]
+
+  MiEtiqueta:[GRIS]
+
+  De esta manera, si hacemos una sentencia de salto GOTO MiEtiqueta, pasaremos[IZQUIERDA]
+a ejecutar el c¢digo que haya en MiEtiqueta.[NO]
+
+
+Sentencia FOR NEXT[AMARILLO GRANDE]
+
+
+
+  Nos permite ejecutar el trozo de c¢digo que hay entre el FOR y el NEXT el[PCT BLANCO IZQUIERDA]
+n£mero de veces que hay dentro del FOR, de tal forma, que:[NO]
+
+  FOR I=1 TO 10 DO[GRIS]
+   PRINT "HOLA"
+  NEXT I
+
+  Esto imprimir  por pantalla 10 veces la cadena "HOLA".[BLANCO]
+
+  Existe la opci¢n STEP dentro del FOR, que permite hacer incrementos de la[IZQUIERDA]
+variable en pasos, es decir:[NO]
+
+  FOR I=1 TO 10 STEP 2[GRIS]
+
+  Har¡a incrementar la variable I de 2 en 2, y por tanto,se ejecutar¡a 5 veces.
+
+
+Sentencia IF THEN[AMARILLO GRANDE]
+
+
+
+  Permiten hacer determinadas acciones si se cumple o no una condici¢n.[PCT BLANCO]
+
+  IF (valor>1) THEN[GRIS]
+    PRINT "valor es mayor que 1"
+  ENDIF
+
+
+Comando PRINT[AMARILLO GRANDE]
+
+
+
+  Permite imprimir una variable o valor por pantalla. As¡, tenemos:[PCT BLANCO]
+
+  PRINT "Hola"[GRIS]
+
+  Si se quiere a¤adir la impresi¢n a lo siguiente de la sentencia anterior, se[BLANCO IZQUIERDA]
+debe usar el semicolon ';', de la forma:[NO]
+
+  PRINT "Hola"; "Adios"[GRIS]
+
+
+INPUT[AMARILLO GRANDE]
+
+
+
+  Permite recoger datos por dispositivos de E/S como es el teclado.[PCT BLANCO]
+
+  INPUT A$[GRIS]
+
+  Nos guarda en la variable A$ la cadena recogida por teclado.[BLANCO]
+  Tambi‚n permite, mostrar texto por pantalla, al igual que recoger datos:
+
+  INPUT "Nombre de usuario: ",nombre$[GRIS]
+
+
+FUNCIONES[AMARILLO GRANDE]
+
+
+
+  Al igual que el C o el PASCAL, el DARKBASIC admite Funciones. Una Funci¢n, no[PCT BLANCO IZQUIERDA]
+es m s que un trozo de c¢digo que devuelve un valor. Existen unsa serie de
+funciones ya predefinidas, que son:[NO]
+
+  ABS    --> Valor absoluto[PC GRIS]
+  TIMER  --> Devuelve el tiempo
+
+  As¡, si usamos ABS(-100), nos dar  100.[PCT BLANCO]
+
+  Pero tambi‚n existen funciones definidas por el programador, es decir,[IZQUIERDA]
+creadas por nosotros mismas. Para ello, hay que usar la palabra reservada:[NO]
+
+  FUNCTION[PC GRIS]
+
+  Hay que tener en cuenta, que se pueden pasar como m ximo 255 valores a una[PCT BLANCO IZQUIERDA]
+funci¢n definida por el usuario en DARKBASIC. Un ejemplo de funci¢n, ser¡a:[NO]
+
+  FUNCTION ValorMedio(valor)[PC GRIS]
+    valor = valor/2
+  ENDFUNCTION valor
+
+
+Hola TOCK DOCK[AMARILLO GRANDE]
+
+
+
+  Pues ahora vamos a hacer nuestro primer programilla. Y para que no sea como[PCT BLANCO IZQUIERDA]
+el t¡pico "Hola Mundo" de los demas, vamos a hacer un "Hola TOCK DOCK". Para
+ello se proceder  a algo como lo siguiente:[NO]
+
+  PRINT "Hola TOCK DOCK"[GRIS PC]
+
+  Y luego le daremos al F5 para poder ejecutar nuestro programilla. Y en el[PCT BLANCO IZQUIERDA]
+acto nos saldr  en pantalla un "Hola TOC DOCK". Despu‚s nos saldr  en el CLI
+(Interfaz de Linea de Comandos) que pulsemos la tecla F12 para regresar al
+editor tradicional del DARKBASIC, a lo que aceptaremos puls ndolo.[NO]
+
+  Y como veis, a m s de uno, ya le estar  empezando a entrar el gusanillo, por[IZQUIERDA]
+este lenguaje. Si ya se que tampoco es gran cosa, para ya vendran mejores
+ejemplos.[NO]
+
+
+Un poco mas complejo[AMARILLO GRANDE]
+
+
+
+  Lo visto anteriormente, puede ser muy sencillo, as¡ que ahora vamos a ver[PCT BLANCO IZQUIERDA]
+algo un poco m s complejo, como pueda ser un bucle infinito. Esto se puede
+lograr gracias a las instrucciones DO y LOOP, de la forma:[NO]
+
+  DO[GRIS PC]
+   PRINT "Hola TOCK DOCK"
+  LOOP
+
+ Pues aqui, salvo que pulsemos la tecla F12, se va a estar imprimiendo[IZQUIERDA]
+infinitamente el "Hola TOCK DOCK", ya que esta sentencia repite hasta el
+infinito lo que hay dentro. Como vereis, aqui si existe el infinito, ya que
+realmente, lo que hace es ejecutarse siempre, y no hasta el infinito como
+n£mero real.[NO]
+
+
+Mas fuerte[AMARILLO GRANDE]
+
+
+
+  Ya se que lo anterior era sencillo. Adem s, esto lo he plagiado de la ayuda[PCT BLANCO IZQUIERDA]
+del propio DARKBASIC, as¡ que por ahora, no hay nada original. Y lo que viene
+ahora, tambi‚n, salvo algun a¤adido:[NO]
+
+ rem ----------------[GRIS PC]
+ rem Cave Runner Demo
+ rem ----------------
+ rem Author: DBS-LB99
+ hide mouse
+
+ rem Leer BITMAPS
+ load bitmap "tiles.bmp",1
+ get image 1,0,0,256,256
+ delete bitmap 1
+
+ rem Leer Sonidos
+ load sound "hum.wav",1
+ load sound "explode.wav",2
+ set sound speed 1,6000
+ loop sound 1
+
+ rem Leer tracks de musica
+ load music "caverun.mid",1
+ loop music 1
+
+ rem Activar sincronismo manual
+ sync on
+
+ rem Hacer Lanscape y matriz de ceiling
+ make matrix 1,2000,5000,10,25
+ prepare matrix texture 1,1,2,2
+ make matrix 2,2000,5000,10,25
+ prepare matrix texture 2,1,2,2
+ fill matrix 2,0,2
+ randomize matrix 2,350.0
+ for t=0 to 25
+ set matrix height 2,0,t,-100
+ set matrix height 2,10,t,-100
+ next t
+ update matrix 2
+
+ rem Comienza el bucle del juego
+ do
+
+ rem Poner semilla de numeros aleatorios
+ randomize 1
+
+ rem Limpiar matriz
+ fill matrix 1,0,1
+
+ rem Poner luz ambiente a 20
+ fog distance 3000
+ color backdrop 0
+ fog color 0
+ fog on
+
+ rem Resetear la velocidad
+ x=0
+ z=0
+ speed#=0.0
+
+ rem Comienza bucle inicial
+ repeat
+
+ rem Grabar viejas variables
+ oldx=x
+ oldgy#=gy#
+
+ rem Controlar eventos de teclado
+ if upkey()=1 then speed#=speed#+1.0 else speed#=speed#-1.0
+ if leftkey()=1 then rz#=rz#+1.0
+ if rightkey()=1 then rz#=rz#-1.0
+
+ rem Controlar variables
+ if speed#>40.0 then speed#=40.0
+ rz#=rz#/1.1
+ x=x-(2*rz#)
+
+ rem Scroll landscape
+ z=z+speed#
+ if z>200
+ z=z-200
+ if rnd(3)=0
+ mp=mp-1
+ mp=mp+rnd(3)
+ if mp>4 then mp=4
+ endif
+ for t=0 to 0 : set matrix height 1,t,24,450 : set matrix tile 1,t,24,2:next t
+ for t=1 to mp : set matrix height 1,t,24,rnd(200) : set matrix tile 1,t,24,2
+ next t
+ for t=mp+1 to mp+1:set matrix height 1,t,24,rnd(200) : set matrix tile 1,t,24,3
+ next t
+ for t=mp+2 to mp+3 : set matrix height 1,t,24,rnd(20) : set matrix tile 1,t,24,1
+ next t
+ for t=mp+4 to mp+4 : set matrix height 1,t,24,rnd(200) : set matrix tile 1,t,24,4
+ next t
+ for t=mp+5 to 9 : set matrix height 1,t,24,rnd(200) : set matrix tile 1,t,24,2
+ next t
+ for t=10 to 10 : set matrix height 1,t,24,450 : next t
+ update matrix 1
+ shift matrix up 1
+ shift matrix up 2
+ endif
+
+ rem Posicion matrixz
+ position matrix 1,0,0,2500-z
+ position matrix 2,0,100,2500-z
+
+ rem Posicion de la camara
+ gy#=curvevalue(50+get ground height(1,500+x,z),gy#,3)
+ position camera 500+x,gy#,2500
+ zrotate camera wrapvalue(rz#)
+
+ rem Control de la frecuencia del sonido
+ set sound speed 1,6000+(speed#*100)
+
+ rem Actualiza pantalla
+ sync
+
+ rem Fin del programa principal cuando colisiona con el ceiling
+ until get ground height(2,500+x,z)=gy#-75.0
+
+ rem retorno de la camara al punto antes de la colision
+ position camera 500+oldx,oldgy#,2500
+
+ rem Fin de Juego
+ play sound 2
+ for c=0 to 255 step 20
+ cls rgb(c,0,0)
+ fog distance (c*5)
+ fog color (c*256*256)
+ sync
+ next c
+
+ rem Fin del bucle del juego
+ loop
+  
+  Pues como habeis visto, parece que os he enga¤ado, ya que a mas de uno, no[PCT BLANCO IZQUIERDA]
+entender  nada. Y seguro que direis, ¨pero no decias que era tan f cil?. Pues
+sigo en lo mismo, sin embargo, me han faltado muchas cosas por explicar, y
+claro, voy a tener que dejarlo para el pr¢ximo n£mero, como harian muchas
+revistas de Prensa T‚cnica de dudosa calidad 8-D))).[NO]
+
+
+Explicacion[AMARILLO GRANDE]
+
+
+
+  Pues el ejemplo anterior, pertenece a un ejemplo que viene en el DARKBASIC, y[PCT BLANCO IZQUIERDA]
+se llama CAVERUN.DBA. Podeis cargar, y darle al F5 de RUN. Como vereis, se
+trata de recorrer una simple cacerna, sin chocar con los bordes, y a lo largo
+de la misma, podeis moveros a la derecha y a la izquierda, y acelerar. Al
+principio no parece una maravilla, pero lo que impresiona es que con tan pocas
+lineas podais hacer esto, ¨o no lo creeis?.[NO]
+
+  Pero, claro, si no pasamos a las siguientes secciones, no podreis entender[IZQUIERDA]
+como se puede hacer algo as¡.[NO]
+
+
+Compilacion[AMARILLO GRANDE]
+
+
+
+  Como se coment¢ al comienzo, el DARKBASIC permite hacer dos tipos de[PCT BLANCO IZQUIERDA]
+ejecuciones de programas, o bien desde el propio DARKBASIC con F5, al puro
+estilo cl sico del BASIC, o el DIV GAME STUDIO, es decir, interpret ndolo; o
+bien compilando el propio projecto en un arhivo binario de tipo EXE, para que
+quede profesional. Este EXE va a contener todos los archivos de datos de tipo
+DARKBASIC empaquetados dentro. Adem s, en la versi¢n TRIAL va a a¤adir una
+peque¤a publicidad que engrandar  el EXE. Y por supuesto, la primera vez que
+se ejecute un programa compilado con DARKBASIC, se preguntar  y grabar  las
+opciones devideo por defecto. Hay que destacar, que al ser un binario EXE
+de WIN32, se puede comprimir con utilidades como el PKLITE32 o el UPX, para
+que ocupen mucho, mucho menos.[NO]
+
+  Para poder crear un EXE, debemos de seleccionar con el F7 el tipo de[IZQUIERDA]
+compilaci¢n, as¡ como el nombre del archivo y el directorio donde depositarlo.
+Hay que destacar que el binario resultante tendra un icono caracter¡stico
+facilmente diferenciable del resto de aplicaciones.[NO]
+
+
+Eventos de entrada[AMARILLO GRANDE]
+
+
+
+  Y parece que sigo enga¤andoos, ya que no os estoy diciendo como hacer[PCT BLANCO IZQUIERDA]
+ejemplos como el de la caverna, pero tendreis que tragaros esto, si quereis
+hacer algo grande.[NO]
+
+  Lo primero, es poder controlar la E/S del teclado. Para ello, podeis hacerlo[IZQUIERDA]
+con la orden INPUT, como ya se comento anteriormente, o bien ser un poco m s
+finos, y controlar las teclas, mediante su bit de activaci¢n. Para ello,
+usaremos las funciones KEY. Esta funci¢n existe una para cada tecla, y nos dice
+si se ha pulsado o no. Para ello, si queremos saber si se ha pulsado la tecla
+del cursos hacia arriba, tendremos que poner upkey, y para el de abajo downkey.
+Tambi‚n exite para sl shift, alt, escape, return, etc...[NO]
+
+  if upkey()=1 then print "subir"[GRIS PC]
+  if downkey()=1 then print "bajar"
+  if returnkey()=1 then print "enter"
+
+  Pero no s¢lo se puede saber si se ha pulsado una tecla o no, ya que para[PCT BLANCO IZQUIERDA]
+saber si se ha pulsado una tecla o no, deberiamos comprobar todas. Para ello
+existe lo que los programadores de bajo nivel conocemos como SCANCODE (Codigo
+de scan). Este c¢digo es aquel que se produce cuando se pulsa una tecla. En la
+vida real cuando se pulsa una tecla se envian dos c¢digos, que son, el c¢digo
+ASCII de la tecla y el c¢digo SCAN. El SCAN es el que nos interesa, ya que
+controla todas las teclas que la tablas ASCII no puede. Adem s hay dos tipos de
+c¢digo SCAN, que son el de pulsaci¢n, y el de liberaci¢n, y se diferencian en
+el bit de m s peso 8, es decir 128 valores de pulsaci¢n y 128 de liberaci¢n.Sin
+embargo, el DARKBASIC no tiene en cuenta, estos £ltimos.[NO]
+
+  Para controlar los c¢digos SCAN se usa, la funci¢n inkey$() y la scancode().[IZQUIERDA]
+En concreto inkey$() devuelve el caracter ASCII pulsado en formato string o
+cadena. Mientras que scancode() devuelve el c¢digo scan de la tecla pulsada.
+
+
+  Pero no todo es teclado, y tambi‚n se necesita controlar el rat¢n. Para ello[IZQUIERDA]
+debemos de usar la funci¢n SHOW MOUSE que muestra el puntero del rat¢n por
+pantalla. Y para poder controlas las coordenadas X e Y, podemos usar:[NO]
+
+  POSITION MOUSE X,Y[GRIS]
+
+  Tambi‚n se pueden usar las funciones mousex() y mousey(), para lo mismo, e[BLANCO IZQUIERDA]
+incluso se puede usar el boton central el z, con la funci¢n mousez(). Estas
+funciones nos dan un valor entero.[NO]
+  Y para saber si se ha clickeado, se puede usar:[NO]
+
+  if mouseclick()==1[GRIS PC]
+
+  Y para ocultar el rat¢n, se puede usar la funci¢n:[BLANCO PCT NO]
+
+  hide mouse[GRIS PC]
+
+  Tambi‚n se puede usar el joystick. Para ello, s¢lo hay que usar funciones,[BLANCO PCT IZQUIERDA]
+JOYSTICK seguidas de las funciones b sicas, como se ver  a continuaci¢n:[NO]
+
+  if joystick up()=1 then print "Joystick arriba"[PC GRIS]
+  if joystick down()=1 then print "Joystick abajo"
+  if joystick left()=1 then print "Joystick izquierda"
+  if joystick right()=1 then print "Joystick derecha"
+
+  if joystick fire()=1 then print "Joystick fuego activado"
+
+
+Modos de video[AMARILLO GRANDE]
+
+
+
+  Por muchos movimientos que controlemos, nunca vamos a ver un bonito[PCT BLANCO IZQUIERDA]
+videojuego, si no hacemos algo visual. Para ello, tenemos funciones, que son
+capaces de activar los distintos modos de video, sin que nosotros nos
+ensuciemos las manos programadolo a bajo nivel, o aprendiendo una estupida API.
+
+  El DarkBASIC soporta modos de 8, 16, 24 y 32 bits, es decir, de 256 colores[IZQUIERDA]
+hasta TRUE COLOR. Dependiendo del hardware gr fico de que dispongamos,
+deberemos usar uno u otro modo. Para ello, usaremos la funci¢n:[NO]
+
+  PERFORM CHECKLIST FOR DISPLAY MODES[PC GRIS]
+
+  Esta funci¢n usar  una variable interna, que luego podremos usar,para activar[PCT BLANCO IZQUIERDA]
+el modo que mejor se adapte a nuestro equipo. Para poder usar los par metros
+que devuelve esta funci¢n, usaremos, las funciones:[NO]
+
+  screen type()           --> Nos devuelve el tipo de video[PC GRIS]
+  screen width()          --> La anchura en pixels, por ejemplo: 640
+  screen height()         --> La altura en pixels, por ejemplo: 480
+  screen depth()          --> La profundidad de color: 8, 16, 24, 32
+  screen fps()            --> Los fotogramas por segundo.
+
+  Y para activar un modo de video, tan s¢lo tenemos que usar la funci¢n SET[PCT BLANCO IZQUIERDA]
+DISPLAY MODE, donde se le pasa el ancho, alto y profundidad de color del modo
+que deseemos inicializar. Si por ejemplo, queremos inicializar el modo gr fico
+de 640x480 con 8 bits de profundidad, es decir de 256 colores, deberemos
+escribir algo similar a esto:[NO]
+
+  SET DISPLAY MODE 640,480,8[PC GRIS]
+
+  Y con esto, ya esta inicializado. Si por algun modo, no sabemos si el modo de[PCT BLANCO IZQUIERDA]
+video que queremos usar, no esta soportado por nuestro hardware, podemos hacer
+uso de la funci¢n CHECK DISPLAY MODE, donde se le pasar  el ancho, alto y
+profundidad del modo de video que queremos inicializar. Esta funci¢n, devolver 
+si esta soportado o no, ‚ste modo. Por ejemplo:[NO]
+
+  IF CHECK DISPLAY MODE (640,480,8)=1 THEN PRINT "Modo soportado"[PC GRIS]
+
+
+Funciones 2D[AMARILLO GRANDE]
+
+
+
+  Con lo visto anteriormente, ya sabemos controlar lo b sico de E/S y el video.[PCT BLANCO IZQUIERDA]
+Sin embargo, todab¡a nos queda mucho para poder hacer algo que merezca la pena.
+Para eso, podemos hacer uso de las funciones 2D del DARKBASIC. Estas funciones
+nos permiten dibujar y dem s opciones, que son muy £tiles.[NO]
+
+  Si queremos borrar la pantalla, tan s¢lo debemos de usar la funci¢n CLS. Esta
+funci¢n tiene dos nomenclaturas:[NO]
+
+  CLS         --> Borra la pantalla[PC GRIS]
+  CLS color   --> Borra la pantalla con el color especificado
+
+  Si queremos poner un color de primer plano y otro de fondo, que luego puedan[PCT BLANCO IZQUIERDA]
+usar por defecto todas nuestras primitivas 2D, podemos usar la funci¢n INK:[NO]
+
+  INK colorPlano, colorFondo[GRIS PC]
+
+  Hay que destacar que el color vendr  dado en formato RGB,es decir Rojo, Verde[PCT BLANCO IZQUIERDA]
+y Azul. Y para ello debemos usar la funci¢n RGB,donde se le pasar  la tonalidad
+de rojo, verde y azul, y nos devolver  el color en una variable resultante.[NO]
+
+  color = RGB (255,255,255)    --> Esto nos dar  el blanco[PC GRIS]
+  color = RGB (0,0,0)          --> El negro
+
+  La nomenclatura RGB en ordenadores tiene un rango de 0-255 de tonalidades[PCT BLANCO IZQUIERDA]
+para cada componente. Y el color resultante se logra mezclando todas estas 3
+componentes, por lo que para saber el color exacto, o lo haceis a prueba y
+error o bien usais un programa de dibujo que os lo diga.[NO]
+  Con respecto al color de plano, es aquel con el que se dibujo, es decit, es[IZQUIERDA]
+equivalente al brillo de vuestro monitor, mientras que el de fondo, es como el
+contraste. Esto se puede usar para mascaras, es decir, para poder mezclar
+imagenes, respetando el color de primer plano, y borrando el de fondo.[NO]
+
+
+  Para poner un PIXEL, es decir, un punto en pantalla con un color determinado,
+podemos hacer uso de la funci¢n DOT, de la siguiente manera:[NO]
+
+  DOT coordenadaX, coordenadaY[PC GRIS]
+  DOT 10,20         --> Dibuja un punto en la coordenada X=10, Y=20
+
+  Para poder hacer uso de todas estas funciones 2D, hay que haber incializado[PCT BLANCO IZQUIERDA]
+el modo de video previamente, con el comando SET DISPLAY MODE, comentado
+anteriormente. El color que se usa en la funci¢n DOT, vendr  dado por la
+funci¢n INK, comentada anteriormente.[NO]
+
+
+  Para dibujar un cuadrado, debemos usar la funci¢n BOX, donde se le envian las[IZQUIERDA]
+cuatro coordenadas que lo definen. En concreto, no es un cuadrado, sino una
+caja, que puede hacer de rect ngulo:[NO]
+
+  BOX Xini,Yini,Xfin,Yfin[PC GRIS]
+  BOX 10,10,100,100            --> Dibuja un cuadrado de ancho 90
+
+
+  Si queremos una linea, podemos usar la funci¢n LINE, que al igual, que el[PCT BLANCO IZQUIERDA]
+anterior, se define con 4 coordenadas, que son, la X e Y de inicio, y la X e Y
+finales. De esta forma, podemos dibujar lineas de forma sencilla, sin falta de
+estudiarnos y programar algoritmos como el DDA o el Bresenham:[NO]
+
+  LINE Xinicio,Yinicio,Xfin,Yfin[PC GRIS]
+  LINE 10,10,100,100
+
+
+  Para el caso de querer hacer un circulo, podemos hacer uso de la funci¢n[PCT BLANCO IZQUIERDA]
+CIRCLE, donde se le pasan los par metros del centro de la circunferencia, y el
+radio de la misma:[NO]
+
+  CIRCLE X,Y,radio[PC GRIS]
+  CIRCLE 100,100,30
+
+
+  Para el caso de las elipses, se puede hacer uso de la funci¢n ELLIPSE, donde[PCT BLANCO IZQUIERDA]
+se le pasan lo mismo que al circulo, pero el radio esta vez se divide en los
+dos que tiene la elipse:[NO]
+
+  ELLIPSE X,Y,radioX,radioY[PC GRIS]
+  ELLIPSE 100,100,10,10
+
+
+  Y para poder saber el color que tiene una imagen de pantalla, podemos usar[PCT BLANCO IZQUIERDA]
+la funci¢n POINT, la cual nos devuelve el color RGB de el punto situado en la
+coordenada X e Y:[NO]
+
+  color = POINT (X,Y)[PC GRIS]
+  color = POINT (10,10)
+
+
+BITMAPS[AMARILLO GRANDE]
+
+
+
+  Por lo que he explciado anteriormente, a m s de uno ya le habr  empezado a[PCT BLANCO IZQUIERDA]
+entrar el gusanillo por el DARKBASIC, sobre todo si os habeis pasado a¤os y
+a¤os intentado programar algo gr fico, y no lo habeis conseguido.[NO]
+
+  Pero he de decir, que no he contado toda la verdad sobre el DARKBASIC, ya que[IZQUIERDA]
+por ahora, habeis estado trabajando sobre la memoria de video directamente. Por
+eso va siendo hora de hablar de los BITMAPS. Los BITMAP, no son m s que zonas
+de memoria con una estructura que entiende el DARKBASIC, que por debajo llaman
+a los SURFACES de DIRECTX, que estos a su vez, son estructuras de datos que
+entienden las DIRECTX, y que luego llaman a las funciones VESA o de aceleraci¢n
+3D, que a su vez, son nada m s que zonas de memoria con sentido o no. que
+acceden directamente al hardware.[NO]
+
+  Por defecto, en todos los ejemplos, hemos estado trabajando con el BITMAP 0,[IZQUIERDA]
+que es el asignado a la memoria de video, es decir, al propio HARDWARE. Esto
+es algo lento y tiene errores visuales, si queremos hacer animaciones fluidas.
+Por eso, podemos acceder a m s BITMAPS, que no se encuentran mapeados a memoria
+de video, sino a memoria RAM.[NO]
+
+  Pues lo que podemos hacer con los BITMAPS, es por ejemplos, leerlos, ya que[IZQUIERDA]
+realmente, son iguales que los BMP's (BITMAP) de WINDOWS que usan las DIRECTX.
+Podemos leer hasta 32 BITMAPS en memoria. La verdad que en principio son
+suficientes:[NO]
+
+  LOAD BITMAP FicheroBMP, numeroBITMAP[PC GRIS]
+  LOAD BITMAP "foto.bmp"            --> Por defecto carga la foto en pantalla
+  LOAD BITMAP "foto,bmp",1          --> La carga en el bitmap 1
+
+  Como se puede comprobar, los BITMAPS de ficheros, se han podido leer. As¡ que[PCT BLANCO IZQUIERDA]
+ya os veo cargando vuestras fotos m s queridas para verlas en DARKBASIC. Hay
+que tener en cuenta, que si la foto no entra en memoria, ser  recortada.[NO]
+
+
+  Tambi‚n podemos crear BITMAPS, mediante la funci¢n CREATE BITMAP, que viene[IZQUIERDA]
+dada de la siguiente forma:[NO]
+
+  CREATE BITMAP numeroBitmap, ancho, alto[PC GRIS]
+  CREATE BITMAP 1,640,480   --> Crea el BITMAP 1 de ancho 640, alto 480
+
+  Los BITMAPS creados tendr n la profundidad de color de el modo de video por[PCT BLANCO IZQUIERDA]
+defecto. Hay que tener en cuenta, que s¢lo el BITMAP 0, es el que se visualiza
+el PANTALLA por defecto, y es donde se dibuja por defecto. Por tanto, si
+queremos acceder para dibujar en el BITMAP recien creado, necesitaremos de
+alguna funci¢n, para poder usarlo. Para ello, tenemos la funci¢n SET CURRENT
+BITMAP:[NO]
+
+  SET CURRENT BITMAP numeroBitmap[PC GRIS]
+  SET CURRENT BITMAP 1            -->Hemos seleccionado el BITMAP 1
+
+  Ahora, todas las funciones de dibujo 2D que usemos, se har n sobre este[PCT BLANCO IZQUIERDA]
+este BITMAP, y no sobre el 0, que era el de por defecto.[NO]
+
+
+
+Copiar Bitmaps[AMARILLO GRANDE]
+
+
+
+  Adem s de trabajar sobre bitmaps, haciendo uso de primitivas gr ficas,podemos[PCT BLANCO IZQUIERDA]
+realizar operaciones m s eficientes, es decir, trabajar con bloques de pixels.
+Con esto, podemos copiar y pegar no s¢lo un BITMAP entero, sino parte de ‚l.
+Para los que habeis usado las funciones de GET y PUT del BASIC, seguro que os
+suena. Y los que esteis acostumbrados a trabajar con zonas de memoria, tambi‚n.
+
+  Existen dos sintaxis, del comando de copiar BITMAPS:[NO]
+
+  COPY BITMAP BitmapOrigen, BitmapDestino[AMARILLO]
+  COPY BITMAP BitIni, Izq, Alto, Der, Bajo, BitDest, Izq2, Alto2, Der2, Bajo2
+
+  As¡, si quisiesemos copiar el BITMAP 1 sobre el 0, usariamos el siguiente[BLANCO]
+c¢digo, en nuestro DARKBASIC:[NO]
+
+  COPY BITMAP 1,0[VERDEFOSFORITO]
+
+  Pero, si quisieramos copiar s¢lo una zona determinada, hariamos, algo asi:[BLANCO]
+
+  COPY BITMAP 1,10,10,20,20,0,10,10,20,20[VERDEFOSFORITO]
+
+
+
+Efecto Espejo[AMARILLO GRANDE]
+
+
+
+  Si por alg£n motivo quiseramos hacer el efecto MIRROR (espejo),para una demo,[PCT BLANCO IZQUIERDA]
+podemos hacer uso de la funci¢n:[NO]
+
+  MIRROR BITMAP 0[VERDEFOSFORITO]
+
+  Esto por ejemplo, nos haria un espejo de lo que tenemos por pantalla.[BLANCO]
+
+
+
+Efecto Giro[AMARILLO GRANDE]
+
+
+
+  Si quiseramos hacer un efecto de giro de 180 grados, lo que normalmente se[PCT BLANCO IZQUIERDA]
+conoce como FLIP, podemos hacer uso de la funci¢n:[NO]
+
+  FLIP BITMAP 0[VERDEFOSFORITO]
+
+  Al igual que el anterior, nos hace un FLIP sobre la pantalla. Si quisieramos[PCT BLANCO IZQUIERDA]
+hacer un FLIP sobre el BITMAP 1, en vez de poner 0, pondriamos el 1.[NO]
+
+
+
+Continuara...[AMARILLO GRANDE]
+
+
+
+  Ya se que queda todab¡a mucho por  explicar,[PCT BLANCO]
+como efectos FADE, SCROLLS, Matrices y camaras
+3D,  utilizaci¢n  del  sonido  y  llamadas  al
+sistema,pero eso queda para el pr¢ximo n£mero.
+Y tranquilos, que sobre el DARKBASIC se  puede
+contar todab¡a mucho, pero mucho, mucho ....[NO]
+
+  Mientras tanto, os he dejado una foto de una
+peque¤a  broma  que gaste a un  amigo, con una
+inocentada que envi‚ hecha en DARKBASIC. Como se puede apreciar, consiste en[IZQUIERDA]
+unos simples efectos de SCROLL, pero tambi‚n realic‚ m s cosas. En el pr¢ximo
+n£mero explicar‚ como lo hice, con c¢digo fuente incluido.[NO]
+
+
+  Si quereis saber m s acerca del darkbasic, o si quereis directamente[IZQUIERDA]
+descargar la versi¢n TRIAL, ya sabeis, id a la p gina web, que se describe
+a continuaci¢n:[NO]
+
+
+  http://www.darkbasic.com[VERDEFOSFORITO]
+
+
+  As¡ que espero que aguanteis y hasta el pr¢ximo n£mero.[BLANCO]
+
+
+

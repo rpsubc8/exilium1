@@ -1,0 +1,1087 @@
+[FOTOS 3]
+35 86 55 1
+36 87 53 515
+37 88 53 920
+
+                    Overclocking.[AZULCLARO GRANDE NO]
+
+
+
+  El termino overclocking proviene de 2 palabras: OVER[BLANCO PCT]
+(por encima) y CLOCK (reloj), y teniendo en cuenta que
+se trata de un  gerundio  inglÇs,  pues  quiere  decir
+remarcar el  reloj,  que  en  este  caso,  es  el  del
+ordenador.
+
+  Para aquel que todab°a no lo sepa, cuando compra  un
+flameante Pentium IV a 1,4 GHz, o  un  simple 8086 a 8
+Mhz, no quiere decir que todo su  equipo  alcance  esa
+velocidad, sino, que la memoria ir† a una velocidad en
+concreto, los dispositivos de E/S (ISA 8, ISA 16, MGA,
+EISA, PS/2, PCI, SCSII, AGP) a otra. Por  supuesto,  la
+velocidad de cada uno de estos componentes nunca ser† superior a la del propio[IZQUIERDA]
+micro. Por consiguiente, tendremos una £nica velocidad para el microprocesador
+de 1,4 Ghz por ejemplo, para la memoria DDR de 200 Mhz, para la controladora
+UDMA II 130 Mhz, para el dispositivo AGPx4 250 Mhz, etc.[NO]
+
+  Y ahora es cuando os surge la pregunta de ®a mi que me importa todo esto?. A[GRIS IZQUIERDA]
+lo que puedo decir, que nada, salvo si queremos mejorar el rendimiento de[BLANCO]
+nuestro equipo. Este rendimiento, viene a referirse a aumentar la velocidad de
+nuestro ordenador, es decir, a remarcarlo (como remarcar el motor de un coche).
+De esta forma podemos convertir nuestro flameante Pentium IV 1,4 Ghz en otro
+igual, pero a 2,8 Ghz, sin pagar nada, por ejemplo. Por supuesto, no hace falta
+decir, que toda ventaja, trae consigo un inconveniente, y que nosotros, como
+expertos debemos de considerarla, y tomar cartas al asunto. Tal inconveniente
+es el desgaste f°sico del propio microprocesador y dispositivos asociados en el
+overclocking. En cortas palabras, que reducimos dr†sticamente la vida £til de
+nuestro equipo. Sin embargo, todos sabemos que la vida de un PC es muy corta,
+de hecho, es demasiado corta, del orden de 6 meses a 1 a§o y medio. En el caso
+de consolas, esta vida £til es mayor, y por tanto, el overclocking es mucho m†s
+f†ctible, sin embargo, la documentaci¢n para realizar un over es m†s excasa,
+as° como la forma de hacerlo, que es m†s compleja, es decir, NO TENGO NI IDEA,
+pero no quiero quedar mal, como los profes. 8-D)).[NO]
+
+
+
+Descripcion de equipos[AMARILLO GRANDE]
+
+
+
+  Los equipos donde se puede hacer overclocking con bastante facilidad y casi[BLANCO PCT IZQUIERDA]
+sin mancharnos las manos es en ordenadores PC basados en arquitectura 80486 o
+superior. En el caso de disponer de un ordenador basado en 80386, siento
+decirlo, pero hay que ponerse a meter mano de soldador. Si queremos hacer over
+a un 8088, 8086, 80186, 80188, 80286, no es que no se pueda hacer, tan s¢lo que
+yo no he encontrado la forma de hacerlo, ya que no dispongo de ellos. Aunque
+supongo que alguno de los aqui presentes, despuÇs de leer este art°culo, se va
+a poner manos al asunto. Lo mismo digo para microprocesadores inferiores, como
+el Z80, el 6502, etc... Porque seguro que un Z80 a 4 Mhz, muchos pensar†n que
+no puede hacer nada (salvo que seas scener), pero un Z80 a 1 Ghz, la verdad,
+me lo pensar°a mucho.[NO]
+
+  Si probamos con equipos 80486, sobre todo de la marca AMD, o algun cl¢nico[IZQUIERDA]
+como CYRIX, seguro que el Çxito de over es m†ximo, y de forma sencilla. En el
+caso de probar con los Pentium, Pentium Pro, MMX, Pentium II, AMD K6, Cyrix
+MMX, WINCHIP, K6 II, las cosas van bien para el remarcar el micro, pero quizas
+tengamos que invertir un poco de dinero en la placa, que seguro que no ser† la
+adecuada para nuestros propositos. Y por supuesto, si vamos de frente hacia los
+Pentium II, Pentium III, Pentium IV, AMD K7 DURON y ATHLON, la probabilidad de
+over va a ser m†xima, sin falta de invertir dinero, salvo en refrigeraci¢n, y
+en velas a la VIRGEN MARIA, para no fundir nuestro equipo. Hay que tener en
+cuenta, que los equipos actuales que nos venden, ya est†n de por si remarcados,
+y de hecho en las propias casas de ensamblaje, aunque consideran peligroso el
+overclocking, no lo traducen como ilegal, ya que la propia casa lo usa para sus
+fines.[NO]
+
+  El over no es una ciencia exacta, pero es quivalente a intentar remarcar el[IZQUIERDA]
+motor de nuestro coche. Pero se pongan como se pongan, si nuestro coche de
+f†brica es capaz de llegar a los 200 Km/h, tiene que llegar, el problema, es
+que aguante mucho tiempo a esa velocidad. En el caso del ordenador, cambia un
+poco, ya que si nuestro micro va a 200 Mhz, debe de estar a esa velocidad de
+forma constante, con peque§as variaciones bruscas. Por tanto, si aguanta a 200
+Mhz toda la vida, debe de poder aguantar al menos a 201 Mhz, como el que dice
+la cosa. Y por razonamiento emp°rico, seguro que aguanta a 210 o 250 Mhz. Sin
+embargo, eso no quiere decir, que sea barato y que se f†cil. Para eso hay que
+seguir los razonamientos que se van a contar en el siguiente apartado.[NO]
+
+
+
+Teoria del calentamiento[AMARILLO GRANDE]
+
+
+
+   Aunque el problema del calentamiento de la tierra es muy importante en la[BLANCO PCT IZQUIERDA]
+vida real, por motivos del desbanecimiento de la capa de ozono, por la
+contaminaci¢n, el t°tulo del apartado, no alude a ello. De hecho trata sobre la
+teor°a de los aparatos electromec†nicos. Todo el ordenador, esta constituido
+por aparatos de este tipo. Al ser elÇctricos, significa que no se gastan. Pero
+tambiÇn son componentes f°sicos, por estar basados los transistores, diodos y
+condensadores que forman las puertas l¢gicas en Silicio y Arseniuro de galio.
+Esto les hace dÇbiles ante una tensi¢n elebada, o un funcionamiento prolongado.
+Para aquellos que no sepen nada de elect¢nica (que conste que yo no soy un
+experto), el paso de corriente en los diodos y transistores se basa en la
+teoria de huecos y electrones mayoritarios y minoritarios, es decir, en el
+movimiento de electrones, a groso modo. En realidad, puede haber corriente por
+los huecos. Pero en definitiva, que la corriente se forma por el movimiento de
+los electrones, los cuales generan un desprendimiento de energ°a, que por la
+ley de Joule, se transforma en calor. Pero antes hay que explicar que son los
+electrones. En mi Çpoca de mozo de colegio, todo ente vivo o inerte estaba
+formado por molÇculas, las cuales eran una agrupaci¢n de †tomos. Y los †tomos
+estaban formados por un n£cleo, que tenia protones (carga positiva +),
+neutrones (carga neutra) y electrones (carga negativa -) los cuales estaban
+girando en torno al n£cleo en orbitas mas cercanas o mas lejanas, llamadas
+capas. Ya en mi Çpoca de instituto, en qu°mica entramos en mas detalle, y el
+n£cleo de los †tomos estaba formado tambiÇn por quasar y dem†s historias que
+se salen de todo este art°culo. Sin embargo, lo que nos concierne, es que la
+corriente elÇctrica se genera por el movimiento de los electrones, en concreto
+cuando se escapan de la £ltima capa (capa de valencia) del †tomo. Ese electr¢n
+que escapa es r†pidamente acogido por un †tomo adyacente, y este a su vez,
+pierde otro, que lo coje el compa§ero, y as° sucesivamente. De aqui que la
+corriente se forme por el movimiento de cargas negativas, y no positivas, como
+algunos creen, ya que nos dan valores de tensi¢n positivos. Cuando un electr¢n
+escapa de su capa de valencia genera una energ°a en forma de calor, de ahi que
+cuando un aparato elÇctrico esta funcionando mucho tiempo, esta caliente.
+Dependiendo del material que se use, el calor ser† mas elebado o menos. y
+vosotros os estareis preguntando ®y a mi que me importa el calor?. Pues en[GRIS]
+teor°a no deber°a importar, pero existe otra prueba emp°rica, que el calor es[BLANCO]
+un catalizador (agente que acelerala velocidad) de las reacciones qu°micas. Es
+decir, que a mayor calor, se desprender†n m†s electrones, y estos a su vez,
+desprender†n m†s calor, que a su vez .... (bienvenidos a la recursividad). Esto
+da lugar a una desintegraci¢n de los enlaces (covalentes),que se puede traducir
+en la desintegraci¢n total de la componente f°sica afectada, por ejemplo, un
+transistor. Y teniendo en cuenta, que un microprocesador, es un conjunto de
+transistores, diodos y condensadores, todo esto le afecta. Una forma de hacer
+que la temperatura de una componente electrica aumente, es introduciendo
+valores de tensi¢n superiores a la tensi¢n umbral, y otra es hacer que trabaje
+a mayor velocidad que la dada.[NO]
+
+
+  Actualmente, la temperatura a la que puede llegar un microprocesador es[IZQUIERDA]
+superior a los 100 grados centigrados, es decir, pueden hacer herbir el agua.
+Y esto, es s¢lo en la parte externa del encapsulado. En la parte interna,
+puede alcanzar temperaturas superiores a los 1200 grados cent°grados. Esta
+claro que a esa temperatura, tanto los transistores, como el propio encapsulado
+se fundir°an. Por tanto, os estareis preguntando ®como es posible que mi
+ordenador sea una tostadora, y no se me haya fundido todab°a?. A lo que se
+puede responder de varias formas:[NO]
+
+  - Teneis mucha suerte (Luckyman). [GRIS]
+  - Poseis un autÇntico congelador en vuestra carcasa.
+
+  En cualquiera de los dos casos, el riesgo para el equipo es m†ximo. Pero[BLANCO IZQUIERDA]
+tranquilos, todab°a se puede solucionar las cosas, ya que existen remedios para
+poder reducir la temperatura del equipo. Existen dos mÇtodos:[NO]
+
+  - El ingeniero f°sico electr¢nico.[GRIS]
+  - El de andar por casa.
+
+  En el primer caso, consiste en usar materiales f°sicos con menos impurezas.[BLANCO IZQUIERDA]
+Este es el caso de la N.A.S.A., que usa mejores materiales, pero claro, mejores
+materiales significa m†s dinero. Otra opci¢n es crear semiconductores que
+consuman menos, ya que de la misma forma, emiten menos energ°a en forma de
+calor. Esto se consigue con la miniaturizaci¢n, pero no esta del todo
+controlado, y cuesta mucho. Todos estos casos deben ser aplicados en proceso de
+fabricaci¢n, ya que los mÇtodos manuales una vez creados, son much°simo m†s
+complejos y caros.[NO]
+
+  En el segundo caso, consiste en apa§arnoslas para poder reducir la[IZQUIERDA]
+temperatura, con sistemas de refrigeraci¢n, tan sencillos como dejar nuestro,
+equipo al aire libre o incluso soplando, hasta usar autÇnticos circuitos de
+refrigeraci¢n liquida al estilo de las neveras o congeladores domÇsticos.[NO]
+
+
+
+Manos a la obra[GRANDE ROJO]
+
+
+
+  Pues como m†s o menos se ha intentado explicar, el proceso de overclocking[BLANCO PCT IZQUIERDA]
+se puede dividir en dos partes:[NO]
+
+  - Remarcado f°sico.[GRIS]
+  - Proceso de refrigeraci¢n.
+
+  Para poder remarcar f°sicamente debemos de haber comprendido los riesgos y[BLANCO IZQUIERDA]
+beneficios que acarrea, que a groso modo son:[NO]
+
+  - Beneficios: Mejor procesado global o local, o sea: mas fps en el Quake.[GRIS]
+  - Problemas: Inestabilidad de funcionamiento, o sea: equipo quemado.
+
+  Una vez superada esta parte debemos de pasar a poder remarcar el equipo.[BLANCO IZQUIERDA]
+Para ello, en vez de remarcar directamente el equipo, debemos de intentar
+analizar la situaci¢n. Hay que recordar que hacer overclocking es tan sencillo
+como si un mec†nico nos dice que introduzcamos un nuevo carburante en el
+dep¢sito de gasolina de nuestro coche (el cual hace que el motor alcance
+velocidades superiores). Pero si nuestro motor no lo soporta, o lo introducimos
+en el dep¢sito del agua por equivocaci¢n, o por no saber lo que hacemos,nuestro
+coche quedar† in£til para siempre. Pues a nuestro ordenador le pasa lo mismo
+que en este ejemplo. As° que prestad atenci¢n, y procurad seguir un orden.[NO]
+
+  En primer lugar, debemos de buscar la mayor informaci¢n de nuestro equipo[IZQUIERDA]
+completo, ya sea microprocesador, como tarjeta gr†fica, de sonido, modem, y
+dem†s. Para ello hecharemos mano de esos maravillosos manuales que venian con
+el equipo (AHH!!!, pero si los tirÇ a la basura, junto a las cajas vacias). Si
+no disponeis de ellos, usad la maravillosa INTERNET, la cual seguro que os
+podr† dar informaci¢n del equipo completo si era de marca, o de alguna pieza,
+si era cl¢nico o piezas de marca. Por supuesto, esta camino, seguro que no
+tendr† perdida para algunos, ya que entre p†gina y p†gina, algun BANNER PORNO
+se colar†. 8-D)[NO]
+
+  Los datos que mas nos interesan, es saber si nuestro equipo dispone de una
+BIOS SPEED EASY, ya que nos dar† la posibilidad de dos opciones de over:[NO]
+
+  - HARDWARE con jumpers, microdips, soldando, interruptores, contactores, ...[GRIS]
+  - SOFTWARE, gracias al sistema FSB.
+
+  Si dispone de SPEED EASY, tendr† fijo FSB, es decir, Frecuency System Bus.[IZQUIERDA BLANCO]
+Por supuesto, hay otros tipos de BIOS que disponen de tecnolog°a FSB, pero
+SPEED EASY la cumple a la perfecci¢n. Esto nos permitir† variar la velocidad
+de nuestro equipo global y localmente con un simple golpe de teclado o rat¢n.
+Si por el contrario, no disponemos de esta tecnolog°a, debemos de tirar de
+manos e imaginaci¢n.[NO]
+
+
+
+SPEED EASY[GRANDE ROJO]
+
+
+
+  Aquellos ordenadores, ensamblados desde 1997 en adelante, disponen casi[BLANCO PCT IZQUIERDA]
+seguro de esta tecnolog°a, sobre todo de la mano de la BIOS AWARD. Para
+refrescaros la cabeza, esta Çpoca se corresponde con los Pentium MMX y los
+Pentium II, hasta nuestro d°as, con Pentium IV, Athlon, Cyrix, Winchip, y
+Merced.[NO]
+
+  Esta tecnolog°a se basa como casi todas, en un reloj de sistema global, como[IZQUIERDA]
+puede ser 50, 55, 60, 75, 83, 90, 100, 105 o 130 Mhz. Esta velocidad se
+corresponde con la velocidad de la placa madre, y es la velocidad de la memoria
+RAM, por lo general, mientras que el resto de dispositivos, como controladoras
+conectadas a los buses PCI, ISA, AGP, etc.. lo hacen a un valor inferior a la
+global, por lo general, con un factor de divisi¢n de 1.5, 2, 2.5, 3, 3.5, 4.
+
+  Los canales IDE tienen la misma velocidad que los PCI, ya que realmente son
+PCI. Los puertos de E/S como el serie, el paralelo y el teclado, est†n a una
+velocidad dada por el ISA de 8 o 16 bits. Por tanto, si tenemos un Pentium 200
+MMX con una velocidad global del sistema de 60 Mhz, y los dispositivos PCI con
+un factor de divisi¢n de 2, la velocidad del PCI ser† de 30 Mhz. Parece
+sencillo, y entonces os preguntareis, ®y de donde saca el procesador los 200[GRIS]
+Mhz, si la placa s¢lo tiene 60 Mhz.? Pues la respuesta es muy sencilla. El
+microprocesador, va a 200 Mhz, pero al comunicarse con el exterior, lo hace a[BLANCO]
+la velocidad del sistema, o de las divisiones locales de cada dispositivo. As°
+si el procesador quiere hacer una multiplicaci¢n de 2 n£meros, lo har† a 200
+Mhz, pero a la hora de dejar los datos multiplicados en memoria, deber† de
+enviarlos a la velocidad de 60 Mhz, que es la de la memoria, y si quisiese
+guardarlos al disco duro, enviar† el dato a 30 Mhz, que es la velocidad del PCI
+, adem†s de a§adir el tiempo que tarda el disco duro en grabar.[NO]
+
+  Vosotros os preguntareis todab°a, ®pero de donde saca los 200 Mhz?. Pues muy[IZQUIERDA]
+sencillo, ya que el micro posee un n£mero, que se llama factor de
+multiplicaci¢n, que en este caso, ser°a de 3.3, ya que 60 x 3.3 = 198, que
+teniendo en cuenta que no existen valores impares exactos en las frecuencias
+, pues 3.3 pasa a ser un poco superior, y los 198 Mhz se transforman en 200
+Mhz. La memoria cache de primer nivel L1, va a la misma velocidad que el
+procesador, es decir, 200 Mhz, ya que esta incluida en el propio encapsulado.La
+cache de segundo nivel L2, solia venir en la placa madre en modelos MMX, as°
+que va a la velocidad de la placa de 60 Mhz. Sin embargo, los procesadores
+actuales suelen venir con ella dentro del micro o fuera del encapsulado, pero
+va a la misma velocidad del micro, que en esta caso podr°a ser de 200 Mhz. La
+cache de tercer nivel L3, esa si que es externa y va fijo a la velocidad de la
+placa, que ser°a de 60 Mhz. En los MMX no solia venir, pero en los nuevos, o
+si nos diese por contruir un nuevo ordenador basado en un procesador MMX,
+podr°a existir la L3. Las memoria cache oficialmente se crearon para acelerar
+la velocidad en dispositivos de acceso m†s lentos, como E/S en discos duros,
+memoria, etc... Esta memoria es muy peque§a, del orden de 4 a 640 Kbytes, y es
+SRAM (RAM est†tica), es decir, muy grande f°sicamente, r†pida y cara.
+Extraoficialmente, se crearon para paliar la deficiencia de una mala[IZQUIERDA]
+construcci¢n de sincronizaciones de dispositivos de distintas velocidades, y
+para dar la velocidad que realmente no puede dar. Es decir, nuestro ordenador
+a tropecientos megaherzios, nunca va a llegar a esa velocidad. Pero menos da
+una piedra.[NO]
+
+  Existen otra seria de buses, que por lo general van a velocidades:
+
+  - AGP (para tarjetas de video), va o a la velocidad de la placa, a un factor[GRIS]
+         de divisi¢n por 1.5, o bien a valores cte., como AGPx1 66 Mhz, AGPx2
+         120 Mhz, y as° sucesivamente.
+
+  - PCI (para cualquier tarjeta de E/S), a un factor de divisi¢n de 2, o por
+         defecto a 33 Mhz.
+
+  - ISA (para cualquier tarjeta de E/S), a un factor de divisi¢n de 4, o por
+         defecto a 8 Mhz.
+
+  Sin embargo, existen variaciones, ya que no todo es blano o negro, y por[BLANCO IZQUIERDA]
+tanto debemos de tirar de manuales de placa, si es que trae esas velocidades.
+Algunas placas como AOpen disponen de factores de divisi¢n variable seg£n la
+velocidad global del sistema (la de la placa). As° si nuestra placa va a 60 Mhz
+el factor de divisi¢n para el bus PCI puede ser de 2, y por tanto nos da 30 Mhz
+, mientras que para una velocidad de placa de 75 Mhz, el factor puede quedarse
+igual a 2, y el PCI ir† a 37 Mhz, o puede varias a 2.5 y seguir quedando 30 Mhz
+Estos valores como digo, suelen venir en la mayor°a de los manuales. El caso de
+los buses ISA, varia un poco, ya que aunque el bus en teor°a se puede remarcar
+bien, los dispositivos por usar integrados antigÅos, no suelen adaptarse muy
+bien, es decir, da fallos de sincronismo, pero no de calentamiento, as° que lo
+normal es encontrar capada la posibilidad de subir la velocidad de este bus por
+encima de los 8 Mhz, pero podremos variar la velocidad a menos, es decir, a 7
+Mhz, o se pueden reducir los tiempos de latencia en caso de error. Esto £ltimo
+se puede encontrar en el SETUP de la BIOS de la mayor°a de los equipos, incluso
+de los 80386, en la opci¢n de "time latency 8 o 16 bits".[NO]
+
+  Y despuÇs de este calentamiento, voy a poner como cambiar estos par†metros.[IZQUIERDA]
+Pues si habeis entendido los factores de divisi¢n y multiplicaci¢n, podeis
+pasar a hacer over en placas con FSB. Para ello teneis dos opciones:[NO]
+
+  - En el setup de la BIOS.[GRIS]
+  - Con programas externos corriendo en un S.O.
+
+  La primera opci¢n es bastante c¢moda, y no requiere de tener ning£n S.O.[BLANCO IZQUIERDA]
+instalado en nuestro ordenador previamente. Para ello deberemos de mirar en
+nuestro manual como podemos entrar en el SETUP de la BIOS (AHH!!, ya te he
+dicho que lo perd° 8-D)). Hay que recordad, que el SETUP de la BIOS no es lo
+mismo que la BIOS, y que esto no es un actualizaci¢n de la BIOS ( Sistema de
+E/S b†sico). Si no disponeis de ningun manual, os dirÇ un consejo b†sico de las
+teclas que teneis que pulsar para entrar en el SETUP de la BIOS:[NO]
+
+  - BIOS AWARD, con la tecla SUPR (Suprimir), situada en el punto (.) del[GRIS]
+    teclado numÇrico.
+
+  - BIOS AMI, con la tecla ALT+CTRL+F1, es decir, a la vez.
+
+  Esto debe de pulsarse justo cuando arranca el equipo y esta haciendo los[BLANCO IZQUIERDA]
+POST, es decir, las comprobaciones. Por lo general en la pantalla nos dir† en
+inglÇs: "Press supr key to enter in Setup BIOS". Esto depende como dije antes,
+del tipo de BIOS que tengamos. He de recordar, que no debeis de pulsar muchas
+veces estas teclas, ya que por lo general, esto activa la secuencia de borrado
+de la CMOS del Setup de la BIOS. Tranquilos, esto no borra la BIOS, sino los
+par†metros b†sicos del SETUP, como la velocidad del micro, tipo de disco duro,
+e incluso la hora del reloj, que por lo general, al arrancar de nuevo el equipo
+se introducir†n los de por defecto. Si disponeis de un maravilloso monitor de
+ahorro de energ°a, os dareis cuenta que al arrancar no podeis ver nada, porque
+suele tardar un poco en calentar en tubo de rayos cat¢dicos, por lo que seguro
+que no podreis ver las teclas que he comentado antes. As° que podeis o bien
+pulsar las teclas que trae el manual, o las que he comentado, o bien dejar un
+tiempo el monitor encendido hasta que caliente, o bien darle a la tecla "PAUSA"
+situada encima de las teclas "RePag" de retroceso r†pido de p†gina. Esto todo,
+depende del teclado que tengamos.[NO]
+
+  Ya se que he soltado mucho rollo, pero es mejor dejar las cosas claras. Una[IZQUIERDA]
+vez dentro del SETUP de la BIOS, podremos ver varias opciones, como:[NO]
+
+  - Standard CMOS SETUP[GRIS]
+  - Speed Easy Setup
+  - Load Setup Defaults
+  - Save & exit setup
+  - BIOS Features Setup
+  - Chipset Features Setup
+  - Power Management Setup
+  - Integrated Peripherals.
+
+  Lo siento, pero la mayor°a de las BIOS vienen en INGLES. Si teneis una BIOS[BLANCO IZQUIERDA]
+Phoenix, estos par†metros cambian un poco, pero por lo general, es todo lo
+mismo. De todo esto lo £nico que nos interesa es el Speed Easy Setup y Save &
+Exit setup para poder grabar los cambios al salir. Para movernos por los menus
+por lo general suele ser con los cursores, y dando a las teclas enter para
+entrar dentro de un par†metro, as° como AvPag o RePag para cambiarlos. Aunque
+todo depende de la BIOS que tengais. Insisto, miraros el manual (AHH!, no tengo
+lo tirÇ 8-( ). Una vez dentro de Speed Easy, nos aparecer†n varios par†metros.
+Por lo general en este menu, suele venir un comprobador de tiempo real de la
+temperatura del micro si disponeis de esta opci¢n en la placa. Si veis que
+esta por encima de 80 ß (grados centigrados), m†s vale que salgais de la BIOS
+y no hagais el over. De hecho os recomendar°a que bajaseis la velocidad del
+mismo o denunciseis al vendedor del ordenador. He de recordar, que hacer over
+no es del todo ilegal, pero si lo haceis bajo el setup de la BIOS, no creo que
+se enteren, no sin antes, borrar la CMOS. Recordad, no dejeis nunca rastros.
+
+  En definitiva, este £ltimo consejo no lo sigais, as° que haced over de forma
+controlada y s¢lo por mejorar vuestro rendimiento de equipo, y no para fines
+lucrativos o ilegales. Pues una vez pasada la prueba de velocidad, mirad si es
+posible si el ventilador esta funcionando. Esta opci¢n suele venir en la
+monitorizaci¢n de la temperatura, as° como las rpm (revoluciones por minuto)
+del mismo. Si veis que funciona bien, pasad a la siguiente prueba, que es
+cambiar los valores globales y locales del sistema.[NO]
+
+  Os aparecer†n varios par†metros, uno de los cuales es la velocidad en Mhz y[IZQUIERDA]
+el otro es voltaje. El segundo par†metro no debereis cambiarlo, salvo que este
+mal configurado. Cada micro tiene un voltaje asignado. Los micros actuales
+tienen dos voltajes (dual voltaje) que no es costante. Si lo cambias podeis
+hacer over, pero es peligroso, porque un voltaje superior al que soporta el
+micro puede quemarlo, como se comento en el efecto del calor. As° que mirad en
+el manual el voltaje que le corresponde a vuestro micro, o aquel que le
+corresponde a uno superior. Os recuerdo, que el cambio del voltaje debe dejarse
+para £ltima ocasi¢n, ya que el microprocesador no tiene mecanismos de
+protecci¢n externos, as° que si os pasais de tensi¢n, se quemar†, y estamos
+hablando de tensiones de entre 1.5 y 5 voltios.[NO]
+
+  La otra opci¢n, de los mhz es m†s c¢moda y m†s seguro, dentro de lo que cabe.[IZQUIERDA]
+La opci¢n m†s simple es que nos venga la velocidad en Mhz del micro, es decir,
+puede venir 150, 200, 350, 400 Mhz para poder poner un micro a esas
+velocidades. Por defecto suele estar en autodetectar, as° que desactivar esto,
+y poned la velocidad que querais. Por lo general, el over suele tener Çxito
+cuando se sube un 15% la velocidad del micro. As° quesubid s¢lo 10 o 30 Mhz la
+velocidad para probar. Mandad grabar al salir del Setup de la BIOS, y ha
+esperar. Cuando se resetee el ordenador, estad atentos a lo que aparece en
+pantalla. Por lo general, suele arrancar el equipo. Si os empieza a pitar sin
+parar, ya sabeis, a resetear. En el segundo arranque suele arrancar con los
+valores por defecto. Si no es asi, podeis pulsar muchas veces la tecla de supr,
+que suele borrar la CMOS. Si esto no funciona, ya sabeis, a coger el maldito
+manual (AHH!!, sigo sin encontrarlo), y a borrar la CMOS. Os recuerdo que
+debeis de hacer un corto, y no quitar la pila como dicen algunos que se las dan
+de expertos. Hace un CORTO, significa hacer un CORTOCIRTUITO, y esto no es
+cortar el circuito, sino, hacer un circuito con un simple conductor. Para eso
+se puede hacer un puente en el jumper para borrar la CMOS que viene en el
+manual, que varia de una placa a otra, o bien unir los dos polos de la pila.
+Hay que recordar, que esto se hace con el ordenador apagado, pero una vez hecho
+el corto, se debe de arrancar el equipo, para que se borre la CMOS. Y despuÇs
+es cuando quitamos el corto, y dejamos todo como estaba. Y si esto no funciona,
+ya os veo hechando velas a MARIA 8-D)). Es broma, todab°a teneis mas
+oportunidades, as° que mandadnos un correo. Recuerdo, que no nos haceos
+responsables de los destrozos que podeis hacer con esta informaci¢n en vuestros
+equipos, porque como dije, esto tiene riesgos, que debeis de sopesar.
+
+  Si vuestro ordenador si arranca, pero no dice que teneis un procesador a la
+velocidad que habeis dicho, debeis de volver a entrar en el setup de la BIOS y
+cambiar la velocidad probando con otras, pero con sentido. Si a pesar de esto,
+sigue sin funcionar, podeis probar a cambiar los mhz manualmente. Para ello
+cambiareis el valor de atom†tico a manual, y os aparecer†n varias opciones,
+como MHZ del bus del sistema y el multiplicador. El bus del sistema es lo que
+comentamos desde el principio, y el multiplicador es el valor que multiplicado
+por el bus del sistema nos da la velocidad del micro. As° podemos poner, bus
+a 83 y multiplicador a 3, y nos dar† 83 x 3 = 249, que al final nos da 250 Mhz.
+
+  Esto no s¢lo nos aumenta nuestro 200 MMX a 250 MMX, es decir, 50 Mhz, sino
+que pasamos de 60 Mhz de bus de sistema a 83 Mhz. Esto es un incremento de casi
+el doble del sistema. Es m†s, si el multiplicador fuese 2.4, nos dar°a 83 x 2.4
+= 200 Mhz, que es la misma velocidad de micro, pero con una mejora del sistema,
+ya que el bus PCI pasar°a de 60 / 2 = 30 Mhz a 83 /2 = 41.5. Hay que destacar
+que el bus a 83 Mhz es inestable, ya que todo lo impar suele traer problemas
+de sincronismos, pero no es una regla exacta. Pues ya sabeis, a grabar, y a
+mirar si os detecta el micro. Si es as°, enhorabuena, habeis hecho vuestro
+primer overclocking. Dependiendo de la placa, el Setup de la BIOS tendr† m†s
+opciones, como incluso velocidad del PCI, AGP, ISA, etc.., que podeis
+cambiarlas, sin falta de remarcar el micro, y os dar†n una mejora del sistema
+m†s estable. Una vez hecho esto, os queda la prueba de fuego, que es tener el
+ordenador funcionando al menos 1 hora, y mirar si se cuelga totalmente sin
+responder a nada. He de destacar que Windows no suele aguantar muy bien los
+overs, as° que se suele colgar nada m†s intentar arrancar. LINUX tampoco los
+aguanta muy bien, pero los logra mejor que Windows. BeOS se porta muy bien con
+ello, pero sin duda el que mejor lo aguanta es el DOS.[NO]
+
+  He de destacar, que para hacer un over desde Speed Easy, se debe de poner las[IZQUIERDA]
+opciones de bloquear el micro en caso de una temperatura elebada en el valor
+correspondiente, por ejemplo 70ßC, o la posibilidad de reducir la velocidad del
+micro en caso de recalentamiento a un 25% o 50%. Todas estas opciones suelen
+venir en Advanced Features Setup, si disponemos de Speed Easy. Pero esto
+variara de un ordenador a otro.[NO]
+
+
+
+Programas externos.[GRANDE ROJO]
+
+
+
+  Uno de los primeros cortafuegos de los overclockings son los POST de la BIOS.[PCT BLANCO IZQUIERDA]
+Como comente anteriormente, cuando el ordenador arranca, hace una serie de
+POST, es decir, chequeos de hardware, como memoria, E/S, procesador, para ver
+si todo esta bien. Suele ser muy exaustivo, y no suele perdonar casi nada,
+asi que protestar† por cualquier fallo, por m°nimo que sea, incluso si tenemos
+desconectado el video o el teclado. No obstante la mitad de estos fallos se
+pueden evitar desactivando algunos de los chequeos. Hay que tener en cuenta
+estos fallos para ver como se porta el micro, para cuando queramos hacer el
+over, pero si estos fallos, nos lo impiden, debemos desactivarlos. Si a pesar
+de desactivar opciones, como hacer que el chequeo de la RAM sea menor, o el
+activar el boot speed, para tener un arranque m†s r†pido, sigue sin dejarnos
+arrancar dando fallos, debemos de tener en cuenta, que el over no va a ser
+posible, al menos de la forma comentada antes. Pero tranquilos, todab°a quedan
+otras opciones, como usar programas externos.[NO]
+
+  Si tenemos DOS, Windows o LINUX instalado, estamos de suerte, ya que podemos[IZQUIERDA]
+usar una serie de herramientas, como FSB Soft, u otras parecidas que nos
+permiten remarcar el equipo en caliente, sin necesidad de entrar en el setup de
+la BIOS, ya que los POST no nos dejar°an pasar. Que no hayamos entrado en el
+SETUP de la BIOS, no quiere decir, que no estemos cambiando los mismos
+par†metros. Una vez instalado el programa, debemos mirar si nos soporta nuestro
+equipo. Si es asi y nos lo ha reconocido, estamos de suerte, sino, debemos de
+hacer el modo manual, de meter par†metros y cargar la placa que sea compatible
+con el chipset que tengamos, ya que el chipset es el que se encarga de todo. El
+chipset es otro microprocesador que se encarga de todos los sincronismos y
+funciones especiales de todos los dispositivos que se encufan a la placa madre.
+
+  Pues una vez comprobado todo, elegiremos la velocidad a la que queremos poner
+el micro, y le daremos a aceptar. Recordad, que el over hay que acerlo con
+sentido, y m†s ahora, ya que en caliente, se comprueba menos, y podremos poner
+tranquilamente un micro de 200 Mhz a 300 y no protestar†, salvo que se cuelgue.
+Si pasa la prueba, fant†stico, acabais de remarcar el micro y esta vez, en
+caliente. Hay que destacar, que si ahora reinicias DOS, Windows o LINUX, cuando
+arranque el ordenador os dar† pitidos y todo lo que querais, ya que acabais de
+dejar el micro a la velocidad que pusisteis, por ejemplos 250 Mhz, y los POST
+de la BIOS no los puede pasar. Para ello, es recomendable, casi obligatorio,
+dejar la velocidad tal y como estaba cuando vayamos a resetear el equipo.
+
+  Estos programas, permiten remarcar tambiÇn la velocidad de los diferentes
+buses, como el PCI, AGP, ISA, etc.., o incluso la frecuencia del reloj de la
+tarjeta aceleradora gr†fica. Estas £ltimas son las m†s perjudicadas con el
+over. Por lo genereal suelen durar de 1 a 2 a§os remarcadas. As° que
+remarcarlas s¢lo temporalmente, para poder jugar. Existe una utilidad, llamada
+MCLK, que es GNU, y se puede cargar tanto en DOS, como en ventana consola del
+DOS de Windows, y permite remarcar la mayor°a de tarjetas gr†ficas y primeras
+aceleradoras, como la S3 VIRGE. Principalmente sirve para remarcar tarjetas ISA
+como CYRRUS LOGIC, S3, ATI, TRIDENT, etc.. Os puedo comentar, que yo pude jugar
+al GLQUAKE I (Quake con OpenGL) con una S3 VIRGE remarcada y un 200 MMX
+remarcado a 250 Mhz. Y funcionaba a 25 fps. El resto de personas necesitaban
+de una VODOO para poder jugar, pero yo lo pude ver sin falta de gastarme las
+pelas. Por supuesto, tube que bajarme una versi¢n reducida de una api de opengl
+para la VIRGE que implementaron los chicos de ID SOFT.[NO]
+
+  Actualmente, los over de tarjetas aceleradoras gr†ficas ya vienen incluidos
+en el propio software de la tarjeta, junto a los drivers. El over afecta
+principalmente al refresco de la memoria VRAM (RAM de video), a la del chip
+gr†fico y ala del refresco de la misma (75 a 300 Hz).[NO]
+
+
+
+Hardware.[GRANDE ROJO]
+
+
+
+  El proceso es abstractamente igual que el anterior[PCT BLANCO]
+, pero a la hora  de cambiar la velocidad del micro,
+se  debe  de  hacer  con  el  hardware,  es   decir,
+desmontando   el   equipo ,   y   hechar   mano   al
+destornillador. La mayor°a  de  los  equipos  suelen
+disponer  de  jumpers (puentes) para poder fijar  la
+velocidad de  la placa, as° como los multiplicadores
+de velocidad.Un jumper puede ser una grapa de las de
+grapar con la grapadora, es decir, un simple corto. Sirve para unir dos[IZQUIERDA]
+conectores normalmente dorados, que salen como los pines de un disco duro. En
+el manual de la placa (DIOS SANTO!!!, te he dicho que no lo tengo 8-[]) suele
+venir las conbinaciones posibles para poder poner la velocidad del micro. No
+obstante, en la placa a veces, vienen dibujos o incluso los n£meros indicando
+la velocidad y los multiplicadores. Normalmente estos suelen estar cerca de los
+paneles de conexi¢n de los led del frontal de la carcada, pero no es una regla
+b†sica, y otras veces estan cerca del micro, o en otro sitio. Como cada
+fabricante es un mundo, no suele bastar con la uni¢n de dos pines, as° que
+igual hace falta unir 3 pine, e incluso 4. Y otras veces, no se usan jumpers,
+sino que se opta por microdips. Un microdips son peque§os interruptores que
+vienen incrustados en una minicaja, normalmente azul. Suelen ir numerados, y
+tienen dos posiciones, ON y OFF. Los jumpers tambiÇn tenian dos posiciones: ON
+si los unias y OFF si los dejabas sin uni¢n. En los manuales os vendr† como
+poner la velocidad del sistema y la del multiplicador (Y dale con el manual!!).
+Otras veces, basta con darle a un bot¢n, como pasaba con los 80286, 80386 y los
+80486, que les dabas al turbo, y pasaban al doble de velocidad.[NO]
+
+  Si queremos poner nuestro micro de 200 Mhz a 250 Mhz, en la placa estar†[IZQUIERDA]
+el jumper que indica que estaba a 60 Mhz puesto, y debemos de quitarlo y
+ponerlo para que marque 83 Mhz. El multiplicador lo cambiaremos de 3.3 a 3. Hay
+que destacar, que por lo general, los multiplicadores suelen venir quemados de
+fabrica, por lo que no suele dejar cambiarlo. As° que debemos de jugar con la
+velocidad del sistema que es m†s permisiba. Todo esto se aprende con la ciencia
+empirica, es decir, a prueba y error. Cuando mando cambiar los jumpers, he de
+comentar que no es un camino exacto, es decir, para poner 60 Mhz de bus de
+sistema a lo mejor teneis que poner a OFF el jumper JP22 o el JP33, es decir,
+el que diga el manual (Oh no!!, he de encontrar el manual como sea 8-P). Si os
+manda poner el JP22, el JP23 y el JP24 a ON para qu quede a 83 Mhz, pues lo
+tendreis que poner. Y si os dicen que para eso hay que activar el dip 1,4 y
+desactivar el 2,3,5,7 y 8, pues a hacerlo. Hay que destacar, que hay placas
+hibridas que permiten combinar las dos opciones de over, tanto con jumpers,
+como con microdips. Y hay otras, que permiten Speed Easy y modo hardware. De
+hecho a veces, hay que desactivar par†metros en el setup de la BIOS para que
+en el arranque compruebe la velocidad a partir de los jumpers o de la BIOS.[NO]
+
+
+
+Casos empiriricos.[GRANDE ROJO]
+
+
+
+  A parte del 200 MMX, puedo comentar que un Pentium 133 Mhz se puede poner a[BLANCO PCT IZQUIERDA]
+200 Mhz en caliente con programas externos o a 166 Mhz con arranque en frio.
+Claro, muchos me direis que no se puede, pero esto se logra con las placas
+modernas con buses m†s elebados, ya que el multiplicador se deja igual. Sin
+embargo, tendreis que gastar dinero en una placa mas moderna, como una de
+AMD K6 II o una para MMX.[NO]
+
+  Un K7 Duron a 700 Mhz se puede poner a 800 Mhz cambiando la velocidad del[IZQUIERDA]
+sistema. Hay que destacar que las placas modernas disponen de buses de 100 Mhz
+y superiores, pasando por los 105, 110 y 115 Mhz. Los K7 suelen tener cortados
+los multiplicadores, pero no quemados. Para poder subir el multiplicador, se
+debe tirar de soldador. Esto es muy delicado, y requiere de muy buena ma§a, as°
+como de un buen soldador, ya que si estais mucho tiempo con el sobre el micro
+podeis quemarlo internamente debido al calor. Por tanto, la forma de hacerlo de
+forma segura, es subiendo a 115 el sistema. Como el multiplicador esta fijado a
+7, esto nos da 100 x 7 = 700 Mhz, pero con la nueva velocidad da 115 x 7 = 805.
+
+  Si disponeis de una placa de mayor velocidad como 130 Mhz, os dar† 910 Mhz, y
+si teneis una de 200 Mhz, os saldr† 1,4 Ghz. El Duron esta capacitado para
+llegar a esa velocidad con ayuda, ya que su bus interno con la cache L1 es de
+de 200 Mhz, mientras que con la L2 es la que marque el sistema. Sin embargo,
+para poder meter el duron a esa velocidad, necesitamos memoria DDR, y gastarnos
+mas dinero en esa placa. Ya nos metemos en un terrenos de miara si realmente
+nos interesa cambiar el equipo, o remarcarlo. Si nos regalan la placa, pues no
+hay duda, lo probamos. El Athlon le pasa lo mismo que el Duron, al menos en sus
+primeras versiones, es decir, hay que tirar de soldador, pero se puede cambiar
+la velocidad del sistema, siempre y cuando la placa lo aguante. Un Athlon a 1,2
+Ghz puede llegar hasta los 2 Ghz sin problemas. Si os dais cuenta, cuanto mas
+elebada sea le velocidad, m†s se puede elebar la velocidad del micro, aunque
+realmente s¢lo aumentamos entre un 5 y un 50% la velocidad global.[NO]
+
+  Un Pentium III a 500 Mhz puede llegar perfectamente a 600 Mhz. Adem†s la
+mayor°a de las placas con bus a 100 Mhz suele venir con soporte de micros de
+hasta 1 Ghz. Para ello se puede cambiar el multiplicador de 100 x 5 = 500 Mhz
+a 100 x 6 = 600 Mhz, o bien si se acepta un bus a 115, pues 115 x 5 = 575, que
+no es 600 Mhz pero se aproxima.[NO]
+
+  Un AMD K6 II 3DNOW a 333 Mhz con una placa AOpen con bus a 100 Mhz, puede[IZQUIERDA]
+llegar sin problemas a los 350 Mhz, con varias posibilidades. Como la velocidad
+es rara, esta adaptado a varios buses del sistema y su multiplicador ha de ser
+variado, por lo que 333 Mhz puede ser  100 x 3.3, o bien  83 x 4, o 90 x 3.7.
+Si comprobamos todas estas posibilidades y reconoce 333 Mhz sabremos que el
+micro soporta los multiplicadores 3.3, 4 y 3.7. Si, ®pero yo no quer°a poner el[GRIS]
+micro a 350 Mhz? Pues claro, pero hay que recoger informaci¢n, as° que lo
+£nico que hay que hacer es poner la velocidad del sistema a 100 Mhz y el[BLANCO]
+multiplicador a 4, 3.7 y nos da 100 x 3.7 = 370 Mhz. Por lo que veo supera con
+creces la velocidad de 350 Mhz. Luego tenemos 100 x 4 = 400 Mhz, y por el
+camino 90 x 4 = 370 Mhz. Como veis es todo cuesti¢n de probar, pero antes de
+pensar y adelantarnos a la situaci¢n.[NO]
+
+  Los Pentiums 166 MMX se pueden poner siempre a 180 Mhz, de forma sencilla.[IZQUIERDA]
+166 Mhz son 66 x 2.5, pero en esa Çpoca sol°a haber bus a 60 e incluso 50 Mhz
+para compatibilidades, por lo que este micro puede ser 50 x 3.3 = 166 o
+60 x 2.7 = 166. Es decir, soporta los multiplicadores 2.7 y 3.3. Por tanto,
+podemos poner 66 x 2.7 = 178 Mhz o bien 66 x 3.3 = 218 Mhz. Como podeis ver
+la prueba merece la pena. Si lo llebais a otra placa, podeis dejar un bus
+a 100 Mhz y un multiplicador 2.5, y os da 250 Mhz (casi nada).[NO]
+
+  Los Pentium 100 Mhz aguantan sin problemas los 120 Mhz, ya que 100 Mhz es[IZQUIERDA]
+50 x 2 = 100 Mhz o 55 x 1.8, o 60 x 1.6, por lo que podremos poner de
+multiplicadores 1.6, 1.8 y 2. Por supuesto puede tener m†s, pero estos son
+fijos. Lo que nos puede dat 55 x 2 = 110 Mhz o 60 x 2 = 120 Mhz.[NO]
+
+  El Pentium 133 Mhz tiene 60 x 2.2, 66 x 2, 50 x 2.6, por lo que tenemos los
+multiplicadores 2, 2.2 y 2.6, lo que nos da 66 x 2.2 = 145 Mhz o bien
+66 x 2.6 = 172 Mhz. Y si la placa aguanta los 75 Mhz ser°a 75 x 2.6 = 195 Mhz.
+
+  El resto de procesadores Pentium, vosotros mismos podeis hacer calculos.[NO]
+
+  La gama de Pentium II es parecida a Pentium III, y soporta gran cantidad de[IZQUIERDA]
+multiplicadores. Como podeis ver, los procesadores que mejor dejan hacer el
+over son los INTEL, ya que tienen mayor variedad de multiplicadores y de buses
+de placas. Mientras los que mejor se portan son los AMD, CYRIX y WINCHIP.[NO]
+
+  Si quereis hacer el over de un AMD K6 II a 350 Mhz en una placa P5F93 os dirÇ[IZQUIERDA]
+que podeis ponerlo hasta a 400 Mhz. Para ello debeis de dejar el
+multiplicador como est† a 3.5, pero hay que cambiar el CPU Bus Clock, es
+decir, la velocidad del bus del sistema, a 120 Mhz, dejando el microdip
+SWITCH SW1 en SW1-P4, SW1-P5 y SW1-P6 a ON y el JP11 a OFF. TambiÇn hay que
+cambiar el voltaje a 2.2 V en el microdip SW2, poniendo SW2-P1 y SW2-P3 a OFF
+y dejando el SW2-P2 a ON. Y esto os deja 120 x 3.5 = 420 Mhz. Por el camino
+podeis probar otras opciones, como dejar el bus a 95 Mhz, por lo que queda
+105 x 3.5 = 368 Mhz, o 110 x 3.5 = 385 Mhz. Por supuesto, el bus PCI pasar†
+de 33 Mhz con el bus de 100 Mhz del sistema a 40 Mhz con el bus de 120 Mhz.
+Y el AGP pasar† de 66 Mhz a 80 Mhz. Es decir, interesa mucho el over.[NO]
+
+  El 80486 a 75 Mhz solia venir con bus a 25 Mhz y multiplicador a 3. Algunas[IZQUIERDA]
+placas podian subir el bus a 30 Mhz, por lo que dejando el multiplicador a 3
+quedar°a 30 x 3 = 90. Pero lo m†s normal es que hubiera que cambiarle la placa
+por la de un pentium con bus a 50 o 60 Mhz, lo que nos dar°a 50 x 3 = 150 Mhz
+No obstante no es muy estable. Los 80486 a 100 Mhz solian disponer de bus a 50
+Mhz y multiplicador a 2 o bien bus a 25 Mhz y multiplicador a 4. Lo que nos da
+la posibilidad de poner un bus a 66 Mhz y dejar 66 x 2 = 133 Mhz. Otros 80486
+ten°an bus a 33 Mhz y multiplicador a 2, lo que dejaba 66 Mhz. Estos poco se
+podia remarcar, salvo si se cambiaba la placa por una de pentium y se pon°a
+bus a 50 Mhz, lo que daba 50 x 2 = 100 Mhz.[NO]
+
+  El 80386 como dije al principio, hay que meter manos al soldador. Se fabrico[IZQUIERDA]
+a 16, 25 Mhz, 33 Mhz y 40 Mhz. O bien venia con turbo, y por tanto ya exite el
+over, o sino, teniamos que meternos a cambiar el oscilador. Este ordenador, la
+frecuencia del bus del sistema venia dada por un oscilador, que en este caso
+podia ser de 33 Mhz. Por lo tanto, si queriamos meterlo a 40 Mhz y teniamos un
+33 Mhz, debiamos de cambiar el oscilador por uno de 40 Mhz. El oscilador estaba
+cerca de la fuente de alimentaci¢n. Si quereis cambiar uno, podeis ir a una
+tienda de electr¢nica, pero seguro que os sale m†s barato pillaros un 80386
+a 40 Mhz de segunda mano o cambiarlo por un 80486. Por supuesto una vez pillado
+el oscilador, hay que desoldar el que tiene la placa y soldar el nuevo, con la
+posiblidad de estropear la placa en el proceso.[NO]
+
+  Los Celeron, sobre todo a 333 Mhz, son los mejores para hacer over. Debido a[IZQUIERDA]
+que son micros superiores introducidos en un mercado de inferiores, debido a
+unos fallos en su cache y dem†s historias, pues sus multiplicadores estan
+activos para poder trabajar a velocidades superiores, aunque se vendio como he
+comentado en velocidades inferiores. Esto permite que un Celeron alcance
+velocidades de hasta 600 Mhz. Por supuesto se requiere ir directamente a la
+secci¢n de refrigeraci¢n.[NO]
+
+
+
+Over hardware en caliente[GRANDE ROJO]
+
+
+
+  Si al hacer el over via hardware nos encontramos con el mismo caso que con[IZQUIERDA PCT BLANCO]
+el software, que al arrancar el ordenador, se queda en los POST, todab°a
+tenemos una oportunidad. Esto consiste en conectar a un bot¢n de la carcasa,
+por ejemplo el TURBO, o si nos queda otro libre, y sino nos hacemos uno, el
+enganche de los pines donde hab°a que poner el jumper. De esta manera, si
+apretamos el bot¢n pasar† a un estado y si no, pasar† a otro. Por ejemplo, al
+arrancar el bot¢n esta apagado y el micro est† a 100 Mhz, y la BIOS lo detecta
+bien, y luego apretamos el bot¢n y nos pasa a 133 Mhz, y como la BIOS no esta
+chequeandola, pasamos la prueba. Lo que tenemos que fijarnos es de dejar el
+bot¢n al arrancar apagado, para dejarlo a 100 Mhz. Bueno, el bot¢n quedar†
+encendido o apagado seg£n nos convenga dejar el jumper abierto o cerrado para
+hacer el over. Y ahora es cuando alguno dice: "Que chaval mas listo, este no[GRIS]
+sabe ni lo que dice, porque yo tengo 3 pines y mi vecino 4 para poder remarcar"
+A lo que puedo contestar de forma sencilla. Se puede hacer un tercer cable que[BLANCO]
+cierre los mismos jumpers, e incluso hacer convinaciones, con otros, por si nos
+mandan abrir y cerrar al mismo tiempo. Esto es todo cuesti¢n de ingenio.[NO]
+
+
+
+El fraude[GRANDE ROJO]
+
+
+
+  Alguno estar† pensando que lo que he escrito aqui esta muy bien (como me tiro[IZQUIERDA PCT BLANCO]
+flores 8-P). Pero otros pensar†n que no sirve para nada, porque se puso ha
+intentar hacer over en su equipo o en el del vecino, para asi no estopear el
+suyo, y no funcionaba. A lo que puedo contestar dos cosas:[NO]
+
+  - No lo habeis intentado con todas vuestras fuerzas. Debeis de  rezar mucho y[GRIS]
+    seguro que el over no lo conseguireis, pero la loter°a fijo que os toca, y
+    ya os podeis comprar un equipo nuevo. Esto es lo mas parecido al over.
+
+  - Vuestro equipo no es un original. Es decir os han estafado.
+
+  Hay una serie de equipos que nos son tan originales como dicen. Esto es un[BLANCO IZQUIERDA]
+hecho de puro razonamiento. Si vosotros e incluso nosotros mismos podemos hacer
+overclocking, y no disponemos de conocimientos cient°ficos elebados, que no van
+a hacer las grandes compa§°as o incluso el propio vendedor de equipos. Pues lo
+£nico que hacen es poner por ejemplo Pentium IV a 500 Mhz a 1.4 Ghz. Y esto se
+lleba haciendo desde a§os. La mitad de los Pentium's eran todos falsos, pero
+nadie se daba cuenta porque funcionaban a la velocidad que compraban. Los
+micros actuales ya estan con over (®por quÇ molestarse en hacer over,si ya esta
+hecho? 8-P), por tanto, si estais pensando en hacerles algo, mejor pasaros
+directamente a la secci¢n de refrigeraci¢n.[NO]
+
+  Para daros cuenta de si os han estafado, debeis de quitar el micro del socket[IZQUIERDA]
+Esta opci¢n no es muy recomendable para los Pentium II y III, ya que se
+fabricaron en encapsulado o socket I. A los primeros Athlon les pas¢ lo mismo,
+as° como alg£n otro micro. Una vez sacado del socket, debeis de mirar por la
+parte de abajo si trae un GENUINO PENTIUM a 200 Mhz, o por el contrario trae
+a 166 Mhz. En la mayor°a de los casos no es tan sencillo, y suelen venir con
+nomenclaturas, as° P2 equivale a Pentium 133 Mhz. Por tanto, es todo cuesti¢n
+del fabricante, que la mayor°a de las veces a quebrado. Hay que recordar, que
+los micros cuando salen de f†brica, no es que sean micros a una velocidad dada,
+sino que las pruebas a las que se les sometieron a esas velocidades, las
+superaron perfectamente. Por tanto, si un Pentium 166 de f†brica, pasa las
+pruebas de un Pentium 200 Mhz, te lo van a vender como un Genuino Pentium 200,
+ya que pasa esas pruebas a la perfecci¢n. Ante esto, no se puede hacer nada, ya
+que tanto en teoria como en pr†ctica es correcto. Sin embargo, la estafa est†
+cuando pasa las pruebas a 200 Mhz, y un fabricante o vendedor lo engloba en la
+marca de 250 Mhz.[NO]
+
+
+
+Flash BIOS[GRANDE AMARILLO]
+
+
+
+  DespuÇs de haber leido todo esto, puede suceder que vuestro equipo, si se[IZQUIERDA PCT BLANCO]
+trata de uno dotado de Speed EASY o FSB, no se pueda remarcar, porque no
+soporta las velocidades de 75, 83, 90, 100, 115, 130 o 200 Mhz mencionadas
+antes. Pues ante esto, aunque parezca que no se pueda hacer nada, os puedo
+decir que todab°a teneis posibilidades de hacer over, pero claro toda ventaja
+tiene un riego. Para ello, s¢lo debereis de actualizar vuestra BIOS. Aqui si he
+de destacar, que aunque el proceso es de lo m†s sencillo, los resultados pueden
+ser de lo m†s desastrosos si se usa sin sentido o por error.[NO]
+
+  Las BIOS actuales, incluso los equipos 80486 suelen venir en un chip de RAM[IZQUIERDA]
+cuyas especificaciones suelen ser FLASH BIOS. Una memoria Flash es aquella que
+puede leerse y escribirse ella misma, pero en el proceso de grabado se ha de
+hacer a bloque y borrandola previamente. Todo este proceso es llebado por el
+propio chipset y la FLASH BIOS. Las BIOS de la casa AWARD suelen ser FLASH, al
+igual que las AMI. Sin embargo, podemos encontrarnos otro tipo de memoria
+mejorada o incluso memorias EPROM, que se pueden leer y escribir, pero para
+borrarlas hay que aplicarles una luz ultravioleta. Otro tipo de BIOS son ROM, y
+esto impide que se puedan grabar, por lo que s¢lo se pueden reemplazar en caso
+de aver°a por otra correcta.[NO]
+
+  La Flash BIOS contiene el 75% de la BIOS de nuestro ordenador. Sin ella[IZQUIERDA]
+ni siquiera arrancar°a el equipo. El resto de la BIOS se encuentra repartida
+entre la CMOS del Setup de la BIOS, la BIOS de la controladora de disquettes y
+discos duros (E/S), la de el puerto paralelo y serie, as° como las tarjetas de
+RED, la tarjeta gr†fica y como no, los dispositivos SCSII. Es decir, la BIOS no
+es m†s que un conjunto de rutinas y programas que se encuentran grabados en una
+memoria ROM, y que permiten que el equipo funcione, al menos en el arranque, ya
+que una vez arrancado el equipo, podemos saltarnos unas cuantas rutinas, como
+hace LINUX, BeOS, Windows, FreeDOS, etc...[NO]
+
+  Pues en este chip, que se suele encontrar cerca del chip de la CMOS del setup[IZQUIERDA]
+de la BIOS, viene normalmente con una pegatina indicando que es la FLASH BIOS.
+Las caracter°sticas de la velocidad del sistema, y los valores de divisi¢n y
+multiplicaci¢n de frecuencias, tambiÇn se encuentran grabadas en esta memoria,
+ya que el chipset es el encargado de interpretar todos los datos para poder
+aplicarlos. Por tanto, si conseguimos actualizar esta memoria, podremos hacer
+que reconozca nuevas frecuencias. Antes de actualizar la FLASH BIOS debemos de
+mirar en la p†gina del fabricante de nuestra placa si existe una actualizaci¢n
+para ella. Una vez buscada, debemos de mirar las mejoras que conlleba hacer la
+actualizaci¢n. Una de las principales es que suele dar soporte a discos duros
+de mas de 8 GBytes, as° como nuevas unidades de almacenamiento o incluso un
+term¢metro de la CPU. Lo que raramente suele venir es los valores nuevos de la
+mejora de frecuencias (ser† para evitar el over), aunque suele venir indicando
+si soporta nuevos procesadores. Este si es un dato importante, ya que si
+tenemos un micro a 200 Mhz, y nuestra placa soporta como m†ximo un micro 200,
+pero en la actualizaci¢n dice que soporta micros de hasta 300 Mhz, eso indica
+que seguro que ha incrementado el bus y los multiplicadores. Por tanto, debeis
+de descargar el archivo de la actualizaci¢n. Tanto si teneis una BIOS AWARD
+como AMI, debeis de bajaros el archivo de la actualizaci¢n, pero dependiendo
+de una marca u otra os teneis que bajar la utilidad para flashearla, que se
+suele ser la awflash, mientras que el ami suele ser amiflash. Debo recordar que
+os debeis de bajar la imagen de la BIOS exacta a vuestra placa, en concreto a
+vuestro chipset, de lo contrario, puede ser peligroso. Y por supuesto leeros
+toda la informaci¢n del fabricante de la placa.[NO]
+
+  Para el proceso de actualizar la BIOS, teneis dos mÇtodos:
+
+  - Hardware. Cambiar el chip BIOS por otro nuevo actualizado[GRIS]
+  - Software.
+
+  El primer mÇtodo es bastante seguro, pero implica gastar dinero y esperar[BLANCO IZQUIERDA]
+a que te den el chip, que puede ser eterno, si la empresa a quebrado.
+
+  El segundo mÇtodo es m†s c¢modo, pero tiene el inconveniente que es m†s
+inseguro. Debemos de ponernos a hacer esto, con una S.A.I. (Sistema de
+alimentaci¢n ininterrumpida), o en su defecto, garantizar, que nadie esta
+haciendo algo raro con los circuitos elÇctricos de casa, o que una tormenta
+este cerca. Debemos arrancar en modo real DOS, aunque actualmente existen
+programas que actualizan la BIOS bajo WINDOWS (no me fio de su concurrencia
+aparente). Si disponemos de Windows NT, 2000, XP, lamento decirlo, pero no se
+puede arrancar en modo DOS. Si disponemos de Windows 95 y 98, bastar† con
+pulsar F8 en el arranque y posteriormente, activar la opci¢n de modo DOS, pero
+nunca la versi¢n antigÅa de DOS, ya que os machacar°a el sector de arranque,
+intentado sobreescribirlo con el S.O. anterior que no tiene. Esto se puede
+solucionar volviendo a instalar el S.O., pero no entero, sino con hacer sys c:
+con un disquete de seguridad de Windows. Pero no tenteis a la suerte, y no deis[ROJO]
+a la opci¢n de versi¢n anterior del DOS. Si disponeis de Windows ME, os puedo
+decir que existe una utilidad para poder arrancar en modo de disco de rescate[BLANCO]
+que es lo mismo que arrancar en modo DOS. Yo lo tengo as°, pero teneis que
+usar esa utilidad y sobreescribir archivos. Desde Windows 95 y 98 tambiÇn se
+puede apagar el equipo en modo DOS, en el men£ de apagar el equipo, y
+autom†ticamente entraremos en modo DOS. Yo recomiendo, o arrancar directamente
+en modo REAL DOS o usar un disquete de rescate de Windows para as° arrancar el
+DOS en modo normal y sin posibilidad de dejar ning£n controlador mal
+finalizado. Si queremos crear un disco de rescate, debemos de hacerlo desde
+Windows, de forma tan simple como accediendo al Panel de Control, desde Men£
+de Inicio, y clickeando en el icono de Agragar o Quitar Programas. DespuÇs
+haremos click en la pesta§a Disco de Inicio, donde meteremos un disquette vacio
+en la unidad y daremos al bot¢n Crear Disco. Y a esperar, a que acabe.
+
+  Una vez hecho esto, debemos de copiar la imagen de la BIOS actualizada que
+descargamos de INTERNET al disco duro, o a otro disquette. Y despuÇs es cuando
+se reinicia el equipo y se arranca con el disquete creado, o en modo DOS como
+antes se comento. Luego se ejcutar† la utilidad AWFLASH o AMIFLASH, donde nos
+preguntar† la ubicaci¢n de la nueva FLASH, que diremos que esta o en el disco
+duro o en el disquete donde la copiamos. Autom†ticamente chequear† si la BIOS
+esta correcta y si es la indicada para nuestro equipo, para evitar fallos. Esto
+si que es otro mundo, ya que puede darse el caso, de que una BIOS que de fallos
+por ser incompatible con la que queremos, funcione bien, pero por lo general,
+debeis de abortar ante el m°nimo fallo. Antes de hacer el flasheado nos har†
+una pregunta sobre si queremos una copia de seguridad de nuestra antigÅa BIOS.
+Debemos de decirle que si, por motivos de causa mayor, y por supuesto haremos
+dos copias, una en el disco duro y otra en un disquete. Cuantas m†s copias de
+esta BIOS mejor. Y una vez hecho esto, se proceder† a el borrado de la FLASH
+BIOS y al copiado de la nueva. Esto suele durar entre 1 y 5 segundos, pero no
+es exacto. Una cosa es cierta, si se va la luz en este proceso, vuestra BIOS
+acaba de pasar a mejor vida, pero el chip sigue estando bien, y eso no impide
+que no se pueda grabar. Si el proceso finaliza correctamente, os invitar† a
+reiniciar, y podeis ver con vuestros propios ojos los cambios que ha
+introducido, sobre todo si entramos en el Setup de la BIOS y vamos a la
+velocidad de los buses del sistema. Si en el proceso de quemado de la BIOS, se
+ha producido alg£n fallo, tranquilos, todab°a teneis alguna posibilidad. Lo
+m†s normal, es que todab°a podais arrancar el equipo, pero no suele mostrar ni
+el video ni podreis tener acceso al teclado, aunque algunas veces se puede.
+Pera debeis de crear en otro ordenador un disco de proceso por lotes que
+obligue a quemar la BIOS que teniais antes, y que por supuesto teneis que tener
+grabada en un disquete, si habeis seguido los pasos. Todo esto viene explicado
+en la propia utilidad de quemado de la BIOS o en la p†gina del fabricante. A
+ser posible el disquete de proceso por lotes deber† de tener el sistema b†sico
+del DOS: IO.SYS, MSDOS.SYS, COMMAND.COM, CONFIG.SYS y AUTOEXEC.BAT y la imagen
+con la BIOS antigÅa. En el autoexec ser† donde obligaremos a quemar la FLASH.
+Y si se puede, deberiais de tener creado este disquete antes de actualizar la
+BIOS (por si las moscas). Si a pesar de esto, el ordenador no responde, tebeis
+otra oportunidad, que es coger un chip exacto al de vuestra placa y ponerlo
+donde esta vuestra BIOS. Para ello debereis de tener una placa repetida a la
+vuestra o encontrarla en una tienda. A continucaci¢n la dejareis medio clavada,
+es decir, lo suficiente para que haga contacto, pero que se pueda sacar con
+facilidad. Entonces arrancais el equipo, y autom†ticamente mandais salvar la
+BIOS actual. Mientras el equipo est† en funcionamiento, debeis de quitar el
+chip de la BIOS y cambiarlo por el vuestro, y despuÇs le dais a FLASHEAR la
+BIOS con la BIOS salvada, y solucionado. Para este proceso debeis de tener
+activo la shadow cache Flash BIOS, es decir, que tenga la BIOS se copie a una
+zona de memoria RAM, para as°, cuando se acceda a ella, no busque el chip, y
+se pueda actualizar. Si a pesar de esto, sigue sin arrancar, todab°a podeis
+llamar a un amigo electr¢nico, f°sico o a una tienda cercana de ordenadores, y
+con un poco de suerte os podr† sobreescribir la BIOS por una compatible,
+gracias a un grabador de FLASH BIOS. Sin embargo, este mÇtodo suele ser caro,
+y puede que interese m†s comprar una placa nueva. En definitiva, que puede que
+hayais estropeado el equipo para siempre, por mala suerte.
+
+  Algunas placas disponen de una doble Flash BIOS, que normalmente, permite
+arrancar con ella, cuando la otra esta estropeada. Por tanto, una vez arrancado
+correctamente, podeis volver a flashear la que se estropeo con la copia de
+seguridad. Lamentablemente, la mayor°a de los fabricantes no dan ese chip, as°
+que hay que comprarlo. Por tanto, aseguraros de que viene en la placa. Y para
+poder cambiar de un chip a otro, suele venir un jumper, que en una posici¢n
+usar la BIOS 1, y en otra, la BIOS 2. Por tanto, teneis que desarmar el equipo.
+
+  Hay que tener en cuenta, que algunas placas vienen con un jumper, o con una
+protecci¢n en el Setup de la BIOS para impedir que se actualice la BIOS. Por
+tanto debeis de desactivarlo, ya que sino, no se podr† actualizarla. Esto es
+£til para evitar que virus como el CIH puedan borrar la FLASH BIOS, al menos
+el del jumper HARDWARE.[NO]
+
+
+
+La refrigeracion[GRANDE AMARILLO]
+
+
+
+  La  refrigeraci¢n  es  un  tema  pendiente  en  la[BLANCO PCT]
+actualidad . Como  se  comento  al  principio ,  los
+microprocesadores desprenden excesivo  calor  en  su
+funcionamiento  normal,  pero  no  s¢lo  estos, sino
+cualquier dispositivo electromec†nico. Es decir, las
+tarjeta gr†fica da calor, as° como los discos duros.
+Al principio no se suele notar, pero al cabo de unos
+minutos, se acumula. Para ello, se debe de  disponer
+de dos cosas:[NO]
+
+  - Sistema de ventilaci¢n.[GRIS]
+  - Sistema de refrigeraci¢n
+
+  Para el primero se puede dejar la carcasa del equipo abierta, o simplemente[BLANCO IZQUIERDA]
+dejarlo en la ventana en los meses de invierno. Hay que recordar que la
+Çpoca de invierno es ideal para hacer over, mientras que en verano, es
+problem†tica. Como el equipo por dentro es feo, y puede tener problemas dejarlo
+al descubierto, es mejor, hacerle unos agujeros laterales a cada lado, para que
+circule corriente (las nuevas carcasas ya los tienen), as° como abrir algunos
+frontales o ranuras de la parte de atr†s de la carcasa. Sin embargo, la mejor
+carcasa, es la de madera, ya que deja respirar muy bien el calor, as° como
+que aisla muy bien la corriente. sin embargo, la posibilidad de encontrarnos
+a un ebanista barato, a no ser que lo hagamos nosotros, es dificil.
+
+  Para el segundo caso, debemos de poner lo m†s sencillo del mundo, que son
+los ventiladores, algo parecido al ventilador del radiador. En el mercado
+existen ventiladores de los m†s sencillos, hasta los mas grandes y complejos.
+Podemos coger ventiladores peque§os para los discos duros, y los grandes para
+el microprocesador y el resto de la carcasa. Para el micro debemos de poner
+tambiÇn un disipador as° como unirlo con una pasta especial tÇrmica, para que
+circule el calor. Para los equipos nuevos, el disipador es grand°simo, y para
+los viejos, es como el que tiene el chipset de las placas nuevas o las tarjetas
+aceleradoras gr†ficas. Luego hay que poner encima un ventilador de tama§o
+medio, a ser posible, PELTIER. Estos ventiladores son algo caros, pero
+refrigeran muy bien. El problema de estos ventiladores es que aunque mantienen
+el micro frio, pero expulsan mucho calor. Por tanto, debemos de conducir este
+calor por un circuito auxiliar que lo lleve fuera de la carcasa. Por tanto
+podemos construirlo con pl†stico tÇrmico o bien a§adiendo m†s ventiladores.
+Recordad que el ventilador debe de expulsar el aire, y no introducirlo. Si no
+queremos poner PELTIER, podemos usar uno mediano bueno, y luego poner varios
+ventiladores de los de las fuentes de alimentaci¢n. No haca falta decir, que
+de vez en cuando (cada 2 meses) se debe de limpiar los ventiladores, para
+evitar obstrucciones. Si remarcais mucho el micro, debeis de poner al menos
+4 ventiladores, 2 de cada lado, si se trata de un micro en formato SLOT, y
+sino, 1 normal y 1 grande si se trata de un socket o super socket 7, eso si
+separados. Las carcasas actuales suelen venir con un hueco en el frontal
+delantero para poner un ventilador del tama§o de los de la fuente de
+alimentaci¢n, as° que aprobechad. Por tanto, tendremos que meter al menos
+3 ventiladores auxiliares. Os puedo comentar que un ventilador peque§o suele
+valir unas 3 euros (500 ptas), y los grande 6 euros (1000 ptas). Por supuesto,
+los podeis encontrar mas caros y m†s baratos. Si no teneis donde engancharlos,
+probad con cinta adhesiva doble. Si conseguis mantener la temperatura normal,
+podeis mantener el over perfectamente. Sin embargo, una vez que cerremos la
+carcasa, no sabremos si algun ventilador se ha estropeado, y podriamos quemar
+el equipo si lo dejamos mucho tiempo as°. Para ello, las placas nuevas tienen
+la posibilidad de conectar varios ventiladores a la misma, y llebar el control
+de sus rpm (revoluciones por minuto). Si no es as°, debereis inventaros algo
+parecido, o revisarlos de vez en cuando, para evitar desgracias mayores.
+
+  Otro mÇtodo muy bueno de refrigeraci¢n es usar sistemas de refirgeraci¢n por
+fluidos, que es equivalente a el radiador del coche, o a la nevera. El problema
+es que podr°a romperse un tubo, y el l°quido se derramaria sobre la placa,
+pudiendo estropearla para siempre. Adem†s por ahora son bastante caros. Otra
+opci¢n es comprar una carcasa para estaciones servidores, que permiten tener
+el equipo a una tempratura dada. De esta forma, estar† siempre frio. TambiÇn
+es caro, y adem†s da mucho frio a la casa.[NO]
+
+
+
+Buses.[ROJO GRANDE]
+
+
+
+  Para aquel que no lo sepa, los buses se dividen en:[PC BLANCO]
+
+  - ISA: Son bastante grande, y estan desapareciendo. Van a 8 Mhz. y se dividen[GRIS]
+         en ISA de 8 bits e ISA de 16 bits, seg£n envien 8 o 16 bits. El  modem
+         y la tarjeta de sonido solian venir en ellos. Alcanzan  una  velocidad
+         de 8 Mhz x 8 bits = 64 Mbits/s = 8 Mbytes/segundo.
+         y 8 Mhz x 16 bits = 128 Mbits/s = 16 Mbytes/segundo.
+         Velocidad suficiente para la mayor°a de las cosas.
+         Suelen venir en color negro, aunque puede ser blanco o de otro color,y
+         suelen estar en la parte m†s exterior de la placa.  Actualmente  suele
+         venir un s¢lo slot por compatibilidad, y terminar† desapareciendo.  El
+         slot es de tama§o de 16 bits y puede conectar un  dispositivo de ISA 8
+         bits quedando la parte alta libre.
+
+  - MCA: Es parecido al PCI, y lo solian tener los 80386. Venia de color marron
+         y era m†s peque§o que el ISA. Permit°a  transferir 32 bits  a la misma
+         velocidad que el ISA, por tanto:
+           8 Mhz x 32 bits = 256 Mbits/s = 32 Mbytes/segundo
+         Su equivalente erala EISA.
+
+  - PCI: Es m†s peque§o que el ISA, pero m†s r†pido. Se impuso, por la falta
+         de apoyo a la arquitectura EISA y MCA. Es m†s f†cil de  instalar  y
+         va m†s r†pido. Su velocidad es de 33 Mhz y soporta 32 o 64 bits:
+          33 Mhz x 32 bits = 1056 Mbits/s = 132 MBytes/segundo
+          33 Mhz x 64 bits = 2112 Mbits/s = 264 MBytes/segundo
+         Se solia usar para tarjetas gr†ficas 2D y las primeras aceleradoras
+         2D y 3D. Su velocidad es adecuada para ello. Actualmente se usa  en
+         modems, tarjetas de sonido, canales IDE auxiliares, etc...
+
+  - AGP: Es igual de grande que el PCI. Suele ser de color marron.S¢lo sirve
+         para tarjetas gr†ficas. Permite un acceso directo a memoria RAM sin
+         falta de pasar por el procesador, y as° se puede usar esta RAM como
+         VRAM (RAM de video). Permite el acceso en modo 32, 64 y 128 bits.
+         Su velocidad base es de 66 Mhz, aunque existen nuevo buses como x2,
+         x4,x8:
+          66 Mhz x 64 bits = 4224 Mbits/s = 528 Mbytes/segundo
+          66 Mhz x 128 bits = 8448 Mbits/s = 1056 Mbytes/segundo
+
+  Luego hay otra serie de buses extra, que dependiendo del fabricante, iran a[BLANCO]
+una velocidad u otra. Como siempre: "cada maestrillo tiene su librillo".
+
+
+
+Moraleja[GRANDE AMARILLO]
+
+
+
+  Muchos creen que hay cosas que es mejor no tocarlas. Y puede que sea cierto.[IZQUIERDA PCT BLANCO]
+Con el over es conveniente guardar m†rgenes de seguridad, y no hacerlo una
+profesi¢n de estafa ilegal, sino una investigaci¢n de pruebas emp°ricas.®Quiere
+decir esto que no se puede cobrar por ello?. Pues claro que si, pero explicando
+todo al cliente. Es decir, el profesional A va a remarcar el micro del cliente
+B, pues le cobra X dinero, pero diciÇndole todos los riesgos que conlleva o
+bien no cobr†ndole nada.[NO]
+
+  Si alguno no ve la gran ventaja del over, se puede decir muy clara: No tiene[IZQUIERDA]
+ventaja directa de cara a enriquecerse de forma legal. Pero teniendo en cuenta
+que los S.O. y programas son cada vez m†s fatware y lentos, y en vez de
+optimizarlos en velocidad, todab°a se hacen m†s lentos port†ndolos a
+plataformas como JAVA, s¢lo nos queda unas forma de incrementar el rendimiento
+de nuestro equipo:[NO]
+
+  - No usar lo que nos mandan y usar abandonware. Buena, pero te quedas[GRIS]
+    estancado y olvidado en el pasado, aunque eso no es malo (Viva la scene).
+
+  - Cambiar de S.O., plataforma y software. Buena, pero al final termina siendo
+    todo lento con el paso del tiempo.
+
+  - Hacerse uno mismo todas las cosas. Excelente, pero terminas cansado.
+
+  - Hacer over. Excelent°sima, porque no te molestas mucho, y optienes una
+    mejora aceptable, aunque con el tiempo, tendr†s que volver a los apartados
+    anteriores.
+
+  Por supuesto, lo que no es muy serio, es que alguien se compre una placa que[IZQUIERDA BLANCO]
+soporta el ultisimo micro, y te venden el pen£ltimo que sale bastante bien de
+precio, pero a continuaci¢n preguntas por cuanto sale el ult°simo, y ves que es
+exagerado, mientras que el antepen£ltimo con respecto el pen£ltimo es de poco.
+Vaya lio que he armado, con ejemplos ser°a que el Athlon a 1,2 Ghz vale 20000
+ptas y a 1,4 Ghz vale 22000, pero el 1,6 Ghz vale 44000 ptas. Entonces os
+preguntareis, ®por quÇ voy a pagar ese dinero, cuando puedo remarcar el de 1.4
+a 1.6?. Adem†s podria suceder que por encima de 1.6 Ghz no pueda remarcarlo, ya
+que la placa no lo soporta, ya que es lo £ltimo para lo que viene preparado.
+
+  Asi que haced over con sentido y sin †nimo de lucro. Y a experimentar, que en[IZQUIERDA]
+este tema no esta todo escrito. Y la tÇcina del over es casi una filosof°a, ya
+que puede llebarse al mundo del motor, del deporte, del software, del hardware,
+en definitiva, de todo aquello que pueda mejorar en velocidad o rendimiento.[NO]

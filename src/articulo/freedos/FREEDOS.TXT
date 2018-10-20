@@ -1,0 +1,529 @@
+[FOTOS 2]
+19 70 10 1
+20 71 54 88
+
+
+
+
+
+
+
+
+  FreeDOS es un Sistema Operativo 100% libre. No se trata de MSDOS, ni DRDOS,[PCT BLANCO IZQUIERDA]
+ni OpenDOS, sino, que es un D.O.S. libre. Es un proyecto que surgi¢  hace
+tiempo, y que actualmente, goza de gran aceptaci¢n.[NO]
+
+
+  Las ventajas del D.O.S. es que es un S.O. b†sico de entrada/salida, es decir,[IZQUIERDA]
+contiene los m°nimo para poder trabajar con el ordenador en modo usuario. Por
+consiguiente, si disponemos de un 8086 o un 8088, con 640 Kbytes de RAM, o
+menos, ya podremos disfrutar, de este sistema operativo. Pero no est† dedicado
+tan s¢lo a software antigÅo y desfasado, sino, que puede servir para usar
+equipos m†s modernos, como Pentium o Athlon. Sin embargo, no se usar†n las
+instrucciones de estos micros, salvo que lo hagan los propios programas.[NO]
+
+
+Para que quiero un DOS?[AMARILLO GRANDE]
+
+
+
+  A simple vista, parece que para nada, sin embargo, si queremos hacer una[PCT BLANCO IZQUIERDA]
+aplicaci¢n para una tienda, o algo para nosotros mismos, en definitiva,
+software empotrado de bajo presupuesto en inversi¢n de licencias y
+requerimientos hardware, sin duda, este es el sistema ideal.[NO]
+
+  Podemos disponer de todos los programas de DOS cl†sicos, sin miedo a que la[IZQUIERDA]
+ventana del DOS cuelgue a todo WINDOWS. Adem†s podremos disponer de acceso a
+todos los recursos, cosa que con emuladores, como el DOSEMU de LINUX, no
+podiamos. Y por supuesto, sin falta de gastar un duro, ya que FreeDOS es GNU,
+y se distribuye gratis, al menos por ahora. Quien sabe, con el paso del tiempo
+terminar† por hacer como RED HAT de LINUX.[NO]
+
+  Si disponemos de un 80386 con al menos 4 MB de RAM, podremos disfrutar de
+herramientas de grafistas, como el caso del POVRAY, o del 3D Studio 4. Si
+queremos dinujar o pixelar, podremos usar herramientas como PIXEL32, NeoPAINT,
+DELUXE PAINT, etc...[NO]
+
+  TammbiÇn podremos disfrutar de utilidades para aumentar de la capacidad de[IZQUIERDA]
+almacenamiento de los disquettes, como es el caso del 2M de Ciriaco Garcia de
+Celis, o el FDFORMAT. Y por supuesto, podremos estar seguros, de que no nos
+saldr† el temido pantallazo azul.[NO]
+
+  Hay que tener en cuenta, que no existe el sistema operativo perfecto, y al[IZQUIERDA]
+igual que otros, FreeDOS se cuelga. Sin embargo, la mayor°a de las veces, se
+debe a errores de programaci¢n de las aplicaciones, y no del KERNEL. Adem†s
+teniendo en cuenta, lo poco que ocupa, y lo r†pido que arranca, aunque se
+cuelgue, el rendimiento global, va a ser mejor, que el de otros SISTEMAS
+FATWARE.[NO]
+
+
+No hay multitarea.[AMARILLO GRANDE]
+
+
+
+  Es cierto, FreeDOS no dispone de multitarea, pero si os sirve de consuelo,[PCT BLANCO IZQUIERDA]
+LINUX y WINDOWS, tampoco. Lo que si dispone, es de concurrencia aparente, pero
+no de aplicaciones. Hereda del viejo DOS, los programas padres e hijos, lo que
+da cierta posibilidad de crear aplicaciones concurrentes. Sin embargo, para
+eso existen modulos externos, que nos permitir†n disponer de esta posibilidad.[NO]
+
+  En concreto, si disponemos del QEMM y DESKVIEW, podremos disponer, de[IZQUIERDA]
+concurrencia al puro estilo WINDOWS. Adem†s, actualmente, se dispone del
+proyecto DESKVIEW/X, el cual integra un servidor de XWINDOWS X11R5, que nos
+permite controlar remota o en forma cliente las XWINDOWS. La verdad, que el
+proyecto esta muy bien, en concreto, la posibilidad de ejecutar WINDOWS 3.11
+en ventana de X-WINDOWS, o en modo directo, mientras se puede commutar tareas
+de X-WINDOWS. La £nica pega, que tan s¢lo se dispone del server X11R5, que est†
+algo anticuado, pero se esta realizando un PORT del X11R6.[NO]
+
+  Seguro que m†s de uno, piense que en el tema de concurrencia, el DOS que[IZQUIERDA]
+mejor se comporta, es el OpenDOS de Caldera, a lo que no tengo nada que
+objetar, salvo, que OpenDOS, no es libre.[NO]
+
+
+Multimedia.[AMARILLO GRANDE]
+
+
+
+  TambiÇn pensareis, que FreeDOS, al igual que el DOS cl†sico, es muy rudo, y[PCT BLANCO IZQUIERDA]
+poco intuitivo, pensado para modo terminal texto. Pues he de contaros, que eso
+s¢lo es el FreeDOS b†sico, ya que por encima, se pueden cargar aplicaciones,
+en concreto, determinados GUI's, que dan un cambio radical, a la dureza del
+modo consola. Entre estos GUI's,tenemos desde los m†s[NO]
+simples, que s¢lo dan un GUI gr†fico,hasta autÇnticos
+Micro sistemas,como es el caso del SYSTEM 2001,WINTIX
+o incluso el SEAL.En concreto,el Seal 2.0,ha cambiado
+mucho,desde su versi¢n 1.0,en aspecto visual,llegando
+a imitar hasta el entorno visual de  las KDE  de  las
+X-WINDOWS. Permite concurrencia  aparente,  adem†s de
+todas  las rutinas  y  utilidades  para trabajar  con
+gr†ficos, sonido, compiladores, etc...
+  En definitiva, es como los que siempre quiso ser el
+Windows 3.11, pero mejor, ya que esta programado  con
+DJGPP para DOS, y trabaja unicamente con 32 bits, con
+soporte  de  memoria  virtual,  concurrencia,  y  por
+supuesto,  por  debajo,  con  las  librerias ALLEGRO.
+Cualquiera puede crear aplicaciones para este GUI,con
+un  m°nimo  espacio  y requerimiento hardware, ya que
+aprobecha las librerias din†micas DLX. Adem†s el SEAL ocupa menos de un[IZQUIERDA]
+disquette de 1,44 MB. Se distribuye bajo licencia GNU, y esto permite, crear
+versiones empotradas de SEAL, como es el caso del BADSEAL.[NO]
+  Actualmente, soporta hasta ficheros propios de ayuda, que no tienen nada que[IZQUIERDA]
+envidiar, a los de Windows.[NO]
+  El creador del mismo SEAL, ha hecho una versi¢n empotrada de cliente de[IZQUIERDA]
+INTERNET, llamada QUBE, que es realmente, llamativa, y deja evidencia, de que
+el DOS nunca muri¢, ni esta muerto.[NO]
+
+  En el caso, de que no querais un GUI, para ahorrar memoria (El SEAL requiere[IZQUIERDA]
+entre 4 y 16 Mbytes de RAM), eso no impedir† que no podamos ver una pelicula
+en formato MPEG en un Pentium, por ejemplo. Para ello, tenemos utilidades, como
+el view_mpeg. Pero, no queda, ah° la cosa, ya que tambiÇn podremos ver
+peliculas en formato DIVX, gracias al programa alem†n QuickView, en su versi¢n
+2.46. Incluso, en un 80386, se podr°a ver este tipo de peliculas, sin embargo,
+la velocidad de fotogramas, nos quedar°a mermada a 2 fps, por lo que es mejor
+que dispongamos de un PENTIUM, para arriba. TambiÇn podremos escuchar MP3 y
+listas de MP3, gracias al DOSAMP, QV, y otros parecidos.[NO]
+
+  Alguno, dir†, la multimedia esta muy bien, pero si no puedo navegar, ®para[IZQUIERDA]
+que me sirve el FreeDOS?. Pues os he de decir, que tambiÇn podeis navegar, ya
+que al ser FreeDOS compatible con DOS, podeis usar el navegador ARACHNE, con
+soporte desde CGA hasta VESA3.0, con HTML 4, JAVASCRIPT, TELNET y dem†s, que
+nos har†n delicias a la hora de navegar. Otro navegador gr†fico bueno, es el
+WEBSPYDER, incluido con el OpenDOS. Y si disponeis de un equipo sin calidad
+gr†fica, podeis optar por navegadores, como el LYNX, versi¢n para DOS, y
+alguno parecido.[NO]
+
+
+Mas caracteristicas.[AMARILLO GRANDE]
+
+
+
+  Si todab°a no os he combencido, os puedo decir, que FreeDOS, tiene alguna[PCT BLANCO IZQUIERDA]
+opci¢n que deja de lado a otros sistemas, como es el caso de WINDOWS. En
+concreto, MICROSOFT creo el famoso formato de nombres largos raro, como muchos
+sabreis. LINUX no tuvo que crear nada, porque ya tenia su propio formato de
+nombres largos. El MSDOS (Microsoft DOS), soportaba nombres cortos, de 8 letras
+para el nombre y 3 para la extensi¢n, por lo que cuando arrancabamos WINDOWS en
+modo MSDOS, nos mostraba los nombres, la mayor°a de las veces, con el caracter
+'~', cuando eran nombres largos. Pues Microsoft, despuÇs de 7 a§os de haber
+creado WINDOWS 95, sigue sin dar soporte para nombres largos en su MSDOS, y
+eso que WINDOWS ME, tiene MSDOS en el arranque (Para eso esta el modo de
+emergencia). Pues FreeDOS, no tiene problema para esto, ya que gracias al
+driver LFNDOS, puede soportar los nombres largos, mostrandonos la ruta completa
+y dem†s caracter°sticas de nuestros archivos.[NO]
+
+  Otro dato interesantes, es que WINDOWS 95, creo la famosa FAT32. El MSDOS 6.2[IZQUIERDA]
+y los primeros MSDOS 7.0, no soportaban este tipo de FAT. Las versiones de
+FreeDOS, hasta la 6.0, tampoco la soportaban, pero se podia usar algun driver
+auxiliar. Sin embargo, desde que salido FreeDOS 7.0, est† disponible en el
+propio KERNEL, el soporte para FAT32.[NO]
+
+  Desde FreeDOS, tambiÇn podremos tener acceso a particiones NTFS de WINDOWS NT[IZQUIERDA]
+, 2000 y XP PRO, gracias, a utilidade, como NTFSDOS, y parecidas.[NO]
+
+  Y con el paso del tiempo, FreeDOS tendr† m†s y m†s herramientas, y[IZQUIERDA]
+caracter°sticas, que lo har†n igual de numeroso que LINUX, con todas sus
+ventajas e inconvenientes. Actualmente, se esta implementando, el FreeDOS 32,
+que es un KERNEL s¢lo para procesadores 80386 o superiores, quitando toda la
+parte de 16 bits antigÅa, y sacando probecho a las nuevas instrucciones de los
+nuevos procesadores. [NO]
+
+
+Quiero freir CD's.[AMARILLO GRANDE]
+
+
+
+  Actualmente, vivimos en un Çpoca, donde la mayor°a de las personas disponen[PCT BLANCO IZQUIERDA]
+de conexi¢n a alg£n medio de comunicaci¢n, as° como de la posibilidad de
+almacenar dicha informaci¢n. Este tipo de almacenamiento, va desde los simples
+disquettes, hasta discos duros, cintas de backup, y por supuesto CDR's. Quien
+tiene la batuta de mayor soporte de grabadoras de CD's, es WINDOWS, ya que
+Microsoft esta aliada a los fabricantes. DepuÇs viene LINUX, y mucho despuÇs
+el resto de Sistemas Operativos, tanto reinantes, como no. Por tanto, esta
+puede ser una de las opciones, por las que renunciemos al S.O. FreeDOS. Sin
+embargo, os voy a comentar, que actualmente, existen unas herramientas, que
+permiten no s¢lo grabar CDR's, sino CDRW's. Estas utilidades, son las
+CDRECORDS, y muchos usuarios de LINUX y BeOS, las conocereis. Al ser GNU, se
+han portado al mayor n£mero de plataformas posibles, y en este caso, se
+encuentran disponibles para nuestro querido DOS.[NO]
+
+  He de aclarar, sobre todo para los PIRATAS, que esta herramienta, no es igual[IZQUIERDA]
+a otras, que suelen conocer, como NERO, EASY CD CREATOR, CLONE CD, etc..., ya
+que estas utilidades, no permiten clonar, sino, que tan s¢lo permiten guardar
+los datos en un CD. Eso si, soportan multiples pistas mezcladas, freir
+imagenes de CD, pistas de audio, as° como extraer imagenes de un CD, tanto de
+audio, como de datos.[NO]
+
+  La £nica pega, es que no soportan todas las grabadoras del mundo, sino, que[IZQUIERDA]
+s¢lo permiten trabajar, con aquellas que son FRIENDWARE, o con las que soporta
+LINUX, con dichas herramientas.  Por tanto, debereis de leeros la documentaci¢n
+adjunta de soporte.[NO]
+
+  He de comentar, que grabar un CD bajo FreeDOS en monotarea, no es que[IZQUIERDA]
+garantice la m†xima seguridad de grabaci¢n en una grabadora sin BURN-PROFF,
+sino, que al no tener que depender de procesos externos concurrentes, y al
+tener toda la memoria disponible para la utilidad, lo m†s seguro es que no
+se pierda el CD. En concreto, imaginaros que teneis 758 MB de RAM (No os
+quedeis boquiabiertos, que eso es normal con WINDOWS). Pues bajo FreeDOS, os
+podeis permitir crear un disco virtual de 640 MBytes de RAM, y volcar todo
+el contenido del CD a ese disco virtual. Y despuÇs mandais copiar el CD. La
+verdad, que salvo error de grabadora, o del CD, seguro, que por llenado de
+buffer, no se va a perder el CD. Por supuesto, no intenteis hacer esto con
+WINDOWS, ya que seguro, que os consumir† los 758 MBytes para Çl solito.[NO]
+
+
+Distribuciones.[AMARILLO GRANDE]
+
+
+
+  Al igual, que LINUX, FreeDOS, s¢lo es un KERNEL. Por lo que con el KERNEL, no[PCT BLANCO IZQUIERDA]
+tenemos gran cosa. As° que necesitamos, software, y a ser posible, GNU,
+Freeware o shareware. Para ello, hay personas, que se encargan de juntar una
+serie software, y empaquetarlo junto al KERNEL, en lo que se llama una
+distribuci¢n. En conreto, la m†s popular, es la RIPCORD, y actualmente, va por
+la versi¢n RIPCORD 7.02. Ah° os encontrareis, a parte de m†s de 10 Mbytes de
+software comprimido, herramientas para crear los disquettes de arranque e
+incluso el instalador.[NO]
+
+  A los que vengais de WINDOWS, esto os puede resultar raro, pero los que[IZQUIERDA]
+conozcan LINUX, les ser† de lo m†s amigable. Las distribuciones, por ahora, al
+ser pocas, no tienen tantas diferencias, como las de LINUX, es decir, no nos
+vamos a ecnontrar con un instalador de FreeDOS en modo graf°co en una
+distribuci¢n, y en otra no. En concreto, el instalador es en modo texto,
+parecido al del NT y el 2000, pero un poco m†s intenso en color azul.[NO]
+
+  Podeis optar, por un FreeDOS cl†sico, como el 5, el cual, no tiene soporte[IZQUIERDA]
+para FAT32, as° como que posee unos cuantos bugs. O por el contrario, podeis
+elegir un FreeDOS 6.0, o un 7.0. En concreto, el FreeDOS 6.0, podeis o bien
+descargarlo para instalar en disco duro, o bien para arrancarlo desde un
+CD-ROM. Hay que destacar, que todas estas distribuciones, no se venden
+actualmente, sino que estan disponibles, desde INTERNET, en la p†gina:[NO]
+
+  http://www.freedos.org[GRIS]
+
+  Las distribuciones, se permiten descargar, o bien para guardarlas en[BLANCO IZQUIERDA]
+disquettes con formato de 5 1/4, o 3 1/2, o para disco duro. La versi¢n
+especial de CD, esta en experimentaci¢n, y hay que disponer de utilidades y
+hardware, para poder grabar las imagenes del S.O. en el CD-ROM. En concreto,
+es una imagen de menos de 60 Mbytes, que contiene la mayor°a del software,
+incluyendo GUI's, pero que se suele colgar muy a menudo. No obstante, hasta
+que se solucionene todos estos cuelgues, es muy recomendable, para sacarnos
+de un apuro, en caso de estropearsenos el S.O. de nuestro disco duro, o para
+ense§ar a alguien como manejar el FreeDOS, sin falta de realizar la
+instalaci¢n en el disco duro, con la posible perdida de datos.[NO]
+  Adem†s nuestro ordenador, deber† disponer de arranque de CD-ROM desde la[IZQUIERDA]
+BIOS, en donde la mayor°a de los PENTIUM's de la Çpoca, lo incluian, o bien
+actualizar la FLASH-BIOS para tener dicha opci¢n. Si nuestro ordenador, dispone
+de dicha opci¢n, ya sabeis, activarla, para probarlo.[NO]
+
+  Podeis optar, tambiÇn por las distribuciones MINI o FULL. La MINI, contiene[IZQUIERDA]
+la base de FREEDOS, y es recomendable, para ordenadores, que o no tienen disco
+duro, o tiene poco espacio en Çl. Mientras que la FULL, contiene todo el
+software que queramos, o no, y por tanto, requiere m†s espacio, ya que podemos
+hasta instalar el c¢digo fuente de los programas, llegando a alcanzar, m†s de
+100 MBytes de espacio.[NO]
+
+  TambiÇn hay que nombrar, al papel que ocupan los LANGS (lenguajes) en el[IZQUIERDA]
+FreeDOS, ya que al igual que LINUX, se han traducido a muchas lenguas, en
+concreto al ESPA•OL, la mayor°a del software, y la ayuda en linea. As° nos
+permitir† introducirnos m†s facilmente, a este mundo.[NO]
+
+  
+Instalar FreeDOS[AMARILLO GRANDE]
+
+
+
+  Una vez elegida la distribuci¢n que m†s nos convenga, por nuestro hardwware,[PCT BLANCO IZQUIERDA]
+o por simple curiosidad, y por supuesto, de haberla descargado a nuestro disco
+duro o dsiquettes, deberemos proceder a la instalaci¢n. En este punto, he de
+decir, que si vuesto ordenador, o el del amigo, donde vais a instalar FreeDOS,
+esta limpio (sin S.O.), podeis seguir adelante, pero si teneis otro S.O., como
+WINDOWS, LINUX, MSDOS, OPENDOS, etc..., correis el riesgo, de perder este S.O.
+y algun dato, al igual que suele suceder, cuando instalamos LINUX. Por tanto,
+a partir de aqui, los responsables de cualquier decisi¢n, soy vosotros.[NO]
+
+  Si alguno de vosotros, teneis experiencia con otros S.O., y todab°a no[IZQUIERDA]
+conoceis FreeDOS, no voy a decir, que sea dificial de instalar, sino, que no os
+fieis, y no instaleis sin sentido, pensando que luego podeis usar un cargador,
+como el MSTBOOT, o alguno parecido, para poder convivir, con dos sistemas
+operativos. Como comentÇ, el FreeDOS se basa en DOS, al igual que LINUX se basa
+en MINIX y UNIX. Pero s¢lo se basa, ya que no es ni MSDOS, ni un DOS al 100%.
+Por tanto, estas herramientas, no detectar†n al FreeDOS como un DOS, y no
+podr†n cargar a varios Sistemas Operativos. As° que recomiendo, o bien instalar
+FreeDOS en otro disco duro, o instalarlo en un disquette, pero s¢lo el
+arranque, ya que el resto de archivos, pueden estar en el disco duro.[NO]
+
+ Los archivos de la distribuci¢n que os habeis bajado, suelen venir en formato[IZQUIERDA]
+ZIP, y se arhivan en SETS. Por tanto,cada SET, equivale a lo mismo que LINUX.
+As° hay SETS de GUI's, SET's UTILIDADES, SET's de KERNEL, etc... Pero como
+vereis, no hay ningun instalador, sino que s¢lo hay ZIP's. Por tanto, debeis
+buscar en el servidor web, y descargar, la utilidad UNZIP, para DOS, sino la
+teneis ya. TambiÇn necesitareis unas utilidad, llamada RAWRITE. Los que
+conozcan LINUX, sabran de lo que habalo. Tan s¢lo es una utilidad que nos
+permite crear imagenes de un disco o disquette en un disco o disquette. Como
+las imagenes de los CD's.Y por supuesto, debeis de bajaros la imagen del
+disco de arranque de FreeDOS. En este caso, al igual que LINUX, no existen
+varios discos de arranque para cada distribuci¢n, sino que podemos coger el
+que queramos, ya que las distribuciones son s¢lo software, y el disco de
+arranque, contiene el KERNEL que queremos, en concreto, es recomendable, que
+cojais el 2024f o 2026b.[NO]
+
+  Pues, con la utilidad RAWRITE, podemos quemar imagenes de discos de arranque[IZQUIERDA]
+en un disquette. Pero para ello, necesitamos la imagen llamada por ejemplo,
+FDOS0702.BIN, junto con FDOS0702.CRC, para poder quemarla. Entonces
+ejecutaremos la orden RAWRITE, y esta nos preguntar† el nombre de la imagen,
+en donde pondremos el FDOS0707.BIN, y luego, preguntar† por el destino, donde
+pondremos A, para indicar que se sobreescribir† la unidad A. El disquette, que
+hayamos metido en la unidad A, debe estar formateado, y por supuesto, se
+perder†n todos lo satos, una vez, realizada esta operaci¢n. Una vez concluido
+el proceso de escritura de imagen, y si no ha ocurrido ningun error, se
+proceder† al arranque del disquette, desde la unidad A. Para ello, deberemos
+tener activa la opci¢n de arranque de la unidad A, en el SETUP de la BIO, o
+bien usar alguna herramienta, que nos permita arrancar disquettes, como es el
+caso del QEMM de QUATERDECK. Si aparece la linea de comandos, despuÇs de todo,
+ya tenemos creado nuestro disco de arranque.[NO]
+  Hay que aclarar, que para hacer todo esto, debemos de disponer de otro[IZQUIERDA]
+sistema operativo, ya sea b†sico como el MSDOS, o completo, como WINDOWS.[NO]
+
+  Si hubiesemos querido instalar la versi¢n MINI de FreeDOS, debiamos haber[IZQUIERDA]
+usado el MINI.BIN, en vez, del anterior. Y as° con el resto de distribuciones.[NO]
+
+
+Instalacion Mini[AMARILLO GRANDE]
+
+
+
+  Si todo lo anterior, lo hicimos corectamente, veremos, que tenemos un disco[PCT BLANCO IZQUIERDA]
+de arranque, pero nada mas. Para tener al menos, una versi¢n MINI de FreeDOS,
+debemos de tener a mano el archivo BASE1.ZIP, y descomprimirlo, o bien a un
+disquette, o al disco duro. Una vez descomprimido, veremos, que tenemos una
+serie de archivos ZIP peque§os. Por cierto, si no sabeis descomprimir, usad:
+
+  UNZIP BASE1.ZIP -d a:[GRIS]
+
+  Donde -d, extrae directorios, y a:, indica la unidad de destino, aunque,[BLANCO IZQUIERDA]
+puede ser el disco duro.[NO]
+  Y despuÇs necesitamos crear el disco de arranque MINI, igual que se comento[IZQUIERDA]
+antes, con el RAWRITE.[NO]
+
+  Si sois usuarios incondicionales de LINUX, os comentarÇ, que tambiÇn se puede[IZQUIERDA]
+crear las imagenes desde LINUX. Esto tambiÇn es aplicable a BeOS, UNIX y
+derivados. En concreto, debeis usar el comando dd:[NO]
+
+  dd if=MINI.BIN of=/dev/fd0[GRIS]
+
+  Esto nos har† lo mismo que bajo MSDOS o WINDOWS. En el par†metro if, debe ir[BLANCO IZQUIERDA]
+la ruta completa de donde se encuentre el archivo MINI.BIN, y el of hace
+referencia a los enlaces de dispositivos, en donde /dev/fd0 por norma general
+suele ser la disquettera A.[NO]
+
+  Y una vez, hecho esto, y tener creado el disco de arranque, ya podemos[IZQUIERDA]
+arrancar FreeDOS desde disquette, y ejecutar la orden INSTALL. Esto nos lanzar†
+a una instalador en modo texto en donde se nos preguntar† donde queremos
+instalar FreeDOS, y nos ir† pidiendo los disquettes, en concreto, donde tenemos
+el BASE1. Hay que recordar, que es recomendable activar las caches de disco,
+ya que sino, la instalaci¢n es tan lenta como con WINDOWS, en la parte DOS.[NO]
+
+
+Instalacion FULL[AMARILLO GRANDE]
+
+
+
+  Es equivalente, a la MINI, con la salvedad, de que las imagenes de disco de[PCT BLANCO IZQUIERDA]
+arranque hay que cambiarlas, por las correspondientes. Y los paquetes, son
+mayores en n£mero. Podemos descomprimir todos los ZIP a disquettes con cada
+SET. Y luego, se puede optar, ha ejecutar INSTALL, como se coment¢ antes. Sin
+embargo, esto es un proceso lento. Por tanto, recomiendo, descomprimir, todos
+los SETS, a un directorio del disco duro, y luego otra vez a los ZIP, que se
+han descomprimido a ese directorio. En este £ltimo caso, se descomprimirian
+en C:\FDOS. Recordad, que dependiendo del FreeDOS que descargueis, podeis tener
+acceso a FAT32 o no, y por tanto, lo que en un sistema operativo es visible,
+en FreeDOS puede no serlo. As° que aseguraos que teneis alguna partici¢n con
+FAT16 o FAT32, y sino, convertirla con utilidades como el PARTITION MAGIC,
+o alguno similar. DespuÇs arrancareis desde el disquete de FreeDOS, y
+cambiareis los PATHS y variables de entorno, para que apunten a donde tenemos
+instalado el FreeDOS en nuestro disco duro.[NO]
+
+
+Instalacion unica[AMARILLO GRANDE]
+
+
+
+  Todo lo que se comento antes, es v†lido, para el caso, de compartir FreeDOS[PCT BLANCO IZQUIERDA]
+con otro sistema operativo, en el mismo disco duro. Sin embargo, si hacemos una
+instalaci¢n limpia, o si tenemos otro disco duro, podemos optar a hacer esto:[NO]
+
+  Crear particiones, al menos una primaria, para alabergar al sistema operativo[GRIS PC]
+FreeDOS de FAT16. Con 20 Mbytes, tenemos de sobra, pero si queremos a§adidos,
+con 100 Mbytes, se cumple bastante bien. DespuÇs se proceder† a activar esa
+partici¢n como activa, en caso de que no estubiera, para poder arrancar desde
+ella. Todo esto se puede hacer con el FDISK del MSDOS, o desde el PARTITION
+MAGIC. DespuÇs se formatear† la partici¢n, y m†s tarde, se proceder† a arrancar
+el FreeDOS con el disco de arranque. Luego se ejecutar† la orden "SYS C:",
+donde C:, puede ser D:, E:, etc... Y se ejecutar† INSTALL, igual que en los
+casos anteriores. Si en este caso, se ha instalado en la C:, debemos de tener
+activo en el SETUP de la BIOS, el arranque desde la C, y si hemos usado otro
+disco duro, habr† que activar el arranque desde Çl. Recordad, que en un mismo
+disco duro, puede haber 4 particiones primarias, y que s¢lo puede estar activa
+auna s¢la. El resto son extendidas, pero FreeDOS, s¢lo puede arrancar desde
+particiones primarias. Por tanto, acordaros de activar siempre la partici¢n
+primaria, en caso de no estarlo.[NO]
+
+
+
+Instalacion en emulador[AMARILLO GRANDE]
+
+
+
+  Hoy en d°a, y gracias al aumento de velocidad del hardware, podemos emular[PCT BLANCO IZQUIERDA]
+diversos ordenadores y plataformas, gracias a los emuladores, como es el caso
+del BOCHS, VMWARE, DOSEMU, WINE, etc...[NO]
+
+  Estos emuladores, permiten arrancar m†quinas virtuales, y emularlas, de tal[IZQUIERDA]
+forma que podemos arrancar incluso un S.O., como puede ser el DOS. De hecho,
+podemos arrancar, incluso WINDOWS, NT, LINUX, FreeBSD, etc...[NO]
+
+
+  Si decidimos usar BOCHS, nos encontraremos con la ventaja, de que es GNU, muy[IZQUIERDA]
+util para desarrolladores. Este emulador, nos permite emular un PC 386, o
+Pentium con su propia BIOS en la mayor parte de plataformas, como LINUX,
+WINDOWS, BeOS, FreeBSD, etc... La ventaja que tiene, a parte, de ser
+multiplataforma, es que es muy seguro, ya que aunque se cuelgue el emulador, el
+sistema sigue intacto. Pero como inconveniente, esta la velocidad, ya que se
+requiere un equipo al menos 10 veces superior, al que se quiere emular. En
+concreto, instalar WINDOWS 95 o NT, puede llebar m†s de 2 horas, y lo digo por
+experiencia.[NO]
+
+
+  Por tanto, si queremos velocidad, podemos optar por VMWARE, que se encuentra[IZQUIERDA]
+disponible para NT y LINUX. Sin embargo, eso no quiere decir, que sea gratis,
+ya que se vende, y pertenece a una compa§°a. Sin embargo, una de las
+desventajas principales, es que no es muy seguro, ya que muchos accesos a
+dispositivos y operaciones, no se emulan, sino que se hacen en la propia
+m†quina real. De ahi que sea tan r†pido, pero no tan seguro. Por tanto, a veces
+se puede estropear la propia m†quina real a traves de la virtual, o si se
+cuelga la virtual, podria colgar todo el Sistema Operativo, donde se ejecuta el
+emulador. En el caso de los emuladores DOSEMU de LINUX, hay que destacar, que
+son emuladores especializados en el DOS exclusivamente, y permitir†n ejecutar
+la mayor°a del software de DOS y WINDOWS 3.11, si hemos instalados el WIN 3.11.
+En el caso del WINE, no es que sea un emulador, ya que realmente, lo que hace
+es soportar las API's de WINDOWS 3.11 y WINDOWS 95, as° como el DOS. De tal
+forma, que es mucho m†s r†pido que un emulador, es decir, es como si fuese el
+WINDOWS realmente, pero ejecut†ndose sobre LINUX, FreeBSD, UNIX, etc...[NO]
+
+
+  Pues una vez elegido el emulador, debemos de poder arrancar FreeDOS desde Çl.[IZQUIERDA]
+Para ello, podemos o bien usar el emulador BeBOCHS de BeOS. Se puede descargar
+desde la p†gina web:[NO]
+
+
+  http://www.bebits.com[GRIS]
+
+
+  Y aprobechando, nos podemos descargar la imagen de FreeDOS, la cual contiene[PCT BLANCO IZQUIERDA]
+una imagen de disco duro de 40 Mbytes de FreeDOS, con lo b†sico. La ventaja que
+tenemos con esto, es que no tenemos porque tener miedo, al instalar sistemas
+operativos nuevos, ya que si borran algo, lo har†n dentro de los discos duros,
+disquettes y dem†s virtuales, pero nunca dentro del disco duro real.[NO]
+
+
+  Si quereis crear las imagenes de disco duro, y poder instalar sistemas[IZQUIERDA]
+operativos bajo el emulador BOCHS, podeis hechar un ojeazo, a la p†gina web de
+nuestro grupo SLIDERS:[NO]
+
+
+  http://www.lanzadera.com/ensamblador[VERDEFOSFORITO]
+
+
+  Si optais por elegir el emulador DOSEMU, hay que destacar, que debeis crear[BLANCO IZQUIERDA]
+una imagen de disco duro virtual, aunque no es necesario, ya que se pueden usar
+zonas del propio disco duro real (de ahi el peligro). Pero lo que si necesitais
+es un archivo imagen del disco de inicio de FreeDOS. Para eso, existen
+utilidades, que os permitiran extraerla a un archivo. Y luego, debeis poner la
+referencia a ese archivo en el fichero de configuraci¢n del DOSEMU. Hay que
+recordar, que podeis elegir dos tipos de DOSEMU, el normal, desde terminal, y
+el de las X-WINDOWS.[NO]
+
+
+
+
+CONCLUSION[AMARILLO GRANDE]
+
+
+
+  Pues, con todo esto, ya teneis lo justo para poder instalar FreeDOS, en[PCT BLANCO IZQUIERDA]
+vuestra m†quina. Como siempre, las instalaciones no son una ciencia exacta,
+sino emp°rica, y en este art°culo, no se ha comentado todos los tipos de fallos
+y problemas, as° como posibilidades de instalaci¢n, que se puede dar y hacer.
+Por tanto, recomiendo, paciencia, ganas de experimentar, y sobre todo, probad
+todo esto en un ordenador que no sea importante, para el trabajo diario, o en
+el de alguien al que tengais ganas, para que si pasa algo, no os importe gran
+cosa. 8-D))[NO]
+
+
+  Y sobre todo, aunque no os haya parecido gran cosa el FreeDOS, podeis probar[IZQUIERDA]
+a usar otros tipos de DOS, como el OpenDOS, para ir practicando y probando las
+posibilidades del sistema operativo.[NO]
+
+
+  He de destacar, que por ahora, el FreeDOS no esta pensado para los usuarios[IZQUIERDA]
+novatos, e incluso para los avanzados, sino que FreeDOS esta pensado para los
+programadores, ya que les da la opci¢n de poder acceder a todo el Sistema
+Operativo, o bien pasar de Çl, y acceder a todo el hardware, cosa que con
+LINUX y otros sistemas no es posible, aunque sea GNU.[NO]
+
+
+  Y por supuesto, si se capta a muchos programadores, estos pueden dise§ar lo[IZQUIERDA]
+que los usuarios novatos si saben manejar bien, que son las aplicaciones con
+INTERFACE visual e intuitivo. Y esto, con el SEAL, y otros GUI's, ya se est†
+consiguiendo.[NO]
+
+
+  Pues hasta aqui hemos llegado en este n£mero. M†s adelante, iremos viendo[PCT BLANCO IZQUIERDA]
+diferentes posibilidades, que nos ofrece este Sistema Operativo, tan peculiar.[NO]
+
+
+
+     P.S.: Ya esta disponible el FreeDOS 8 (NIKITA) desde:[CHAR14B GRIS]
+
+            http://www.freedos.org[CHAR12 VERDE]

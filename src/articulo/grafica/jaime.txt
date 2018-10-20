@@ -1,0 +1,243 @@
+[FOTOS 2]
+26 65 53 1
+27 66 53 155
+                    Programacion grafica.[AZULCLARO GRANDE NO]
+[PCT BLANCO]
+
+
+
+  Existen diversas formas para programar gr ficos.La
+m s c¢moda es utilizar herramientas visuales,como el
+DARKBASIC, BLITZBASIC, DXCREATOR, e incluso DIV.
+  Sin  embargo , el  camino  m s  adecuado  para  la
+programaci¢n visual, es hacerlo todo desde abajo, es
+decir, construy‚ndonos nosotros mismos todo. No hace
+falta que  nos  construyamos  todo al 100%, sino que
+cuanto  m s  sepamos  construir  por nuestra cuenta,
+mejor  se  nos  dar n otras cosas, y llegaremos a un
+mayor  control  de   las  herramientas  que  tenemos
+disponibles.
+
+
+
+Elegir herramientas.[AMARILLO GRANDE]
+
+
+
+  Llegados a este punto, debemos de elegir entre DIRECTX, OPENGL, SDL, etc...[PCT BLANCO IZQUIERDA]
+No vamos a elegir DIRECTX, porque dependen de MICROSOFT WINDOWS. Tampoco
+elegiremos OPENGL, porque es un servidor gr fico 3D, y aunque SDL es el camino
+m s adecuado, por estar disponible para muchas plataformas, por ahora, se
+usar  el S.O. DOS, junto a un lenguaje de programaci¢n, como el PASCAL o el C.[NO]
+
+
+
+Modos graficos[AMARILLO GRANDE]
+
+
+
+  De todos es sabido, que el PC dispone de modo texto y modo gr fico. He[PCT BLANCO IZQUIERDA]
+decidido usar PC, no por fastidiar a otras plataformas, sino, porque la mayor
+parte de las programadores iniciados, poseen este tipo de HARDWARE.[NO]
+
+  Pues los modos de texto, en un PC se mapean en la direcci¢n de memoria:[NO]
+
+    B000 : 0000    --> Monocromo[AMARILLO]
+    B800 : 0000    --> Color
+
+  El primer n£mero en hexadecimal representa el segmento, mientras que el[BLANCO IZQUIERDA]
+segundo, es el desplazamiento. Esto es para el modo REAL del x86 en modo
+segmentado. Si decidimos usar modo protegido en modo lineal, tendremos:[NO]
+
+    B0000  --> Monocromo[AMARILLO]
+    B8000  --> color
+
+  Lo de monocromo y color, es para el caso de tratarse de un adaptador o un[BLANCO IZQUIERDA]
+monitor en B/W o RGB. Con esto se prentende decir, que si accedemos a esta zona
+de memoria de video, se dibujar  inmediatamente por pantalla. Los modos TEXTO,
+posee 2 bytes. El primero es el caracter y el segundo es el atributo. No voy
+a entrar m s en detalle, ya que pasar‚ directamente a los modos gr ficos, pero
+aqui dejo un ejemplo de programa, que dibuja un caracter por pantalla:[NO]
+
+  PROGRAM Caracter;[AMARILLO]
+  BEGIN
+   MEM[$B800:0]:= '*';
+  END.
+
+  Este programa debe compilarse para modo real, en TPASCAL 7.0. Sin embargo,[BLANCO IZQUIERDA]
+se podr¡a usar TMTPASCAL en modo protegido, ya que soporta el modo de 16 bits.
+Si todo sale bien, sacar  un caracter '*' en la esquiba superior izquierda.[NO]
+
+
+  Pero como lo que nos interesa es el modo gr fico, aqui os dir‚ algunas[IZQUIERDA]
+caracter¡sticas de los modos gr ficos. En concreto, los m s interesantes, son:[NO]
+
+  CGA     --> 640 x 200 pixels en B/W[AMARILLO]
+  MCGA    --> 320 x 200 pixels con 256 colores
+  VGA     --> 320 x 200 pixels con 256 colores
+  VESA    --> 640 x 480 pixels con 8, 15, 16, 24, 32 bits de color
+  Modos X --> Modos VGA y VESA con 4 planos
+
+  Seguramente, muchos de vosotros conocereis muchos m s modos de las tarjetas[BLANCO IZQUIERDA]
+gr ficas, as¡ como resoluciones y colores diferentes, pero en esta tabla s¢lo
+he incluido los modos m s interesantes y de los cuales se puede sacar mayor
+provecho, ya que los modos de escritura 2 de la VGA, aunque nos dan una
+resoluci¢n de 640 x 480 con 16 colores, su extremada lentitud y su compleja
+progamaci¢n, los dejan tirados de lado, en comparaci¢n con el resto.[NO]
+
+
+
+Inicializar modo grafico[AMARILLO GRANDE]
+
+
+
+  En esta primera entrega, os voy a ense¤ar, como inicializar el modo gr fico[PCT BLANCO IZQUIERDA]
+MCGA o VGA de 320 x 200 pixels con 8 bits de profundidad, es decir, con 256
+colores. Este modo se uso, se usa y se usar  no s¢lo en plataforma PC, sino en
+otras plataformas, ya que es un modo muy r pido, de poca memoria y con gran
+calidad gr fica. En concreto los demosceners y los que realizan juegos han
+sabido sacar provecho a este modo.[NO]
+
+  Se necesitan 62 KB de RAM para poder direccionar este modo de video, ya que[IZQUIERDA]
+son: 320 x 200 x 8 bits = 64000 bytes = 62.5 KB[NO]
+
+  La zona de memoria de video, es la A000 : 0000. Esto es para modo real. En[IZQUIERDA]
+caso de estar en modo protegido, ser¡a la A0000. Si escribimos en esta zona de
+memoria, no estaremos dibujando en pantalla directamente, ya que para ello,
+debemos de activar el modo de video, que se consigue, llamando a la
+interrupci¢n de la BIOS 10 en hexadecimal. Debemos decirle que el servicio es
+el de video, que en esta caso es el 0. Esto iria en la parte alta del REGISTRO
+AX. En la parte baja del registro AX, ir  el modo de video, que en este caso,
+es el 10 en hexadecimal.[NO]
+
+  MOV AX,13h[AMARILLO]
+  INT 10h
+
+  Esto era en el caso de usar ensamblador. Sin embargo, al usar PASCAL,[BLANCO IZQUIERDA]
+deberemos hacer uso de el ensamblador inline, de la siguiente forma:[NO]
+
+  PROGRAM Video;[AMARILLO]
+  BEGIN
+   (* Inicializa el modo de video 320 x 200 *)
+   asm
+    mov ax,13h
+    int 10h
+   end;
+   readln;
+  END.
+
+  Si por alg£n motivo, quisieramos ativar de nuevo el modo texto de 80 x 25,[BLANCO IZQUIERDA]
+debemos de hacer lo mismo que en el caso del modo gr fico, pero con el modo de
+video 3h.[NO]
+
+
+
+Poner un pixel[AMARILLO GRANDE]
+
+
+
+  Ahora es cuando viene la parte de dibujar un pixel o punto. En este modo de[PCT BLANCO IZQUIERDA]
+video, tenemos 200 filas y 320 columnas, es decir 320 x 200 pixels. Por tanto,
+cada fila contendr  320 columnas, es decir, 320 pixels. Como los bytes que
+consume cada pixel, es de uno, la f¢rmula para calcular la posici¢n de memoria
+que le corresponde a un pixel, ser :[NO]
+
+  desplazamiento = (Pixel_Y  x  320) + Pixel_X[AMARILLO]
+
+  El desplazamiento, es lo que hay que sumar a la posici¢n de memoria A000:0000[BLANCO IZQUIERDA]
+El Pixel_Y y el Pixel_X  es la posici¢n X e Y del pixel que queremos colocar.
+Y el 320 es el ancho de cada linea, es decir, 320 pixels. El desplazamiento,
+es la memoria donde colocar el pixel con las coordenadas Pixel_X y Pixel_Y.[NO]
+
+  Recordad que este modo de video es linel, es decir, que empieza en la zona de[IZQUIERDA]
+memoria A000:0000 y termina en la A000:F9FF. Para que os hagais a una idea, es
+como si a una matriz de filas por columnas, la dejasemos s¢lo en una fila.[NO]
+
+  Por tanto, el trozo de c¢digo para dibujar un pixel, ser¡a:[NO]
+
+  PROGRAM Dibuja;[AMARILLO]
+
+  PROCEDURE Modo13;
+   BEGIN
+    ASM MOV AX,13h; INT 10h; END;
+   END;
+
+  PROCEDURE Modo3;
+   BEGIN
+    ASM MOV AX,3h; INT 10h; END;
+   END;
+
+  PROCEDURE PonerPunto(int x,int y,byte color);
+   VAR
+    desplazamiento: word;
+   BEGIN
+    desplazamiento:= (y*320)+x;
+    MEM[$A000:desplazamiento]:= color;
+   END;
+
+  BEGIN
+   Modo13;
+   PonerPunto(160,100,15);
+   ASM XOR AX,AX; INT 10h; END; (* Espera a pulsar tecla *)
+   Modo3;
+  END.
+
+
+  Con este programa, se inicializa el modo 13h, y se dibuja un punto blanco[BLANCO IZQUIERDA]
+en la mitad de la pantalla. Despu‚s se espera a que se pulse una tecla, y se
+vuelve a poner el modo texto de 80 x 25.[NO]
+
+
+
+Rellenar la pantalla[AMARILLO GRANDE]
+
+
+
+  Ahora que sabeis poner un pixel en pantalla de cualquier color, podemos[PCT BLANCO IZQUIERDA]
+probar a rellenar toda la pantalla de un color dado. Para ello, podemos o
+rehutilizar el c¢digo anterior, pero usando FOR anidados que llenen los
+320 x 200 pixels de pantalla, llamando a PonerPunto, o bien, crear una nueva
+funci¢n, como la siguiente:[NO]
+
+  PROCEDURE RellenaPantalla(color: byte);[AMARILLO]
+   VAR
+    i: word;
+   BEGIN
+    FOR i:=0 TO 63999 DO
+     MEM[$A000:i]:= color;
+   END;
+
+  Esto ser¡a para el caso, de no hacer grandes optimizaciones, pero si lo que[BLANCO IZQUIERDA]
+queremos es optimizar el c¢digo, debemos escribir, algo parecido a:[NO]
+
+  PROCEDURE RellenaPantalla(color: byte);[AMARILLO]
+   BEGIN
+    ASM
+     MOV AX,A000h
+     MOV ES,AX
+     XOR DI,DI
+     MOV AL,[[color]
+     MOV CX,64000
+     REP STOSB
+    END;
+   END;
+
+  Esto rellenar  los 64000 pixels de pantalla del color dado. Todab¡a se podr¡a[BLANCO IZQUIERDA]
+optimizar mucho m s, ya que aqui se trabaja en modo BYTE. En concreto se
+podr¡a trabajar con WORDS o incluso DWORDS. Si usamos DWORDS (32 bits),
+estaremos haciendo uso de instrucciones de 80386 o superior, por lo que nuestro
+programa no funcionar  en equipo inferiores.[NO]
+
+
+
+CONCLUSION[AMARILLO GRANDE]
+
+
+
+  Pues parece que ya sabemos diferenciar entre modo TEXTO y GRAFICO. Adem s[PCT BLANCO IZQUIERDA]
+sabeis como inicializar modos gr ficos, as¡ como poner puntos por pantalla.[NO]
+
+  Ya se que os hago sufrir, pero en el pr¢ximo n£mero veremos cosas mas[IZQUIERDA]
+interesantes, como leer archivos gr ficos, efectos visuales y otros modos de
+video.[NO]
+

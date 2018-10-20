@@ -1,0 +1,1306 @@
+[FOTOS 1]
+3 55 60 2
+ Lenguaje C--[AZULCLARO GRANDE]
+
+
+
+
+  El lenguaje C-- es un lenguaje de programaci¢n creado por[PCT BLANCO NO]
+el programador  PETER  SPHINX  CELLIK. Se  distribuye  bajo
+licencia GREENWARE, es decir, que su uso es libre,adem s de
+que contribuye con el medio ambiente y a favorecer a la paz
+en el mundo. Por supuesto, el autor,no se responsabiliza de
+ning£n da¤o producido en vuestras m quinas, as¡ como el que
+esta escribiendo este art¡culo.
+
+
+  El creador del lenguaje, a incluido tanto el compilador, como un peque¤o
+entorno integrado, al estilo del EDIT. No obstante, eso no impide que podamos
+usar otro por nuestra cuenta. Todo esto, ocupa menos de un disco de 3 1/2, es
+decir de 1,4 MB (realmente de 2 MB).[NO]
+
+
+  El C-- fue designado para construir programas peque¤os y r pidos.[IZQUIERDA]
+Principalmente TSRs (Terminated And Stay Resident), es decir, programas que
+terminan y quedan residentes, utiles para procesos en BACKGROUND (de fondo) o
+concurrentes aparentes (parecido a la multitarea). Esta pensado para el D.O.S,
+pero eso no impide que funcione bajo FreeDOS, MSDOS, DRDOS y dependiendo de lo
+que hagamos, en una ventana de consola del DOS de Windows, o en alg£n emulador
+como el BOCH (BeOS, LINUX), VMWARE (LINIX, WINDOWS NT), DOSEMU o WINE (LINUX).
+  Soporta ensamblador en linea. Por supuesto viene con una serie de librerias
+que permiten el uso de funciones y macros para poder hacer la labor del
+programador m s sencilla. Esto permite el uso de ficheros, sonido, gr ficos y
+gesti¢n de memoria extendida en su versi¢n 2.0. Tambi¤en viene con una serie
+de ejemplos sobre el uso de cada funci¢n, y de todas las posibilidades. No
+obstante, todo esto, viene en INGLES (¨donde esta mi diccionario de ingl‚s?).
+
+
+  Como puede ver, este lenguaje est  pensado para trabajar con requerimientos
+m¡nimos, por tanto, esta orientado a m quinas antigas, soportando todas las
+instrucciones y nomencalturas de microprocesadores, como el 8088 y el 8086. Sin
+embargo, esto no impide, que se puedan aprobechar las instrucciones de los
+80286, as¡ como las instrucciones de 32 bits del 80386. Es m s, en la p gina
+WEB de nuestro grupo SLIDERS, podeis decargar ejemplos programador por mi,
+sobre el uso de instrucciones MMX bajo C--. Aunque el C-- no tenga las
+instrucciones MMX, eso no impide que se puedan codificar a mano, e incluir en
+el c¢digo. AS¡ que ya os veo sacando partido a este lenguaje.[NO]
+  Como os podeis estar imaginando, el C-- es una mezcla de C con ensamblador.[IZQUIERDA]
+Tiene m s partes de ensamblador, que de C, pero eso es bueno. Por tanto, no es
+recomendable para aquellos malos programadores, que consideran el ensamblador
+como un problema, y adoran en los nuevos y viejos paradigmas de la orientaci¢n
+a objetos, as¡ como paradigmas l¢gicos y matem ticos.[NO]
+
+
+  Muchos de los problemas que tienen los j¢venes programadores de ensamblador,[IZQUIERDA]
+cuando se introducen a el mundo de la aut‚ntica programaci¢n, es que tienen que
+construirse casi todo, y debido al monopolio de WINDOWS y los fabricantes, no
+se tiene acceso a la mayor¡a de las especificaciones del HARDWARE. Todo esto,
+se soluciona usando lenguajes de alto nivel como C (medio nivel es un camelo
+8-P), PASCAL e incluso JAVA. A cambio de facilitar la labor del programador,
+sacrificamos el rendimiento de nuestra aplicaci¢n, as¡ como la seguridad de la
+misma, ya que partimos del supuesto que todas las librerias externas funcionan,
+cuando no es cierto. Si nos construimos todo nosotros desde lo m s bajo, o si
+usamos una serie de funciones o macros que conocemos su funcionamiento interno,
+podremos predecir lo que soportan y lo que no, logrando tener un mayor control
+de nuestra aplicaci¢n. Todo esto se puede lograr, gracias a la ayuda del C--.
+
+
+  Al estar pensado para hacer peque¤as utilidades y programas, su estructura
+binaria final es la de un programa en modo TINY, es decir, 64 Kbytes de c¢digo.
+Muchos estareis pensando: "Eso es un chiste, 64 Kbytes no dan para nada!!". A
+lo que puedo contestar que 64 Kbytes son s¢lo 64 Kbytes, ni m s ni menos,lo que
+hagais con ellos es asunto vuestro. La restricci¢n de 64 Kbytes s¢lo es para el
+c¢digo, ya que podemos usar hasta 640 Kbytes de memoria RAM convencional,usando
+los registros extra de la CPU. Adem s podemos acceder a la meoria extendida,
+gracias a la libreria del manejo de la misma, o en su defecto podriamos
+construirnos una para trabajar con memoria expandida. Tambi‚n se dispone de
+funcionen para chequear si estamos en modo real o protegido, pudiendo
+posteriormente trabajar en modo protegido, aunque las funciones no vienen
+implementadas.[NO]
+
+
+  Con esto pretendo decir,que el C-- es un lenguaje pensado para hacer peque¤as[IZQUIERDA]
+utilidades, como puede ser un TSR, un ISR (interrupt and stay resident), para
+las interrupciones, o para un juego de la demoscene de 32 Kbytes, as¡ como las
+intros de 64 bytes, 256 bytes, 4 Kbytes o 64 Kbytes, ya que los programas que
+genera son tan peque¤os como los creados con un ensamblador como el NASM, el
+MASM o el TASM. Tambi‚n se puede usar para crear virus, ya que una de las
+opciones que se a¤adi¢ al compilador, fue la posibilidad de hacer simbiosis con
+los archivos COM. Las aplicaciones que le podais dar, son asunto vuestro. Y
+ahora pasaremos a explicar como van todas las estructuras y funciones del C--.[NO]
+
+
+
+Identificadores[AMARILLO GRANDE]
+
+
+
+  Los identificadores pueden aparacer con el signo '_', seguido de letras[IZQUIERDA PC BLANCO]
+may£sculas o min£sculas. Por supuesto el C-- hereda algunas caracter¡sticas del
+C, entre ellas, el CASESENSITIVE, es decir, la diferencia entre may£sculas y
+min£sculas. De esta forma, el indentificador _BORRAR no es lo mismo que
+_borrar. Despu‚s de las letras pueden venir n£meros, as¡ se acepta el
+identificador _borrar12. Los identificadores no pueden superar los 32
+caracteres de longitud. Los identificadores tambi‚n pueden aparacer sin el '_',[NO]
+es decir, pueden estar formados, s¢lo por letras, como los siguientes:[NO]
+
+ borrar[GRIS]
+ acTivar
+ eliMINAR
+
+
+
+
+Identificadores reservados[AMARILLO GRANDE]
+
+
+
+  Hay una serie de identificadores que no pueden ser usados en C--, ya que son[IZQUIERDA PC BLANCO]
+internos del propio C--. Estos son:[NO]
+
+     byte    word    char       int    dword    long    fixed32s   fixed32u[GRIS]
+     if      loop    return     do     while    else    interrupt  void
+     enum    inline  CARRYFLAG  ELSE   EXTRACT  FALSE   FROM       IF
+
+     NOTCARRYFLAG   NOTOVERFLOW   OVERFLOW     TRUE          ZEROFLAG
+     NOTZEROFLAG    far           __CODEPTR__  __DATAPTR__   __POSTPTR__
+     __COMPILER__   __DATESTR__   __YEAR__     __MONTH__     __DAY__
+     __HOUR__       __MINUTE__    __SECOND__   __WEEKDAY__   __VER1__
+     __VER2__
+
+     ESBYTE  ESWORD  ESCHAR  ESINT  ESDWORD  ESLONG  ESFIXED32S  ESFIXED32U
+     CSBYTE  CSWORD  CSCHAR  CSINT  CSDWORD  CSLONG  CSFIXED32S  CSFIXED32U
+     SSBYTE  SSWORD  SSCHAR  SSINT  SSDWORD  SSLONG  SSFIXED32S  SSFIXED32U
+     DSBYTE  DSWORD  DSCHAR  DSINT  DSDWORD  DSLONG  DSFIXED32S  DSFIXED32U
+     FSBYTE  FSWORD  FSCHAR  FSINT  FSDWORD  FSLONG  FSFIXED32S  FSFIXED32U
+     GSBYTE  GSWORD  GSCHAR  GSINT  GSDWORD  GSLONG  GSFIXED32S  GSFIXED32U
+
+     AX  CX  DX  BX  SP  BP  SI  DI  AL  CL  DL  BL  AH  CH  DH  BH
+     ES  CS  SS  DS  FS  GS  HS  IS  EAX ECX EDX EBX ESP EBP ESI EDI
+
+     CR0 CR1 CR2 CR3 CR4 CR5 CR6 CR7 DR0 DR1 DR2 DR3 DR4 DR5 DR6 DR7
+     TR0 TR1 TR2 TR3 TR4 TR5 TR6 TR7
+
+
+
+Constantes[AMARILLO GRANDE]
+
+
+
+  Al igual que cualquier lenguaje de programaci¢n,existen las cte (constantes).[IZQUIERDA PC BLANCO]
+Una constante no es m s que un valor que no puede cambiar a lo largo de la
+ejecuci¢n del programa. Para definir una cte en C--, se puede referenciar en
+varias bases num‚ricas, como pueden ser la decimal, hexadecimal, octal o en
+binaria. Aqui van algunos ejemplos:[NO]
+
+  10          ---> es 10 en decimal[GRIS]
+  0x00A       ---> es 10 en hexadecimal
+  0o12        ---> es 10 en octal
+  0b00001010  ---> es 10 en binario
+
+  Como se puede obserbar, para usar base decimal, no hay que especificar nada,[IZQUIERDA BLANCO]
+mientras que para la base hexadecimal, se debe de poner 0x, para la octal el
+0o y para la binaria el 0b.[NO]
+
+Caracteres constantes[AMARILLO GRANDE]
+
+
+  Antes se hab¡a comentado com crear son las constantes num‚ricas, pero ahora[BLANCO PC IZQUIERDA]
+vamos a ver como se definen los caracteres constantes. Para que los expertos en
+C no se vuelvan locos, el C-- ha optado por la misma nomenclatura que el C. Por
+tanto ser¡an de la siguiente forma:[NO]
+
+    '\a'    ---> hace un pitido por el dispositivo de sonido[GRISCLARO]
+    '\b'    ---> Lo mismo que el anterior
+    '\f'    ---> forma de pagina
+    '\l'    ---> Linea de pagina
+    '\n'    ---> Retorno de carro
+    '\r'    ---> Lo mismo que el anterior
+    '\t'    ---> tabulador
+    '\x??'  ---> El ?? es el valor ASCII del caracter en formato hexadecimal.
+    '\???'  ---> Lo mismo que el anterior, pero en decimal
+    '\''    ---> El es caracter NULO.
+
+  El C-- tambi‚n soporta caracteres m£ltiples constantes, que sirven para[IZQUIERDA BLANCO]
+construir cadenas peque¤as. Algunos ejemplos v lidos, ser¡an:[NO]
+
+        'a'[GRIS]
+        'abcd'
+        'Esto es una cadena'
+
+  Sin embargo, el C-- s¢lo va a coger los £ltimos 4 caracteres, es decir, la[IZQUIERDA BLANCO]
+parte menos significativa de la cadena, para poder guardarla en 32 bits. As¡
+el ejemplo 'Esto es una cadena' quedar¡a como 'dena'.[NO]
+
+Cadenas constantes[AMARILLO GRANDE]
+
+
+  El C-- soporta el uso de cadenas constantes,comunmente conocidas como STRINGS[BLANCO PC IZQUIERDA]
+en PASCAL. Para declararlas se usan los "". Lo que va entre las comillas, va a
+ser la cadena cte. El tama¤o m ximo de las cadenas es de 1000 incluyendo el
+terminador de cadena 0, por tanto se permite hasta 999 caracteres.El terminador
+de cadena es el mismo que se usa en C.[NO]
+
+Expresiones constantes[AMARILLO GRANDE]
+
+
+  Una expresi¢n constante,no es m s que una evaluaci¢n de varias constantes que[IZQUIERDA PC BLANCO]
+posteriormente se agrupan en una £nica cte en tiempo de compilaci¢n. As¡ por
+ejemplo, 2 + 3 * 2 = 10, y en el binario se adjunta la cte 10 s¢lo. Hay que
+recordar, que en C--, al igual que en C se realiza el ELEVALUE, a diferencia
+del PASCAL, que tiene prioridad de operaciones matem ticas (multiplicaci¢n,
+divisi¢n, resta y suma). El elevalue, significa que se tiene prioridad en las
+operaciones seg£n van llegando de izquierda a derecha. As¡ se hace primero el
+2+3 = 5, y luego se multiplica por 2 = 10.[NO]
+  Otros ejemplos son:
+
+   45 & 1 + 3           ---> 4[GRIS]
+   14 - 1 / 2           ---> 6 (se realiza s¢lo con enteros)
+   1 * 2 * 3 / 2 + 4    ---> 7
+
+
+
+Tipo de datos[AMARILLO GRANDE]
+
+
+
+  Los tipos permitidos de variables en C-- son parecidos al ensamblador, as¡[IZQUIERDA PC BLANCO]
+s¢lo existen el tipo byte, word, dword, char, int, long, fixed32s y fixed32u.
+El tama¤o que ocupa de memoria cada tipo, viene expresado en esta tabla:[NO]
+
+  NOMBRE  | TAMA¥O|       RANGO DE VALOR        |       RANGO DE VALOR[GRISCLARO]
+          |(bytes)|         (decimal)           |        (hexadecimal)
+ ----------------------------------------------------------------------------
+  byte    |   1   |           0 a  255          |        0x00 a  0xFF 
+  word    |   2   |           0 a  65535        |      0x0000 a  0xFFFF
+  dword   |   4   |           0 a  4294967295   |  0x00000000 a  0xFFFFFFFF
+ fixed32u |   4   |           0 a  65535.999985 | 0x0000.0000 a  0xFFFF.FFFF
+  char    |   1   |        -128 a  127          |        0x80 a  0x7F
+  int     |   2   |      -32768 a  32767        |      0x8000 a  0x7FFF
+  long    |   4   | -2147483648 a  2147483647   |  0x80000000 a  0x7FFFFFFF
+ fixed32s |   4   |      -32768 a  32767.999985 | 0x8000.0000 a  0x7FFF.FFFF
+
+  Las instrucciones de 32 bits son usadas para los tipos dword, long,fixed32s y[IZQUIERDA BLANCO]
+fixed32u. Por tanto se requiere de una CPU 80386 o superior, si se usan.
+  El tipo fixed32s y fixed32u no esta implementado totalmente, y segun el
+creador ten¡a previsto completarlo, pero parece que as¡ va a quedar durante un
+buen tiempo.[NO]
+
+
+
+Declaracion de variable globales[AMARILLO GRANDE]
+
+
+
+  Un variable global es aquella que es com£n en todo el  mbito de vida del[IZQUIERDA PC BLANCO]
+programa, es decir, que puede ser usada en todo el programa.[NO]
+  La sintaxis para declarar una variable global es la siguiente:
+
+    tipo de variable    identificador[GRIS]
+
+  Donde el tipo de variable puede ser char, byte, int, word, long o dword.[BLANCO IZQUIERDA]
+Tambi‚n se permite la declaraci¢n de varios identificadores a la vez:[NO]
+
+    tipo de variable    identificador1, identificador2, ... ,  identificadorN;[GRIS]
+
+  La declaraci¢n de ARRAYS dimensionales, tambi‚n se permite. Un ARRAY es lo[BLANCO IZQUIERDA]
+mismo que una matriz, y se puede usar en cualquier lenguaje de programaci¢n:[NO]
+
+    tipo de variable     identificador[n£mero de elementos];[GRIS]
+
+   Ejemplos v lidos de variable globales son:[BLANCO]
+  
+     byte i,j;        ---> Se declara i y j de tipo byte.      2 * 1 =  2 bytes[GRIS]
+     word matriz[10]  ---> Se declara una matriz de 10 word.  10 * 2 = 20 bytes
+     int  h,x[27]     ---> Se declara h,x de tipo matriz de  27*2*2 = 108 bytes
+                           27 enteros cada una.
+
+
+
+Expresiones.[GRANDE AMARILLO]
+
+
+
+  S¢lo hay tres tipos de expresiones, que no contienen expresiones constantes.[BLANCO PC IZQUIERDA]
+Estas son: EAX/AX/AL. Por tanto, las expresiones, se pueden dividir en
+expresiones EAX/AX/AL y no EAX/AX/AL.Como coment‚ anteriormente las expresiones
+se evaluan de izquierda a derecha.[NO]
+
+
+
+Expresiones EAX/AX/AL[AMARILLO GRANDE]
+
+
+
+  El registro EAX/AX/ y AL de la CPU va a ser usado como resultado de la[PCT BLANCO IZQUIERDA]
+expresi¢n. Si el resultado es de tipo byte, ser  guardado en AL, si es de tipo
+word (entero corto) se usar  AX, y si es de tipo dword (entero largo) se usar 
+EAX. Por tanto, es conveniente que no se haga llamadas por el medio a
+procedimientos que puedan usar este registro. Principalmente se usar para
+optimizar, ya que no se usan variables de memoria intermedias.[NO]
+
+
+
+Expresiones no EAX/AX/AL[AMARILLO GRANDE]
+
+
+
+  No se usar  como resultado el registro EAX/AX/AL, es decir, se conservar  su[BLANCO PC IZQUIERDA]
+resultado, y el de los dem s registros.[NO]
+
+
+
+Expresiones condicionales[AMARILLO GRANDE]
+
+
+
+  Son aquellas, que s¢lo tienen dos tipos de respuesta: "SI" o "NO". Existen[BLANCO PC IZQUIERDA]
+dos tipos de expresiones condicionales: SIMPLES y COMPLEJAS.[NO]
+  Esto es lo mismo que se usa en los lenguajes de programaci¢n de alto nivel.
+
+
+
+Expresion condicional simple[AMARILLO GRANDE]
+
+
+
+  Es aquella que devuelve el valor l¢gico "SI" (YES en ingl‚s) si su resultado[BLANCO PC IZQUIERDA]
+no es 0, o bien "NO" (NO en ingl‚s) si es 0. Aqu¡ entran el if, que se comporta
+de forma similar a los lenguajes de alto nivel, y el el do{}while.[NO]
+
+
+
+Expresion condicional compleja[AMARILLO GRANDE]
+
+
+
+  Es aquella que va evaluando de izquierda a derecha, como anteriormente se[BLANCO PC IZQUIERDA]
+comento (elevalue). Consta de 3 partes:[NO]
+
+  Parte izquierda     ---> Que puede ser un registro EAX/AX/AL, otros registros[GRISCLARO]
+                           o una variable de tipo byte, char, word, etc...
+
+  Parte de comparaci¢n --> '==' Comparar si son iguales
+                           '!=' Comparar si es deshigual
+                           '<>' Saber si son distintos
+                           '>'  Mayor que
+                           '<'  Menor que
+                           '<=' Menor o igual que
+                           '>=' Mayor o igual que
+
+  Parte derecha       ---> Puede ser un registro, variable o una expresi¢n cte.
+
+  Aqui se expone alg£n ejemplo:[BLANCO]
+
+    ( x+y > z )                ---> x+y es mayor que z = 1 "SI" z = 0 "NO"[GRIS]
+    (int CX*DX <= 12*3 )       ---> CX*DX es menor que 12*3  "SI" o "NO"
+    (byte first*second+hold == cnumber )   ---> ejemplo con variables
+
+  Y aqu¡, alguna que es incorrecta:[BLANCO]
+
+    ( x+y >= x-y ) ---> La parte derecha no es una expresi¢n simple o cte.[GRIS]
+    ( z = y )      ---> El igual es una asignaci¢n, y no una expresi¢n
+
+
+
+Procedimientos[AMARILLO GRANDE]
+
+
+
+  Son parecidos a los procedimientos de C o PASCAL. Existen dos tipos de[PCT BLANCO IZQUIERDA]
+procedimientos: PROCEDIMIENTOS DE STACK y PROCEDIMIENTOS DE REG. Los primeros
+pasan par metros por el STACK (PILA), y los segundos, por los registros. Los
+dos pueden retornar valores, es decir, se pueden comportar como funciones. S¢lo
+los procedimientos de tipo REG pueden actuar como MACROS. Para poder devolber
+datos, es decir, para comportarse como funciones, se usa la macro return.[NO]
+
+
+
+Procedimientos STACK[AMARILLO GRANDE]
+
+
+
+  Estan definidos por el uso de un identificador que contiene una letra[PCT BLANCO IZQUIERDA]
+min£scula. Los par metros que pueden enviarse a estos procedimientos son:
+byte, char, word, int, dword o long. Los par mteros son pasados por el stack
+(pila) siguiendo la nomenclatura de PASCAL, es decir, primero se pone el
+primer par metro en el stack, y luego se va poniendo el resto. El stack,
+comunmente conocido como PILA, no es m s que una zona de memoria, donde se
+guardan los par metros que se pasan a la funciones o procedimientos. En el caso
+del C--, el STACK comparte la misma zona de memoria que los datos globales y el
+c¢digo, pudiendo ser su tama¤o m ximo (64 Kbytes - (Kbytes c¢digo + Kbytes
+variables)).[NO]
+  Un ejemplo de procedimiento que devuelve un valor, es decir, una funci¢n, es:
+
+    word anadirlos_atodos (int a,b,c; byte d,e; word x,y) {[GRIS PC]
+     return( a+b+c+d+e+x+y );
+    }
+  
+  Como se puede observar, esta funci¢n devuelve un tipo word (2 bytes) y se le[BLANCO PCT IZQUIERDA]
+pasa como par metros 3 enteros(2 bytes * 3 = 6 bytes): a,b,c; as¡ como 2 bytes:
+d,e; y 2 words (2 bytes * 2  = 4 bytes): x,y. En el resultado devuelbe la suma
+de a+b+c+d+e+x+y. Todos estos par metros estan pasados por el stack, que en
+total se ha consumido 6 bytes + 2 bytes + 4 bytes = 12 bytes de memoria de paso
+de par metros. Adem s hay que a¤adir los par metros de el resultado, que al ser
+de tipo word ocupa 2 bytes, por tanto, ser¡a 12 bytes + 2 bytes = 14 bytes. Y
+tambi‚n nos queda el apilamiento de los registros CS:IP del procedimiento, as¡
+como los registros de banderas (FLAGS). Sin embargo, al tratarse de un programa
+TINY, el CS, se desprecia, y nos queda s¢lo el IP, que es de 16 bits (2 bytes)
+y el registro de banderas de otros 16 bits, lo que nos da:[NO]
+
+   14 + 2 + 2 = 18 bytes de STACK.[VERDEFOSFORITO CHAR14]
+
+   Sin embargo, el C-- usa una sintaxis de devolver todo en os registro EAX, AX[IZQUIERDA PCT BLANCO]
+o AL. Por consiguiente, en el return, no se usar¡an los 2 bytes del tipo word,
+lo que nos da 16 bytes de STAK.[NO]
+
+
+
+Procedimientos REG.[AMARILLO GRANDE]
+
+
+
+  Son aquellos que se definen por no usar letras min£sculas. Y los par metros[PCT BLANCO IZQUIERDA]
+se pasan via registros de la CPU. Por tanto podemos usar AX, BX, CX, DX, DI y
+SI. Como m ximo se puden pasar 6 par metros. Los 4 primeros par metros pueden
+ser tambi‚n de tipo byte con AL, BL, CL y DL. O tambi‚n se aceptan 6 par metros
+de tipo long o dword, con los registros EAX, EBX, ECX, EDX, EDI o ESI.[NO]
+
+        word PROCEDIMIENTOREG (){[PC GRIS]
+         return( AX * BX );
+        }
+
+  En este caso se coge el valor del registro AX y luego el de BX y se[BLANCO PCT IZQUIERDA]
+multiplican. Cabe destacar, que tanto AX como BX, no deben de tocarse antes
+de llamar a esta funci¢n, ya que sino, valdr¡an un dato desconocido.[NO]
+
+  Si queremos hacer un procedimiento, que no sea funci¢n, usaremos la macro[IZQUIERDA]
+void, y despu‚s seguir  la norma del identificador. Un ejemplo ser¡a:[NO]
+
+        void MOSTRAR_NUMERO (){[GRIS PC]
+         ? PUSH BX
+         WRITEINT(int AX);
+         WRITE(':');
+         ? POP BX
+         WRITEWORD(BL);
+        }
+
+  Esto mostrar¡a el n£mero AX de tipo entero, luego los ':' y luego el tipo[BLANCO PCT IZQUIERDA]
+byte BL. Los comandos ? PUSH BX, sirven para meter en la pila el valor del
+registro BX, y el '?' indica que va a ponerse en forma INLINE.[NO]
+ 
+
+
+Procedimientos dinamicos[AMARILLO GRANDE]
+
+
+
+  Son aquellos que son insertados en el binario, si realmente se usan. Esto,[PCT BLANCO IZQUIERDA]
+en los lenguajes de alto nivel, se encarga el propio compilador. Se usa para
+optimizar el binario resultante, ya que si un procedimiento creado, no se usa
+en toda la vida del programa, ¨para que se va a incluir?. Los procedimientos
+din micos estan precedidos de los ':'. Algunas de las restricciones de los
+procedimientos din micos son:[NO]
+
+  þ S¢lo las macros, pueden ser usados como procedimientos din micos.[GRISCLARO]
+  þ Los strings cte. no pueden ser definidos en un procedimiento din mico.
+  þ S¢lo los saltos locales, pueden ser definidos.
+  þ Los saltos fuera de los procedimientos din micos no estan permitidos.
+  þ Para los procedimientos din micos de REG, que estan siendo usados como
+    macros, el comando return() no puede ser usado.
+
+  Un ejemplo de procedimiento din mico ser¡a:[BLANCO]
+
+        : void ponermodovideo (byte mode){ [GRIS PC]
+         AL = mode;
+         AH = 0;
+         $ INT 0x10
+        }
+
+  Y un ejemplo de procedimiento din mico de tipo REG, ser¡a:[BLANCO PCT]
+
+        : int ABS (){[GRIS PC]
+         IF(int AX < 0 )
+            -AX;
+        }
+
+
+
+Valores a retornar.[AMARILLO GRANDE]
+
+
+
+  Como se coment¢, todos los valores retornados en una funci¢n en C--, van en[PCT BLANCO IZQUIERDA]
+forma de registro, y no atraves del STACK, como sucede en la mayor¡a de los
+lenguajes de alto nivel. Esto es as¡, porque el C-- est  pensado para optimizar
+el binario en tama¤o de memoria principalmente. Recordar, que 64 Kbytes de
+c¢digo es mucho c¢digo, se se sabe lo que hacer con ‚l. Los tipos que se
+devuelven, estan asignados a un registro, por lo general el AX:[NO]
+
+        tipo retornado |  registro retornado[GRIS PC]
+       --------------------------------------
+             byte      |        AL
+             word      |        AX
+             dword     |        EAX
+             char      |        AL
+             int       |        AX
+             long      |        EAX
+
+  Anteriormente, se coment¢ de forma breve que las funciones son procedimientos[BLANCO PCT IZQUIERDA]
+que pueden comportarse como funciones, con s¢lo a¤adir la macro RETURN. Pues
+con esta macro, el resultado es guardado en los registros de la tabla de
+arriba. Aqu¡, se puede observar un ejemplo de funci¢n:[NO]
+
+        byte funcion_retorna (){[GRIS PC]
+          return(42);
+        }
+
+  Esto despertar  la emoci¢n de alg£n programador de C, ya que la sintaxis es[BLANCO PCT IZQUIERDA]
+casi exacta a la declaraci¢n de funciones en C. Sin embargo, la diferencia
+viene dada por el siguiente ejemplo:[NO]
+
+        byte funcion_retorna_registro (){[GRIS PC]
+         AL = 42;
+        }
+
+  Aqui, a diferencia de C, se puede directamente prescindir de la funci¢n[BLANCO PCT IZQUIERDA]
+return, ya que apriori, sabemos que se devuelve todo en los registros AX y
+derivados. Y como he comentado, el RETURN es una macro que sustituye a lo
+anterior. En C y PASCAL se pueden hacer cosas parecidas, gracias al
+ensamblador en linea con el que vienen incorporados, pero s¢lo parecidas, ya
+que no llegan a tener la claridad y sencilled, as¡ como optimziaci¢n, que en
+este caso, tiene el C--.[NO]
+
+
+
+Macros.[AMARILLO GRANDE]
+
+
+
+  Son simplemente procedimientos de tipo REG cuyo c¢digo es insertado una vez[PCT BLANCO IZQUIERDA]
+llamado. Es parecido a los #define del C cl sico. Para declararlos se usa el
+s¡mbolo '@'.[NO]
+
+
+
+
+Manos a la obra.[AMARILLO GRANDE]
+
+
+
+  Aunque nos quedan todab¡a unas cuantas sentencias y dem s estrusturas del C--[PCT BLANCO IZQUIERDA]
+creo que ya va siendo hora de que hagamos un peque¤o ejemplo en el propio
+lenguaje, para practicar y ver las posibilidades que nos brinda.[NO]
+
+  Para ello, hay que aclarar, que todo programa en C--, al igual que los dem s[IZQUIERDA]
+lenguajes de alto nivel, tienen un cuerpo principal. En este caso, al igual que
+en C, tienen un main. Todo lo que se cuelgue del main, es el ambito del
+programa. As¡ si queremos hacer el t¡pico "hola mundo" de C, debemos de usar
+algo parecido a esto:[NO]
+
+  ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»[PC GRIS]
+  º  ? include "WRITE.H--"              º
+  º                                     º
+  º  main (){                           º
+  º   WRITESTR("Hola mundo en C--!\n"); º
+  º  }                                  º 
+  ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+  El ? include no es m s que la inclusi¢n como #include del C. Lo que hace es[BLANCO PC IZQUIERDA]
+cargar la librer¡a WRITE.H--, que se encarga de mostrar mensajes por pantalla,
+como la stdio.h del C standard.[NO]
+  El comando WRITESTR est  dentro del WRITE.H-- y permite mostrar el mensaje de[IZQUIERDA]
+hola mundo junto a un retorno de linea, gracias al '\n'.[NO]
+  El comienzo del main, al igual que los procedimientos, deben estar entre {}.
+Cada final de instrucci¢n, debe tener un ';'. Esto es equivalente al C.
+
+  Pero quizas lo m s emocionante de este lenguaje, es que una vez que
+compilemos, obtendremos un binario de tan s¢lo 70 bytes, y de forma muy
+r pida. Si mandamos optimizar en memoria, o si quitamos el mensaje del propio
+autor en el binario, e incluso si usamos compresores adicionales como el pklite
+podremos reducir, el binario mucho m s. Pero esto se explicar  en el pr¢ximo
+n£mero de la diskmag. Quizas ahora, si que esteis interesados en el C--, ya
+que s¢lo hay un lenguaje que haga binarios tan peque¤os, y no es el PASCAL
+o el C, ni tampoco el magicC o el MOONROCK de BASIC, ni tl TINYPASCAL. Tan
+s¢lo puede ser fruto del ensamblador. El resto de programadores mortales, que
+sigan con sus binarios gordos y lentos, si es que estan conformes.[NO]
+
+  Lo que si explicare ahora, ser  como compilar el ejemplo:
+
+  Para poder compilar un ejemplo, se puede o editar directamente el c¢digo con[IZQUIERDA]
+un editor, como el EDIT, y posteriorment lanzar el C-- desde linea de comandos
+con el simple comando de C-- y luego el nombre del archivo donde esta nuestro
+programa:[NO]
+
+  C-- prueba.c--[GRIS]
+
+  Luego podeis pasarle multiples opciones de comando. Entre ellas, la m s[BLANCO IZQUIERDA]
+interesante es la de /X, que permite quitar la informaci¢n de Peter Sphinx
+Cellik al binario resultante, reduciendo el programa a lo m¡nimo.[NO]
+  La otra opci¢n es usar el entorno integrado, que viene con el C--, que se
+llama WB. Con cargar el WB desde el DOS, tenemos acceso a lo b sico para poder
+trabajar. Lo m s interesante, es la opci¢n de HELP, donde se encuentra toda la
+ayuda relacionada con este lenguaje, y de la cual se ha sacado la mayor¡a de
+informaci¢n para realizar este art¡culo. Tambi‚n podeis cambiar el entorno con
+la opci¢n de VIDEO MODE (ALT-V), donde os cambiar  del modo texto 80x25 al
+80x50. En COMPILER podeis especificar si quereis optimizar la compilaci¢n para
+ahorro de memoria o de velocidad del binario, o si quereis usar instrucciones
+8086, 80286 o 80386 en el binario resultante. Hay que destacar, que aparte de
+las opciones de cortar, copiar, pegar, crear archivo y guardarlo, es de gran
+utilidad la herramienta de la calculadora, as¡ como la tabla de caracteres
+ASCII. Sin embargo, lo m s llamativo, es el DOSHELL y el DOSHELL FULL, que
+permiten un entorno de DOS con un ahorro de memoria m ximo. Tambi‚n hay que
+destacar, la utilidad de usar las teclas ALT+CTRL+C, que permiten terminar
+cualquier programa en ejecuci¢n del C--, ya que deja residente una rutina, que
+se encarga de activarse al pulsar estas teclas, as¡ que se evita mucho los
+errores t¡picos de cuelgue de una aplicaci¢n. Para poder compilar nuestro
+programa debemos de dar a la opci¢n de COMPILE (SHIFT+F5), y autom ticamente
+nos generar  el binario. Si queremos Compilar y ejecutar, debemos de elegir
+la opci¢n de COMPILE AND RUN (F5) y si queremos s¢lo ejecutar (SHIFT+F4).
+Adem s podemos ver en la salida de programa, todos los warnings y errores de
+nuestro programa.[NO]
+
+  He de destacar, que el C-- s¢lo va a procesar aquellos archivos que tengan[ROJO IZQUIERDA]
+extensi¢n .C-- o .H--. Por tanto, acordaros de poner siempre estas extensiones.
+El ejemplo, anterior, con la opci¢n /X, ocupa un total de 59 bytes (casi nada).[BLANCO]
+Y esto se debe, a que el compilador genera directamente un COM. Para aquellos,
+que no sepan lo que es un COM, les recordar‚ la memoria. Un COM no es mas que
+un programa que ocupa 64 Kbytes como m ximo, y que tanto el segmento de c¢digo
+(CS), como el de datos (DS) y el de STACK (SS), apuntan al mismo sitio. Sin
+embargo, eso no quiere decir, que se pueda usar el ES, para usar memoria
+din mica y acceder al 1MB de RAM de memoria convencional o al resto de memoria
+extendida. Para aquellos que dominen el ensamblador, hay que recordar, que
+salvo el NASM, los dem s compiladores, nunca generan un binario tipo COM, ya
+que esto lo invento el S.O. DOS, y un COM, es lo mismo que un EXE de tipo
+TINY, pero que al final s¢lo se usa su imagen y se obliga a que comienze en la
+zona 100 hexadecimal, es decir, se obliga a alinear todo el programa a partir
+de esta zona, con el comando ORG. Luego teniamos que usar una herramienta,
+como el EXE2BIN, o alguna parecida, para poder convertirlo en COM. Esto el C--
+se encarga de ocultarlo, pareciendose m s a un lenguaje de ALTO nivel, pero con
+las optimizaciones de uno de bajo nivel.[NO]
+
+
+
+Sentencias Condicionales[AMARILLO GRANDE]
+
+
+
+  Al igual que los lenguaje de alto nivel, el C-- dispone de sentencias[BLANCO PCT IZQUIERDA]
+condicionales como el if. Sin embargo en este caso, el C-- dispone de dos tipos
+de SI CONDICIONALES, que es el if y el IF.[NO]
+
+  þ El if sirve para que si se cumple la condici¢n haga un salto cercano.  Esto
+    lo comprender n mejor, los programadores de ensamblador. Un  salto  cercano
+    se suele conocer en ensamblador como NEAR. Tan s¢lo se usa  el registro  IP
+    como salto, por tanto nos deja saltar un total de 65535 posiciones, que  al
+    ser en n£meros con  signo, queda  como  de -32767 o  bien de  32767.  Estas
+    posiciones no son m s que bytes de c¢digo.
+
+  þ El IF sirve para que si se cumple la condici¢n haga un  salto  corto.  Esto
+    en ensamblador equivale a un salto SHORT. De esta forma  se  hace  un salto
+    de tan s¢lo 127 posiciones, es decir, 127 bytes arriba o a abajo.Este salto
+    se codifica directamente en el c¢digo, y por supuesto, este tipo de  IF  es
+    mucho m s r pido que el if.
+
+  þ El else sigue el mismo esquema que el if, es  decir, es  un  salto  cercano
+    (NEAR), pero con la salvedad de que es la parte contraria al SI CONDICIONAL
+    ,al igual que en C. Si no se cumple la condici¢n  ir   por la  parte else y
+    cumplir  lo que le corresponde.
+
+  þ El ELSE es equivalente al else, salvo que al igual que el IF, hace un salto
+    peque¤o (SHORT), es decir, de 127 bytes en el c¢digo.
+
+  Se puede combinar el if con el ELSE, as¡ como el IF con else, siempre y[IZQUIERDA]
+cuando, se respeten los topes de salto en bytes, ya que de lo contrario, el
+compilador nos avisar  de un error, como podr¡a ser:[NO]
+
+  ELSE jump distance too far, use else.[GRISCLARO CHAR14]
+
+  Un ejemplo de una sentcencia CONDICIONAL ser¡a:[PCT BLANCO]
+
+        if( x == 2 )[PCT AMARILLO]
+            WRITESTR("DOS");
+        ELSE{
+            WRITESTR("NO ES DOS");
+            printmorestuff();
+            }
+  
+  Esto nos comprobar¡a si la variable x es igual a 2. Si se cumple se ejecutar [BLANCO IZQUIERDA]
+la impresi¢n "DOS" por pantalla. Si no es igual al 2, imprimir  "NO ES DOS".
+
+  Para aquel que siga sin entender la diferencia entre el if y el IF, es decir
+entre el salto cercano y corto, lo intentar‚ explicar de mejor forma. Para ello
+hay que llebarlo al mundo del ensamblador, en concreto a como se realizan las
+comparaciones y saltos en assembler. Para comparar un n£mero se utiliza el
+registro de banderas (FLAGS). Este registro de 16 bits en un 8086, nos permite
+saber muchas cosas, como la paridad de un n£mero, si es mayor o menor, con tan
+s¢lo mirar si se ha activado alg£n bit de su estado cuando se realiza una
+comparaci¢n, como es el caso de hacer:[NO]
+
+  cmp ax,2[AMARILLO]
+  jne noigual
+  xor ax,ax
+  jmp fin
+
+  noigual: xor bx,bx
+           jmp fin
+
+  fin:
+
+  Esto nos permite comparar si el valor del registro ax es igual al 2, y en[BLANCO IZQUIERDA]
+caso de que no sea igual saltar  a la etiqueta noigual, que dependiendo de como
+se haya compilado el c¢digo, ser  o bien un salto cercano(NEAR) o lejano(FAR).
+  En nuestro caso, se trata de un salto cercano. Una vez que salte a esta
+etiqueta, se ejecutar  el c¢digo asociado, que en este caso, ser  borrar el
+registro bx. Si no fuese igual al 2, se borrar¡a el registro ax con la
+operaci¢n l¢gica XOR, y despu‚s se saltar¡a a la etiqueta "fin". Como se puede
+apreciar, la comparaci¢n de estas instrucciones equivaldr¡an a hacer un if
+else. Como de forma apriori, sabemos que las instrucciones xor ax,ax y
+xor bx,bx suelen ocupar tan s¢lo 1 byte de memoria de c¢digo, podriamos haber
+codificado un salto corto, ya que 1 byte es menor de 127 bytes. Esto es a lo
+que se refiere el C-- con los saltos. Sin embargo, la mayor¡a de las veces no
+sabemos el tama¤o de c¢digo entre las sentencias, por lo que podemos o bien
+hacerlo por partes, es decir, compilar el trozo de c¢digo y mirar cuanto ocupa
+o bien, mirar cada instrucci¢n por separado y calcular. No obstante, si usamos
+un salto corto, y nos pasamos en el c¢digo, el compilador nos avisar  de que
+usemos un salto cercano, como se comento anteriormente.[NO]
+
+
+
+Sentencias Loop.[GRANDE AMARILLO]
+
+
+
+  El C-- tiene dos tipos de bucles (loops), que son el "do {} while" y el[PCT BLANCO IZQUIERDA]
+"loop". Aunque son equivalentes a los usados en C, tienen alguna diferencia.[NO]
+
+
+
+Bucle do {} while.[GRANDE AMARILLO]
+
+
+
+  Sirve para repetir un bloque de c¢digo mientras una cierta codici¢n sea[PCT BLANCO IZQUIERDA]
+cierta. El trozo de c¢digo ser  ejecutado al menos una vez. Esto le sucede al
+REPEAT UNTIL del PASCAL, tambi‚n. Un ejemplo, ser¡a:[NO]
+
+     count = 0;[AMARILLO]
+     do {
+        count++;
+        WRITEWORD(count);
+        WRITELN();
+     } while (count < 5);
+
+  En este caso, si el COUNT es menor de 5, se incrementar  el COUNT y se[BLANCO IZQUIERDA]
+imprimir  por pantalla su valor. Por supuesto, se ejecutar  al menos una vez el
+bloque de c¢digo del do {} while.[NO]
+  Las mismas reglas de las expresiones condicionales del if e IF se aplican al[IZQUIERDA]
+do {} while.[NO]
+
+
+
+Bucle loop.[GRANDE AMARILLO]
+
+
+
+
+  Repite un bloque de c¢digo mientras la variable o registro es distinto del[PCT BLANCO IZQUIERDA]
+valor 0. Cada vez que se llega al final del c¢digo del bucle se decrementa el
+valor de la variable o registro autom ticamente. Por tanto, si la variable es
+distinta de 0, se ejecutar  el c¢digo. Esto es equivalente al loop del
+ensamblador, que autom ticamente, cogia el valor del registro cx, y lo
+decrementaba, as¡ como que ejecutaba el trozo de c¢digo que estaba por encima
+del loop, siempre que cx no fuese igual al 0. Un ejemplo del loop, ser¡a:[NO]
+
+     count = 5;[AMARILLO]
+     loop( count )
+          {WRITEWORD(count);
+           WRITELN();
+          }
+
+  Esto imprime el valor de count 5 veces. No hay que preocuparse de igualar[BLANCO IZQUIERDA]
+o decrementar la variable count para que valga 0, ya que de eso se encarga el
+loop. El autor del C-- recomienda el uso del registro cx de la CPU, ya que como
+coment‚ anteriormente, es el que se usa para la instrucci¢n loop de assembler,
+y es la que se usa para traducir este bucle. Como se dijo antes, se pueden usar
+registros de la CPU para este bucle, tal y como:[NO]
+
+     BH = 0;[AMARILLO]
+     loop( BH )
+         {
+         }
+
+  Si se usan registro de 1 byte (8 bits), se podr  ejecutar el bucle 255 veces,[BLANCO IZQUIERDA]
+ya que el 0 no se puede usar. Si el registro es de una palabra (16 bits), ser 
+de 65535, y si es de una doble palabra (32 bits) ser  4294967295. Por tanto el
+juego que se puede dar a este bucle es muy grande, sobre todo si se usan
+registros, ya que son mucho mas veloces que las variables de memoria. No
+obstante, hay que recordar, que si se modifica un registro dentro del bucle, o
+mediante llamada a un procedimiento dentro de un bucle, se podr¡a alterar la
+condici¢n de salida, por tanto, debemos o bien guardar en la pila el valor del
+registro antes de la modificaci¢n, mediante las ordenes PUSH (meter) y POP
+(sacar), o bien usar las variables citadas anteriormente.[NO]
+
+  El C-- permite crear bucles infinitos, al igual que el resto de lenguajes de
+programaci¢n, de la siguiente forma:[NO]
+
+    loop()[AMARILLO]
+      WRITE('*');
+
+  Esto imprimir  un '*' por pantalla infinitamente.[BLANCO]
+
+
+
+
+Matrices.[AMARILLO GRANDE]
+
+
+
+  El C-- permite trabajar con matrices, que en concreto se llaman ARRAYS, al[PCT BLANCO IZQUIERDA]
+igual que en PASCAL o C. Esto nos permite trabajar con ristras de datos.
+  El modo de direccionamiento de un ARRAY es en forma de bytes, o del tipo
+especificado. La forma de indexar, es decir, de guardar y acceder a datos del
+array sigue la misma forma que el modo real del 8086. De esta forma se puede
+acceder a un elemento, con un indice constante o de variable de 16 bits. Las
+expresiones soportadas, son:[NO]
+
+        variable[[index][AMARILLO]
+        variable[[index+BX+SI]
+        variable[[index+BX+DI]
+        variable[[index+BP+SI]
+        variable[[index+BP+DI]
+        variable[[index+SI]
+        variable[[index+DI]
+        variable[[index+BP]
+        variable[[index+BX]
+
+  Algunos ejemplos validos, son:[BLANCO]
+
+    xlocations[[4] = 1995;  //Se accede a el 4§ elemento del array[AMARILLO]
+    addresses[[4] = 0;      //Lo mismo que el anterior
+
+    BX = count;            //Se hace de forma mas rapida, al acceder con un
+    fast[[BX] = TRUE;      //registro, el BX de la CPU.
+
+  Otra forma de acceder a los arrays, es mediante un direccionamiento absoluto[BLANCO IZQUIERDA]
+En este modo, se pueden usar los registros CS, DS, SS y ES. Y para los
+procesadores 80386 y superiores, se puede emplear los registros FS y GS.
+  Ejemplos de direccionamiento absoluto, son:[NO]
+
+   DSBYTE[[offset]       //Direcciona un byte con el segmento DS[AMARILLO]
+   DSWORD[[offset]       //Lo mismo, pero un tipo word
+   DSCHAR[[offset]       //Ahora con un tipo char
+   DSINT[[offset]        //Con tipo int
+   DSDWORD[[offset]      //Tipo DWORD
+   DSLONG[[offset]       //Tipo LONG
+
+   Y lo mismo para CS, SS, ES, FS y GS, de la forma:[BLANCO]
+
+   CSBYTE[[offset][AMARILLO]
+   SSBYTE[[offset]
+   ESBYTE[[offset]
+   FSBYTE[[offset]
+   GSBYTE[[offset]
+
+
+
+Saltos a etiquetas.[AMARILLO GRANDE]
+
+
+
+  Los saltos a etiquetas, se realizan con la instruccion Jump, y son saltos a[PCT BLANCO IZQUIERDA]
+trozos de c¢digo de nuestro propio ejecutable. Hay dos tipos de saltos a
+etiquetas, que son, las locales y las globales.[NO]
+
+  Una etiqueta global es aquella que es visible dentro del propio programa. Y[IZQUIERDA]
+una etiqueta local, es aquella que s¢lo es visible, dentro de su  mbito de
+llamada, es decir, la del bloque de procedimiento. Para que nos hagamos una
+idea b sica, la global, ser¡a todo lo que este dentro del main (cuerpo
+principal del programa), y la local, ser¡a la que este dentro de una funci¢n
+o procedimiento. Esto ya les suced¡a a todos los lenguajes de programaci¢n de
+alto nivel.[NO]
+
+  Las etiquetas se definen como un identificador seguido de un colon. Si el[IZQUIERDA]
+identificador de etiqueta contiene una o m s letras min£sculas, ser  un salto
+a una etiqueta global. Y por el contrario, ser  un salto a una etiqueta local.
+
+  Los saltos a etiquetas globales, no deben ser usados con procedimientos
+din micos, ya que estos son realocados en tiempo de ejecuci¢n.[NO]
+
+
+
+
+Intercambio de operadores.[AMARILLO GRANDE]
+
+
+
+  El C--, a diferencia de otros lenguajes de programaci¢n de alto nivel,[PCT BLANCO IZQUIERDA]
+dispone de el operador swap (intercambio), el cual permite intercambiar dos
+valores. El s¡mbolo correspondiente a este operador, es el '><'. Las variables
+a intercambiar deben de ser del mismo valor, 8, 16 y 32 bits. Algunos ejemplos
+v lidos, son los siguientes:[NO]
+
+  AX >< BX;       //Intercambia el valor del registro AX y BX[GRIS]
+  CH >< CL;       //Intercambia el valor del registro CH y CL
+  perro >< gato;  //Intercambia el valor de las variables perro y gato
+  contador >< CX; //Intercambia el valor de la variable contador y el reg CX
+
+  Si se usa el operador swap con dos variables de 8 bits, el registro AX se[IZQUIERDA BLANCO]
+destruir . Y si sucede con dos de 32 bits, el registro EAX se destruir . En los
+dem s casos, el registro se preservar .[NO]
+
+  Este operador es parecido a la instrucci¢n swap de ensamblador. Y si no ha[IZQUIERDA]
+quedado claro su significado, viene a decir, tal cosa, como que el valor de un
+registro o una variable se sustituir  por el del otro, y este, a su vez, por el
+del primero. En definitiva, es un intercambio muy r pido de valores.[NO]
+
+
+
+
+Operador NEG.[GRANDE AMARILLO]
+
+
+
+  El C-- soporta el operador NEG (negaci¢n). Su s¡mbolo es el '-'. Y puede[PCT BLANCO IZQUIERDA]
+usarse con variables o con registros. Algunos ejemplos v lidos:[NO]
+
+  -AX;        //Hace la negado del valor del registro AX[GRIS]
+  -arbol;     //Lo mismo, pero con la variable arbol
+  -BH;        //Lo mismo, pero con el valor del registro BH
+
+  Esto no es £til sobre todo, con operaciones l¢gicas o booleanas.[BLANCO]
+
+
+
+
+Operador NOT.[GRANDE AMARILLO]
+
+
+
+  Al igual que el C, el C-- soporta el operador NOT, y se representas con el[PCT BLANCO IZQUIERDA]
+s¡mbolo '!'. Lo £nico que hace es cambiar el valor l¢gico de una varible o
+registro a su negado, pero de forma muy r pida. Ejemplos v lidos, son:[NO]
+
+  !AX;     //Hace el negado del registro AX, es decir AX ^=0xFFFF[GRIS]
+  !nodo;   //Lo mismo, pero con la varible nodo
+  !CL;     //Lo mismo, pero con el registro CL
+
+
+
+
+Expresiones condicionales especiales[AMARILLO GRANDE]
+
+
+
+  El C-- soporta 6 expresiones condicionales especiales:[PCT BLANCO]
+
+   CARRYFLAG[GRIS]
+   NOTCARRYFLAG
+   OVERFLOW
+   NOTOVERFLOW
+   ZEROFLAG
+   NOTZEROFLAG
+
+  Estas pueden ser usadas en cualquier lugar, como una expresi¢n condicional[BLANCO IZQUIERDA]
+normal. Si por ejemplo tu deseas ejecutar un bloque de c¢digo s¢lo si el bit
+de carry esta activo, entonces deber¡as usar el siguiente trozo de c¢digo:[NO]
+
+  IF( CARRYFLAG )[GRIS]
+      {
+      //Aqui ponemos nuestro trozo de c¢digo a ejecutar
+      }
+
+  Y as¡ con el resto de las dem s 5 expresiones. Estos bits son los bits de[BLANCO IZQUIERDA]
+banderas (flags), y los que sepan ensamblador, lo entender n mejor.[NO]
+
+
+
+Procedimientos de interrupcion.[AMARILLO GRANDE]
+
+
+
+  Los precedimientos de interrupci¢n son usados como handles para interrupci¢n.[PCT BLANCO]
+Y se definen de la siguiente forma:
+
+  interrupt procedimiento_nombre ()[GRIS]
+  {
+    //Aqui va el c¢digo de la interrupci¢n
+  }
+
+  Este tipo de procedimientos, no preservan los registros de la CPU, por lo que[BLANCO]
+corre a manos del programador esta tarea, gracias al uso de las instrucciones
+POP y PUSH. As¡ un ejemplo, ser¡a:[NO]
+
+  interrupt salbar_handle ()
+  {
+   $ PUSH DS
+   $ PUSH ES
+   $ PUSHA    //Se requiere procesador 80286+ para esta instrucci¢n
+   DS = CS;   //Lee DS con el valor apropiado en modo TINY de memoria
+
+   //Aqui es donde ponemos el trozo de c¢digo de nuestra interrupci¢n
+
+   $ POPA     //Se requiere procesador 80286+ para esto
+   $ POP ES
+   $ POP DS   
+  }
+
+  Para aquellos que no entiendan lo que es una interrupic¢n, es recomendable[BLANCO IZQUIERDA]
+que miren algun libro de ensamblador o la ayuda de cualquier compilador, como
+es el caso del TURBO PASCAL 7.0, FreePASCAL, TMTPASCAL, WATCOM C++, Turbo C,
+e incluso QBASIC, PowerBASIC, etc... Ahi es donde se explica, que una
+interrupci¢n no es m s que un trozo de c¢digo que se ejecuta, e interrumpe
+el ciclo normal del programa principal, al igual que un procedimiento o
+funci¢n, pero con la diferencia, de que en el salto de llamada, se guarda el
+valor del registro de banderas. Adem s las interrupciones, pueden ser
+enmascarables, y no enmascarables (como error de divisi¢n por 0). Una
+interrupci¢n t¡pica es la del vector del reloj, la 1Ch, la cual se llama por
+defecto 18.2 veces por segundo. Esta interrupci¢n es llamada por debajo, por
+la interrupci¢n 8h, la cual tiene una IRQ asociada, que es la IRQ 0. Y este
+tipo de interrupci¢n es no enmascarable.[NO]
+
+
+
+
+Directivas de compilacion.[AMARILLO GRANDE]
+
+
+
+  El C-- no contiene un preprocesador. Para paliar esta carencia usa unas[PCT BLANCO IZQUIERDA]
+directivas, que van precedidas de el s¡mbolo '?'. La lista de directivas
+soportadas por el C--, son:[NO]
+
+  ? align     //Inserta byte dentro del c¢digo del programa [GRIS]
+  ? aligner (aligner value)    //Inserta bytes con el valor dado
+  ? alignword (TRUE or FALSE)  //Activa o desactiva el alineado de de
+                                 direcciones de word o int. Por defecto es TRUE
+  ? assumeDSSS (TRUE or FALSE) //DS == SS, para par metros locales. Por defecto
+                                 esta a FALSE
+  ? beep                       //Emite un emitido al llegar a esta linea
+  ? codesize                   //Optimiza el c¢digo para tama¤o, y no velocidad
+  ? ctrl_c (TRUE or FALSE )    //Activa o desactiva el ctrl + c
+  ? define (identifier) (token)  //Define un identificador
+  ? DOSrequired (number)       //Pone la m¡nima versi¢n de DOS requerida:
+                                 0x0101 for DOS version 1.1
+                                 0x0315 for DOS version 3.21
+                                 0x0303 for DOS version 3.3
+                                 0x0600 for DOS version 6.0
+                                 0x0602 for DOS version 6.2
+                                 etc...
+  ? include ("filename")    //Incluye un fichero de c¢digo
+  ? jumptomain (NONE, SHORT, NEAR or FALSE)  //Pone el tipo de salto inicial al
+                                               main. Por defecto esta a NEAR.
+  ? maxerrors (number)      //N£mero m ximo de errores, antes de que aborte la
+                              compilaci¢n el C--
+  ? parsecommandline (TRUE or FALSE)  //Incluye la opci¢n de linea de comandos
+                                        para pasar par metros.Por defecto FALSE
+  ? pause                    //Pausa la compilaci¢n hasta pulsar una tecla
+  ? print (number or string) //Muestra un string o n£mero en pantalla
+  ? printhex (number)        //Muestra un n£mero hexadecimal en pantalla
+  ? randombyte               //Inserta un byte aleatorio en el c¢digo
+  ? resize (TRUE or FALSE)   //Reordena el bloque de memoria del programa. Por
+                               defecto es TRUE
+  ? resizemessage (string)   //Mensaje a mostrar si no se puede hacer un resize
+  ? speed                    //Optimiza el c¢digo del programa para velocidad
+  ? stack (number)           //Especifica el tama¤o del stack (PILA)
+  ? startaddress (number)    //Especifica la direcci¢n de memoria de comienzo
+                               del c¢digo del programa. Por defecto 0x100
+  ? use8086                  //Restringe el uso a 8086. Por defecto
+  ? use8088                  //Igual  que al anterior, pero para 8088
+  ? use80186                 //Para 80186
+  ? use80286
+  ? use80386
+  ? use80486
+  ? use80586                 //Para Pentium
+
+
+
+
+Ensamblador en linea.[AMARILLO GRANDE]
+
+
+
+  El C-- soporta ensamblador en linea, con todos lo c¢digos del 8088/8086, del[PCT BLANCO IZQUIERDA]
+80286 y 80386. Todos estos c¢digos deben empezar con el s¡mbolo '$'. Para ver
+todas las instrucciones se puede hechar un vistazo al fichero 'C--ASM.DOC', que
+acompa¤a al paquete C--.[NO]
+
+
+
+
+Formato de Salida[AMARILLO GRANDE]
+
+
+
+  El C-- soporta los formatos de salida COM, EXE, y OBJ. Para el caso de salida[PCT BLANCO IZQUIERDA]
+OBJ hay que resaltar, que el C-- usa la nomenclatura del PASCAL para llamadas
+a procedimientos y funciones.[NO]
+
+
+
+
+Simbiosis con fichero COM.[AMARILLO GRANDE]
+
+
+
+  El C-- soporta la opci¢n de una simbiosis de nuestro programa y un fichero[PCT BLANCO IZQUIERDA]
+COM ya existente. Esto es £til principalmente para VIRUS, pero podr¡a ser util
+para crearnos nuestro propio extensor para modo protegido.[NO]
+
+  Cuando se hace una simbiosis, primero se ejecutar  nuestro programa de C--[IZQUIERDA]
+y luego cuando acab‚, se ejecutar  el programa que hab¡a antes. Es decir, si
+hacemos una simbiosis entre el COMMAND.COM y un arhivo en C-- que muestre la
+cadena "Virus cargado" por pantalla, primero se mostrar  "Virus cargado", y
+luego se cargar  el COMMAND.COM. Si por alg£n motivo hubo un error en el
+programa de C--, o se salio de ‚l con la orden EXIT, el COMMAND.COM nunca se
+cargar¡a, ya que forma parte del programa del C--, y este ha salido de forma
+inexperada, es decir, esto no es un proceso por lotes, si no que es un programa
+completo.[NO]
+
+  Para hacer una simbiosis, de lo comentado anteriormente, podr¡a ser:
+
+  C-- /SYM C:\COMMAND.COM HELLO.C-- [GRIS]
+
+  Donde se une el programa C-- con el arhivo COMMAND.COM, y a partir de ahora[BLANCO]
+el COMMAND.COM es la uni¢n de los dos.[NO]
+
+  La simbiosis se puede usar para crear gusanos, para a¤adir password a un[IZQUIERDA]
+fichero ejecutable, o incluso para encriptarlo y desincriptarlo, para
+inicializar un modo de video, etc...[NO]
+  Tambi‚n se puede usar para caballos troyanos, pero el autor del C-- condena
+este uso, as¡ que sed cuidadosos y constructivos. Recordad que es m s dificil
+construir y crear, que destruir.[NO]
+
+
+
+Linea de comandos[AMARILLO GRANDE]
+
+
+
+  El C-- permite compilar desde linea de comandos, y las opciones son:[PCT BLANCO]
+
+  /8086         //Para  restringir el c¢digo a 8086, por defecto[GRIS]
+  /8088
+  /80286
+  /80386
+  /80486
+  /80586        //Para Pentium
+  /80686        //Optimizaciones P6.
+  /-ALIGN       //Igual que el caso de las directivas
+  /+ALIGN
+  /-ASSUMEDSSS
+  /+ASSUMEDSSS
+  /-CTRLC
+  /+CTRLC
+  /EXE          //Produce un ejecutable EXE
+  /HELP         //Muestra una peque¤a ayuda de las opciones
+  /KEYWORDS     //Muestra una lista de palabras reservadas en C--
+  /MACRO <name> //Extrae una macro de una libreria interna
+  /-MAP         //Genera un mapa de memoria del programa. Util para depurar
+  /+MAP
+  /ME           //Muestra el nombre y direccion del creador del C--
+  /-MAIN
+  /+MAIN
+  /OBJ          //Salida OBj (fichero objeto)
+  /-RESIZE
+  /+RESIZE
+  /-PARSE       //Igual que directiva de linea de comandos
+  /+PARSE
+  /PROC <name>  //Extrae un procedimiento de una libreria interna
+  /QUOTE        //Muestra la quota del programa
+  /REGPROC <name>  //Extrae los registros de un procedimiento de una libreria
+  /+RESIZE
+  /S=#####      //Especifica el tama¤o del stack, con valor decimal
+  /SIZE         //Optimizacion para tama¤o del c¢digo
+  /SHORTMAIN    //Salto inicial corto del MAIN
+  /SPEED        //Optimizacion para velocidad del c¢digo
+  /STACK        //Activa el chequeo del stack en tiempo de compilacion
+  /SYM <file>   //Para simbiosis
+  /X            //Desactiva la cabecera del fichero de salida que indica que
+                  se gener¢ con el C--. Si hacemos esto ahorraremos unos
+                  cuantos bytes.
+
+
+
+Limitaciones del C--[AMARILLO GRANDE]
+
+
+
+  Las intrucciones de 32 bits, requieren obligatoriamente de un procesador[PCT BLANCO IZQUIERDA]
+80386 o superior. Adem s se requiere un PC y compatibilidad DOS para poder usar
+el C-- y sus binarios resultantes. Esto no es un gran problema, ya que existen
+m quinas reales y virtuales, gracias a los emuladores.[NO]
+
+  No hay variables de punto flotante, como en lenguajes de alto nivel. As¡ que[IZQUIERDA]
+os podeis ir olvidando de la facilidad de los c lculos matem ticos, pero eso
+no impide que no podais trabajar con enteros y con coma fija.[NO]
+
+  La implementaci¢n de el tipo de coma fija, ha quedado a la mitad. As¡ que[IZQUIERDA]
+tendremos que crearnos nosotros una propia.[NO]
+
+  Hay librerias limitadas. Aun as¡ son muy £tiles las ya implementadas.[ZIQUIERDA]
+Recordad que esto mismo le sucede a cualquier lenguaje de programaci¢n. Por eso
+tenemos que ir a buscarlas fuera, o crearnoslas nosotros mismos.[NO]
+  Hay soporte de librerias para gr ficos para leer PCX, trabajar con VESA, con
+memoria extendida, expandida, e incluso servicios de modo protegido. Se puede
+reproducir sonido para GRAVIS ULTRASOUND.[NO]
+
+  El tama¤o del c¢digo, datos y pila, no puede superar los 64 Kbytes, ya que se[IZQUIERDA]
+trabaja en modo TINY. Sin embargo, se puede usar el registro ES, para
+direccionar el 1 Mbyte de RAM de datos, o para implementar OVERLAYS, o para
+hacer un extensor de modo protegido. Para datos, podemos usar la libreria de
+memoria extendidad, para direccionar m s de 64 Kbytes, e incluso de 1 Mbyte.
+  Hay que recordar, que el C-- trabaja en modo real 8086, muy util para
+peque¤as utilidades, virus, demos, e incluso juegos.[NO]
+  
+
+
+Conclusiones.[AMARILLO GRANDE]
+
+
+
+  Si llegando a este punto todab¡a te estas preguntando (¨Para que leches[IZQUIERDA PCT BLANCO]
+me sirve a mi el C--?), tendr‚ que que girar la cabeza hacia abajo, ya que o
+muy mal me explico (cosa que me dice siempre mi hermana 8-)), o no habeis
+prestado atenci¢n. A esto £ltimo lo puedo solucionar muy claramente, incluyendo
+enlaces a p ginas WAREZ, PORNO, y dem s. Siempre funciona.[NO]
+
+  En definitiva, el C-- no es una herramienta de desarrollo grande, ya que no
+esta completada, pero con el tiempo, quizas crezca. Es una herramienta r pida
+y de pocos recursos que nos permite hacer software a medida, en concreto
+utilidades, demos, y cualquier cosa que se nos ocurra, que sea r pida y
+consuma poco. Esta a medio camino entre el ensamblador y el C. Hay que recordar
+que si el ensamblador tubiese multitud de librerias que nos permitiesen
+trabajar de forma c¢moda con ficheros JPEG, AVI, sonido, gr ficos, operaciones
+matem ticas, ficheros, etc..., ser¡a el lenguaje m s usado. Sin embargo, esto
+no es as¡, y todos prefieren y preferimos muy a menudo, usar C, PASCAL, e
+incluso BASIC. El uso del C-- es igual que el del ensamblador, tan s¢lo para
+domar a la m quina, y no para que ella nos dome. Gracias al ensamblador y al
+C-- podemos tener el control absoluto no s¢lo del Sistema Operativo, y del
+programa, sino, de la propia m quina. Es como si nosotros mismos fuesemos el
+compilador.[NO]
+
+  Si nuestra aplicaci¢n no requiere el paso de par metros por linea de comandos[IZQUIERDA]
+, porque vamos a tener que usar esa funci¢n?. Pues el C-- nos permite quitar
+esto, mientras que otros compiladores, no pueden. Tan s¢lo hay que observar
+el tama¤o de los binarios resultantes.[NO]
+
+  En pr¢ximos n£meros se comentar  como hacer programas y utilidades para este
+compilador. (Si ya lo se, que deb¡a haberme enrrollado menos, y haber ido al
+grani, pero todo se andar ).[NO]
+
+
+
+Agradecimientos.[GRANDE AMARILLO]
+
+
+
+  Doy las gracias a Peter Sphinx Cellik,por ser el creador del C--, y por su[PCT BLANCO IZQUIERDA]
+documentaci¢n, la cual, por mi parte la he traducido en su mayor parte (Ya se
+que soy un plagiador, pero he cambiado algunas cosas, en concreto el nombre
+ 8-D)))).[NO]
+
+  Y doy las gracias a todas las personas que siguen manteniendo herramientas[IZQUIERDA]
+para DOS, y que se dan cuanta de lo que es realmente este S.O., y no de lo que
+hace en estos momentos.[NO]
+
+  Y por supuesto, doy las gracias a todos los profesores de la UNIVERSIDAD DE[IZQUIERDA]
+INFORMATICA DE OVIEDO, ya que gracias a ellos, he descubierto, lo que no es la
+Programaci¢n, es decir, Todos aquello que ellos defienden. Si alguna persona
+se da por aludida, que lo demuestre con hechos, y no con palabras. Yo he
+aportado algo, aunque sea un peque¤o granito, es algo, y alg£n d¡a llenar  el
+granero.[NO]
+
+
+
+Conseguir el C--[NO GRANDE AMARILLO]
+
+
+
+  Pues teneis varias opciones. La primera es poneros en contacto con el creador[PC BLANCO IZQUIERDA]
+del lenguaje, que lo podeis encontrar m s abajo. Sin emabrgo, existen otras
+opciones m s c¢modas, como buscar por INTERNERT. Para ello, desde cualquier
+buscador (si es que es bueno 8-( ), podeis mandar buscar a Peter Sphinx Cellik,
+ya que por lo normal, los buscadores no aceptan los signos "--",
+interpret ndolos como caracteres de busqueda. Si a pesar de eso, sois de lo m s
+vagos, os mando directamente a la p gina WEB de nuestro grupo SLIDERS, donde
+podeis descargar el compilador de forma directa:[NO]
+
+  http://www.lanzadera.com/ensamblador[VERDEFOSFORITO]
+
+
+
+Contacto[GRANDE AMARILLO]
+
+
+
+  Si quereis poneros en contacto con el autor del C--, podeis hacerlo:[BLANCO PC]
+            PETER SPHINX CELLIK[GRISCLARO CHAR11]
+            RR#2 SITE 33 C11
+            GABRIOLA ISLAND B.C.
+            V0R 1X0
+            CANADA
+
+    Direccion de correo:  cellik@sfu.ca[CHAR14]
+
+  Tambi‚n existen por INTERNET grupos de trabajo GNU sobre el C--.[BLANCO PC]

@@ -1,0 +1,229 @@
+[FOTOS 0]
+ El lenguaje PASCAL.[AZULCLARO GRANDE]
+[PCT BLANCO]
+
+
+
+  Para ejecutar los ejemplos es necesario un compilador de Pascal, como por[IZQUIERDA]
+ejemplo FreePascal, TNTPascal, Turbo Pascal, etc.[NO]
+
+
+
+Introduccion al Pascal[AZULCLARO GRANDE]
+
+
+
+  El Pascal es un lenguaje de programaci¢n estructurado lo que, entre otras[PCT BLANCO IZQUIERDA]
+cosas, facilita una mayor comprensi¢n y claridad del c¢digo. Es muy utilizado
+en la ense¤anza.[NO]
+
+  Antes de explicar sus caracter¡sticas es imprescindible tener claros unos[IZQUIERDA]
+conceptos previos, entre los que se encuentran los siguientes:[NO]
+
+  þ ¨Que son las variables y las constantes?[PC GRIS]
+      Son posiciones de memoria donde podemos almacenar la informaci¢n,[PCT BLANCO IZQUIERDA]
+      modificarla e incluso borrarla. En el caso de las constantes no se puede
+      ni modificar ni borrar su informaci¢n.[NO]
+
+  þ ¨Que es un identificador?[PC GRIS]
+      El nombre que nosotros le damos a cada variable y a cada constante, y a[PCT BLANCO IZQUIERDA]
+      trav‚s de ‚l podemos acceder a su contenido en memoria. Este nombre puede
+      estar formado por letras (may£sculas o min£sculas) o n£meros, teniendo en
+      cuenta que el primer car cter debe ser una letra.No admiten ¤,ni acentos.[NO]
+
+  þ ¨Que es un caracter?[PC GRIS]
+      Entenderemos por car cter cada una de las teclas del teclado, y sus[PCT BLANCO IZQUIERDA]
+      posibles combinaciones.[NO]
+
+  þ ¨Que es un bucle?[PC GRIS]
+      Una acci¢n que se repite tantas veces como nosotros queramos, dependiendo[PCT BLANCO IZQUIERDA]
+      de una condici¢n.[NO]
+
+  þ ¨Que es una condicion?[PC GRIS]
+      Algo que tiene que cumplirse o no, seg£n nos interese, para que suceda[PCT BLANCO IZQUIERDA]
+      una determinada acci¢n.[NO]
+
+
+
+Tipos de datos[AZULCLARO GRANDE]
+
+
+  Se puede hablar claramente de dos tipos:[PCT BLANCO]
+
+   þ Los est ticos.  La memoria para ellos se reserva en tiempo de compilaci¢n,
+     independientemente de s¡ los vamos a utilizar o no.
+
+   þ Los din micos.  La memoria para estos se reserva en tiempo  de  ejecuci¢n,
+     es decir, "el ordenador" la va cogiendo seg£n se vaya necesitando.
+
+
+
+Tipos de datos estaticos[AZULCLARO GRANDE]
+
+
+
+  Comenzaremos viendo los m s sencillos de entender, aunque m s adelante se[PCT BLANCO IZQUIERDA]
+explicar n el resto:[NO]
+
+  þ integer. Corresponde a los n£meros enteros (Ejemplo: 1,2,3,4,0, -1,-2 ...).
+             Ocupa una memoria de unos 2 bytes (16 bits), y precisamente debido[IZQUIERDA]
+             a esta limitaci¢n de memoria, no podemos representar n£meros
+             mayores de una cierta cantidad, llamada maxint, ni menores de
+             -maxint.[NO]
+
+  þ real. Corresponde a los n£meros reales, es decir, los  decimales  (Ejemplo:
+          1.2, 1.3, 5.4, 5.0, 6.8, -4.567, ...). Ocupa una memoria  de  unos  4
+          bytes ( 32 bits).
+
+  þ char. Lo utilizaremos cuando queramos representar un  car cter.  Ocupa  una
+          memoria de 1 byte (8 bits).
+
+  þ boolean. Lo utilizaremos cuando queramos representar cosas que puedan tomar
+             dos posibles valores: TRUE, o FALSE (verdadero o falso).
+
+
+
+
+Declaracion de variables y constantes[AZULCLARO GRANDE]
+
+
+
+  Para saber si tenemos que utilizar una variable o una constante para[PCT BLANCO IZQUIERDA]
+almacenar un valor, s¢lo tenemos que preguntarnos si el valor almacenado va a
+permanecer fijo a lo largo de la aplicaci¢n, en cuyo caso utilizaremos una
+constante, o si por el contrario va a estar expuesto a modificaciones, en este
+caso utilizaremos una variable. La forma de declarar cada una de ellas es la
+siguiente:[NO]
+
+  Constantes[PC GRIS]
+
+   const nombre=valor;[PCT AMARILLO]
+
+   Donde:[BLANCO]
+
+    a) const  es  una  etiqueta  que  le  indica al compilador que  todo lo que
+       coloquemos detr s de ella van a ser identificadores de constantes con[IZQUIERDA]
+       sus correspondientes valores. S¢lo se pone una vez.[NO]
+
+    b) nombre es el identificador  de  nuestra  constante,  y  debe cumplir las
+       condiciones que explicamos con anterioridad al comienzo del art¡culo.
+
+    c) = indicar que nuestra constante va a tomar un determinado valor.
+
+    d) valor valor que tomar  nuestra constante durante toda la aplicaci¢n.
+
+    e) ; indica que se ha terminado la sentencia. Todas las instrucciones que coloquemos en el programa deben de terminar con ;
+
+  Variables[PC GRIS]
+
+   var nombre:tipo;[PCT AMARILLO]
+
+   Donde:[BLANCO]
+
+    a) var  es  una  etiqueta  que  le  indica  al  compilador que todo  lo que
+       coloquemos detr s de ella van a ser identificadores de variables con sus
+       correspondientes tipos. S¢lo se pone una vez.
+
+    b) nombre es el identificador  de  nuestra  variable, y  debe  cumplir  las
+       condiciones que explicamos con anterioridad al comienzo del art¡culo.
+
+    c) : indicar que nuestra variable va a tomar un determinado tipo.
+
+    d) valor tipo que tomar  nuestra variable durante toda la aplicaci¢n. Estos
+       tipos son los que hemos visto antes cuando habl bamos de los tipos de[IZQUIERDA]
+       datos est ticos.[NO]
+
+    e) ; indica que se ha terminado la sentencia.
+
+  Ejemplos[PC GRIS]
+
+   1. Si queremos tener un identificador que nos almacene la  primera  letra de[PCT BLANCO]
+      nuestro nombre utilizaremos una constante, porque esta siempre es la[IZQUIERDA]
+      misma. As¡ escribiremos const letra='R'; Cuando se utilizan caracteres,
+      estos deben de ir entre comillas simples.[NO]
+   2. Si queremos tener un identificador que nos almacene los segundos que  van
+      transcurriendo mientras ejecutamos nuestro programa utilizaremos una[IZQUIERDA]
+      variable, porque el valor que va a ir tomando se va a modificar. As¡
+      escribiremos var tiempo:integer; Podr¡amos haber utilizado tambi‚n un
+      tipo real.[NO]
+   3. No ser¡an v lidos los siguientes identificadores: ni¤o (ya  que  contiene
+      una ¤), 2letra (ya que empieza por n£mero y no por una letra).
+
+
+
+Asignacion de valores a las variables[AZULCLARO GRANDE]
+
+
+
+  Una vez declaradas las variables necesarias hay que darles un valor. La forma[PCT BLANCO IZQUIERDA]
+de hacerlo es como siempre, invocando al nombre de nuestra variable a trav‚s de
+su identificador de esta forma:[NO]
+
+   nombre:= valor;[AMARILLO]
+
+  Donde:[BLANCO]
+
+  a) nombre es el identificador de nuestra variable  previamente  declarada  al
+     que estamos haciendo referencia. Si el identificador de una variable o[IZQUIERDA]
+     constante est  escrito en may£sculas podemos hacer referencia a ‚l con
+     min£sculas, ya que el Pascal no diferencia a unas de otras, cosa que no
+     ocurre con lenguajes como el C, C++.[NO]
+
+  b) := indicar que nuestra variable va a tomar un valor.
+
+  c) valor  este valor  debe de ser del mismo tipo que del que  se  declar¢  la
+     variable. As¡ si hemos declarado la variable de tipo char (car cter) no[IZQUIERDA]
+     podemos asignarle un n£mero (integer).[NO]
+
+  d) ; indica que se ha terminado la sentencia de asignaci¢n.
+
+
+
+Escritura de datos por pantalla[AZULCLARO GRANDE]
+
+
+
+  Una vez que ya sabemos como definir constantes, declarar y dar valores a[PCT BLANCO IZQUIERDA]
+nuestras variables vamos a avanzar un paso m s para escribir sus cosas por
+pantalla. Para ello existe una instrucci¢n:[NO]
+ 
+    write. Escribe  cadenas  de  caracteres  (deben escribirse  entre  comillas[GRIS]
+           simples), variables y constantes.
+
+    (* Esto es un comentario *) write ('cadena');  (* Escribe una cadena de[IZQUIERDA AMARILLO]
+    caracteres*) write (variable);  (* Escribe el valor de la variable *) write
+    (constante); (* Escribe el valor de la constante *) write ('cadena',
+    variable);  (* Escribe una cadena justo a continuaci¢n el valor de la
+    varible *) write ('cadena',constante);  (* Escribe una cadena de caracteres
+    y justo a continuaci¢n el valor de la constante*)[NO]
+
+  Los comentarios comienzan con (*, y se terminan con *). Se suelen poner para[IZQUIERDA BLANCO]
+facilitar la compresi¢n del c¢digo, facilitando su legibilidad.[NO]
+
+
+
+Primer programa[AZULCLARO GRANDE]
+
+
+
+  Todo programa debe tener las siguientes sentencias como m¡nimo para que[PCT BLANCO IZQUIERDA]
+compile sin ning£n error:[NO]
+
+  program Nombre (input,output);[AMARILLO]
+  begin
+  end.
+
+  Nombre.pas
+
+  Nuestro primer programa va a consistir en escribir por pantalla "Ya soy un/a[BLANCO IZQUIERDA]
+pascalero/a", declarar la constante num  con valor 1, y mostrar por pantalla
+"Este es mi programa n£mero: 1".[NO]
+
+  program Primero (input,output);[AMARILLO]
+   const   num = 1;
+  begin
+   write('Ya soy un/a pascalero/a');
+   write('Este es mi programa n£mero: ',num);
+  end.
+
+  Primero.pas

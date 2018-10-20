@@ -1,0 +1,473 @@
+[FOTOS 4]
+42 93 66 1
+43 94 73 15
+44 95 60 65
+45 96 12 306
+                              Manejo de la revista[NARANJA GRANDE NO]
+
+
+
+  Toda la diskmag  est  orientada en  caso de tratarse del rat¢n,[PCT BLANCO NO]
+torno para  y hacia  los  articulos.  situarse   sobre  el  icono
+  Los cursores  <- y ->  del teclado  inferior  izquierdo  de  la
+sirven para seleccionar el tema. Una  diskmag con forma de vaca,y
+vez elegido, se debe pulsar el bot¢n  clickear sobre ‚l.Si desean
+izquierdo del rat¢n, o el ENTER para  salir de la diskmag, s¢lo hay que  pulsar
+cargarlo. Tambi‚n se pueden usar los  la tecla ESC,que est  situada normalmente
+movimientos hacia arriba y abajo del  en la zona superior izquierda del teclado
+rat¢n, junto  con  el  bot¢n central  Si optamos por usar el rat¢n, debemos  de
+pulsado, para lo mismo.               hacer click  sobre  el   icono   inferior
+  Una vez seleccionado  y cargado el  derecho con forma  circular.
+tema, se  puede navegar  dentro  del    La tecla + y - regula el sonido.
+mismo , con  los cursores  ARRIBA  y
+ABAJO para  desplazar el texto hacia    La diskmag se  visualiza  en  16
+arriba o abajo.  Esto mismo se puede  bits de color (65536 colores),pero
+hacer tambi‚n con el  rat¢n mediante  si vuestro equipo no soporta  esta
+desplazamientos hacia arriba o hacia  profundidad, o no es  muy elebado,
+abajo, con el bot¢n derecho pulsado.  podreis elegir una profundidad  de
+  Se puede realizar un avance r pido  8 bits (256 colores),en escala de grises,
+hacia arriba o abajo del art¡culo,si  con la simple opci¢n de  ejecutar  en  el
+se  pulsan  las teclas AvPag y RePag  prompt    DEMO 8.
+que  se  suelen  encontrar encima de    Podemo saltarnos la intro, con ejecutar
+los cursores del teclado.             el comando    DEMO no.
+  El  sonido  se puede activar o no,    Se puede capturar la  pantalla, con  la
+pulsando la tecla 'S' del teclado.En  tecla F10 o F12. La pantalla capturada,se
+                                      guarda con el nombre   SCREEN.PCX.
+
+
+
+Datos de informacion[AMARILLO GRANDE NO]
+
+
+
+  En la esquina superior izquierda se encuentran tres par metros que aluden a[BLANCO PCT IZQUIERDA]
+informaci¢n importante del documento que esta actualmente en proceso. Estos
+datos son la SECCION, TITULO y AUTOR.La secci¢n hace referencia a la plataforma
+sobre la cual trata el art¡culo. El t¡tulo hace referencia al r¢tulo con que se
+indica el contenido sobre el art¡culo.Y el autor hace referencia a la persona o
+grupo que ha realizado el art¡culo.[NO]
+
+  En la zona superior derecha se dispone de la informaci¢n referente al n£mero[IZQUIERDA]
+de p ginas de las que consta el art¡culo y la p gina en la que nos encontramos
+actualmente. Por supuesto, las p ginas vienen expresadas en el estilo de la
+diskmag, y por tanto, una p gina equivale a 30 filas.[NO]
+
+  En la parte central de la zona inferior de la diskmag, se encuentran los[IZQUIERDA]
+t¡tulos de los temas a los cuales tenemos acceso. No obstante, el tema no se
+cargar  hasta que se pulse la tecla de acci¢n ENTER o el bot¢n izquierdo del
+rat¢n.[NO]
+
+  La flecha roja del icono inferior izquierdo,representado por una vaca musical[ROJO XMI NO]
+indicara si la musica esta activada o desactivada.
+
+
+
+Distribucion de la revista[AMARILLO GRANDE NO]
+
+
+
+  Pues aqui damos comienzo a la  primera edicion digital de[BLANCO PCT]
+la DISKMAG Sliders. En  principio  nuestro grupo tiene pen-
+sado sacar la diskmag una vez cada tres meses. Aunque si se
+puede, se har  antes.
+  La diskmag no pertenece a la licencia GNU, ni OpenSOURCE.[VERDEFOSFORITO XMI]
+Tiene copyright, aunque eso no impide que se vaya a distri-
+buir de  forma  gratuita. Por tanto, queda prohibido cobrar
+por la distribucion de la diskmag o por ella misma.
+  Gracias a los adelantos de la viejas y nuevas tecnologias[BLANCO PCT]
+de la comunicaci¢n la revista digital se  va  a  distribuir
+atrav‚s de las grandes redes, como son INTERNET, FIDONET, y
+derivados.
+  El tama¤o de la diskmag se intentar  en lo posible que no
+supere el tama¤o de un diskette de 3 1/2 de alta  densidad.
+Aunque esta cantidad suele ser  de 1,4 MB (MegaBytes),noso-
+tros vamos a considerar toda la capacidad total,que en este
+caso es  de 1,7 MB si usamos  el formato de FDFORMAT o 2 MB
+si usamos el formato 2M.
+Hemos elegido esta opci¢n, puesto que estos formatos son libres, y estan[IZQUIERDA]
+disponibles para todos los S.O., aunque el WINDOWS no lo soporte.[NO]
+
+
+
+Como calaborar[VERDEFOSFORITO GRANDE NO]
+
+
+
+  Se puede colaborar de muchas formas, ya sea como redactor de art¡culos, como[BLANCO PCT IZQUIERDA]
+pixelador o grafista 2D o 3D para los fondos, portadas y contraportadas de la
+diskmag, o como m£sico para el tracker de la misma.[NO]
+
+  Los art¡culos, al igual que la diskmag tienen copyright, y pertenecen a la[IZQUIERDA]
+misma. Sin embargo, el nombre del autor quedar  siempre presente en la misma,
+y ser  irremplazable (no se puede quitar). De hecho, en el campo de AUTOR,
+vendr  este nombre, ya sea de autor, o el del grupo al cual pertenezca.[NO]
+
+  Si mandais un art¡culo debereis de mandarlo en un formato conocido, ya sea[IZQUIERDA]
+en formato ASCII, TXT, WORD, HTML, etc... Si usais alguno diferente, se
+agradecer¡a que enviaseis el lector del mismo, o donde se puede localizar. Esto
+es asi, porque la diskmag tiene un formato propio, y no va a leer los formatos
+HTML, ni WORD, porque para eso est n esos programas, y no la diskmag. Si el
+documento tiene fotos, debeis de incluirlas, bien dentro del mismo, o por
+separado. Se aceptan todos los formatos disponibles actualmente: RAW, BMP, JPG,
+GIF, PCX, PNG, etc. Si mandais fotos con formato RAW, debeis de mandar el ancho
+y alto de las mismas, de lo contrario, no vamos a tener ganas de hacer t‚cnicas
+de prueba y error. Las fotos pueden estar en cualquier profundidad de color.
+Pero la revista las va a publicar con una profundidad de 8 bits (256 colores).
+No es que no podamos reproducirlas a mas color, sino que a profundidades
+superiores a 8 bits, el tama¤o de la imagen es muy elebado, y las compresiones
+HUFFMAN de los JPEG degradan mucho la calidad de la imagen.[NO]
+
+  Si teneis pensado enviar una imagen para la portada o contraportada, debeis[IZQUIERDA]
+de saber que no podreis superar los 640x480 pixels, as¡ como que la profundidad
+de color no va a ser superior a los 8 bits (256 colores). El nombre del autor
+debe ser enviado, y tambi‚n esta permitido firmar las propias fotos.[NO]
+
+  En caso de querer enviarnos un track de sonido, hay que aclarar, que no debe[IZQUIERDA]
+de superar los 400 Kbytes, y que a de estar en formato MOD, XM o IT. Debeis de
+enviar el nombre o bien dentro del track o de forma adjunta.[NO]
+  Todas las personas que intervengan en la diskmag ser n incluidas en la zona[IZQUIERDA]
+la p gina principal de la misma, indicando su funci¢n.[NO]
+
+  Si quereis formar parte del grupo SLIDERS de la DISKMAG hay que aclarar, que[IZQUIERDA]
+en el r¢tulo de AUTOR, ya no figurar  vuestro nombre, sino el del grupo SLIDERS
+aunque entre par‚ntesis figurar  vuestro nombre, para que al menos se sepa
+quien ha escrito el art¡culo.[NO]
+
+  Tambi‚n se aceptan art¡culos y fotos ANONIMAS, pero eso si, deben de estar[IZQUIERDA]
+libre de plagio o copyright. En este caso, en autor, figurar  como ANONIMO.[NO]
+
+  Las direcciones de correo par enviar datos, son:
+
+   i1764876@petra.euitio.uniovi.es[VERDEFOSFORITO XMI IZQUIERDA]
+   i2128593@petra.euitio.uniovi.es
+   i1766818@petra.euitio.uniovi.es
+   jaimejj@mixmail.com
+
+
+
+Historia de la diskmag[AMARILLO GRANDE NO]
+
+
+
+  Siempre hemos tenido ganas de hacer una demo, pero debido a nuestros estudios[BLANCO PCT IZQUIERDA]
+se nos ha hecho casi imposible. As¡ que mientras tanto, empezamos ha construir
+una diskmag, puesto que est  incluida dentro del  mbito scener.[NO]
+
+  Actualmente existen multitud de diskmags, desde las m s simples, pero no por[IZQUIERDA]
+ello, las peores (diskmags de 4 KAS), hasta encontrarse diskmags de 1 MByte, en
+formato ASCII, o con estilo propio. Por el camino, nos encontramos alguna
+diskmag con interfaz visual, pero con todo el contenido en formato ASCII. Esto
+no quiere decir, que la diskmag sea mala, sino que no llama tanto la atenci¢n
+como una buena foto (aunque el ASCII ART es maravilloso). Y por £ltimo, nos
+encontramos las diskmags mas logradas y bellas, como la Wildmag, Pain y Hugi.
+La primera esta en alem n y las otras dos en ingl‚s, salvo los 14 primeros
+n£meros de HUGI que est n en su idioma nativo (alem n).[NO]
+
+  Pero no todo lo bueno, tiene que ser extranjero. Tambi‚n existen diskmags[IZQUIERDA]
+espa¤olas, como la CEIBE. Desde aqui les mandamos un fuerte saludo al grupo
+CENTOLLOS que la mantiene. Si seguimos buscando, tambi‚n hay otras diskmags
+en espa¤ol, pero no nativo, sino, en habla hispana, ya que estas diskmags son
+de Sudam‚rica y paises de habla hispana (si!!, el ingl‚s no es el £nico idioma
+del mundo). Aunque la mayor¡a de estas diskmags, al igual que las ingleses
+Imphobia, terminan por desaparecer.[NO]
+
+  Por eso pretendemos crear una diskmag de habla hispana (eso no impide que se[IZQUIERDA]
+traduzca a otros idiomas para distribuir), y por supuesto que no termine por
+desaparecer, como la mayor¡a. Por eso, pedimos desde aqui ayuda a todo aquel
+que le interese el mundo scener y la programaci¢n.[NO]
+
+  El estudio de ingenier¡a inform tica no est  enfocado a la t‚cnica de la[IZQUIERDA]
+programaci¢n. Y las revistas actuales de programaci¢n, han ido de mal a peor.
+Antes, el ensamblador estaba a la hora del d¡a, y ahora resulta que JAVA y HTML
+no s¢lo es el futuro, sino que forman parte de revistas supuestamente serias de
+programaci¢n. De hecho, ni los CD's que las acompa¤an merecen la pena, y por
+supuesto el precio es demasiado alto en relaci¢n al contenido. Una de cada 10
+n£meros sacan un tema realmente interesante sobre programaci¢n, pero de forma
+misteriosa queda relegado a una mera introducci¢n, o en la mayor¡a de los casos
+queda no tiene nada que ver con lo que se mostraba en portada.[NO]
+
+  Parece que ya se tiene asumido la teoria de "NO reinventar la rueda", cuando[IZQUIERDA]
+los que lo dicen, no han inventado nada en su vida, y si todo esta inventado,
+pues que baje el proceso DIOS a la FAT de la TIERRA y que haga un FORMAT r pido
+, porque para que seguir viviendo, sino hay nada nuevo que ver.[NO]
+
+  Y por supuesto, el colmo de los colmos, es cuando han conseguido, que mas[IZQUIERDA]
+del 50% de los temas de la revista, sean de nivel de usuario, como por ejemplo
+usar el programa de modelado 3D BLENDER, o el programa de dibujo GIMP o Paint
+Shop Pro. Por el medio,despu‚s de mucho prometer que van a poner un curso sobre
+programaci¢n 3D, ponen un curso sobre POVRAY (No es por ofender, pero esto no
+es un lenguaje de programaci¢n), o en el  mbito de videojuegos, DIV GAME STUDIO
+o DARKBASIC. No es por seguir ofendiendo, pero al menos, podian dedicar otros
+art¡culos a hacer un buen juego con C, C++, PASCAL, ensablador, y dem s, y no a
+usar lenguajes de scripting.[NO]
+
+  As¡ que decidimos montar por nuestra cuenta una aut‚ntica revista de[IZQUIERDA]
+programaci¢n, porque en la actualidad existen muchas plataformas hardware y
+software, que todab¡a no han salido a la luz, porque supuestamente, no tienen
+la misma publicidad de Microsoft o WIN-INTEL (Si lo que trae escrito, que INTEL
+no es 100% de INTEL). Por supuesto, algunos pensar n en APPLE, pero lo lamento,
+ya que en los a¤os 80, el maravilloso Steve Jobs vendi¢ su alma al diablo Bill
+Gates en un documento legal irrompible de acuerdo con Microsoft. As¡ que Apple
+no es 100% Apple, y depende del Se¤or Gates. O que creiais, que una empresa
+como Apple podr¡a aguantar tantas crisis y quiebras como hasta ahora?. De lo
+contrario le esperaba el mismo futuro que COMMODORE (quiebra), o AMSTRAD
+(desaparici¢n momentanea de 8 a¤os en 8 a¤os).[NO]
+
+  En nuestros comienzos, usamos un editor de textos, el ABILITY 2001, en su[IZQUIERDA]
+versi¢n TRIALVERSION, adem s de otros editores como el ABIWORD, STARTOFFICE y
+el MICORSOFT WORD 2000. Y por £ltimo le pasabamos el filtro de conversi¢n a PDF
+pensando que as¡ ser¡a m s portable para todo el mundo. Y la idea en principio
+era buena, ya que tanto WINDOWS, LINUX, BeOS, FreeBSD, UNIX, MAC OS, OS/2 e
+incluso el DOS tienen soporte para leer arhivos PDF. Pero el fracaso no fue por
+esto, sino por las herramientas de autoedici¢n citadas anteriormente, que nada
+m s pasarnos de unas cuantas hojas con frames y fotos, el programa no s¢lo se
+bloqueaba, sino que todo el sistema operativo se autoaniquilaba. Una vez se
+puede aguantar, pero unas 50 veces, y con la perdida de los documentos
+originales al grabar la copia de forma defectuosa y no avisar, pueden a
+cualquiera.[NO]
+
+  De esta forma comenzamos a crearnos nuestra propia diskmag libre de editorial[IZQUIERDA]
+y por supuesto libre de errores, salvo los que como programadores hemos creado.
+Adem s al construirnos nuestra propia herramienta garantizamos mucha mas
+eficiencia en temas, que las herramientas gen‚ricas no logran, como por ejemplo
+que esta diskmag funciona en un 80386 con 8 MB de RAM.[NO]
+
+  Del interfaz gr fico se encarg¢ JJ, y en un principio comenz¢ a desarrollarlo[IZQUIERDA]
+bajo SDL en LINUX y BeOS. La versi¢n para DOS la estaba haciendo a pelo con el
+TMTPASCAL. Pero debido a la facilidad que ten¡a la herramienta GRABBER de las
+librerias ALLEGRO para poder empaquetar objetos gr ficos, decidi¢ portarlo todo
+bajo ALLEGRO, sacrificando un poco la velocidad. Por supuesto esta diskmag esta
+realizada 100% en C con el DJGPP bajo DOS,el MINGW32 bajo WINDOWS,y el GCC bajo
+LINUX y BeOS. no obstante el c¢digo tiene copyright del grupo SLIDERS y no se
+liberar .[NO]
+
+  Otro opci¢n por la que queriamos escribir esta diskmag, era para lograr una[IZQUIERDA]
+mayor unificaci¢n entre el mundo scener (que no son bichos raros ni malos) y
+el mundo de los usuarios. Queremos crear una escuela, para que los futuros
+programadores no nos olviden, y sepan por donde empezar. "Que no todo el monte
+es oregano", y no hay porque tragar que Microsoft e INTEL es el futuro, que
+JAVA es una aut‚ntica m quina virtual, que JAVA, LISP, PROLOG y HASKELL son el
+lenguaje de los programadores, y que el Visual BASIC es una aut‚ntica
+herramienta de desarrollo. Y por supuesto, que los S.O. no se cuelgan nunca, y
+que un proceso no tenga respuesta en tiempo real es normal.[NO]
+
+  Y quien sabe, quizas alg£n d¡a exista una PARTY de demosceners en ASTURIAS.[IZQUIERDA]
+Pero eso si, una aut‚ntica party de demosceners, y no de gamers, como la
+mayor¡a de las party's.[NO]
+
+  Con esta revista pretendemos dar a conocer, que si nosotros, que somos unos
+simples programadores de ASTURIAS, podemos conseguir esto, quien sabe lo que
+vosotros podreis lograr con vuestro pensamiento, coraz¢n y coraje.[NO]
+
+  Y en definitiva, que todo esto lo hacemos para fastidiar a los profes de la[IZQUIERDA]
+universidad, que se creen DIOSES de la INFORMATICA, y no saben ni lo que es un
+ordenador. Porque, algunos que tienen 30 a¤os, se ponen a hablar de su ‚poca
+cuando existian CPC, diciendo que si no los conociamos? Hombre por favor, todos
+los que tengamos entre 18 a¤os y 30, tubimos que conocer los CPC, los MSX, los
+COMMODORE y AMSTRAD, a la fuerza, si empezamos con ellos a partir de los 6
+a¤os, como fue nuestro caso. Y sino, mirad a los demosceners del CPC, en
+la BCNParty (Espa¤a), sin ir tan lejos. Aunque claro, hay alg£n profesor que
+en su ‚poca de la facultad, en los 80 ya ten¡a un APPLE (Sin comentarios). Los
+pobres mortales, como nosotros, teniamos lo justo, e incluso llegamos a un 8086
+y un 286 ahorrando mucho, en esa ‚poca.[NO]
+
+  Y por supuesto, luego estan los profesores del  rea de matem ticas, f¡sica,[IZQUIERDA]
+industriales, telecomunicaciones, que o no saben programar, o conocen el cobol,
+y con suerte el C estandard, y ya se creen los GURUS de la inform tica. Y por
+supuesto todo lo que dicen, debe de ser esculpido en marmol o cincelado en
+oleo. Todos estos personajes, han conseguido entrar en los centros
+universitarios actuales, ya sabemos todos como (a dedo y con mucho esmero). Hay
+que tener en cuenta, que la inform tica actual dom‚stica, es muy joven, de tan
+s¢lo 20 a¤os, y estos profesores tienen muchos m s, por lo que hace pensar
+clar¡simamente, que nunca han sido o no son aut‚nticos inform ticos (son
+infiltrados), que presumen de un t¡tulo de dudosa calidad.[NO]
+
+  Por supuesto, gracias a todos ellos, la media de estudios de una ingenier¡a[IZQUIERDA]
+t‚cnica en inform tica se prolonga de 3 a 7 a¤os. Y por supuesto, seg£n ellos,
+s¢lo debe existir Gesti¢n y Sistemas. Si el mundo de la medicina, lo
+redujesemos as¡, seguro que todos los m‚dicos y cirujanos nos pegar¡an.[NO]
+
+
+
+Mensaje[AMARILLO GRANDE]
+
+
+
+  En definitiva, que todo esto lo hacemos por vosotros, y para vosotros, a[BLANCO PCT IZQUIERDA]
+todos los j¢venes y no tan j¢venes programadores/as, que aun saben lo que
+significa la inform tica, y que se dedican sobre todo a investigar, y por
+supuesto que comparten sus conocimientos con otros que intentan hacer lo mismo
+que ellos (aprender), porque por algo, tanto en Espa¤a, como en el resto del
+mundo existe un decreto de Derechos humanos, y derecho al saber (el
+conocimiento es un derecho y es libre), pero que lamentablemente no se cumplen.[NO]
+
+
+
+Miembros principales[AMARILLO GRANDE]
+
+
+
+  Pues somos pocos, pero quien sabe, con el tiempo, creceremos:[BLANCO PC]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Maria del Rosario Gavin Sierra: RGS
+     (coder, gfx, sfx, adoradora de satanasa)[VERDEFOSFORITO]
+   Angel Garcia Rodriguez: Navegante[BLANCO]
+     (coder, designer, extra en pelis porno)[VERDEFOSFORITO]
+   Jaime Jose Gavin Sierra: JJ[BLANCO]
+     (coder, gfx, gigolo profesional)[VERDEFOSFORITO]
+
+
+
+
+Prohibido[AMARILLO GRANDE]
+
+
+
+  Por si no ha quedado claro, esta revista no es ni GNU, ni GPL. Tampoco es[PCT BLANCO IZQUIERDA]
+Freeware, Shareware o Friendware, ni tampoco pertenece a la licencia SCENER.[NO]
+
+  Eso si, cualquiera puede distribuirla tal y como est ,as¡ como leerla cuantas[IZQUIERDA]
+veces quiera y en cualquier equipo de su casa o del mundo, pero sin cobrar nada
+por ello, ni por distribuirla.[NO]
+
+
+  Se trata de una revista digital, que no exige ning£n contrato con el cliente[IZQUIERDA]
+a la hora de adquirirla. El lector puede ver y aprender de todos los temas lo
+que quiera, pero eso si, est  prohibido que plagie estos documentos, sin avisar
+al creador de los mismos o sin haberle nombrado. Tambi‚n esta prohibido sacar
+cualquier tipo de dinero por la venta o manipulaci¢n de la revista. Es decir,
+si alguien coge todo el material de la revista, y le cambia los nombres, estar 
+incumpliendo una normativa. Adem s, no podr  sacar dinero por exponer el
+material de los art¡culos de la revista. Es decir, si una persona, da un curso
+con estos art¡culos tal cual, estar  incumpliendo una normativa.[NO]
+
+
+  Esto es as¡, porque conocemos a los profesores, y sabemos lo que hacen. Si[IZQUIERDA]
+quieren dar la clase gratis, sin falta de buscar material, que vayan a otro
+sitio, o que busquen a otros pringados, que a fin de cuentas, los profesores
+cobran por dar clase.[NO]
+
+
+  Eso si, se permite un caso especial, que consiste en que un profesor, o[IZQUIERDA]
+cualquier ente similar, pueda dar clase con este material tal cual,pero eso si,
+no podr  cobrar absolutamente nada por dar esas clases. Es decir, la clase ser 
+gratis, ya que el material es gratis. Por tanto, no podr  impartir una clase
+real con este material, ya que por decreto, esta clase la subenciona el estado
+y la estan pagando los alumnos. Por tanto, deber  darla en periodo no lectivo,
+es decir, fuera del horario de clases, y no podr  examinar a los alumnos ni
+mandarles hacer trabajos extra sobre este material, ya que por si, es gratis.[NO]
+
+
+  Si en cualquier caso, la clase fuese clandestina, es decir, que no fuera de[IZQUIERDA]
+contrato legal, no se podr  cobrar y repito, NO SE PODRA COBRAR nada por usar
+este material. Porque si los BUCANEROS y los PIRATAS nos dan asco, no hay cosa
+peor, que ver a un LAMER en acci¢n.[NO]
+
+
+  Es decir, esta revista, s¢lo est  para aprender, y no para ganar dinero con[IZQUIERDA]
+el trabajo de otros, como sucede en alg£n que otro proyecto GNU, que al final,
+el que lo mantiene, es el que se queda sin dinero para poder seguir.[NO]
+
+
+  Por tanto, que quede claro:[NO]
+
+   ²²  ²² ²²²²²²       ²²      ²²²²  ²²    ²²  ²²²²²  ²²²²   ²²²²²[AMARILLO]
+   ²²² ²² ²²  ²²       ²²     ²²  ²² ²²²  ²²² ²²     ²²  ²² ²²
+   ²²²²²² ²²  ²²       ²²     ²²²²²² ²² ²² ²² ²²²²   ²²²²²   ²²²²
+   ²² ²²² ²²  ²²       ²²     ²²  ²² ²²    ²² ²²     ²²  ²²     ²²
+   ²²  ²² ²²²²²²       ²²²²²² ²²  ²² ²²    ²²  ²²²²² ²²   ² ²²²²²
+
+
+
+   ²²  ²² ²²²²²²       ²²²²²  ²²  ²²²²   ²²²²  ²²²²²²  ²²²²   ²²²²²[ROJO]
+   ²²² ²² ²²  ²²       ²²  ²²    ²²  ²² ²²  ²²   ²²   ²²  ²² ²²
+   ²²²²²² ²²  ²²       ²²²²²  ²² ²²²²²  ²²²²²²   ²²   ²²²²²²  ²²²²
+   ²² ²²² ²²  ²²       ²²     ²² ²²  ²² ²²  ²²   ²²   ²²  ²²     ²²
+   ²²  ²² ²²²²²²       ²²     ²² ²²   ² ²²  ²²   ²²   ²²  ²² ²²²²²
+
+
+
+
+
+
+Creditos[AZULCLARO GRANDE CENTRO]
+
+
+
+
+Miembros de la #issue1[PC]
+
+Maria del Rosario Gavin Sierra    as    RGS[BLANCO PCT]
+Angel Garcia Rodriguez            as    Navegante
+Fernando Lopez Hernandez          as    Fernando
+Fac & Manolo                      as    Delabu Alama
+Jaime Jose Gavin Sierra           as    JJ
+
+
+
+
+Colaboradores[PC AZULCLARO]
+
+Fernando Lopez Hernandez          as    Fernando[PCT BLANCO]
+Fac & Manolo                      as    Delabu Alama
+
+
+
+
+GFX de la #issue[PC AZULCLARO]
+
+Maria del Rosario Gavin Sierra    as    RGS[PCT BLANCO]
+
+
+
+
+SFX de la #issue[PC AZULCLARO]
+
+Maria del Rosario Gavin Sierra    as    RGS[PCT BLANCO]
+
+
+
+
+Designer de la #issue[PC AZULCLARO]
+
+Angel Garcia Rodriguez            as    Navegante[PCT BLANCO]
+
+
+
+
+Programador de la #issue[PC AZULCLARO]
+
+Jaime Jose Gavin Sierra           as    JJ[PCT BLANCO]
+
+
+
+
+Agradecimientos virtuales[PC AZULCLARO]
+
+
+Exobit, Spanish Lord, Iguana, Delabu Alama, Future Crew,[PCT BLANCO]
+Matrix, Centolos, Breeze, Flood, Raiders,
+Paradox, Circe, Weasel/Dax
+Pure, Evangelion
+Zalem

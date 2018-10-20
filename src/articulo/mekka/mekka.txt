@@ -1,0 +1,1038 @@
+[FOTOS 8]
+27 78 59 847
+28 79 59 867
+29 80 59 885
+30 81 59 907
+31 82 59 922
+32 83 59 936
+33 84 59 950
+34 85 59 965
+Mekka & Symposium 2002 Party[AMARILLO GRANDE NO]
+
+
+
+  Hola de nuevo. Como se coment¢ en el art°culo de la demoscene, hay una media[PCT BLANCO IZQUIERDA]
+de 3 party's por semana en todo el mundo. Por tanto, hoy vamos a comentar, una
+que esta algo lejos, como es el caso de la MEKKA & SYMPOSIUM party.[NO]
+
+
+  Pues esta party di¢ comienzo el Viernes 29 de Marzo del 2002 a las 12:00. Y[IZQUIERDA]
+finaliz¢ el Lunes 1 de Abril del 2002 a las 12:00. Para que no nos perdamos,
+esta party se celebra en Europa, en concreto, en la ciudad alemana de[NO]
+Fallingbostel.[NO]
+
+  Ya se que para muchos queda muy lejos, y que hay que dominar, al menos, alg£n[IZQUIERDA]
+idioma extra, a parte del Espa§ol, para poder comunicarse en dicha party, pero
+a favor, tenemos que ya existe el EURO como moneda de intercambio.[NO]
+
+  Sin embargo, gracias a la todopoderosa INTERNESSS, podemos disponer de toda[IZQUIERDA]
+la informaci¢n de lo que aconteci¢ en dicha PARTY, as° como de poder realizar
+un descarga maxiva de todas las producciones. Por supuesto, esto £ltimo, aunque
+es atractivo, no lo recomiendo mucho, ya que son m†s de 5 GB de material
+scener.[NO]
+
+
+
+Competiciones[AMARILLO GRANDE]
+
+
+
+  Como suele ser normal, las party's no espa§olas, suelen tener mejor calidad,[PCT BLANCO IZQUIERDA]
+que conste, que no es por fastidiar a los scener's espa§oles. En este caso, se
+dispone de varias cetegorias, como son:[NO]
+
+  - INTROS de 4K para AMIGA y PC.[PC GRIS]
+  - INTROS de 64K para AMIGA y PC.
+  - Demos para AMIGA y PC.
+  - Demos para ATARI.
+  - Demos para C64.
+  - Graficos para C64.
+  - INTROS de 4K para C64.
+  - MUSICA SID.
+  - Demos para consolas.
+  - FAST intro.
+  - Graficos estilo libre.
+  - Juegos 32 K
+  - 15 segundos de m£sica.
+  - Musica MP3.
+  - Muscia tracked
+  - Grafismo Robots vs Knights
+  - Wild compo.
+
+  Para aquellos que desconozcan algo de las competiciones, os dirÇ, que el[PCT BLANCO IZQUIERDA]
+concepto de INTRO y DEMO, ha sido explicado en el art°culo de la DEMOSCENE. Y
+en cuanto, al grafismo y los trackers, es lo mismo que la vida real, es decir,
+hacer gr†ficos pixelados o en 3D, as° como canciones, pero con el ordenador.[NO]
+
+
+  Lo m†s interesante de esta party, es que combina a los mejores de lo mejor,
+es decir, tan pronto tiene demos para el £ltimo PC, como demos o grafismo, para
+consolas, o para ordenadores m†s antigÅos como ATARI y C64 (COMMODORE).[NO]
+
+
+
+Maquinas de la COMPO[AMARILLO GRANDE]
+
+
+
+  En el caso de la MEKKA & SYMPOSIUM, se ha dedicado una m†quina en concreto[PCT BLANCO IZQUIERDA]
+para ejecutar cada una de las demos e intros, es sus respectivos campos. Adem†s
+se dispone de un ca§on para poder ver a todo color y m†xima visi¢n las demos.[NO]
+
+  Para AMIGA, se dispone de:
+
+    Ordenador A4000 con procesador MC68060 a 50 Mhz[AMARILLO]
+    Procesador Acelerador PPC (POWER PC) 604e a 233 Mhz
+    128 MB de RAM
+    Aceleradora gr†fica Cybervision PPC
+    Sistema operativo WarpOS & PowerUP
+
+  Para ATARI, se dispone de:[BLANCO]
+
+    M†quina ATARI ST y Falcom 030.[AMARILLO]
+    Disquetera.
+    Procesador a 8 Mhz
+    1 MB de RAM
+
+  Para el caso del C64:[BLANCO]
+
+    C64 con viejo y nuevo chip SID[AMARILLO]
+    Disquettera 1541-II de 5.25"
+
+  Para PC IBM compatible:[BLANCO]
+
+    Pentium IV a 1,6 Ghz[AMARILLO]
+    256 MB de RAM
+    Aceleradora gr†fica Quadro2MXR
+    Tarjeta de sonido SoundBlaster Live! 512 Value
+    S.O. Windows98SE con Directx 8.1 o LINUX 2.4.18 con XFree 4.2.0
+    Librerias Allegro 4.0.1, SDL 1.2.3
+
+
+Normas de las competiciones[AMARILLO GRANDE]
+
+
+  En el caso de realizar algo para la m†quina de la COMPO, debe por supuesto,[IZQUIERDA PCT BLANCO]
+funcionar en dicha m†quina, para poder puntuar. Pero, adem†s debe de cumplir
+estas normas:[NO]
+
+   Para el caso de AMIGA:
+
+    - En las DEMOS, el tama§o m†ximo, es de 10 MB.[AMARILLO]
+    - En las intros de 64 K,  debe ser un £nico ejecutable de como m†ximo 65535
+      bytes.
+    - En las intros de 4 K, debe ser un £nico ejecutable de como m†ximo 4096
+      bytes. 
+
+   Para el caso del ATARI:[BLANCO]
+
+     - En las demos, el m†ximo tama§o es de 8 MB.[AMARILLO]
+     - En las intros de 96 K, el m†ximo tama§o es de 98304 bytes.
+     - Para las intros de 4 K, el tama§o maximo es de 4096 bytes.
+
+   Para el C64, las reglas,, son:[BLANCO]
+
+     - Las demos, m†ximo tama§o, 1 disco de 5.25" DD, es decir, unos 360 KB.[AMARILLO]
+     - Las intros de 4 K, comop m†ximo 4096 bytes.
+     - Gr†ficos para C64, debe ser cargado por un ejecutable.
+     - SID MUSIC, m†ximo 3:30 minutos. El jurado seleccionar† 10 o 15 canciones
+       Se debe especificar si es el viejo o nuevo chip SID.
+
+   Para el PC:[BLANCO]
+
+     - Demos, como m†ximo 10 MB en formato ZIP.[AMARILLO] 
+     - Intros de 64 K, m†ximo 65536 bytes.
+     - Intros de 4 K, m†ximo 4096 bytes.
+     - Las demos bajo DOS, correran en ventana DOS de WINDOWS, y deber†n ser
+       compatibles con WIN32.
+
+   Para el caso de juegos de 32 K:[BLANCO]
+
+     - Tama§o m†ximo 32 K.[AMARILLO]
+     - Debe poder usarse teclado o rat¢n.
+
+   Para las consolas:[BLANCO]
+
+     - Se puede usar Atari 2600, Megadrive, SNES, Vectrex, Game Boy, GBC, GBA,[AMARILLO]
+       PSX, PS2, N64, Dreamcast, XBOX, Gamecube, o cualquier otra.
+     - No hay l°mite de tama§o.
+     - Se debe de grabar la demo en una cinta VHS.
+     - Se puede usar videos en formato DIVX.
+     - Las demos plagiadas ser†n descalificadas.
+
+   Para Wild Compo (demo con medios reales, sin falta de ordenador):[BLANCO]
+
+     - Se puede enviar en formato VHS o S-VHS.[AMARILLO]
+     - Se puede especificar en el video, el hardware que se ha usado.
+     - El tiempo l°mite de exposici¢n es de 8 minutos.
+
+   La competici¢n de m£sica:[BLANCO]
+
+     - Se puede usar MP3 a 128 Kbit/s, OGG 128 Kbit/s o audio CD.[AMARILLO]
+     - Duraci¢n m†xima, de 3:30 minutos.
+     - S¢lo una entrada por competici¢n.
+
+   La secci¢n de trackers de m£sica:[BLANCO]
+
+     - Se permite los formatos MT2, IT, XM, S3M, DBM y MOD.[AMARILLO]
+     - No se puede comprimir los archivos.
+     - M†ximo tama§o de 1024 KB (1 MB).
+     - M†ximo tiempo de duraci¢n, de 3:30 minutos.
+     - S¢lo una entrada por competici¢n.
+
+   En 15 segundos de m£sica:[BLANCO]
+
+     - Formato MP3, OGG, MT2, IT, XM, S3M, DBM y MOD.[AMARILLO]
+     - M†ximo tiempo de duraci¢n, de 3:30 minutos.
+     - S¢lo una entrada por competici¢n.
+
+   En la secci¢n de GFX:[BLANCO]
+
+     - M†xima resoluci¢n de 800 x 600 con 24 bits de color.[AMARILLO]
+     - Formatos permitidos, IFF, PNG o TGA.
+     - Se debe exponer el trabajo que se ha realizado por pasos.
+     - Se debe especificar el software y utilidades que se han usado.
+
+   En  Freestyle Graphics (Estilo libre de gr†ficos):[BLANCO]
+
+     - No hay resticciones, salvo que no se debe de plagiar.[AMARILLO]
+
+   En la competici¢n de GFX "Robots vs. Knights":[BLANCO]
+
+     - Se debe de componer con el tema dado: Robots contra cuchillos.[AMARILLO]
+
+
+
+Informacion adicional[AZULCLARO GRANDE]
+
+
+
+  La Mekka & Symposium, no es una party de lamers y gamers, es decir, no se va[PCT BLANCO IZQUIERDA]
+ni a jugar, ni a hacer SWAPPING (intercambio) de pirateria, como otras party's
+de otros lugares, entre ellos, en ESPA•A.[NO]
+
+  Se trata pues, de un lugar de culto SCENER. As° que si estais esperando una[IZQUIERDA]
+FAQ (FUCK ALL QUAKERS) para los juegos, podeis ir olvid†ndolo).[NO]
+
+  Aqui se reune a lo mejor, de los respectivos campos, y se exponen los[IZQUIERDA]
+resultados, sin †nimo de lucro. En este a§o, la asistencia scener, se esperaba
+que llegase a 1400 visitantes.[NO]
+
+  La delegaci¢n no se responsabiliza de da§os y perjuicios contra el material[IZQUIERDA]
+inform†tico que se traiga.[NO]
+
+  No se puede beber alcohol.[ROJO]
+
+  Y por supuesto, lo que si se permite, es divertirse viendo el material[BLANCO IZQUIERDA]
+scener de toda la party.[NO]
+
+
+
+Tabla de la party[AZULCLARO GRANDE]
+
+
+
+  Aqui se expone brevemente, lo que acontecio en la party:[PCT BLANCO]
+ 
+  Viernes 12:00      Apertura[AMARILLO]
+  Viernes 21:00      Apertura de la Ceremonia.
+  Viernes 23:00      + Crest's PC Demo Show
+
+  S†bado 09:00       * DEADLINE: C64 4K, Freestyle Graphics, Tracked Music
+  S†bado 11:00       * DEADLINE: PC 4K
+  S†bado 12:00       Freestyle Graphics
+  S†bado 12:00       * DEADLINE: Amiga 4K, Atari 4K, Wild
+  S†bado 13:00       C64 4K
+  S†bado 14:00       PC 4K
+  S†bado 14:00       * DEADLINE: C64 Demo, Amiga 64K, RvsK Graphics
+  S†bado 15:00       Tracked Music
+  S†bado 16:00       Amiga 4K
+  S†bado 17:00       Atari 4K
+  S†bado 18:00       RvsK Graphics (Robot vs Knights)
+  S†bado 19:00       Amiga 64K
+  S†bado 20:00       * DEADLINE: 15 Segundos de Musica, Musica MP3, PC 64K
+  S†bado 20:30       Wild
+  S†bado 00:30       C64 Demo
+  S†bado 02:00       + Daylight-saving time. Adelantar la hora a la 3:00
+
+  Domingo 08:00      * DEADLINE: 32K Game, Console Demo
+  Domingo 09:30      * DEADLINE: C64 Music, Atari 96K
+  Domingo 10:30      15 Seconds Music
+  Domingo 12:00      PC 64K
+  Domingo 13:30      Freestyle Graphics (repeated)
+  Domingo 14:00      Console Demo
+  Domingo 14:00      * DEADLINE: PC Demo, Amiga Demo
+  Domingo 15:00      Atari 96K
+  Domingo 15:30      C64 Music
+  Domingo 16:30      RvsK Graphics (repetici¢n)
+  Domingo 16:30      * DEADLINE: Atari Demo, C64 Graphics
+  Domingo 17:00      32K Game
+  Domingo 18:30      MP3 Music
+  Domingo 19:30      C64 Graphics
+  Domingo 20:00      Amiga Demo
+  Domingo 22:30      Atari Demo
+  Domingo 00:00      PC Demo
+
+  Lunes 05:00        Votaci¢n de la deadline
+  Lunes 10:00        Prize giving, Cerrando la Ceremonia
+  Lunes 12:00        Finalizaci¢n de la party.
+
+
+
+
+Resultados[AZULCLARO GRANDE]
+
+
+
+  Aqui se dejan la votaci¢n y puestos de cada uno de los participantes en[PCT BLANCO
+cada una de las secciones de la MEKKA & SYMPOSIUM party:[NO]
+
+
+  Amiga 4K (3 entradas):[PC GRIS]
+ 
+    1 391 Nano                         Scarab[AMARILLO PCT]
+    2 385 Perspiration                 Efreet
+    3 237 8 Perfect Circles            Nature
+
+
+  Amiga Demo (11 entradas):[PC GRIS]
+ 
+    1 507 Little Nell                  TBL[PCT AMARILLO]
+    2 296 Tribute                      Scarab
+    3 271 Demoskope                    Creative Minds
+    4 206 Heavy Traffic                M. (Madcats vs. Erazorwizards)
+    5 186 Kheshkhash                   Scenic+Encore
+    6 101 Electroluxus                 RNO
+    7  54 [[Mind][[Matter][[Electricity]  Reason
+    8  54 New Dawn Fades               Madwizards
+    9  49 Plan-B                       IRIS
+   10  11 Bubble 2                     Specter
+   11  10 D¯lle D¯ck                   Apathy (Zerox + Puni)
+ 
+
+  Amiga 64K (3 entradas):[PC GRIS]
+ 
+    1 751 Planet Potion                Potion[PCT AMARILLO]
+    2 534 The Castle                   Loonies
+    3 327 Black to planet Earth        Nemechek / Kangooroo
+ 
+ 
+  Atari Demo (2 entradas):[PC GRIS]
+ 
+    1 451 Atari-Behn                   Ephidrena[PCT AMARILLO]
+    2 345 Bundestag                    Spiceboys
+ 
+  
+  C64 Demo (8 entradas):[PC GRIS]
+ 
+    1 353 La Linea                     Breeze[PCT AMARILLO]
+    2 319 Evolution 98%                Warriors of THE Wasteland
+    3 115 Obey [[Neoplasia] (60%)       Viscid of Neoplasia
+    4 111 Is god real?                 st0ff/Neoplasia
+    5  56 We hate PC 2 (too)           Spiders-Crew
+    6  45 Fressepissen!                METALVOTZE
+    7  37 Endless Playmobil            Right to censor
+    8  28 Universe-Demo Megalogo       Einstein & Ginger Ale
+ 
+  
+  C64 Graphics (16 entradas):[PC GRIS]
+ 
+    1 319 Mr Gill Bates on XP-Trip     Booze Lee/Breeze/Cyberpunx[PCT AMARILLO]
+    2 130 The Jazz Recital             Jailbird/Tempest/Padua/Onslaught
+    3 100 Ufo Udo uriniert             eyesee/anubis
+    4  89 Weird dreams                 Deev/Onslaught
+    5  60 Zion                         Fzool^SaMe^SmashDesigns
+    6  58 Troll                        Alias Medron/Padua
+    7  57 ANOYO-The great barrier      Exin_AFLI
+    8  43 Face 24 Beck's               Sebaloz@lepsi.de
+    9  32 20 years and still coocking! Exile/Anubis/Civitas
+   10  32 Psycho                       Zealot/OOO
+   11  31 Flowers for our heroes       Bugjam/Role
+   12  30 Armitage shanks              Cupid/Padua
+   13  27 Gina Wild at home            Prof. Pi≤
+   14  22 Lass uns ein Computer sein   Scorpe/Willow
+   15  17 Real Pokemon                 Holy Moses/Role
+   16   7 Space chess                  Brainstorm/ccl
+ 
+  
+  C64 4K (10 entradas):[PC GRIS]
+ 
+    1 325 Heavy Rotation               Krill/Plush und Fanta/Plush[PCT AMARILLO]
+    2 299 Witutus                      Britelite/Decadence
+    3 238 Boat trip                    Cascade + Out of order
+    4 133 Timesaver                    Digital Excess
+    5 109 Voxel shade                  Bubis/Resource
+    6  62 South                        Dwangi & AXL
+    7  42 Partytime/Role               Holy moses/Role
+    8  40 Andi und Tobi im M‰rchenland Right to Censor
+    9  24 Visitors against PC          JSL/Samar
+   10  16 1Block-Intro                 Raiders
+ 
+ 
+  SID Music (16 entradas):[PC GRIS]
+ 
+    1 140 Commodore C=64               Welle:Erdball[PCT AMARILLO]
+    2 108 Simpossibly Mekkanological   CreamD of DMAgic
+    3  92 Ode to ed                    Vip/Padua
+    4  73 (R)evolution 64              Alien/Wow
+    5  70 Ich hab' kein Gold mehr      heinmukk/salva mea
+    6  69 Lamour toujours Rmx          Control/dIGITAL
+    7  58 Ratskrone                    Eco/Excess
+    8  50 Rainbirds                    Floyd/Willow/Centric
+    9  45 Happyness                    St0ff/Neoplasia
+   10  40 Fandrom                      Syndrom/Crest & Fanta/Oxyron/Plush
+   11  34 Plushbeat                    Cosowi
+   12  33 Nomad                        Hydrogen/Bronx
+   13  30 My telephone                 Sidder/Morning
+   14  24 Ukka Bukkake                 Agemixer/Scallop
+   15  22 Sadness of text              Waz/Padua
+   16  19 Lazy Jones                   Bzyk of Lepsi.de
+ 
+
+  Console Demo (3 entradas):[PC GRIS]
+ 
+    1 440 Test:23                      Hitmen[PCT AMARILLO]
+    2 339 Pickpocket                   Inka
+    3 331 Rinkapink                    Abyss
+ 
+ 
+  Fast Intro (7 entradas):[PC GRIS]
+ 
+    1 201 Fort Schnitzelschnatzel      Die Wissenden vs. Salva Mea[PCT AMARILLO]
+    2 126 Raubzug                      John Trapolka Memorial Krew
+    3  91 A Knight's Ale               Hazard Designs
+    4  82 Along Came a Knight          _e|crew
+    5  69 fascht                       ainc vs. tsq
+    6  55 Keks im Arsch                CENTRiC
+    7  54 TEXTraw                      MadMan
+  
+ 
+  Freestyle Graphics (59 entradas):[PC GRIS]
+ 
+    1 119 In My Dreams I Feel You                   Acryl / Haujobb[PCT AMARILLO]
+    2 118 Green Nature                              Fireball of Nuance
+    3  86 Wet_Butterfly                             Dzordan
+    4  76  -                                        Nytrik / Cocoon
+    5  72 Dirty Harry                               Mime^Scenic
+    6  70 Pony                                      Farfar / Loonies
+    7  64 XinaTa                                    Shi//Orion
+    8  53 MiND ATTACK                               ck^scn:fr
+    9  49 r2002-01                                  amoc^Haujobb
+   10  47 Red Magic                                 Yon/IRIS
+   11  44 Die Mekka Faellt aus                      prince[[toM]
+   12  43 Ryoko and her Catmull-Clark win Tokyo     kobold & x.kid a.k.a. 'io'
+   13  43 Friends                                   Visualice
+   14  42 Trip above reality                        Alias / Lamers
+   15  41 ozz der hase spreading funny easter eggs  tomic/bypass:unik
+   16  38 Fauteuil Lapin                            Splif^Scenic
+   17  35 lactikgrin                                rawhed^moOjUiCE^faktory
+   18  31 Valhalla                                  Teo / Kangooroo and TZ
+   19  26 es                                        robotriot^skp
+   20  26 Japanese Angel II                         Fusko^Scenic
+   21  25 Blessing                                  piku
+   22  25 Abide                                     Degrysin
+   23  23 Attac MC                                  Sire
+   24  21 civ                                       tumash cosh
+   25  21 big bomb ;-)                              nosam
+   26  21 Spooky                                    Malfunction / Altair
+   27  20 Magikk                                    Shexbeer / Addict & Lamers
+   28  16 Don't fuck with the micrometeoroid        Uncle-X/MFX
+   29  16 sykogirl                                 ragnarok
+   30  15 Melancholy                             Fuzzy^Altair
+   31  14 piercing                             cp/farbrausch
+   32  14 Sterf !                            Noko
+   33  12 arte of brain                    angelo/exodus
+   34  12 Bad surprise                   Fingus of Scienide
+   35  12 Hotte                        wayfinder(azure/farbrausch/beastie toys)
+   36  11 Anne                         BamboOS^Add^Mfl^Lgc
+   37  10 Life of an alleycat          Shortie
+   38  10 Deine Lakaien                Slayer^apx
+   39   9 Zeichenlust                  Digitalgott
+   40   9 Wings                        cream^Mindforce
+   41   8 Trippy                       GB
+   42   6 Better_with_animal           SDR
+   43   5 Storming the Front           hypotrophy^cubalid7
+   44   4 ver¸bte Britpopschlampe      sYntiq^farb-rausch vs. silence
+   45   4 she is a lady                deesis
+   46   3 Opel Calibra                 Punkture
+   47   3 teh futare si now            the pimp brigade  vs damage
+   48   3 Graffitiing Pixel            Nagz
+   49   3 monster dragon               zokk^size^vacuum
+   50   3 Suck My Face                 Stoney/Ephidrena
+   51   2 Magic Deep                   Jaytee / Vegas
+   52   2 Hubschraubereinsatz          Silence
+   53   2 Flowdark                     zixaq of ephidrena
+   54   2 The Cave                     Fusi0n
+   55   1 Dolphinic Fantasies          BlueShade/Altair
+   56   1 Green Eyes                   R.A.Y. / Scarab / Nuance
+   57   0 kyro                         siatek/nahkolor^distort waves
+   58   0 Captured!                    Goblin & theKey
+   59   0 One Nice Day                 Maxie
+
+ 
+  32K Game (9 entradas):[PC GRIS]
+ 
+    1 581     ---- el loco megabus ----    calodox[PCT AMARILLO]
+    2 514 B-Clopd                          John Trapolka Memorial Krew
+    3 108 Stoned                           Udo & Anti of Fake
+    4  74 SuperBall (Win32)                Mr. Vain of Secretly!
+    5  59 Breakdance                       Tulou
+    6  56 PressWurst                       fieserWolF / Metalvotze
+    7  50 Asteroids 32K                    Tomcat / Greenroom
+    8  36 SCHREI                           puzzler/kekse & seamot/pat
+    9  35 Huhn 32k                         crusade & shagrath / binarybrains
+ 
+  
+  15sec Music (46 entradas):[PC GRIS]
+ 
+    1 135 Limboland                                Frequent / Ephidrena[PCT AMARILLO]
+    2  83 mekka&symposium humming signal           nagz
+    3  71 I feel like shit right now               Ramboy
+    4  55 It's a Machine!                          Kure
+    5  48 Hurry up chiptune ;-)                    Exodus/Scienide
+    6  41 simple intro tune                        [[ST]CC
+    7  41 ps-170                                   ps
+    8  41 Strange Jingle                           Replica / AtomicFront
+    9  39 Planet Potion                            skipp604
+   10  38 APP theme                                dorschleber^acceptpartyposse
+   11  38 Thunderbolt                              Skyrunner
+   12  36 Wacky Duck                               Towerx / Astral
+   13  33 The Beggars Blue Hat                     Mephizto vs. SuphaFly
+   14  30 imposible                                grogon
+   15  30 15 Sekunden                              Teo / Kangooroo
+   16  29 15 seconds terror                        sicknote/realsmokers
+   17  27 Nuance - 15 Seconds Music-Compo          Andy + Raven / Nuance
+   18  26 15 sec intro                             JavaAp-Man / #define
+   19  25 Do you like it?!?                        Elapse of m00ds
+   20  25 Revenge                                  EkeniC / neXus
+   21  24 AmplitudenBedingteDenkBlockade           Tristan^deranged
+   22  23 polka                                    TheSurfer
+   23  21 The great flush                          Hornet vs. Ody
+   24  19 15seconds - tetron                       nightmare^nuance
+   25  19 www.spark7.com                           Virgill
+   26  16 Chipshit                                 Odex / Cycla
+   27  16 15 Sec. Beer                             stevie / binarybrains
+   28  16 Line's Dead                              Halfbyte^Noisedrift
+   29  13 15 S E C                                Marlon / Xymox Project
+   30  13 Der Schrei                             Mr. Noize
+   31  12 Chippin' to M&S                       Tripper
+   32  12 is that music ?                      Odi^hicknhack
+   33  11 pulsing pad                         dj da_elch a.k.a.  dance division
+   34  11 15 seconds of epic resolution        jeenio / uva
+   35   9 Quicky 15 seXs                        Tranquilizer of Secretly!
+   36   7 beer choir                             ript./disaster area
+   37   7 Ich muﬂ die Axt holen!                  bLAKKHAR^mOOds
+   38   6 ZED                                      Amoc / Haujobb
+   39   5 pickup                                   paqpaq
+   40   5 granny jive mach 3                       rawhed/moOjUiCE/faktory
+   41   4 EuroMek                                  theKey
+   42   4 Denk dir den Rest, du Luder              n0y + datan of N.E.V.E.R.
+   43   3 15 sec of Eichelk‰se (was riecht da so?)  wayfinder(azure/farbrausch/
+                                                    beastie toys)
+   44   1 die reinkarnation eines toastbrotes      shagrath / binarybrains
+   45   0 Login - wrong password                   Atomix
+   46   0 Toxie Jingle                             SquoQuo
+ 
+ 
+  MP3 Music (88 entradas):[PC GRIS]
+ 
+   1 185 Rotlicht Score                         Clint and John[PCT AMARILLO]
+   2 107 Wir tanzen                             Abteilung Ton
+   3 106 Music                                  Virgill & Vicky
+   4  94 Dreaming Without Life                  Nagz
+   5  64 cargo                                  a-move & velvet / parkstudios
+   6  61 Kerosine                               Chromag
+   7  59 Am I crazy?                            Pani / Bruderliebe
+   8  47 walking                                kool k vs. critikill 
+   9  47 ImeesU                                 Horn + Batres
+  10  46 Funky Ninja Bitch                      Danielson / Resistance
+  11  45 Aromatherapy                           Netpoet & Bacter
+  12  37 gerd der gl¸ckliche g‰rtner            sounddesignz & 2beers of APP
+  13  36 warriors apprentice                    X.Kid + CJ Vain
+  14  28 I can't do anything                    Paniq / Farbrausch & Vacuum
+  15  27 Amiga                                  Der Kappenklub + Andy/Nuance
+  16  25 Victor's Day off                       Illusion & Shape
+  17  21 The Legend                             realsmokers
+  18  21 Flex Dutty                             Dipswitch / Black Maiden
+  19  17 Be Square                              Pink/Abyss
+  20  15 Psychotic Disorder                     BlackStar ^ Edge of Panic
+  21  14 All you made me see                    Zixaq / Ephidrena
+  22  13 Lord of the drinks                     Flapjack/Madwizards
+  23  13 Ich Bin Ein Schwede In Deutchland     steffo/crs and haake
+  24  12 Zeromance                            Tristan^deranged
+  25  12 Die emsigen Anstreicher kommen!     Klystron/Scienide
+  26  12 Epic Bastard                       Skyrunner
+  27  10 Sudden Dream                      antibrain
+  28   9 Chronic unemployment             TREiBER
+  29   8 Jump 2 hit da skye              Faayd / eXcess
+  30   7 Robots My Love                 Kure
+  31   7 disclosure                    wayfinder(azure/farbrausch/beastie toys)
+  32   6 a table                        med
+  33   6 remixing ps                     genox
+  34   6 Go Right 4                       amman!
+  35   6 Free and the brave                WodanTJ
+  36   6 Turn It Up                          Elapse of m00ds
+  37   6 Triple Dimension                      SoNiC
+  38   5 Do you remember - mekka2k2 radicalcut  jamram / uoto n(inc)
+  39   5 bEYONd rEALITy                         tRIPPEr^mOODs
+  40   5 Snikende Svette                        Stoney/Ephidrena
+  41   5 The Russian Tonic Theory               Okkie / RBi Studios
+  42   4 I bass U                               Atomix
+  43   4 Coffe Break                            Mephizto
+  44   4 Life (part 4)                          Ramboy
+  45   4 Rock Tech                              Marlon / Xymox Project
+  46   4 In My Dreams                           Kay Piranha
+  47   4 Das M‰dchen-Internat                   n0y + datan of N.E.V.E.R.
+  48   4 Forgotten Title                        Jay
+  49   3 Electroluxus (bukkake edit)            deeq
+  50   3 The Radiant Silvergun                  Espen Hosszu and Peter Aamodt
+  51   3 Puzzy Logic                            Frequent / Ephidrena
+  52   3 Spirits                                Kyoto & Hakashi
+  53   3 Shockwaves                             Terminus / Team scene.ee
+  54   3 Knormando                             Banana / TEK
+  55   3 Techno Bells                         dj da_elch a.k.a.  dance division
+  56   3 Mellowdramatic                        Substance and RVO
+  57   2 Hitcher                                Shylock
+  58   2 ps-190                                 ps
+  59   2 Cybermind                              AgentC
+  60   2 Delight                                Maze / Moods^Apathy
+  61   1 zoolok (mekka oldskool version)        jimmy wicked
+  62   1 Connected to Asia                      BassPlace^d-lab42
+  63   1 S‰llskaps-David-Fˆrgˆraren             esau / traktor
+  64   0 planet loop                           mobby
+  65   0 Pump It Up!                          X-Ceed / Floppy
+  66   0 The WinneR                          Like music !
+  67   0 distort waves - get the freak      nordbasse & stilgar
+  68   0 quark                             siatek/Nah kolor^distort waves
+  69   0 Electric Europe                  diomatic
+  70   0 michael my love                 fred funk / kewlers
+  71   0 pantak                         haloon/monar^palsecam (grass/hypnotize)
+  72   0 Hause                           djpromo
+  73   0 Influ                            Traymuss of Addict Labs
+  74   0 Gelgigt3                          Neuroup of Addict Labs
+  75   0 Seconds In Time                    NGC-5128
+  76   0 haha chichi (mother father)         rawhed/moOJUiCE
+  77   0 You Never Leave Me                   Noe-Mi vs. Noe's Ark
+  78   0 Idee Fixe                             TZX / Potion & Madwizards
+  79   0 Deep Sea Impressions                   Juri of Tomo Eno
+  80   0 Neon                                   DJ Scheunebauen
+  81   0 Festplattepusher                       quoz^bmp
+  82   0 Aspect Oriented                        hypotrophy^cubalid7
+  83   0 taho                                   seismic^digitalsoundlabs
+  84   0 Goldrunner Remix                       Mr. Coke
+  85   0 c¥mon!                                 Spy-da^digitalsoundlabs
+  86   0 Way of the Jedi                        Icedragon / MiB
+  87   0 Fly with me                            Alex b.lake
+  88   0 Genius Dumb Guys                       -pOWL!
+ 
+
+ PC 4K (10 entradas):[PC GRIS]
+ 
+   1 471 Industrial Light & Magic                 Frenetic/Cubic & r0k/KLF[PCT AMARILLO]
+   2 411 Raving Tomatoes Biomutating Planet Acid  T$
+   3 371 Frogtoons                                Fuzzion
+   4  85 boxmus 4k                                bypass
+   5  42 Scienide 4k PC Intro                     Joergy/Scienide
+   6  41 Fallintro                                Ctulhu, Topy44
+   7  27 Fork Rulez                               Tek
+   8  22 T                                        LuNAtiCwiz & ddeml
+   9  20 1.3K incompatible Noise fun              Schnaader
+  10  10 Aika Loppu                               Sl0ppi
+ 
+ 
+ PC Demo (41 entradas):[PC GRIS]
+ 
+   1 250 Adrenalin                            Smash Designs[PCT AMARILLO]
+   2 197 Easter Egg                           Orion
+   3 126 fr-020: In Control                   Farbrausch
+   4 110 Channel 5 Sequence                   Haujobb
+   5  99 The Hit RT                           oso+drkami+jm
+   6  92 reel                                 mindforce
+   7  76 intense pattern (preview)            bypasskolorblackmaiden
+   8  76 daydreamer                           fairlight
+   9  70 Static Upstairs                      bloo fthr horn radix spy
+  10  61 The Surge                            MFX
+  11  61 Knights                              Federation Against Nature
+  12  59 TEH FUTARE SI NOW                    The Pimp Brigade
+  13  40 Squash                               Nah-Kolor
+  14  36 Back Home                            Stravaganza
+  15  36 Revolution (not exactly loveparade)  Vacuum
+  16  30 borg                                 rez
+  17  29 Straﬂenkˆtter                        SquoQuo
+  18  29 RTR                                  AINC
+  19  28 die neuen abenteuer des frau doktor  raketenbrot
+  20  21 RXPLOVAC                             Corrosion
+  21  21 Imaginary World                      Addict
+  22  16 WOod Senders                        WOod Senders
+  23  12 cold beat                          cryonics unserious productions inc.
+  24  12 Folia                               Lar[[TM]
+  25  12 dp                                   nothing
+  26  12 Kunetsu                              drk+srj+sml+mac+dkr
+  27  11 Zeitraum                             Bauknecht
+  28  10 for Anne                             BamboOS and Siatek of Moonflow
+  29   9 evil                                 pekla
+  30   9 One Minute                           Sundancer Inc.
+  31   8 u maleho glena                       HeadcrasH
+  32   7 graerk                               calodox and moojuice
+  33   6 LINEAR                              Creative Mind
+  34   5 wee-wee convoy                     tAAt 2002
+  35   5 Fruit                             Gojave
+  36   5 Truth                            Code Red
+  37   3 Durango Party Invitation        RGBA
+  38   2 Palamedes                      zaxe ^ nebula
+  39   2 Verschrobene Farben +++       St0fF64 / MeinRAMiszugrOSs f¸r NEOPLASIA
+  40   2 +1-1                           consider it anonymous
+  41   1 Koetjeboe!                      Jolly en aanhang
+
+ 
+ PC 64K (18 entradas):[PC GRIS]
+ 
+   1 508 fr-019: poem to a horse         farbrausch[PCT AMARILLO]
+   2 279 fr-022: ein.schlag              farbrausch
+   3 228 cryonics are we                 cryonics
+   4 136 PK is dead                      Spinning Kids
+   5 115 Westside Twiddly                Aardbei
+   6 108 Mother mother, fukwit daddy     Haujobb
+   7 103 Macie baterie?                  Altair
+   8  68 bimmelbahn 2002                 Lukas der Lokomotivfuehrer & Jim Knopf
+   9  53 Concrete Sun                     skp feat. nagz
+  10  49 clerks                            delta9, diver, eha of salva mea
+  11  40 inqb8                              science
+  12  36 Tekniks                              Unique
+  13  35 Plushphemy                             Plush
+  14  20 bzhykt                                   pekla
+  15  19 plop - bunny wontsleep^H^H^H^Hpeakwithme  tarzeau
+  16  14 Natural Selection                         Disaster Area
+  17  13 Sunspot                                   Digital Dynamite
+  18   8 "perforce"Yo TRX wazzzzzzzzzaaaaaaap!!!!  moonflow & eXcreate
+ 
+ 
+ Robots vs. Knights Gfx (12 entradas):[PC GRIS]
+ 
+   1 379 Don¥t Fight, Play Chess         Laika / Loonies[PCT AMARILLO]
+   2 186 My first Sony...                [[HzD]  WoodPecker
+   3 152 lego meets playmobil            gabi^kakiarts
+   4 122 robots versus knights - fast    critikill/farbrausch:scenic
+   5  85 Time to Die                     Teo / Kangooroo and TZ
+   6  67 robots vs. knights design       fresh
+   7  48 The Ethernal Hatred             Nagz
+   8  27 The Return of...  THE DUCK !!!  Andy / Nuance
+   9  16 only 220V                       odi
+  10   8 knight control                  rawhed/moOjUiCE/faktory
+  11   6 EinwegBatterien                 Zerlh^BG
+  12   5 In the Swamp                    Nactor / Stoned Inc
+ 
+ 
+ Tracked Music (46 entradas):[PC GRIS]
+ 
+   1 132 Perdre la raison             Teajay / Newgen[PCT AMARILLO]
+   2 108 Funk it up!                  Flapjack/Madwizards
+   3  96 Lobster Jovial !             redribbon / mandarine
+   4  93 Lightspeed Travel            Rapture / Merregnon Studios
+   5  82 Carbonated Oxygen            Skyrunner
+   6  79 Inflame U                    Magnetic
+   7  75 Waterflame                   X-Ceed / Floppy
+   8  72 Disco del station            Reed and Nico
+   9  70 Cubic dreams                 Deload
+  10  62 life goes on                 Bacter / Quasars
+  11  59 a better sunshine            jeenio / uva
+  12  51 Teisoshiki                   neXus
+  13  38 southside                    dhg/unik
+  14  25 oldschool man                siatek/nahkolor^distort waves
+  15  20 Shock Da Neighbourhood       Nagz
+  16  17 [[ANS÷:]                     salt / kolabore
+  17  13 Cuora                        Eco / Excess
+  18  11 Hallway Encounters           DiXan of Spinningkids & mfx & Slengpung
+  19  10 Fernstern                    Curt Cool / Depth
+  20   9 Jump Pad                     wayfinder(azure/farbrausch/beastie toys)
+  21   9 Nederlag                     Frequent / Ephidrena
+  22   8 spice!                       dj da_elch^panorama
+  23   7 nie moge obie przypomniec    grogon
+  24   6 Epileptica                   BlackStar ^ Edge of Panic
+  25   5 out into the night           [[ST]CC
+  26   5 kheshkhash                   jazzcat
+  27   5 Tribute to Great Ones        Terminus
+  28   5 Wendy's Fucking Wedding      Teo / Kangooroo
+  29   5 Sweden                       Codice is a nice girl :)
+  30   5 payback                      smash / fairlight+jecoute
+  31   4 Helium                       It-Alien of .parenthesis.
+  32   4 Krach!                       bLAKKHAr^mOODs
+  33   4 Styleforce                   Eha
+  34   4 Stars                        -pOW`L! / bONZAI-rEVIVAL
+  35   3 A Tale of Harmony            kiste
+  36   2 Oceanattic                   Jacx
+  37   2 Upstream Deathangel          The Hardliner of Depth
+  38   1 energy                       distort waves
+  39   0 No Forgiveness               Control / Digital
+  40   0 In Da Mix (Old Skool Style)  DJ Base
+  41   0 revived                      seismic^digitalsoundlabs
+  42   0 This is underground          Spy-da^digitalsoundlabs
+  43   0 joulupukki                   rawhed/moOjUiCE/faktory
+  44   0 Contamination                Rafo
+  45   0 just a sound                 distort waves/nordbasse&stilgar
+  46   0 Heavens Abolt                esau / traktor
+ 
+  
+ Wild (31 entradas):[PC GRIS]
+ 
+   1 469 Yello 3D                            [[dbki][PCT AMARILLO]
+   2 225 Monochromatic (TI-83 DEMO)          NOICE
+   3 133 VATTAOT                             concept
+   4 105 High Nun                            Haujobb & Friends 
+   5 103 Dreams                              Breeze
+   6  86 Fr-minus-05: Forestnerdbitch        Farbrausch
+   7  73 digital nature - rework             nuance
+   8  71 The cows says moo                   salva mea
+   9  67 kolejrzeczy                         PSB
+  10  63 Browser controlled Coffee machie    Morph
+  11  63 Click Here                          PIM & RITZ [[ND-44-ZH]
+  12  56 CUBES                               Diver ^ Salva Mea
+  13  54 VIS /RMX 02                         Einklang.net
+  14  38 MY Computer (Preview)               LAMERS
+  15  38 kurz und schmerzlos                 QBS^OS
+  16  38 C65 Demo                            Zed Yago/K2
+  17  37 Fraktale Psychose                   verpicktewg.de
+  18  30 When the TV has broken              CONTRAZ
+  19  25 IRC                                 d!RT!e / moods
+  20  20 Interluder                          Elefant / APP
+  21  15 room 101                            Meckor ^Haujobb
+  22  14 WYMIOT                              LONGHI IIND.
+  23  10 64K Stylish                         GB/LORDof / Pinza
+  24   7 GIGA SUX                            LEM 32
+  25   6 Made in Propaganda                  PSB danish brigade
+  26   3 Freestyler                          PSB DK
+  27   2 this could be boring after a while  mfx
+  28   1 suspicion breeds                    nosfe
+  29   0 NDREAM                              Kutangi
+  30   0 LIVE  by Onkel Tiger                Onkel Tiger
+  31   0 agnosia                             agnosia
+
+
+
+Opinion Personal[AZULCLARO GRANDE]
+
+
+
+  Ante todo, hay que decir, que la MEKKA & SYMPOSIUM party, es una gran party[PCT BLANCO IZQUIERDA]
+scener. Todo lo que alli se expone, es de gran calidad. Las grandes ventajas,
+es que reunen a todo lo mejor de la scene, en las distintas categor°as, es
+decir, ya sea C64, ATARI, AMIGA, PC, GFX, m£sica, tanto nuevo, como viejo, e
+incluso con S.O. variados, como LINUX y WINDOWS.[NO]
+
+
+  El inconveniente m†s cercano, es que en esta party se ha avandonado el DOS en[IZQUIERDA]
+plataforma PC, principalmente, por los problemas HARDWARE. De hecho, se dejan
+ejecutar en ventana DOS de WIN32, aunque no dicen nada de usar DOSEMU bajo
+LINUX. Personalmente, creo que la plataforma PC sobre la que mejor corren las
+demos, es el DOS, y teniendo en cuenta, que el FreeDOS, crece y crece, y cada
+vez dispone de m†s a§adidos, entre ellos, el FreeDOS 8.0 con soporte de FAT32,
+o el FreeDOS32 (DOS con KERNEL de 32 bits), pues la verdad, sigue siendo un
+gran S.O. para demos.[NO]
+  Por tanto, s¢lo nos queda la opci¢n de usar un extensor de 32 bits,compatible[IZQUIERDA]
+con WIN32, como es el caso de DOS4GW o el DOS32, y probar la demo.[NO]
+
+
+  No obstante, como dejan hacer una WILD COMPO, se podr°a usar el DOS puro y[IZQUIERDA]
+duro, y acceder a modo REAL FLAT o similar, es decir, hacer lo que nos de la
+gana, y despuÇs grabar la DEMO en formato de video VHS o S-VHS, para enviarla
+a la WILD COMPO. Eso si, debemos de decir, dentro del video, que esta demo
+est† corriendo bajo DOS y el hardware en concreto, para fardar.[NO]
+  Esto mismo, es aplicable a otros S.O., como BeOS, QNX, AtheOS, TheOS, MACOS,
+PowerOS, etc...[NO]
+
+
+  Como no he estado en esta party, os contarÇ lo que he visto de lo que me he[IZQUIERDA]
+podido bajar del server atraves de la INTERNESS.[NO]
+
+
+  Pues de lo que he visto al ejecutar en mi PC, se puede decir, que las demos[IZQUIERDA]
+mas abundantes han sido las de PC. En concreto, las versiones para WINDOWS. La
+mayor°a de las demos suelen colgarse, o cuando se ejecutan, o si se prueba a
+ejecutarlas dos veces seguidas. Sin embargo, esto puede ser debido a
+incompatibilidades por el hardware, ya que la m†quina de la COMPO era un
+Pentium IV, y donde yo las ejecuto, es un AMD K7 DURON.[NO]
+
+
+  EmpezarÇ en primer lugar por las demos  de ATARI. Aunque
+la ganadora ha sido la Atari-Behn,del grupo  Ephidrena,con
+451 votos, es de destacar, la demo total_daze_by_tight. La
+cual, figura  en  la  foto  adjunta, y  adem†s  la  podeis
+descargar  en  formato de video DIVX. Esto es recomendable
+para  aquellos  que no dispongan ni de la m†quina real, ni
+del  emulador.  Si  disponeis  de  un  PC o cualquier otro
+equipo, podeis buscar un emulador para ATARI. Lo normal,es
+que  vengan  con  una  ROM  de  la  m†quina a emular, sino
+tendreis  que  descargarla  de alg£n server de INTERNET, o
+bien hacer un volcado de la ROM real de la ATARI a vuestro
+equipo. Un emulador que va bastante bien, es el Gemul8r7,el cual permite emular[IZQUIERDA]
+un ATARI ST, y os permitir† ver todas las demos adjuntas. Aunque como comento,
+es de destacar este video, porque nos permtie ver, a parte, de la visualizaci¢n
+de gr†ficos, muchos efectos t°picos de demos de PC, como VECTOR BALLS, ZOOMS,
+ROTOZOOMS, e incluso BUMP MAPPING y DONUTS (TOROS) con rellenado de GOROUND.
+Estos £ltimos van un poco lentos, pero el resto, va muy bien. De hecho, en las
+demas demos para ATARI, se puede encontrar incluso un DOOM hecho para un ATARI
+ST de 1.8 Mhz. En definitiva, la envidia de cualquier PCERO a tropecientos
+megaherzios. Porque como se dice: "La potencia sin control no sirve de nada".[NO]
+
+
+  Y como no todo es ATARI,pues ahora vamos a la secci¢n de
+C64. Como sabeis,un C64,es un simple micro a 4 Mhz.Pues en
+en esta m†quina, se pueden ver trabajos tan buenos,como en
+la  secci¢n  de  GFX, el  de  The Jazz Recital, del  grupo
+Jailbird/Tempest/Padua/Onslaught. La verdad,que 16 colores
+a  una  resoluci¢n  de  menos  de  320 x 200 pixels, nunca
+pudieron ser colocados con tanta velentia y perfecci¢n. He
+destacado este gr†fico por su gran  perfecci¢n, pero en la
+COMPO,gan¢ el de Mr Gill Bates on XP-Trip, del grupo Booze
+Lee/Breeze/Cyberpunx.
+  En la foto adjunta,podeis admirar el GFX que os comentÇ.
+Para poder ver estos trabajos, podeis o bien tirar del C64 real, o de un[IZQUIERDA]
+emulador. Sin embargo, para aquellos que no se quieran complicar la vida,pueden
+directamente bajarse la imagen en formato gr†fico GIF, para poder verlo en su
+casa con tranquilidad.[NO]
+
+  En  el  caso  de  las demos de C64, la  que  m†s  me  ha
+llamado  la  atenci¢n, y  por  supuesto  que ha ganado, es
+LaLinea,  del  grupo  Breeze. Es  todo un trabajo, por dos
+motivos:
+
+  - Hacerse bajo las limitaciones de un C64.[AMARILLO]
+  - Tener tanto atractivo y realidad, con ser tan simple.
+
+  Este trabajo,puede competir tranquilamente,con cualquier[BLANCO]
+demo de PC, por ser principalmente,original y graciosa. Va
+muy  fluida, y  en cierto sentido recuerda a una animaci¢n
+FLASH. En la foto adjunta, podeis  ver  un preview de este
+trabajo, en  concreto, de cuando el hombre esta dentro del
+coche.
+
+  Si quereis ver esta demo, ya sabeis, o usais vuestro C64 original, o tirais[IZQUIERDA]
+de emulador. En este apartado, os recomeindo Ccs64dos o el Ccs64_32. Existen
+otros cuantos por ahi, como el ARNOLD, pero estos piden menos recursos, y
+emulan con m†s precisi¢n, sobre todo con los accesos a bajo nivel que realizan
+los democoders.[NO]
+
+
+  En cuanto, a las intros de 4 K para C64, necesitareis un
+emulador. Y en  esta  secci¢n, es  de  destacar,  la  demo
+Witutus de  Britelite/Decadence. No  obstante, la ganadora
+Heavy Rotation, del grupo Krill/Plush und Fanta/Plush,est†
+tambiÇn muy bien.
+
+  TambiÇn os he dejado una foto adjunta de esta intro.  Es
+cierto, que comparando las intros de 4K, con las  demos de
+C64, son  m†s simples, pero aqui el reto no es la calidad,
+sino el tama§o de la demo, que es de tan s¢lo 4 K.
+
+
+  Y ahora, es cuando llega la secci¢n burra, que son las demos de PC. EmpezarÇ[IZQUIERDA]
+por las intros de 4K. En concreto, puedo destacar, la intro ILM (Industrial
+Light & Magic) del  grupo   Frenetic/Cubic & r0k/KLF,  que[NO]
+consigui¢ 471 puntos, y gan¢. Es una intro bajo WIN32, que
+no va  muy fluida, sino se dispone de un gran procesador y
+ACELERADORA GRAFICA. Por  cierto,  debeis  de instalar las
+DIRECTX 8.1  y  el  GLSETUP 1.2,  para poder ver todas las
+INTROS  y  DEMOS  de esta PARTY, y por supuesto, debeis de
+tener el equipo m†s parecido al de la PARTY, para  obtener
+los mejores resultados.
+
+  Pues esta intro, hace un render  en  tiempo  real, y  se
+puede ver en  la  foto, unas  esferas, con  luz  global  y
+ambiente. La verdad, que OpenGL hace milagros.
+
+
+  En cuanto, a las intros de 64K, la que mas puedo destacar, es la cryonics are[IZQUIERDA]
+we , del grupo  cryonics, que consigui¢ 228 votos. Principalmente, la destaco
+por que tiene una buena m£sica que se mezcla muy bien con[NO]
+los gr†ficos en movimiento de dicha demo. En cuanto a los
+gr†ficos, tiene unos cuantos morfings  de objetos 3D, as°
+como transparencias y alg£n que otro  efecto. En la  foto
+que he dejado, podeis apreciar algo de dicha demo.
+
+  La ganadora de esta secci¢n, ha sido la fr-019: poem to
+a horse del grupo farbrausch, que por cierto,esta tambiÇn
+muy bien.
+
+
+
+  En el caso de las demos de PC, he elegido la Easter Egg, del grupo ORION.[IZQUIERDA]
+Consiguieron 197 votos, y tiene una historia muy graciosa, adem†s de tener
+buenos toques de animaci¢n, al puro estilo de los  COMICS.[NO]
+En la foto podeis apreciar un preview en el que se ve  una
+casa  3D  con  su  jard°n correspondiente. Adem†s en dicha
+intro combina muy bien los efectos 3D, con los efectos  2D
+de estilo dibujo. Va bastante fluida, y adem†s el audio se
+sincroniza perfectamente con las escenas visuales,algo que
+da mucha calidad a la producci¢n final.
+
+  La ganadora de esta secci¢n,ha sido Adrenalin, del grupo
+Smash Designs, que consigui¢ 250 puntos.
+
+
+  Y por £ltimo, en la secci¢n de CONSOLAS, me gust¢, la demo rinkapink, del[IZQUIERDA]
+grupo Abyss. Est† en formato de video DIVX, y era una demo para GAME BOY COLOR.
+Es muy graciosa, ya que recuerda a los t°picos juegos para[NO]
+GB. Podeis ver un preview en la foto, que os he dejado  al
+lado.
+
+  TambiÇn  se encuentran disponibles m†s demos para GB, en
+formato  de  ROM, para  poder  ser  usadas en emulador. En
+concreto, la demo Pickpocket del grupo Inka, que qued¢  en
+segundo  lugar,  con 339 puntos. Por  lo  que yo probÇ, en
+emulador, me gust¢ bastante. Y la ganadora fue la  Test:23
+del grupo hitmen.
+
+
+  Si no he nombrado a todas las demos,es porque son muchas
+, y porque son todas muy buenas, y  he nombrado a algunas,
+tan s¢lo. En concreto, tampoco he nombrado a los  m£sicos,
+ni a todos los grafistas.[NO]
+  Eso si, hay que destacar, la secci¢n de m£sica de MP3, en donde se han[IZQUIERDA]
+combinado todos los estilos, ya sea POP, DANCE, CLASICO, y dem†s. Es de
+destacar el MP3 de Rotlicht Score, del grupo Clint and John, que es muy
+original.[NO]
+
+  En cuanto, a la secci¢n GFX, los trabajos de Robots vs Knight, son muy[IZQUIERDA]
+graciosos, y estan muy perfeccionados. En cuanto a los pixeladores, son muy
+bueno, sobre todo realizando caras femeninas. Son una obra de arte.[NO]
+
+  Por cierto, de AMIGA no he comentado nada, pero no es por fastidiar, sino,[IZQUIERDA]
+porque no dispongo ni tan siquiera de un simple A500. Y en cuanto al emulador,
+tan s¢lo tengo las ROMS del KICK13, y no del AMIGA OS, as° que no he podido
+probarlas todas. Sin embargo, hay disponibles algunos videos en formato DIVX
+que dejan claro, la potencia y calidad de dichas demos. Asi que descargarlos.[NO]
+
+  En cuanto a las demos de LINUX, estan muy bien. Y las demos que no se[IZQUIERDA]
+mostraron en la party, las cuales se pueden descargar, tambiÇn estan muy bien,
+sobre todo una que se hizo con las librerias SDL. Espero que con el tiempo,
+alguien haga una demo espectacular, en BeOS.[NO]
+
+
+
+Descargas[AZULCLARO GRANDE]
+
+
+
+  Para descargar todo el material de la scene, podemos seguir el enlace a[PCT BLANCO IZQUIERDA]
+partir de la p†gina espa§ola:[NO]
+
+  http://spd.planet-d.net/eszine.index.php[VERDEFOSFORITO]
+
+  O bien, esta otra:[BLANCO]
+
+  http://escena.org[VERDEFOSFORITO]
+
+
+
+Conclusion[AZULCLARO GRANDE]
+
+
+
+  LA MEKKA & SYMPOSIUM party es una gran party europea, en donde se puede[PCT BLANCO IZQUIERDA]
+aprender mucho tanto estando ahi, como descargando el material que se expuso en
+ella, gracias a las redes.[NO]
+
+  Desde aqui mando un saludo y un apollo, a todos los que estan delante y[IZQUIERDA]
+detr†s de este esfuerzo scener. Y pido perdon, por los errores cometidos en
+este art°culo, as° como de aquellos de los que me he olvidado en Çl.[NO]
+

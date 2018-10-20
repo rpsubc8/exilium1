@@ -1,0 +1,697 @@
+[FOTOS 3]
+46 97 45 2
+47 98 48 117
+48 99 47 633
+          LA DEMOSCENE[AZULCLARO GRANDE NO]
+
+
+
+
+  La Demoscene es un movimiento inform†tico[PCT BLANCO]
+que comenz¢ por los a§os 80. En sus comien-
+zos estaba ligado al SPECTRUM y  ATARY.  En
+concreto la demoscene era equivalente a los
+crackers. En  aquella Çpoca, al  igual  que
+ahora, el software era muy caro,en concreto
+los juegos, y la gente quer°a  disponer  de
+ellos, para ello, se crackeaba un juego.As°
+en  un cinta  de SPECTRUM  se ten°an varios
+juegos crackeados, y junto a ellos se pon°a
+una muestra propia de quien hab°a crackeado
+el juego.Por lo general,sol°a ser un grupo.
+Al principio, s¢lo se ponia  un texto, pero
+luego la cosa mejor¢, y se  pon°an  rasters
+bars, e incluso zooms, scrolls, roto-zooms,
+etc...
+
+
+  Tal fue la mejora, que llego el momento, en que estas presentaciones cobraron[IZQUIERDA]
+m†s importancia que lo que se hab°a crackeado, y a esta presentaci¢n se le
+llamo DEMO. De ah° la palabra DEMOSCENE. DespuÇs fue cuando se empezaron a
+realizar reuniones informales en casa e incluso en garajes, donde se expon°an
+estas demos, y con el paso del tiempo, en lo que se suele llamar PARTY's.[NO]
+
+
+  Actualmente, la DEMOSCENE, se consider† una forma de arte, donde se intenta[IZQUIERDA]
+crear algo imposible, principalmente programandolo en tiempo real. Es una
+explosi¢n miltimedia. En principio se pueden hacer demos para cualquier
+plataforma, ya sea, SPECTRUM, CPC, ATARY, AMIGA, PC, o consolas, como GAME BOY
+ADVANCED, PSX, PS2, etc... En Espa§a, el tema de demos para consolas, no esta
+tan de moda, aunque este a§o en la EUSKAL PARTY 9, se entrego una demo para
+PSX.[NO]
+
+
+  En los finales de los 80 y principios de los 90, la plataforma reinante para[IZQUIERDA]
+la demoscene era AMIGA. No importa lo que digan el resto del mundo, o incluso
+yo sobre est† m†quina, ya que los resultados los declaraban por si mismos. Era
+la £nica que daba 50 fotogramas por segundo, y tenia concurrencia cooperativa.
+Hay que tener en cuenta que la multitarea no existia entonces, y hoy por hoy,
+no existe en ning£n PC.[NO]
+  El AMIGA 1500 dispon°a de autÇnticas maravillas, como sonido cuadraf¢nico,[IZQUIERDA]
+S.O. AMIGA OS, Multitud de colores RGB, y facilidad de manejo, gracias a
+rutinas que llebaba guardadas en ROM para trabajar con gr†ficos y sprites.
+Dispon°a de ACELERADORA GRAFICA. En definitiva, era una consola con cuerpo de
+ordenador domÇstico. Cualquier HACKER quer°a este equipo. En las demos era el
+rey, pero su precio era elebado, por lo que todab°a estaba reinante en esa
+Çpoca los Z80. Pasar°an muchos a§os, para que los PC's pudiesen introducirse
+en este mundo, en concreto, hasta 1993, no consiguieron hacerse ECO. Hay que
+recordar que el PC llebaba desde 1984 diciendo que ten°a multimedia, y su
+simple CGA y altavoz interno, por mucho que se empe§asen, no era multimedia.
+Con la llegada de la VGA, del 80386 y de la GRAVIS UTRASOUND, las cosas
+cambiaron para el PC. Pero era caro, y muchos decidian hacer demos para 80286
+y COVOX SOUND. Pero en 1995 y 1996, las hechos demostraron que el PC hab°a
+ganado, sobre todo con el PENTIUM, la SOUND BLASTER y las tarjetas gr†ficas
+PCI con soporte VESA. AMIGA fue una maravilla, pero sus visiones, no fueron
+comprendidas, ni lo son actualmente por el resto del gremio. Se adelantaron a
+la Çpoca, y no fueron comprendidos. Lo que ellos propusieron hace una dÇcada,
+es lo que hoy todab°a no tenemos (Multitarea, Multimedia, Tiempo Real). AMIGA
+se quedo durante un tiempo en el olvido, y dio paso al PC. Sin embargo, las
+nuevas versiones de AMIGA, bajo nombre PowerPC, pueden ser la salvaci¢n.
+
+
+  Al igual que las plataformas hardware, tambiÇn existen las plataformas[IZQUIERDA]
+software para ejecutar demos. En la Çpoca del SPECTRUM, no hab°a S.O., y en
+el AMIGA se usaba el AMIGA OS. En el PC se us¢ el DOS, ya que en los 90 era
+el sistema operativo reinante, en concreto MSDOS. Pero como el Windows 95
+comenzo a introducirse, se empez¢ a migrar hacia DIRECTX, y actualmente hacia
+OPENGL. Y como las demos tienden hacia plataforma PC, ya se sabe, cada 6 meses
+cambio radical de equipo, y de requerimientos. Las demos t°picas actuales para
+WINDOWS piden un DURON a 600 Mhz y Aceleradora gr†fica GeFORCE II. Cada vez se
+pierde m†s el estilo y la ambici¢n de hacer algo imposible, por s¢lo hacer algo
+  Ya no se mira tanto el c¢digo, tan s¢lo se usa la £ltima versi¢n de Visual
+C++, OpenGL y ha pedir requerimientos para ver como la demo no va fluida, ya
+que va a menos de 25 fotogramas por segundo. Y por supuesto, los cuelgues al
+ejecutarla (Eso que WINDOWS dicen que es estable para desarrolladores). Cada
+vez se intenta meter nuevas plataformas como LINUX (tampoco es tan nuevo, tiene
+10 a§os), y BeOS (tiene 6 a§itos). Sin embargo, tambiÇn requieren hardware
+elebado. Hoy en d°a se pierde m†s tiempo en poner un objeto 3D con muchos
+poligonos, que s¢lo gira, y va lento, que en hacer una historia.[NO]
+
+
+  Una demo es una uni¢n de arte 3D, con m£sica, matem†ticas y programaci¢n.[IZQUIERDA]
+Todo esto se une y se intenta contar como una pel°cula. Es como un video DIVX
+de un corto de grafista de IMAGINA, pero program†ndolo. Se debe tener un
+control no excesivo, pero si alto de la m†quina, de la plataforma, y de la
+programaci¢n de la demo. Se requiere de un grafista para los modelos 3D, o bien
+de alguna herramienta que exporte, as° como m£sico, o bien trackers, y por
+supuesto, a alguien que programe todo esto. Pero debemos de ser conscientes de
+algo, que es muy sencillo: Aquel que programe la demo, pedir† los
+requerimientos de hardware y software de la plataforma en la cual desarrolla.
+Es decir, si yo tengo un Pentium sin aceleradora, no puedo pedir un Pentium IV
+con GeFORCE II para correr bien mi demo, ya que entonces en mi equipo ni
+siquiera la pudo programar. Actualmente, la gente tiene mejores equipos que
+antes, y hace demos m†s exigentes, por lo que se pide aceleradoras, pero estas
+en la mayor°a de los casos consiguen menos fotogramas que una buena CPU con
+unas buenas optimizaciones. De ahi que una demo con motor 3D por software sea
+m†s interesante, por lo menos, para mi, que una con aceleradora.[NO]
+
+
+Que es una demo.[AMARILLO GRANDE]
+
+
+
+  Pues como se comentaba anteiormente, es un programa multimedia de efectos[PCT BLANCO IZQUIERDA]
+gr†ficos y sonido calculados en tiempo real. El par†metro tiempo real es muy
+importante, ya que si toda la escena sale desincronizada con el audio, o si va
+a menos de 20 fotogramas por segundo, dar† la sensaci¢n de ser todo, menos algo
+bueno.[NO]
+
+
+Que se necesita.[AMARILLO GRANDE]
+
+
+
+ Actualmente, lo que menos se tiene en  cuenta,[PCT BLANCO]
+es el sonido, ya que no se  suele  calcular  en
+tiempo real los ecos, las distorsiones, y dem†s
+efectos, como el doppler, sino  que tan s¢lo se
+reproduce un track como puede ser un MOD, un XM
+, y actualmente un MP3. Sin embargo, tambiÇn se
+puede usar MIDI,WAV,y cualquier cosa que se nos
+ocurra. En realidad, de eso se trata. Podemos o
+bien ce§irnos a lo que han creado otros, o bien
+crear algo nuevo. AntigÅamente, era obligatorio
+ser un experto  en  ensamblador  para hacer una
+demo. Sin embargo  hoy  en  d°a, las  cosas han
+cambiado, aunque eso  no  impide  que  se pueda
+usar. En la  utilidad  se  suele  trabajar  con
+Visual C++ y OPENGL bajo  WINDOWS. Mientras que
+otros usan  MINGW32, BORLAND C++, VISUAL WATCOM
+C++, con DIRECTX, OPENGL y SDL.
+  Bajo LINUX se  suele usar  SDL, SVGALIB, MESA
+(OPENGL) e incluso  trabajar  con las X-WINDOWS directamente. Bajo DOS se suele[IZQUIERDA]
+usar C, PASCAL, BASIC, ensamblador, en definitiva,lo que pinte.[NO]
+
+  Sin embargo, hay mÇtodos todab°a m†s sencillos para hacer demos, como es el[IZQUIERDA]
+caso de usar JAVA para hacer demos, o incluso DARKBASIC bajo WINDOWS. En
+concreto, este a§o en la EUSKAL PARTY 9, se present¢ un trabajo con DarkBASIC.
+  En estos casos, los requerimientos de dise§o son menores, pero los de equipo
+son mayores, ya que se requiere de una aceleradora.[NO]
+
+
+Para que sirve una demo[AMARILLO GRANDE]
+
+
+
+  Muchos pensar†n, que para nada, que realmente es una perdida de tiempo,ya que[PCT BLANCO IZQUIERDA]
+los grafistas hacen lo mismo, con mejor calidad, en sus videos cuando
+renderizan con programas como el Maya, SoftImage, 3D Studio MAX, el Blender,
+RENDERMAN o en el mejor de los casos, con POVRAY. Y en el sentido de la calidad
+suelen tener raz¢n, en la mayor°a de los casos, pero no todos. Sin embargo, no
+se dan cuenta, de que una demo no es un video, ni tiene porque ser algo en 3D.
+Tan s¢lo es un espect†culo multimedia, donde se trata de crear algo que seg£n
+los expertos es imposible. Por ejemplo, seg£n los expertos, "un 8086 no tiene
+multitarea, pero un 80386 si", cuando en la vida real, ninguno de los dos tiene
+multitarea, pero los dos tienen concurrencia aparente. Indagando m†s, los
+expertos dicen que un "8086 no puede ejecutar varias aplicaciones
+concurrentemente, mientras que un un 80386, si puede". A lo que se puede decir
+que los dos pueden ejecutar concurrentemente aplicaciones, y sino, que se lo
+pregunten a cualquiera que haya usado el GEM en los a§os 80, o aquellos que nos
+hemos programado peque§as utilidades concurrentes, al estilo del PRINT del DOS.
+  Pues esto es hacer algo, que no es que sea imposible, sino que parece. A todo
+esto se le a§ade una historia, una m£sica de ambiente y sonidos, as° como un
+buen c¢digo que controle esto, y acabado.[NO]
+  Por otra parte, los programas de RENDER estan muy bien, pero todos estar†n[IZQUIERDA]
+de acuerdo conmigo, en una cosa, y es que el tiempo real, no existe para ellos.
+En concreto, para hacer un corto de 5 minutos de duraci¢n, se suele tardar
+200 horas de render en un PC de £ltima generaci¢n. Mientras que comentaba, una
+demo se ejecuta en tiempo real, como un juego. Eso no quita que se pueda usar
+un motor 3D de render, que en algunos casos, se ha usado, sobre todo en las
+demos rusas. Esto crea una gran confusi¢n en los grafistas, ya que en estos
+casos, se renderiza en tiempo real, a velocidades de 50 fotogramas por segundo.
+Sin embargo, los requerimientos de hardware piden como m°nimo, por lo general
+un Pentium.[NO]
+
+
+Party's[AMARILLO GRANDE]
+
+
+
+  Una vez que habeis acabado una demo, s¢lo teneis que exponerla, o via online[PCT BLANCO IZQUIERDA]
+gracias a la red de redes (INTERNET), o a travÇs de FIDONET, o alguna BBS; o
+bien via offline, que es por medio de las party's.[NO]
+
+  Una party, no es m†s que una reuni¢n, no formal, de personas que comparten[IZQUIERDA]
+las mismas aficiones inform†ticas que tu, es decir, la scene, y donde se
+exponen los trabajos de los sceners. En Espa§a, hay unas cuantas, pero no son
+tan notables, como en el resto del mundo. Hay que tener en cuenta, que ASTURIAS
+tiene dos facultades de Inform†tica, y no existe ninguna PARTY.[NO]
+
+  Otro factor a tener en cuenta, es que la mayor°a de las party's, no son de[IZQUIERDA]
+sceners, como es el caso de la CAMPUS PARTY. Esta party, esta pensada, para
+gamers (jugones) que quieren hechar partidas de red, y se realizan campeonatos
+principalmente de esto, quedando el resto de tiempo, reservado para foros y
+conferencias. La secci¢n de scene queda relegada a lo m°nimo. La CAMPUS Party
+se celebra en Espa§a, por lo general en verano. Luego, tenemos la EUSKAL PARTY
+en Euskadi, que se suele celebrar en Verano, en Julio. Aqui si hay mayor n£mero
+de asistencia scener, ya que desde sus comienzos fue fundada por sceners del
+AMIGA, aunque actualmente, ha quedado relegada principalmente a PC, y cada vez
+cobra mas furor los m£sicos, los grafistas y los gamers.[NO]
+
+  TambiÇn existen otras PARTY's en Espa§a, como la Taboada Party, Arroutada,[IZQUIERDA]
+Cangas Party, y dem†s, las cuales cuentan con mayor n£mero de sceners, por lo
+que la asistencia de personas, no es tan elebada como la EUSKAL.[NO]
+
+  A las party's americanas les sucede algo similar a las espa§olas. En concreto[IZQUIERDA]
+tenemos el SIGGRAPH, el cual esta pensado para grafistas, al estilo IMAGINA en
+FRANCIA, y donde la asistencia scener es m°nima, aunque los resultados son
+excelentes.[NO]
+
+  Pero, se pongan como se pongan, parece ser, que las party's que mejor eco[IZQUIERDA]
+tienen, son las de la parte ESTE de Europa, es decir, Alemania, Rusia, etc...
+Alli, party's como DOG, A000, Slash, y dem†s son una autÇntica congregaci¢n.
+y por supuesto, nada como la party's Assembly, en Helsinki, Finlandia. Esa si
+que es una autÇntica fortaleza de sceners. TambiÇn tenemos party's como la
+WIRED en Francia, pero hay que reconocer, que la parte Este de Europa, es la
+parte Este de Europa. En estas party's se pueden hacer demos para PC, AMIGA,
+Commodore, Consolas, WINDOWS, LINUX, DOS, etc...[NO]
+
+
+Tipos de demos[AMARILLO GRANDE]
+
+
+
+  Se ha hablado mucho de las demos, pero cabe preguntarse: ®son todas las demos[PCT BLANCO IZQUIERDA]
+iguales?. Pues la respuesta es sencilla, no, y por dos razones:[NO]
+
+   - Porque si no ser°a plagio.[GRIS]
+   - Existen varias modalidades.
+
+  Para las demos, suele existir tres tipos de demos:[BLANCO]
+
+   - Intro de 4 Kbytes.[GRIS]
+   - Intro de 64 Kbytes.
+   - MegaDemo.
+
+  Estas divisiones, vienen de muy antigÅo, ya que antes, hab°a poca memoria.[BLANCO IZQUIERDA]
+En concreto, para las intros de 4 KAS, se permite usar cualquier sistema
+operativo, en concreto DOS y WINDOWS, con tal, de que el ejecutable no supere
+los 4 KAS. Actualmente existen las normas de no poder usar ning£n extensor,
+por lo que debemos de trabajar en modo real bajo DOS, o acceder directamente a
+modo protegido. Sin embargo, se permiten hacer demos de 4 KAS para WINDOWS, y
+esto es lo mismo que usar un extensor, ya que 200 Mbytes de disco duro lo
+demuestran. Pero eso por ahora, es considerado, como no importante. Por eso, es
+mas bonito una intro bajo DOS, que bajo WINDOWS. Recordad, que lo £nico que
+tiene que ver una demo con el S.O. DOS en la mayor°a de los casos, es s¢lo para
+su lanzamiento, cosa que no sucede bajo WINDOWS.[NO]
+  En estas demos, no se suele usar sonido, aunque 4 KAS, son 4 KAS, y un[IZQUIERDA]
+archivo MIDI, alguna fuente, y un sprite, suele entrar. Estas demos se suelen
+programar por lo general en ensamblador, o incluso en C--. Adem†s, luego se
+suele usar aguna utilidad, como el PKLITE o el UPX para comprimir el binario.[NO]
+
+  Para intros de 64 KAS, se puede usar alg£n extensor, dependiendo de la PARTY[IZQUIERDA]
+en la que estemos. Aqui podemos meter sonido o no, pero por lo general suele
+entrar. Ha sido de destacar, una demo que entregaron en 64 Kbyte, bajo WINDOWS,
+con OPENGL, y con sonido DIVX. La verdad, meter eso en 64 Kbytes, es increible,
+aunque los requerimientos de hardware, se pasaban un pcoco.[NO]
+  El lenguaje empleado aqui, suele ser FreePASCAL, TMTPASCAL, WATCOM C++, DJGPP
+o ensamblador, como NASM.[NO]
+
+  Para MegaDemos, como su nombre indice, superan los 64 Kbytes y llegan al[IZQUIERDA]
+MegaByte. AntigÅamente, el l°mite, era de 1 Mbyte, pero ahora suele estar en
+8 Mbytes comprimido en ZIP, como el caso de la EUSKAL PARTY, o incluso
+indefinido, como en las party's extranjeras.[NO]
+
+
+Tipos de party's.[AMARILLO GRANDE]
+
+
+
+  Anteriormente, se coment¢, que hab°a party's offline. En esto hay que[PCT BLANCO IZQUIERDA]
+destacar, que existen party's multitudinales, donde asisten muchas personas,
+como es el caso de la EUSKAL PARTY en Espa§a, o la FLASH PARTY en AmÇrica,
+mientras que otras veces, existen party's cerradas. En estos casos, hay algunas
+que incluso existe el tÇrmino de masoneria. Estas party's son muy variadas,
+y hay desde aquellas que se montan en un CIBERCAFE con 20 ordenadores y un
+proyector, hasta pasar por un garage o el propio domicilio de un scener. Por
+el medio, hay party'e que se celebran en escuelas, universidades o bibliotecas.
+En todos lo casos, no se suele superar las 100 personas. Es decir, son
+miniparty's. Lo mejor de esto, es que se conoce mejor a la gente, y se tiene
+todo m§as controlado, al menos, en teoria. Adem†s, teniendo en cuenta, que hoy
+por hoy, un CA•ON se puede alquilar por 5 Euros y 40 cÇntimos al d°a, pues
+cualquiera se puede montar una party en su cochera, o en el sal¢n.[NO]
+
+  Luego exiten otro tipo de PARTY's, sobre todo RUSAS y ALEMANAS, donde en[IZQUIERDA]
+lugar de llebar los equipos a rastras para la party, y tener que dormir ahi,
+como en el caso de la mayor°a, pues tan s¢lo duran un d°a, y se hace sin
+equipos. En concreto, se realizan en un teatro, o en una sala de audiovisuales.
+Es decir, en cualquier sitio, donde se pueda montar una gran pantalla. Las
+mejoras de este sistema, es que no hay que estar loco, haciendo los DEADLINE
+para hacer que tu demo haga un SEGMENTATION FAULT, o un NULL POINTER ASIGMENT
+a prisas y corriendo. Adem†s se puede entablar conversaci¢n con los sceners,
+y no estar todo el rato matando al Counter-Strike, al QUAKE III o al Wolfestein
+  Que conste, que a mi, me gusta jugar en red, pero, cada cosa, a su momento.[NO]
+
+
+Que no es la Scene[AMARILLO GRANDE]
+
+
+
+  Ante todo, no es un centro de pirater°a, ni de narc¢ticos, ni pornograf°a.[PCT BLANCO IZQUIERDA]
+Tan s¢lo es un mundo underground, es decir, es un CLAN. Y engloba a todos los
+que hacen o apollan demos o cualquier cosa que tenga que ver con la scene.[NO]
+
+  La Scene y las party's no son lugares para poder jugar gratis todo el d°a,[IZQUIERDA]
+aunque luego se pueda ver que si. Tampoco es un sitio donde se va a ganar
+dinero, aunque luego se ganen premios. Y por supuesto, no es un lugar para
+buscar trabajo para una compa§°a de videojuegos, o compa§ias de software,
+aunque luego, vengan Casas como Piro Studyos o Dynamic Multimedia para dar
+conferencias. Tan s¢lo es un lugar de culto y muestras, donde los sceners se
+reunen cada a§o para ense§ar lo que saben hacer, o lo que han aprendido.
+
+  Hay que recordar, que la mayor°a de sceners, actualmente trabajan en[IZQUIERDA]
+compa§ias de videojuegos, como es el caso de FUTURE CREW, que actualmente, han
+realizado el juego MAX PAYNE, que por cierto, esta muy bien, y me lo acabÇ.
+TambiÇn tenemos a sceners espa§oles, como es el caso de PEDRO ANTON, del grupo
+Spanish Lord, que ha realizado art°culos para revistas como "Programaci¢n
+Actual", "S¢lo Programadores", y actualmente "Programadores en Acci¢n". Que
+conste, que no quiero entrar en detalle sobre la calidad de estas revistas, y
+no he cobrado publicidad por nombrarlas. Tan s¢lo he de decir, que los
+art°culos de Pedro Anton son my buenos, al menos en su mayor°a, as° como los de
+su hermano Fernando ANTON.[NO]
+  A pesar, de esto, los grupos que he nombrado, ya hace a§os que no entregan[IZQUIERDA]
+una producci¢n, en concreto, dejaron la scene, cuando todab°a era scene.[NO]
+
+  Cuando hagamos una demo, no podemos pensar en cuanto vamos a cobrar por ella.[IZQUIERDA]
+Pero quiero dejar clara una cosa, y es que lo que piense y haga cada uno, es
+cosa suya, y nada m†s que suya. Pero eso si, no se puede intentar meter un cubo
+en una esfera, ni vender un programa GNU sin dar el c¢digo fuente, o vender un
+programa con licencia Microsoft, bajo licencia GNU. Sencillamente, ada nombre,
+en su etiqueta.[NO]
+
+  La Scene no s¢lo son entregar demos en una s¢lo party. Hay muchas party's,[IZQUIERDA]
+y tampoco hay que ir a todas. Adem†s no basta con s¢lo considerar party a
+la EUSKAL PARTY, por ejemplo, ya que hay una media de 3 party's por semana en
+todo el mundo, ya hay much°simas, que superan a esta en asistencia y calidad.
+  Se pueden hacer diskmags como esta que estais leyendo ahora, o disktunes
+(un programa donde se puede elegir varios tracks de sonido), o un preview
+de demos, o incluso un preview de im†genes de los grafistas que tiene nuestro
+grupo.[NO]
+
+  Que no tengamos un grupo, no significa, que no se pueda hacer una demo.[IZQUIERDA]
+Gracias a las redes, y las licencias GNU, podemos disponer de TOOLS, modelos
+3D, texturas, fotos 2D, tracks de sonido, etc... que podemos usar sin ninguna
+restricci¢n, preocupandonos s¢lo del c¢digo de nuestro programa.[NO]
+
+  Que tengamos un equipo antigÅo no quiere decir,que no podemos hacer una demo.[IZQUIERDA]
+De hecho hay paises, entre ellos Espa§a, que hace demos con equipos como CPC,
+Commodore, AMIGA 1500, 80286, etc... Tan s¢lo tenemos que saber sacar lo mejor
+que tenemos de nosotros mismos y de nuestra m†quina. Como lo hagamos, es cosa
+nuestra. De hecho, he visto rotozooms, raycastings, zooms, raster-bars y tracks
+de audio, que funcionaban mejor en un CPC que en un Pentium.[NO]
+
+  Una demo no es hacer 4 efectos con fuego, plasma, zoom y scroll, y ya est†[IZQUIERDA]
+acabÇ. Porque para eso, ya tenemos librerias que nos lo hacen. En concreto, he
+comenzado a hacer una demo, pero al final quedo todo en previews, tan simples
+como un simple efecto fuego, un scroll, deformaciones, efecto nieve,
+interferencias, etc..., que no pueden competir con ninguna demo, salvo, que
+sea para tama§o de programa, como los 4 KAS. Para que sea una demo, tiene que
+contar una historio, como si fuese un trailer, o en su defecto, hacer algo
+visual que no se haya hecho antes, y que sea casi imposible de creer.[NO]
+
+  Y por £ltimo, decir, que la scene no es un lugar par sacar dineros, es decir,[IZQUIERDA]
+es algo no lucrativo. Ya se que muchos, estareis pensando: ®Entonces, para que
+sirve la scene?. Pues como os dije anteriormente, la scene no es un tranpolin
+para la fama, sino que es un sitio de preparaci¢n para el dia de ma§ana. Todos
+los trabajos que hagais, quedar†n para siempre. Si realizais algo para la scene
+podeis hacerlo GNU, pero no es obligatorio. Tan s¢lo debeis dejar la demo
+FREEWARE, pero no el c¢digo.[NO]
+
+
+Hacia donde evoluciona[AMARILLO GRANDE]
+
+
+
+  La Scene es m†s que evidente que hace a§os que ha dejado de ser la oldskool[PCT BLANCO IZQUIERDA]
+(scuela antigÅa = ensamblador) a ser algo que por mucho que se empe§en no es la
+newskool (nueva escuela). La nueva escuela, la quieren poner como que es la
+revoluci¢n, diciendo que es absurdo usar ensamblador, cuando es mejor usar C
+con WINDOWS o JAVA. Pero no se dan cuanta, que para ser newskool, deber°an usar
+nuevas plataformas y sistemas que cumplen con lo que se quiera hacer, como es
+el caso de LINUX, QNX, BeOS, FreeDOS, OpenDOS, Solaris, MAC OS X, PSX, PS2,
+GBA, Game Cube, X-BOX, PDA's, e incluso los m¢viles. Hay que darse cuenta,
+que JAVA es un itÇrprete, ni m†s ni menos, y todo lo que nos soluciona en
+dise§o, nos lo estropea en requerimientos, se pongan como se pongan, ahora y
+para siempre. Y WINDOWS nuca fue, es, ni ser† multimedia. Y gracias a Microsoft
+se ha conseguido manchar la imagen del DOS, porque MSDOS, era algo raro, pero
+el DOS era, es y ser† el S.O., rey de reyes y sistema de sistemas.[NO]
+  Desde un punto de vista subjetivo, he de destacar, que la mayor°a de mis[IZQUIERDA]
+amigos programadores, e incluso yo mismo, no podemos permitirnos estar todo
+el d°a ampliando nuestro equipo con la £ltima aceleradora, disco duro, etc...
+, de hecho la mayor°a de mis amigos tienen equipos Pentium 200 MMX, Pentium II
+y similares, y alguno tiene una aceleradora VODOO, y estan muy contentos con
+su equipo. Y creo que una demo que s¢lo mueve un keko con 100 pol°gonos, no
+necesita un Athlon a 1,2 Ghz con GeFORCE II, s¢lo porque a la pesona que lo
+program¢, no quiso romperse los cuernos para usar c†lculos con coma fija, con
+cuaternios o con flotantes en 3D, o no se quiso aprender las DIRECTX, y
+decidi¢ usar el CLIENTE/SERVIDOR OpenGL. Tan s¢lo he de recordar, y seguro que
+a m†s de uno se le caer†n las l†grimas de recuerdo, el juego MDK (MURDER DEAD
+KILL). Ese juego sali¢ en 1997, y usaba motor 3D por software con VESA 2.0 en
+modo lienal o bancos. TambiÇn hicieron la versi¢n para DIRECTX y DIRECT3D. Ese
+juego era una autÇntica pasada visual, y por eso me lo acabÇ. Y cuando sacaron
+el MDK 2 bajo OpenGL, s¢lo puedo decir que con toda la ilusi¢n que tenia,
+pensando de que iba a superar a su predecesor, se fue al garete.[NO]
+
+  Y m†s aun, todos recordareis, al MOTORHEAD. Si salio, en 1997 para Pentium,[IZQUIERDA]
+igual que el MDK. Pues este juego, lo primero que dijeron, era que era malo
+porque usaba motor 3D por software, y estaba desfasado. En aquel entonces, los
+juegos 3D con aceleradora, eran una basura, en comparaci¢n al MOTORHEAD a
+640x480x16 bits. Las luces, las sombras, la suavidad y la velocidad que se
+consegu°a, eran una pasada. Por cosas as°, todab°a hoy, juego a estos juegos.
+  Con esto, no quiero decir, que haya juegos ni motores 3D bajo OpenGL malos,
+sino, que porque sea por software, no significa que este desfasado.[NO]
+  De hecho, hay empleados en la oficina que en un rato libre, pueden hechar[IZQUIERDA]
+una partida, y lo primero que van a ver, es que la empresa no se ha gastado
+un duro ni en la aceleradora gr†fica, ni en la tarjeta de sonido, pero eso
+no impide que se pueda jugar a algo interesante o ver una buena demo. Sin
+embargo, si todo el mundo cree, que la soluci¢n son las aceleradoras, entonces
+se acab¢ jugar por diversi¢n, sino, que hay que jugar por obligaci¢n y
+exclavitud. Por cierto, ahora mismo me voy a comprar una GeFORCE III para poder
+jugar al buscaminas y al solitario, porque dentro de poco, y gracias a la idea
+de los supuestamente expertos, ahora esta de moda usar las extensiones de
+OPENGL para juegos 2D, en concreto, hacer un pol°gono 2D y texturizar el bitmap
+en Çl, para simular la pantalla, y as° obtener la aceleraci¢n 2D. A esto puedo
+comentar, que por muy r†pida que sea una GeFORCE II en 2D, no va a superar a
+un juego en 2D por software en un Pentium.[NO]
+
+
+Mas scene[AMARILLO GRANDE]
+
+
+
+  Aunque, se ha comentado los principal sobre las producciones, y dem†s de la[PCT BLANCO IZQUIERDA]
+scene, hay que destacar, que esto, no es lo £nico que existe, es m†s, en un
+futuro cercano, los que esteis leyendo este art°culo, podreis estar cambiando
+el mundo scener.[NO]
+
+  Existen mas tipos de intros, que las de 4 Kbytes y 64 Kbytes. En concreto,[IZQUIERDA]
+existen intros de 512 bytes, 256 bytes, e incluso menos. Dependiendo de la
+modalidad elegida, se os pedir†n unos requisitos en la PARTY a la que vayais a
+participar. TambiÇn se puede decir, que no todo es PARTY, es decir, si una
+intro queda descalificada por no cumplir unos requisitos, eso no impida que no
+podais publicarla por INTERNET, en categoria libre. Esto es la ventaja que
+ofrece hoy en dia, las viejas y nuevas tecnolog°as de la comunicaci¢n.[NO]
+
+  TambiÇn podeis entregar intros para consolas, o hacer un video con la intro[IZQUIERDA]
+de la consola, y entregarla en una party en forma libre. Esto lo hicieron en
+el SIGGRAPH. En este caso, es conveniente especificar en el video, que la demo
+corre en tiempo real, y en el equipo en que esta corriendo, ya que para el
+espectador es un AVI.[NO]
+
+  No todo tiene porque ser c¢digo, ya que podeis ser grafistas 2D o 3D, y[IZQUIERDA]
+realizar incluso un STORY-BOARD. En el caso de grafista 2D, se valora m†s ser
+un buen pixelador, es decir, alguien que dibuja sin lapiz, papel y escaner. En
+definitiva, que usa el lapiz ¢ptico o el rat¢n, y dibuja a pelo. Por supuesto
+tiene mas valor aquel pixelador que usa 16 o 256 colores, que aquel que usa
+TRUE COLOR. Y que quede claro, que trabajar en TRUE COLOR, y aplicar el filtro
+para convertir a 256 colores, o menos, no es muy Çtico. En todos estos casos,
+se especifica la herramienta que se puede usar, ya sea DELUXE PAINT, el PAINT
+o alguna de retoque profesional actual, como INFERNO, Pixel 32, Adobe
+PhotoShop, Paint Shop Pro, etc...[NO]
+  Hay que destacar, que qntigÅamente, no se permitia entregar el resultado[IZQUIERDA]
+final en un formato con perdida de datos (HUFFMAN), como era el caso del JPEG,
+sin embargo, en la actualidad, es totalmente, factible.[NO]
+  En el caso de grafistas 3D, se puede usar cualquier herramienta actual, que[IZQUIERDA]
+dejen para la compo. Que quede claro, que si no teneis pensado entregar algo
+en una COMPO, la herramienta y estilo, es libre. Las utilidades mas usuales,
+suelen ser MAYA 3D, SoftImage, 3D Studio MAX, Blender, POV RAY, etc...[NO]
+  Los requerimientos de equipo, son mucho m†s elebados en 3D, que en 2D, as°[IZQUIERDA]
+como la paciencia del creador. Recordar, que el 3D Studio MAX 4, tarda mas de
+2 minutos en arrancar en un AMD K6 III a 400 Mhz y 180 Mbytes de RAM en Windows
+2000, son datos, interesantes. Adem†s el tiempo de render suele ser 1 segundo
+en la realidad, es 1 minuto de render.[NO]
+
+  Y para el caso del m£sico, puede entregar un track con herramientas como el[IZQUIERDA]
+STREAM TRACKER, FAST TRACKER, MOD PLUG, as° como la posibilidad de entregar
+un MP3. En este campo, las herramientas, son las que menos requerimientos piden
+compar†ndolas, con las de los grafistas. Adem†s los S.O. que dejan correr estas
+herramientas, son muy variados. Para que nos hagamos una idea, podemos tener
+un Pentium a 90 Mhz con disco duro con 1,2 Ghz, y podremos crear m†s de 2 horas
+de m£sica, con DOS, LINUX, BeOS e incluso WINDOWS.[NO]
+
+
+Juntar todo para la demo.[AMARILLO GRANDE]
+
+
+
+  En estos dias, en que gracias a la informaci¢n, podemos saber, hasta lo que[PCT BLANCO IZQUIERDA]
+come nuestro vecino, muchos ya tendr†n formado un grupo para hacer una demo,
+y ya tienen un grafista que domina el 3D Studio MAX o el Maya, que da gusto,
+as° como que que tienen a un amigo m£sico que es DJ, y hace unos samples y
+MP3 que da gusto. Pues parece que lo £nico que les hace falta es un pringao de
+programador, a lo que en un semana, van y lo encuentran. Si suele ser sencillo,
+tan s¢lo hay que encontrar a un vecino de estos, que les guste la inform†tica
+por amor al arte, y abusar de su confianza, para que haga todo 8-D))). Pues
+bien, esta es la opci¢n m†s r†pida que se suele hacer, y suele funcionar. Pero
+hay un problema, y es el siguiente: Con grafistas, trackers e incluso con
+designer (encargado del dise§o), se pueden hacer muchas cosas, pero nunca una
+demo. Esto es como la pirateria de un programa con llave de protecci¢n: Con un
+pirata, s¢lo se tiene la copia del programa, pero sin el cracker, no se tiene
+acceso a nada.[NO]
+
+  As° que lo m†s correcto, suele ser un programador que domina uno o varios[IZQUIERDA]
+lenguajes de programaci¢n, pero que no sea alguien que domina el COMPILADOR y
+el lenguaje, sino, el CONCEPTO, de tal forma, que le da igual, la plataforma
+para poder hacer las cosas. En concreto no se busca a un GURU de la
+programaci¢n, sino al TAO de la programaci¢n. Esta persona, tiene que buscar
+a grafistas, a alguien que tenga una historia, ya sea sacada de una pel°cula,
+un libro, o inventada, y a un m£sico para hacer una canci¢n y sonidos de
+ambiente. Y claro, aqui llegan los problemas, porque el grafista domina su
+campo, que es modelar, renderizar y utilizar el MAX, y guardar escena. Y alguno
+cree que tan s¢lo tiene que darle el archivo de 2 Mbytes de su escena del MAX
+y que el programador se las arregle. Y claro, aunque se puede hacer, el
+problema es doble: Por un lado, el MAX, el 75% de los grafistas lo tienen
+ilegal, y por consiguiente, no se puede usar los arhivos de forma legal en la
+demo. El segundo problema, es que el MAX optimiza para Çl, y no para nuestra
+demo, es decir, ordena las caras, y a§ade datos redundantes, para renderizar
+y no para animar en tiempo real. Entonces, lo que nos suele interesar, y suele
+venir incorporado en cualquier herramienta 3D, es exportar los modelos, luces,
+texturas, y dem†s de los objetos compuesto o simples a un arhivo ASCII (texto)
+normal y corriente, para que luego el programador se rompa los cuernos, y lo
+ordene a su imagen y semejanza.[NO]
+  Una vez que el programador, a acabado con el grafista 3D, queda el el[IZQUIERDA]
+grafista 2D, aunque teniendo en cuenta, que una imagen 2D, es como una textura,
+tan s¢lo hay que mandar al grafista, que nos esporte su imagen a un tipo de
+formato cocido, que va desde el formato RAW, GIF, PCX, hasta el JPEG. DespuÇs
+nosotros hacemos lo que nos de la gana con Çl.[NO]
+  Y luego, a por el m£sico. Aqui los normal es usar librerias ya hechas que[IZQUIERDA]
+pueden leer y reproducir casi todos los formatos de trackers, como MOD, XM, IT
+e incluso el MP3. Con mandar al m£sico que nos haga una canci¢n en este formato
+todo estar† acabado.[NO]
+
+  Y luego s¢lo quedan los programadores, que estos, tendr†n que hacer de[IZQUIERDA]
+analistas, ya que tendr†n que ver, que si usan un MP3, el equipo m°nimo que
+necesitar†n para la demo ser† un Pentium, as° como que si usan 10000 poligonos
+necesitr†n un Pentium o una aceleradora. Y como no, el lenguaje y librerias a
+usar. Si el programador, necesita las librerias de sonido MIDAS, ya estar†
+obligado a usar C en toda su demo. Esto es importante, ya que unas librerias
+nos ser†n utiles para una cosa, y otras para otra, y en algunos casos, existen
+no s¢lo para un lenguaje de programaci¢n espec°fico, sino para plataformas en
+concreto. TambiÇn, el programador, tendr† que ver hasta que punto debe de usar
+librerias, y cuando deber† crear algo a pelo. Aparte de esto, tendr† que ver
+cuanto tiempo les llebar† la demo, corregir fallos, actualizarla, y crear un
+script y dem†s cosas, si son necesarias, en concreto, para facilitar la
+comunicaci¢n con el resto del grupo que no son programadores.[NO]
+
+
+Vida real.[AMARILLO GRANDE]
+
+
+
+  En la vida real, no sucede como en la teorica pr†ctica. En concreto, se suele[PCT BLANCO IZQUIERDA]
+usar librerias de sonido e imagen 2D y 3D, como las ALLEGRO, o incluso el motor
+del QUAKE, y se junta todo como se puede la £ltima semana, dando fallos cada
+dos por tres, pero claro, mientras que no de un SEGMENTATION FAULT en la
+m†quina LINUX de la DEAD-LINE, todo solucionado.[NO]
+
+  Adem†s, no siempre se tiene a un amigo grafista, o m£sico, y menos, que le[IZQUIERDA]
+guste la scene y quiera dejar sus trabajos gratis. En concreto conozco un caso
+real, en el que unos programadores buscaban a grafistas para hacer una demo,
+para un peview de un juego, y tenian pensado pagar a los grafistas. En concreto
+estos programadores, querian usar OpenGL, y una cosa estaba clara, y era, que
+se pusiesen como se pusiesen, no eran SCENERS, ya que en primer lugar buscaban
+lucro, ya que s¢lo querian promober su juego, y en segundo, tenian pensado
+pagar a la gente, es decir, sigue siendo lucro.[NO]
+  En todos estos casos, podemos buscar modelos 3D, fotos y tracks libres de[IZQUIERDA]
+copyright o gratis. O por supuesto, podemos ponernos en contacto con grafistas
+como BLOD, o m£sicos sceners, que dependiendo de su tiempo, y ganas, podrian
+hecharnos una mano.[NO]
+  
+  Y por £ltimo, estamos nosotros, que queremos hacer una demo, y no tenemos[IZQUIERDA]
+tiempo ni para respirar (He muerto asfisiado 8-)))). Hay Çpocas del a§o, en
+concreto, con los ex†menes, que estamos aislados del ordenador, en periodos de
+hasta 1 mes. Y eso, que estamos haciendo una carrera de inform†tica, pero claro
+la carga matem†tica de las ingenierias, y las ganas de ayudar al pr¢jimo a
+hundir m†s tu vida, son una forma de hacerse notar.[NO]
+  Pero eso no impide, que estemos haciendo esta diskmag, y en cuanto tengamos[IZQUIERDA]
+tiempo, intentemos hacer algo para la demo. En concreto, por mi parte, estaba
+pensando en hacerla bajo sistemas operativos nuevos alternativos a Windows,
+en concreto BeOS, por su potencia multimedia.[NO]
+  Y mientras podamos, intentaremos ense§ar lo que aprendimos, aprendemos y[IZQUIERDA]
+aprenderemos, ya que as° los demas programadores, no perder†n el tiempo, que
+nosotros llegamos a invertir, por falta de informaci¢n, o de malas
+explicaciones.[NO]
+
+  En la vida real, se sulene hacer demos como antigÅamente, para ponerlas junto[IZQUIERDA]
+a un programa o juego que se ha crackeado, sobre todo en AmÇrica del SUR y
+Central. Otras veces, se hace para hacer publicidad de algo, como puede ser un
+programa hecho por nosotros, aunque actualmente, los banners en INTERNET suelen
+tener m†s protagonismo.[NO]
+  Y otras veces, se hace s¢lo para demostrar a alguien, que se puede hacer algo[IZQUIERDA]
+que se hab°a comenatdo que era imposible, es decir, es un caso emp°rico que
+destruye una ley.[NO]
+
+
+Demos con historia.[AMARILLO GRANDE]
+
+
+
+  Las demos, no hay nada tan bueno, como tener un buen ca§on en casa, apagar la[PCT BLANCO IZQUIERDA]
+luz, y ponernos a ver demos, toda la noche. Si no disponemos de ca§on, pues
+buscar el mejor sustituto, que no es mas que la pantalla. Hay demos muy
+coloristas, buenas por los efectos, o buenas por el c¢digo. Pero hay otras, que
+son buenas por su historia.[NO]
+
+  Demos que me impresionaron, fueron HYPNOTIC (grupo Exobit), que pedia DOS, y[IZQUIERDA]
+necesitaba 610 KB de RAM,mas memoria extendida. Por cosas como esta,siempre uso
+un buen DOS con 640 KB de memoria convencional libre. La verdad, que ver a una
+GOGO poligonal danzando, en 1996 en mi PENTIUM, era una pasada.[NO]
+
+  Los antecesores a esto, dicen que la mejor demo fue Secod Reality del grupo[IZQUIERDA]
+Future Crew. Yo la vi, y me gusto, pero compar†ndolas con las del AMIGA, no
+tenian ni punto de comparaci¢n.[NO]
+
+  Y actualmente, he encontrado demos, como FUNKY de la DOG PARTY, que es una[IZQUIERDA]
+pasada, ya que aunque se vean los poligonos, ver a un cantante con estilo de
+los 70, mientras hay varios bailarines, haciendo el BREAK-DANCE,
+sincroniz†ndose todo, es muy bueno. Y por supuesto, no necesita aceleradora,
+pero requiere un equipo de al menos 200 Mhz.[NO]
+
+  Y por el camino, nos encontramos demos simples, complejas, y dem†s, pero que[IZQUIERDA]
+la mayor°a no tienen historia. Quizas las demos, mas guapas, suelen ser las
+INVTRO, que se suelen dar para asistir a una PARTY, y en ellas, se explica
+todas las COMPO, que hay, as° como los lugares donde dormir, y su localizaci¢n.[NO]
+
+  
+Mas diskmags.[AMARILLO GRANDE]
+
+
+
+  Existen muchas diskmags, aunque  la  mayor°a[PCT BLANCO]
+son extranjeras. Las diskmags  extranjeras mas
+importantes, son:[NO]
+
+  - I FEEL PAIN IN YOUR EYES[GRIS]
+  - WILDMAG
+  - HUGI
+  - HEROIN
+
+  Son  diskmags  muy  pulidas ,  y  con  mucha[BLANCO]
+historia. ACtualmente, ya teneis disponible la
+HUGI  24.  Aunque,  tambiÇn  existen  diskmags
+espa§olas, como:
+
+  - CEIBE, mantenida por el grupo CENTOLOS[GRIS]
+
+  Y  han  anunciado  una de  Portugal. TambiÇn[BLANCO]
+existen  diskmags,  que han quedado olbidadas,
+como IMPHOBIA, y alguna de ARGENTINA.
+
+
+Conclusiones.[AMARILLO GRANDE]
+
+
+
+  Si habeis llegado a esta parte del art°culo, es que por lo menos, os[PCT BLANCO IZQUIERDA
+interesaba, para bien, o para mal, os interesaba. Ya se que me han quedado
+muchos cabos sueltos, como:[NO]
+
+  - Coder[GRIS]
+  - Graphician
+  - Modeller
+  - Designer
+  - Musician
+  - Sysop
+  - Swapper
+  - Organizer
+
+  As° como el lenguaje de los sceners, y dem†s grupos. Y pido disculpas, pero[BLANCO IZQUIERDA]
+no puedo nombrar a todos los grupos del mundo, ya que a los que no nombre, se
+enfadar†n. Adem†s, esto s¢lo es de caracter introductorio, y dedicado a
+aquellos que no saben nada del tema.[NO]
+
+  TambiÇn se, que tanto nuestro grupo, como yo mismo, no somos los m†s[IZQUIERDA]
+indicados para tratar este tema, ya que todab°a no hemos realizado ninguna
+demo, pero tenia que hacerlo, para que as° se entendiese para que se hace esta
+diskmag, y todas las partes que contiene.[NO]
+
+
+Agradecimientos.[AMARILLO GRANDE]
+
+
+
+  Doy las gracias a todos los sceners de todo el mundo por el trabajo que hacen[PCT BLANCO IZQUIERDA]
+por mantener esta forma de trabajo. TambiÇn doy las gracias a Newalpha del
+grupo rgba/glue, cuya producci¢n 3D Strawgirl, he incluido en la primera foto
+de este art°culo. Tenia la entrada 979 en la EUSKAL PARTY 9. Y es un trabajo
+de grafista 3D.[NO]

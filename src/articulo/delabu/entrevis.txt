@@ -1,0 +1,224 @@
+[FOTOS 5]
+9 61 48 0
+10 62 48 51
+11 63 48 123
+12 64 48 148
+13 65 48 193
+ Entrevista a Delabu Alama.[AZULCLARO GRANDE NO]
+[XM]
+
+
+1.- ¨Que edad teneis los miembros del grupo?[BLANCO PC]
+    FAC    - 24 a¤os[GRISCLARO PCT]
+    Manolo - 24 a¤os
+
+2.- ¨Cuando empezasteis en el mundo scener?[BLANCO PC]
+    A principios de 1998[GRISCLARO PCT]
+
+3.- ¨Cual fue vuestro primer ordenador?[BLANCO PC]
+    Commodore 16[GRISCLARO PCT]
+
+4.- ¨Cuanto tardasteis en hacer vuestra primera[BLANCO PC]
+    demo?
+    Algunos minutos... era un programa en BASIC para la Commodore 16[GRISCLARO PCT IZQUIERDA]
+
+5.- ¨Que lenguaje de programaci¢n os gusta usar para realizar demos?[BLANCO PC NO]
+    Visual C++[GRISCLARO PCT]
+
+6.- ¨Sobre que S.O. os gusta crear demos?[BLANCO PC]
+    Antes: MS-DOS, Ahora: Win32[GRISCLARO PCT]
+
+7.- ¨Creeis que la old-school (oldsKool) ha muerto?[BLANCO PC]
+    Creo que el t‚rmino "oldschool" es muy relativo. Lo que ahora es oldschool[GRISCLARO PCT IZQUIERDA]
+    es lo que se hac¡a hace unos 5 a¤os, y en ese entonces "oldschool"
+    se refer¡a a raster bars en la Commodore 64, o demos en la amiga.
+
+8.- ¨Que opinais sobre la scene de AMIGA?[BLANCO PC NO]
+    No tengo una opini¢n, pero en general, si se tiene una herramienta con[GRISCLARO PCT IZQUIERDA]
+    la que se puede hacer algo creativo, pues adelante.[NO]
+
+9.- ¨Y sobre la scene CPC?[BLANCO PC]
+    Ver pregunta #8 :)[GRISCLARO PCT]
+
+10.- ¨Os gusta usar gr ficos en TRUE COLOR o en 256 y 16 colores?[BLANCO PC]
+     TrueColor y 256 colores estan bien...... depende del d¡a de la semana.[GRISCLARO PCT IZQUIERDA]
+
+11.- ¨Creeis que el MP3 acabar  con los trackers en la scene?[BLANCO PC NO]
+     Creo que ya lo hizo. Pero no necesariamente es algo malo. Como coder,[GRISCLARO PCT IZQUIERDA]
+     es mejor trabajar con m£sica trackeada. Como m£sico, es mejor montar un
+     estudio casero y producir MP3's.[NO]
+
+12.- ¨Y sobre los gr ficos escaneados en lugar de pixelados?[BLANCO PC]
+     Al dise¤ador no le importa si el coder optimiz¢ bien su engine o no, o si[GRISCLARO PCT IZQUIERDA]
+     esta usando Z-Buffer o  rboles BSP o cualquier cosa. De la misma forma,
+     al coder no le debe importar como le hizo el artista para producir una
+     imagen, siempre que esta se vea bien.[NO]
+     O sea que no me importa.[XMI]
+
+13.- ¨En que party's habeis estado presentes?[BLANCO PC]
+     Pues hace  poco fue el  cumplea¤os  de  un[GRISCLARO PCT]
+     amigo  y hubo  una party aqu¡ en  mi casa.
+     Con pastel y todo.
+
+14.- ¨Cual fue vuestra impresi¢n, en esa party?[BLANCO PC]
+     El pastel estaba bueno.[GRISCLARO XM]
+
+15.- ¨Cual creeis que es el futuro de la scene?[BLANCO PC]
+     La scene va a seguir ah¡. Solo espero que[GRISCLARO PCT]
+     llegue un  punto en  el que la  gente  se
+     aburra  de tanta estupidez tridimensional
+     y se pongan a  inventar  nuevos  efectos.
+
+16.- ¨Cual es vuestra opini¢n sobre el uso de[BLANCO PC]
+     ACELERADORAS  gr ficas  en  las  demos ?
+     Yo no las uso, pero tampoco tengo nada en contra de ellas. Una tarjeta[GRISCLARO PCT IZQUIERDA]
+     aceleradora no te hace mejor coder, m£sico o dibujante. Solo es una
+     herramienta m s. Hay buenos demos y malos demos hechos con y sin
+     aceleradoras.[NO]
+
+17.- ¨Que demo y grupo fue el que m s os gusto en vuestra vida?[BLANCO PC]
+     Pues son varios: Inside de CNCD, Square de Pulse, Plastik de Purple.[GRISCLARO XM IZQUIERDA]
+
+18.- ¨Cual es vuestra opini¢n del S.O. LINUX en las demos?[BLANCO PC NO]
+     Tiene grandes posibilidades, pero tambi‚n muchos problemas de[GRISCLARO PCT IZQUIERDA]
+     incompatibilidad que espero que eventualmente se resuelvan.[NO]
+
+19.- ¨Y sobre el S.O. BeOS?[BLANCO PC]
+     Probablemente es el S.O. con mejor desempe¤o en aplicaciones multimedia,[GRISCLARO PCT IZQUIERDA]
+     sin embargo, dispone de muy poco software y soporte, y por eso no creo que
+     vaya a tener mucha influencia en la scene.[NO]
+
+20.- Los S.O. FreeDOS y OpenDOS siguen activos, ¨creeis que el D.O.S. ha[BLANCO PC IZQUIERDA]
+     muerto en la demoscene?[NO]
+     Definitivamente est  muerto. Ahora las tarjetas de audio PCI casi no[GRISCLARO PCT IZQUIERDA]
+     funcionan en DOS y eso hace muy dif¡cil programar demos en ese S.O. Hay
+     muchos demos que ya no puedo ver por ese tipo de problemas o debido a la
+     alt¡sima velocidad con la que se ejecutan.[NO]
+
+21.- Acaban de sacar un S.O. GNU basado en BeOS el cual funciona en un PC [BLANCO PC IZQUIERDA]
+     x86 y en consola DreamCast. Teniendo en cuenta, que ya existe scene en la
+     consola PlayStation, ¨creeis que esto motivar¡a a la aparici¢n de la
+     scene en DreamCast?[NO]
+     Probablemente s¡. La gente siempre quiere experimentar con cosas nuevas.[GRISCLARO PCT IZQUIERDA]
+
+22.- ¨Que pais creeis que tiene mejor scene?[BLANCO PC NO]
+     En la actualidad, no tengo ni idea de qu‚ grupos est n de moda, y mucho[GRISCLARO PCT IZQUIERDA]
+     menos de d¢nde vienen.[NO]
+
+23.- ¨Os gusta hacer producciones en ingl‚s o en hispano?[BLANCO PC]
+     Ambas. O cualquier combinaci¢n de las dos.[GRISCLARO PCT]
+
+24.- ¨Creeis que la scene en el SIGGRAPH es notable?[BLANCO PC]
+     Pues no estoy seguro, por lo tanto, no, no creo que lo sea.[GRISCLARO XM IZQUIERDA]
+
+25.- ¨Os gusta m s las demos 2D o las 3D?[BLANCO PC NO]
+     Me gusta cuando se combinan los efectos 2D con los 3D. Excepto por algunos[GRISCLARO XM IZQUIERDA]
+     casos, no me gustan para nada las demos que consisten en puras escenas 3D.[NO]
+
+26.- Cuando pasen m s a¤os, ¨creeis que seguireis haciendo demos?[BLANCO PC]
+     Lo dudo. Incluso ahora ya no estoy seguro si tengo tiempo para seguir[GRISCLARO PCT IZQUIERDA]
+     haciendo demos (porque ganas s¡ que tengo). Uno tiene cada vez mas
+     responsabilidades y menos tiempo libre.[NO]
+
+27.- ¨Cual es vuestra opini¢n sobre la filosof¡a scener?[BLANCO PC]
+     Creo que la scene es algo que nos permite mostrar algo creativo[GRISCLARO PCT IZQUIERDA]
+     que otros pueden apreciar, incita un esp¡ritu competitivo y a la
+     vez amistoso.[NO]
+
+28.- ¨Que consejos os gustar¡a dar a la nueva generaci¢n de sceners?[BLANCO PC]
+     Solo uno: busquen su propio estilo.[GRISCLARO XM]
+
+29.- ¨Os gustar¡a hacer un videojuego?[BLANCO PC]
+     Ya he hecho algunos.... muy malos,[GRISCLARO XM]
+     por cierto.
+
+30.- ¨Que plataforma creeis que es mejor para[BLANCO PC]
+     las demos?
+     PC con Win32[GRISCLARO XM]
+
+31.- ¨Y para los juegos?[BLANCO PC]
+     Atari 2600[GRISCLARO XM]
+
+32.- ¨Creeis que las demos en JAVA son buenas[BLANCO PC]
+     para la demoscene?
+     Si, debido a que son independientes de la[GRISCLARO PCT]
+     plataforma y el O.S. Lo que me parece a£n
+     mejor son las intros en JAVA. Uno puede descargar r pidamente una intro[IZQUIERDA]
+     desde un browser y verla ah¡ mismo.[NO]
+
+33.- La aceptaci¢n de las demos en JAVA puede dar origen a demos en otros[BLANCO PC IZQUIERDA]
+     lenguajes de muy alto nivel nuevos, como el HASKELL(funcional) y el
+     PROLOG (l¢gico), ¨creeis que esto es bueno?, o ¨sois partidarios del
+     C, Pascal y el ensamblador de toda la vida?[NO]
+     Aunque los lenguajes de no muy alto nivel (C/C++ y ensamblador) tienen[GRISCLARO PCT IZQUIERDA]
+     muchas ventajas (optimizaci¢n en velocidad y tama¤o, mayor flexibilidad
+     en el manejo de memoria, mejor disposici¢n[NO]
+     de recursos), no hay nada que impida hacer
+     demos en otros  lenguajes. Actualmente hay
+     demos muy buenos en Java, y  de seguro  se
+     pueden hacer cosas  interesantes  con len-
+     guajes como Delphi o Visual Basic.
+       Desgraciadamente,los demos realizados en
+     lenguajes de alto nivel como el Basic, son
+     hechos por gente que no tiene  mucha expe-
+     riencia (de ahi el hecho de usar esos len-
+     guajes), y  por lo  tanto no  aportan nada
+     nuevo a la scene. Pero es algo  bueno para
+     la gente que quiere  hacer algo creativo y
+     no sabe C o Pascal.
+
+
+34.- ¨Que opinais del lenguaje C-- de Peter Sphinx Cellik en las demos?[BLANCO PC]
+     No lo he probado a£n, y no siento la necesidad de hacerlo.[GRISCLARO PCT]
+
+35.- ¨Os gustan las demos en OpenGL?[BLANCO PC]
+     No mucho. Ya he hablado de mis sentimientos hacia los demos 3D. Sin em-[GRISCLARO XM IZQUIERDA]
+     bargo, he visto algunas demos muy buenas que usan OpenGL.[NO]
+
+36.- Directx VS OpenGL, ¨cual es vuestra opini¢n?[BLANCO PC]
+     Es un poco m s apropiado comparar Direct3D con OpenGL. De cualquier forma,[GRISCLARO PCT IZQUIERDA]
+     creo que Direct3D es una de las API's menos intuitivas y agradables que
+     existen. El d¡a que necesite usar aceleraci¢n 3D, definitivamente voy a ir
+     con OpenGL.[NO]
+
+37.- 3D Studio MAX R4  VS  Blender 2.8 o POVRAY, ¨cual os gusta m s?[BLANCO PC]
+     Para modelar, supongo que 3D Studio MAX. Para experimentar con raytracing,[GRISCLARO XM IZQUIERDA]
+     POVRAY es lo mejor. De cualquier forma yo rara vez uso esos programas.[NO]
+
+38.- Ya hace tiempo, que teneis el proyecto de scene online "PATADA". ¨Que[BLANCO PC IZQUIERDA]
+     podeis contarnos sobre ‚l?[BLANCO PC NO]
+     Nada. Nunca despeg¢. De hecho, no se porqu‚ nunca quitamos las p ginas[GRISCLARO PCT IZQUIERDA]
+     de internet.[NO]
+
+39.- Party's online VS offline, ¨que opinais?[BLANCO PC]
+     Creo que son dos cosas tan diferentes que no tiene sentido compararlas.[GRISCLARO PCT IZQUIERDA]
+     Seria como comparar la televisi¢n contra el teatro.[NO]
+
+40.- ¨Que opini¢n teneis sobre las party's sin ordenadores?[BLANCO PC]
+     Mientras haya chicas dispuestas a bailarle a uno, todo se vale. (es broma).[AZULCLARO XM IZQUIERDA]
+
+41.- ¨Para cuando, vuestra pr¢xima producci¢n?[BLANCO PC NO]
+     Ni idea. Nuestro futuro es ca¢tico.[GRISCLARO PCT]
+
+42.- ¨Habeis estado en Espa¤a?[BLANCO PC]
+     No.[GRISCLARO XM]
+
+43.- ¨Que opinais sobre los espa¤oles?[BLANCO PC]
+     Bueno, no los conozco a todos, pero los[GRISCLARO XM]
+     que conozco me caen bien.
+
+44.- ¨La scene hispana tiene una gran cantera?[BLANCO PC]
+     No entiendo bien la pregunta :)[AZULCLARO XM]
+
+45.- La scene  dislumbra por la poca presencia[BLANCO PC]
+     de  chicas o  mujeres. ¨Cual  es  vuestra
+     opinion sobre el asunto?
+     Me da miedo pensar como ser¡an las demos si hubiera mas mujeres que[GRISCLARO PCT IZQUIERDA]
+     hombres en la scene. (bromeando, otra vez).[NO]
+
+46.- Y por £ltimo, y lo m s importante. Siempre es usual hacer una demo en[BLANCO PC IZQUIERDA]
+     honor al amor que se siente a las mujeres. Por lo que se suelen
+     introducir im genes de chicas, sobre todo los coders masculinos.
+     En el caso, de que haya coders femeninas, ¨os parecer¡a bien que se
+     pusiesen im genes masculinas del mismo indole que las anteriores?
+     A mi no me importaria, pero quien querr¡a ver un demo as¡?[AZULCLARO PCT]
