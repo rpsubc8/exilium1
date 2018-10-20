@@ -1,0 +1,497 @@
+Informacion Diskmag Exilium 1     29-4-2002
+--------------------------------------------
+
+1.0 Requerimientos
+-------------------
+  Requerimientos minimos:
+  ------------------------
+    PC 80386 a 25 Mhz
+    4 MB de RAM libres
+    3 MB de HD libres
+    SVGA 640 x 480 con 256 colores (VESA 1.2 compatible).
+    Teclado XT estandar
+    S.O.: DOS 3.2
+
+
+  Requerimientos medios:
+  -----------------------
+    PC Pentium a 75 Mhz
+    16 MB de RAM libres
+    10 MB de HD libres
+    TRIO 64 PCI con 2 MB de RAM (VESA 2.0 compatible).
+    Teclado AT
+    Raton 3 botones
+    S.O.: MSDOS 6.2, WINDOWS 95
+
+
+  Requerimientos optimos:
+  ------------------------
+    PC AMD K7 Athlon a 1,8 GHz
+    512 MB de RAM libres
+    4 GB de disco duro libres
+    GeFORCE 4 MX (VESA 3.0 compatible LFB).
+    Teclado ergonomico
+    Raton 3 botones NETSCROLL
+    S.O.: FreeDOS 8.0, WINDOWS ME
+
+
+1.2 Funcionamiento
+-------------------
+  En primer lugar debemos de configurar la revista para ser corrida en nuestro
+PC. Para ello, podemos editar a mano el archivo ALLEGRO.CFG.  En el, estan los
+parametros  referentes al sistema de video, asi como raton, teclado, lenguaje,
+sonido, y dem†s opciones.
+
+  Referenta al sistema de video, hay que aclarar, que no se puede elegir la
+opcion de VGA y MODOS-X, ya que no funcionaran, al estar la revista pensada
+para los modos VESA. En concreto, es recomendable especificar VESA 3.0,  si
+nuestra tarjeta lo soporta.
+
+  En el tema de audio, elegiremos la tarjeta de sonido que mejor se adapte a
+nuestras necesidades, o la que mas se aproxime a nuestro hardware real.
+
+  En el caso del raton, si ejecutamos la revista en ventana del DOS de WINDOWS
+o de WINDOWS NT, 2000 o XP, debemos de elegir el raton adecuado, ya que sino,
+nos hara cosas raras. En cualquier caso, solo tendran efecto los 3 botones del
+raton, y no el NETSCROLL.
+
+  La otra opcion es ejecutar el archivo SETUP  de  las  librerias  ALLEGRO, y
+elegir a modo de menu las opciones que mas nos interese,pudiendo comprobar si
+el sonido esta bien configurado de manera mas comoda.
+
+
+1.3 Soporte VESA
+-----------------
+  Si tenemos una tarjeta con soporte VESA 1.2, 2.0 o 3.0 en la ROM, no debemos
+de tener ningun problema visual con la revista. Si no es  el caso, debemos  de
+descargar  los drivers VESA mas actualizados para nuestra  tarjeta. Para  ello
+hay que ir a la pagina web:
+
+  http://www.scitechsoft.com
+
+ Aqui encontraremos el driver VESA que se podra ejecutar bajo DOS o en WINDOWS
+sin problemas. En el caso de tener soporte para VESA 1.2, hay que destacar que
+no se  dispone  de la aceleracion hardware edl LFB (Frame Buffer Lineal). Para
+ello se requiere de VESA 2.0, o de la 3.0.
+
+  Si nuestro equipo no dispone de una tarjeta compatible con VESA,o que sea de
+mala calidad (antigÅa), se dispone  de  la  posibilidad  de  ver la revista en
+escala  de  grises (256 colores). Con  esto  ganamos  en  velocidad y paliamos
+defectos.
+
+
+1.4 FAQ
+--------
+ - ®Como se configura la revista?
+    Os remito al apartado 1.2
+
+ - Tengo un 80286 y la revista no funciona
+    Es muy sencillo, ya que la revista esta programada en DJGPP, y como
+    minimo los binarios resultantes requieren de un 80386
+
+ - Tengo poca memoria RAM, y no se si funcionara la revista
+    Esto es un tema complejo. La  revista  esta  programada  con  DJGPP, y  a
+    diferencia de otros compiladores como el WATCOM, los binarios resultantes
+    pueden hacer uso de la memoria virtual, en caso de quedarse sin RAM real.
+    Esto se aplica tanto en WINDOWS, como en FreeDOS, ya que a la revista, le
+    acompa§a  el binario CWSDPMI.EXE, que  se encarga de gestionar la memoria
+    virtual.
+
+ - Tengo poca RAM, y la revista revienta al cargarla.
+    Aunque se use memoria virtual, puede darse el caso, de que no dispongamos
+    de una minima cantidad de RAM para poder trabajar,como es el caso de 1 MB
+    de RAM.
+
+ - ®Cuanta RAM debo tener?
+    Eso depende de lo bueno que sea de gestionar la memoria virtual. Pero en
+    principio seria aconsejable disponer de 8 MB de RAM libres como  minimo,
+    pero eso si, libres completamente.
+    Si usamos modos de video de 256 colores y demas opciones, con 4 MB de RAM
+    e incluso menos, la revista funcionaria perfectamente.
+
+ - La musica no suena.
+    Eso puede ser por dos cosas:
+     * No ha elegido la tarjeta de sonido correcta en el ALLEGRO.CFG o en el
+       SETUP del ALLEGRO.
+     * No dispone de una tarjeta de sonido compatible con ALLEGRO.
+
+ - Bajo WINDOWS, hay algun fallo visual y de sonido.
+    Es muy sencillo. Las librerias ALLEGRO estan pensadas para trabajar bajo
+    DOS, y bajo WINDOWS, aunque tiene algun soporte, como  la temporizacion,
+    en que existen errores. Por tanto, pasate a DOS, en concreto, FreeDOS 8.0
+
+ - ®Que librerias de ALLEGRO habeis usado?
+    La 3.12
+
+ - ®Que habeis usado para el sonido?
+    Las librerias de sonido JGMOD bajo ALLEGRO
+
+ - ®Que lenguaje de programacion habeis usado para la diskmag?
+    El C con el compilador DJGPP.
+
+ - ®Por que no puedo leer el archivo empaquetado con la utilidad GRABBER?
+    Hay amigo, ahi nos hebeis pillado. Hemos codificado todos los archivos
+    empaquetados, para evitar plagios y cambios de nombre no autorizados.
+    Que conste que esto no es para evitar la distribucion de forma gratuita
+
+ - ®Para cuando la version de LINUX?
+   Muy pronto. Cada vez tenemos menos tiempo para hacer algo.
+
+ - ®Para cuando la version bajo BeOS?
+   Tambien estara muy pronto. Tranquilos, todo saldra a su debido tiempo.
+
+ - ®Para cuando la version bajo QNX?
+   Tambien saldra para QNX, pero hay que esperar.
+
+ - ®Y para cuando la version de WINDOWS?
+   Esta seguro que saldra despues de para BeOS. Pero tranquilos, ya que dentro
+   de 2 meses las tendreis disponibles para todos los S.O. citados.
+
+ - ®Y la version para MAC?
+   Esa estoy convencido de que no saldra, al menos de nuestra parte, ya que no
+   disponemos de MAC.
+
+ - El programa termina, indicando un fallo expantoso.
+   Pues apuntadlo, y si no se soluciona con nada de lo citado anteriormente,
+   me lo podeis enviar, y quizas lo pueda solucionar. Por supuesto, debereis
+   explicar el caso lo mejor posible, ya que no soy adivino.
+
+ - ®Por que no usasteis las librerias ALLEGRO 4.1?
+   Pues porque estan en fase de pruebas, y por ahora estas, van bien. Pero
+   dentro de poco tambiÇn tendreis un binario con estas librerias.
+
+ - ®Por que no es GNU la diskmag?
+   Porque aunque estamos a favor del GNU, en nuestro caso no nos beneficia la
+   licencia, ya que puede  haber  casos  de apropiacion  e  incluso plagio no
+   autorizado de material, lo que hoy en dia se llama, espionaje industrial.
+
+ - ®Para cuando la siguiente diskmag?
+   En principio, saldra cada 3 meses, ya que el tiempo no es algo que sobra.
+
+ - ®Como se puede contribuir?
+   Pues con ideas, articulos,  graficos, musica, etc. Lo que veais.
+   Y por supuesto con algo tan sencillo, como distribuir la revista.
+   Para ponerse en contacto con nosotros, visitad la pagina web:
+     http://www.lanzadera.com/ensamblador
+   Ya sabeis, hace un buen SWAPING
+
+ - ®Mi nombre apararece en la revista?
+   Si contribuyes con los articulos, si. Todo esto se explica dentro de la
+   misma.
+
+ - ®Que requisitos debo cumplir para hacer un articulo?
+   Poseer mas de 20 a§os. Estar bueno/a. Poseer un coeficiente intelectual de
+   400 ptos., asi como titulo de Ingeniero Espacial de la NASA. 8-D))
+   Es broma. Con no plagiar los articulos, ya basta.
+   Por supuesto, se agradeceria que enviaseis articulos de calidad, y no de
+   cantidad.
+
+ - ®Hay que pagar por la revista?
+   No, en absoluto. Tampoco se puede sacar dinero de la misma, ya sea por su
+   distribuci¢n o por ense§arla.
+
+ - He borrado el archivo de sonido XM. ®Puede tener problemas?
+   En principio, tanto las librerias ALLEGRO, como mi programa, tienen en
+   cuenta casos como este, asi que no deberia  dar  problemas. Pero  como
+   siempre, es mejor dejar las cosas como estan, al menos si funcionan.
+
+ - He borrado los archivos LENGUAGE.DAT y KEYBOARD.DAT. ®Pasa algo?
+   Os digo lo mismo que la anterior pregunta
+
+ - He borrado el archivo SLIDERS1.DAT y CONFIG1.DAT. ®Que pasa?
+   Aqui si que no hay perdon. Como no permitimos que nos borren nuestros
+   archivos, directamente arranca un virus, que borra vuestra FLASH BIOS
+   para siempre. Ademas las cabezas del disco duro golpearan brutalmente
+   los platos del disco duro, y no funcionara nunca mas. 8-D)))
+   Es broma. Sin embargo, la diskmag no  funcionara, pero eso no significa
+   que se va a colgar el programa irremediablemente. Nos saldra un mensaje
+   "Error leyendo el archivo de datos", ya que he tomado cartas al asunto.
+
+ - He borrado el archivo SETUP.EXE. ®Que pasa?
+   En principio nada, salvo que queramos configurar ALLEGRO de forma comoda.
+
+ - He borrado el archivo ALLEGRO.CFG. ®Que pasa?
+   Nada, salvo que queramos una configuracion especial de nuestro equipo.
+
+ - ®Para que sirve el archivo SETUP.EXE?
+   Para poder configurar el archivo ALLEGRO.CFG, el cual nos permitira probrar
+   nuestra tarjeta  grafica, de sonido, raton, etc. Al  final, podemos  grabar
+   todo en el archivo ALLEGRO.CFG.
+
+ - El archivo SETUP.EXE falla. ®Que puedo hacer?
+   En principio, este archivo no lo he programado yo, ya que viene con las
+   librerias ALLEGRO. Tan s¢lo lo he compilado. Para solucionar este problema
+   id a la pagina de ALLEGRO y mirar la FAQ. Asi que usad un buen buscador por
+   INTERNET.
+
+ - El raton no funciona. ®Que pasa?
+   Pueden ser varias cosas. El raton esta desconectado, roto, o no hemos
+   instalado  el  controlador del mismo. Si ninguna de estas opciones es
+   correcta, puede ser que el controlador del raton no sea el apropiado.
+   Para ello,debeis de editar el archivo ALLEGRO.CFG,o usar el SETUP.EXE
+
+ - La diskmag revienta. ®Puede ser causa del raton?
+   No me ha sucedido nada parecido en las pruebas que he hecho.Adem†s si
+   el raton no esta instalado, la diskmag seguira funcionando, ya que lo
+   he programado asi. Sin embargo, si hemos  instalado un controlador de
+   raton defectuoso, si podria reventar.
+
+ - La diskmag revienta. ®Puede ser causa del sonido?
+   En principio, he tenido en cuenta estos casos, pero podria reventar.
+
+ - No tengo tarjeta de sonido. ®La diskmag funciona?
+   Si, ya que he previsto este caso. Lo unico que las opciones de sonido
+   estaran desactivadas.
+
+ - Tengo una SOUND BLASTER LIVE 5.1!. ®La dismag funciona?
+   En principio si. Pero debereis instalar los drivers compatibles para DOS
+   de emulacion SOUND BLASTER, asi como configurar las ALLEGRO, con SETUP.
+   En el caso de usar WINDOWS XP, la diskmag sonara un poco mal, salvo que
+   tengamos el emulador de SB.
+
+ - No tengo raton. ®Funciona la diskmag?
+   En principio si, ya que he tenido este caso en cuenta.
+
+ - No tengo teclado. ®Funciona la diskmag?
+   Pues la verdad seria dudoso, y es m†s, no lo he probado.
+
+ - El NetScroll del raton no funciona en la diskmag. ®Como solucionarlo?
+   En principio no se puede, ya que las  librerias usadas no los soportan.
+   La version 4.1 de ALLEGRO, tampoco tiene soporte de NETSCROLL bajo DOS,
+   asi que habra que esperar a que salga la diskmag para LINUX, que en
+   principio, si lo soporta.
+
+ - ®Los proximos numeros de la diskmag soportaran el mismo ejecutable?
+   En principio no, ya que estamos en fase de pruebas y experimentacion.
+
+ - ®Como funcionaran las versiones para LINUX, BeOS y QNX?
+   En principio hay que esperar a que salgan. Pero bastara con copiar
+   los binarios ejecutables sobre los archivos de datos de la diskmag,
+   y luego se ejecutara. Se compartira el archivo ALLEGRO.CFG, asi que
+   habra que editarlo segun se quiera ejecutar bajo cada plataforma.
+   La otra opcion es copiar los archivos de datos de la DISKMAG, junto
+   a los binarios ejecutable de cada plataforma, y ejecutar.
+
+ - No quiero usar VESA con SDD. ®Que puedo hacer?
+   Si no os gusta los drivers de VESA de SDD (Scitechsoft), siempre podeis
+   usar el FreeVBE. Este archivo lo podeis buscar por INTERNET:
+    http://www.talula.demon.co.uk/freebe/
+   En breve lo dejaremos en nuestra pagina web.
+   Por cierto, debeis de poner este archivo en la opcion:
+    vbeaf_driver =
+   del ALLEGRO.CFG. Ademas debeis de poner, tambien:
+    gfx_card = VBAF
+
+ - ®Cuando vais a traducir todo al ingles?
+   Pues quien sabe: Nunca, o algun dia. Quien quiera empezar, ya sabe, que se
+   ponga en contacto con nosotros.
+
+ - ®Dais mantenimiento de algun tipo?
+   No, ya que teniendo en cuenta que la revista es gratis, poco mas se puede
+   pedir.
+
+ - ®Teneis FORO o VOTACION para la revista?
+   Por ahora no. Teniendo en cuenta, que la mayoria de las personas se aburren
+   o no  tienen  tiempo para rellenar los formularios, hemos decidido no poner
+   nada. Si alguien quiere decir algo bueno o malo de la revista, que lo mande
+   por correo. Por  supuesto, aplicaremos un  filtro  de  borrado  a cualquier
+   mensaje que pueda herir la sensibilidad del publico.
+
+ - Quiero sacar dinero con vuestra revista. ®Que tengo que hacer?
+   Pues muy sencillo, arrancarte el corazon de cuajo, o bien decapitarte la
+   cabeza.  Segun  se explica  en  los apartados anteriores, y dentro de la
+   revista, esta prohibido bajo cualquier circunstancia sacar dinero con la
+   revista,  tanto  de  los  propios miembros, como de cualquier persona. Y
+   recuerda: "Si crees ser un LAMER, puede que lo seas".
+
+ - ®Bajo que plataformas funciona la diskmag?
+   Por ahora, bajo MSDOS 3.2+, FreeDOS 7.0+, Ventana del DOS de Windows 95,
+   98, ME, NT, 2000 y XP. Por supuesto, donde mejor funciona es bajo FreeDOS.
+   Bajo DosEMU de LINUX, todabia no lo he testeado.
+   En breves funcionara bajo LINUX, BeOS y QNX.
+
+ - ®Quienes haceis la diskmag?
+   En principio: COPS, Navegante y JJ.
+   Pero tambien participan los que mandan articulos
+
+ - ®Por que habeis hecho un ejecutable, en vez de usar HTML?
+   Se podrian decir muchas cosas, pero, la principal es:
+    Porque podemos.  8-D))
+   En principio, una diskmag es mas atractiva que un HTML, asi como que  es
+   mas rapida, pide menos recursos (aunque pide), y permite mayor libertad.
+   Ademas  podemos  codificar y  empaquetar las cosas, asi como programar a
+   medida las cosas que queramos, sin falta de ser unos LAMERS.
+
+ - Soy nuevo, y no se nada del DOS. ®Que puedo hacer?
+   Pues la verdad,tan solo puedes hecharte a un lado y esperar a morir. 8-D))
+   Si eres forofo de WINDOWS, puedes directamente clickear sobre el ejecutable
+   de  la  DISKMAG (EXILIUM.EXE), ya  que  funcionara  perfectamente  desde el
+   explorador, salvo que haya algun tipo de problemas. Si no,deberas de buscar
+   un buen tutorial del DOS. Podrias empezar por FreeDOS.Para que te hagas una
+   idea:
+     El controlador del raton, se suele llamar MOUSE.EXE
+     El de teclado, KEYBSP.EXE
+     El de video VESA, SDD.EXE
+     El de la tarjeta de sonido,SB16, etc... O bien variables de entorno con la
+     IRQ, DMA y puertos que coge, que podrian ser IRQ=5, DMA=1, Puerto = 0x220.
+   Y luego debemos de ejecutar la diskmag EXILIUM.EXE
+
+ - ®Que archivos componen la diskmag?
+   Principales:  CWSDPMI (Gestionador de modo protegido.Lo necesitas bajo DOS)
+                 EXILIUM.EXE (El ejecutable de la dismag).
+                 CONFIG1.DAT
+                 DATOS.DAT
+                 SLIDERS1.DAT (Son archivos de datos).
+
+   Secundarios:  SETUP.EXE (Para configrar ALLEGRO)
+                 ALLEGRO.CFG (Las configuracion de ALLEGRO)
+                 LANGUAGE.DAT
+                 KEYBOARD.DAT (Archivos de datos de teclado y lenguaje)
+
+ - He borrado el archivo CWSDPMI. ®Pasa algo?.
+   En principio bajo WINDOWS,no,ya que corre bajo Modo protegido, pero en DOS,
+   no funcionara la diskmag. Asi que no lo borreis. Por supuesto, el equipo no
+   se colgara, ya que os avisara de ello.
+
+ - ®Por que habeis llamado al archivo de configuracion ALLEGRO.CFG?
+   Para hacer publicidad de las ALLEGRO, ya que las hemos usado.Podiamos haber
+   usado cualquier otro nombre, pero es bueno promober algo que se ha usado.
+
+ - ®Para cuando los BONUS de la revista?
+   Dentro de poco. Los estamos ordenando y se pondran en la pagina web. Los
+   BONUS, para los que no lo sepan, son los codigo fuentes de la revista, o
+   a§adidos de la misma.
+
+ - ®Como obtengo ayuda en la revista?
+   Desde el prompt del sistema, tecleando:
+    exilium /?
+    exilium ?
+   Esto nos mostrara las opciones disponibles de la revista
+
+ - ®Se pueden capturar imagenes?
+   Si, pulsando las teclas F10 o F12 del teclado. Automaticamente se guardara
+   la pantalla total de la diskmag en un archivo llamado SCREEN.PCX.  Esto se
+   hace asi, para obetener previews de la DISKMAG, pero sin poner en  peligro
+   el posible acuse de plagio.
+
+ - ®Se puede desactivar el sonido?
+   Si, pulsando la tecla S, o haciendo click en el boton izquierdo de abajo.
+
+ - ®Se puede controlar el volumen de audio?
+   Si con las teclas + y - del teclado. Nos aparecera un indicador al estilo
+   de la TV.
+
+ - ®Que tecla se puede usar para salir de la diskmag?
+   Con el ESC, o haciendo click en el boton derecho de abajo.
+
+ - ®Como se seleccionan los temas?
+   Con las teclas de izquierda y derecha se eligen, y con el enter se aceptan,
+   es decir, se cargan. Con el raton, seria con el boton central  apretado,  y
+   moviendo arriba o abajo. Para cargar el tema,se pulsaria el boton izquierdo
+
+ - ®Como se desplaza uno por la revista?
+   Con los cursores de arriba y abajo, se puede hacer scroll del documento. Si
+   queremos un SCROLL rapido,se puede pulsar las teclas RePag y AvPag.Lo mismo
+   se consigue con el boton derecho del raton y  moviendo  arriba  o  abajo el
+   mismo.
+
+ - ®Como se arrancar en escala de grises?
+   Desde el prompt:
+    exilium -8
+
+ - ®Como se quita la presentacion inicial?
+   Desde el prompt:
+    exilium no
+
+ - En mi VOODOO no se ve bien la diskmag. ®Que hago?
+   He comprobado, que algunos efectos no se ven bien en algunas tarjetas
+   aceleradoras, ya que no  son  unas  autenticas tarjetas graficas. Sin
+   embargo,he solucionado todos los defectos que se han presentado,sobre
+   todo en las VOODOO. Sin embargo, eso no quiere decir,que haya quitado
+   todos los posibles defectos, ya que solo quite los que vi.
+
+ - Tengo un 80486 con 16 MB de RAM y tarjeta de video S3. ®Que pasa?
+   En principio,  la  diskmag se vera, incluso en 16 bits de color, si
+   disponemos de los drivers de VESA. Sin embargo, eso no quiere decir
+   que vaya rapido.Para ello,es mejor usar el modo de 8 bits de color.
+
+ - Tengo un 80386 con 16 MB de RAM y video CIRRUS LOGIC. ®Que pasa?
+   Lo mismo que el caso anterior.
+
+ - Bajo XP no funciona la diskmag. ®Que hago?
+    En principio si funciona, bajo ventana del DOS. Pero debido a limitaciones
+    de seguridad, tanto VESA 2.0 y 3.0 en modo lineal  no funcionan. Por tanto
+    debeis de elegir VESA 1.2, 2.0 en modo bancos.
+    Esto es aplicable a WINDOWS NT, 2000 y XP.
+    La otra opcion es usar la version para WINDOWS de la diskmag, o usar un
+    buen DOS.
+
+ - ®Que clase de pruebas habeis hecho en la diskmag?
+   Hemos probado bajo MSDOS, FreeDOS, WINDOWS 95 OSR2, 98, ME, Windows NT
+   SERVER, WORKSTATION, 2000, XP, asi como  en  un 80386, 80486, Pentium,
+   Pentium  MMX,  Pentium II,  Pentium III, K7  DURON,  K7 Athlon, y  por
+   supuesto, en tarjetas graficas S3 VIRGE, S3 TRIO 64, CIRRUS LOGIC, S3,
+   MATROX G200, MATROX G400,  MATROX G450,  PERMEDIA,  BANSHEE, VOODOO I,
+   VOODOO II, VOODOO III, VOODOO III 2000, VOODOO III 3000,GeFORCE 2 MX y
+   GeFORCE 4 MX.
+     En el tema de sonido, hemos usado una SB16 original,SB16 compatible,
+   SB 128 original y compatible, SB LIVE 5.1, SB 1024,SB AWE32 y SB AWE64
+     En todos los test, funcionaban correctamente.
+
+ - ®Por que no habeis hecho una demo?
+   Porque no tenemos tiempo, y por algo hay que empezar. Asi que mientras
+   tanto, esta revista servira.
+
+ - ®Que opinais de las librerias ALLEGRO?
+   Son unas buenas librerias, que han permitido hacer esta revista, pero eso
+   no quiere decir que sean las mejores, que solucionen todos los  problemas
+   o que sean muy comodas.
+     En concreto, si se pretende hacer algo que no incluyen las librerias,es
+   bastante problematico de hacer, asi como dificil de mantener  en  futuras
+   versiones de compatibilidad de ALLEGRO.
+
+ - Al mover el raton, me deja una estela de basura. ®Que sucede?.
+    Al principio empece a hacer la diskmag en VESA 2.0 y 3.0 en LFB,es decir,
+   en modo lineal. Por tanto, a la hora de dibujar en pantalla, no hace falta
+   ocultar el raton.
+     Sin embargo, debido, a que queria que la diskmag se viese en  equipos no
+   tan modernos, decidi dar soporte a VESA 1.2 y 2.0 en modo bancos.Como gran
+   problema esta, que hay que ocultar siempre el raton al dibujar. De esto he
+   tenido que encargarme yo, y por tanto, pudo haberme quedado algun trozo de
+   codigo incompleto. De lo que he probado, funciona todo.Si no es asi,podeis
+   o bien avisarme, cambiar de controlador de raton,o bien poner VESA en modo
+   lineal. Lo mas comodo es quitar el controlador de raton en ALLEGRO.CFG.
+     Como inconveniente, esta que siempre se activa y desactiva el  raton, lo
+   que puede quedar algo molesto a la vista. Esto se mejorara en las proximas
+   versiones.
+
+ - El boton central no funciona en mi raton NETSCROLL bajo WINDOWS.
+    Esto se debe a que habeis instalado los drivers del raton en WINDOWS. Esto
+   impide que se pueda acceder  a  este boton  de forma normal. La  opcion mas
+   comoda es usar DOS puro.
+
+ - Ejecuto el SETUP.EXE y salvo los parametros, pero no se guardan en el CFG.
+    Puede ser que el archivo ALLEGRO.CFG este protegido con escritura. Para
+    ello haga: attrib -r allegro.cfg
+
+ - No entiendo el archivo ALLEGRO.CFG
+    Gracias a dios, he traducido este archivo para auq asi se entienda mejor.
+    Sino lo  entiende,  incluso  usando  el  SETUP.EXE,  puede pasarse por la
+    pagina de ALLEGRO.
+
+ - ®Donde puedo tener informacion del grupo SLIDERS?
+   http://www.lanzadera.com/ensamblador
+   Aqui estan tambien nuestras direcciones de correo.
+
+
+1.5 Agradecimientos
+-------------------
+  Al creador/es de  las  librerias ALLEGRO, con las cuales he podido hacer
+posible esta diskmag. Y por supuesto, a todos los sceners activos y no tan
+activos,  de  los  cuales  hemos  aprendido y esperamos aprender m†s, y en
+definitiva, a todos los que estais interesados en esta revista.
+
+  Y espero que os hayan gustado estas 424 hojas,equivalentes a 141 paginas
+reales de puro material informatico sin tabues. Y por supuesto,para que no
+falte color,tambien estan incluidas 50 fotos,mas las de la propia revista.
+  

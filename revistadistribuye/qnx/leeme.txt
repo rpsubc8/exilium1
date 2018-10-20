@@ -1,0 +1,464 @@
+Informacion Diskmag Exilium 1  QNX 6.1  29-4-2002
+-------------------------------------------------
+
+Importante: Este  paquete solo contiene los ejecutables de la version QNX 6.1,
+            no los datos de la diskmag. Para ello, descargar la version para
+            DOS.
+
+Nota: El sonido no funciona
+      El NETSCROLL no funciona muy bien
+
+1.0 Requerimientos
+-------------------
+  Requerimientos minimos:
+  ------------------------
+    PC 80386
+    16 MB de RAM libres
+    3 MB de HD libres
+    SVGA 640 x 480 con 256 colores
+    Teclado XT estandar
+    S.O.: QNX 6.1
+
+
+  Requerimientos medios:
+  -----------------------
+    PC INTEL PENTIUM MMX 166 Mhz
+    64 MB de RAM libres
+    10 MB de HD libres
+    S3 VIRGE PCI con 2 MB de RAM
+    Teclado AT
+    Raton 3 botones
+    S.O.: QNX 6.1
+
+
+  Requerimientos optimos:
+  ------------------------
+    PC AMD K7 Athlon a 1,8 GHz
+    512 MB de RAM libres
+    4 GB de disco duro libres
+    GeFORCE 4 MX
+    Teclado ergonomico
+    Raton 3 botones NETSCROLL
+    S.O.: QNX 6.1
+
+
+1.2 Funcionamiento
+-------------------
+  En primer lugar debemos de configurar la revista para ser corrida en nuestro
+PC. Para ello, podemos editar a mano el archivo allegro.cfg.  En el, estan los
+parametros  referentes al sistema de video, asi como raton, teclado, lenguaje,
+sonido, y dem†s opciones.
+
+  Referenta al sistema de video, hay que aclarar, que todo gira en torno al
+servidor Photon. Podemos elegir o QPH para modo ventana, o bien QPHD para
+pantalla completa.
+
+  En el tema de audio, no hay problema, ya que no se ha incluido.
+
+
+1.3 Instalacion.
+-----------------
+  Si habeis instalado la revista para funcionar bajo DOS, notareis que hay
+varios archivos, que son los siguiente:
+
+   Para datos: config1.dat
+               sliders1.dat
+               datos.dat
+               language.dat
+               keyboard.dat
+               exilium.dat
+               cwsdpmi
+
+   Extras: exilium.exe
+           setup.exe
+           leeme.txt
+           allegro.cfg
+
+   Como podreis obserbar, los archivos de DATOS, son los importantes, y por
+consiguiente, no se pueden borrar. Los otros archivos, pueden ser machacados
+por nuestra version de QNX, o por las de otros sistema.
+   Por tanto podeis descomprimir el binario de QNX, que contiene:
+
+    qnxexilium
+    allegro.cfg
+    leeme.txt
+
+   Una vez hecho esto, se machacara el ALLEGRO.CFG y el LEEME.TXT. Por tanto,
+se recomienda que en vez de macharlo, se copien a un nuevo directorio los
+archivos de DATOS y los archivos de QNX. Eso es a gusto del consumidor.
+
+
+1.4 FAQ
+--------
+ - ®Como se configura la revista?
+    Os remito al apartado 1.2
+
+ - Lanzo la revista desde el explorador de archivos, y no hace nada.
+    Eso se debe a que debeis lanzarla desde el terminal.
+
+ - Error en modo grafico y cambio en archivo CFG. ®Que pasa?
+     Pues que no soporta el modo grafico actual.Lo podeis solucionar,cambiando
+   en el archivo ALLEGRO.CFG el  driver  grafico a pantalla completa o a  otro
+   tipico  GDI  de  modo  ventana.  Otras  veces  se  soluciona  cambiando  la
+   profundidad  de  color de nuestro escritorio a 24 bits de color, en caso de
+   que se ejecute en modo ventana. Tambien podeis poner el escritorio en 256
+   colores (8 bits).
+     La solucion mas sencilla es ejecutarlo en escala de grises.
+
+ - Los archivos estan con mayusculas. ®Pasa algo?
+    Todos los archivos deben estar en minusculas. Sino es asi, la revista no
+    funcionara, y debereis de cambiarlos a minusculas. Esto se aplica tambien
+    a LINUX.
+
+ - La revista ejecuta la portada y luego sale sin avisar de nada.
+    Puede ser debido a un error en los modos de video, que no pueden ser
+    enmascarados por la diskmag. En este caso,probad a cambiar el driver
+    grafico en el allegro.cfg.
+
+ - ®Por que salen unos caracteres raros en los datos del articulos?
+     Esto se debe a un error visual y no de programacion.Si se ve en
+   vuestro equipo es que habeis cogido una version de laboratorio de
+   la revista. En las versiones oficiales se ha solucionado.
+
+ - Los caracteres extendidos salen mal.
+     Esto ya se ha solucionado en la version oficial. Si teneis alguna
+   version de laboratorio, se vera mal.
+
+ - ®Por que habeis tardado en sacar tanto la version para QNX?
+    Porque empezamos a desarrollar la diskmag para DOS, y para los demas
+    S.O., aunque usan ALLEGRO, hay que adaptar alguna linea de codigo, y
+    por supuesto, hay partes de codigo C propias,que no se pueden portar
+    de forma comoda a cada plataforma. Por lo que al final,hemos tardado
+    mas tiempo en sacarla.
+
+ - El sonido no funciona.
+    Muy sencillo, ya que no hemos incluido esta opcion, debido a unos
+    peque§os fallos. Quizas en breve, tengamos una version con sonido.
+    Mientras tanto podeis ejecutar el archivo de sonido en bakground.
+
+ - ®Quien se encargo de portar la version para QNX?
+    JJ, al igual que la version para DOS, WINDOWS, BeOS y LINUX.
+
+ - Tengo un 80286 y la revista no funciona.
+    Es muy sencillo, ya que la revista esta programada en GCC y QNX, y
+    como minimo los binarios resultantes requieren de un 80386
+
+ - Tengo poca memoria RAM, y no se si funcionara la revista
+    Esto depende de lo bien que maneje el S.O. la memoria virtual.
+
+ - Tengo poca RAM, y la revista revienta al cargarla.
+    Aunque se use memoria virtual, puede darse el caso, de que no dispongamos
+    de una minima cantidad de RAM para poder trabajar,como es el caso de 4 MB
+    de RAM.
+
+ - ®Cuanta RAM debo tener?
+    Eso depende de lo bueno que sea de gestionar la memoria virtual. Pero en
+    principio seria aconsejable disponer de 16 MB de RAM libres como  minimo,
+    pero eso si, libres completamente.
+    Si usamos modos de video de 256 colores y demas opciones, con 8 MB de RAM
+    e incluso menos, la revista funcionaria perfectamente.
+
+ - Bajo QNX, hay algun fallo visual.
+    Eso es un tema complejo, ya que puede ser causa de ALLEGRO o
+    incluso yo mismo. Recordad que las ALLEGRO estan en fase ALFA.
+
+ - ®Que librerias de ALLEGRO habeis usado?
+     Las 4.1
+
+ - ®Que lenguaje de programacion habeis usado para la diskmag?
+    El C con el compilador GCC, que viene en los packages de QNX.
+
+ - ®Por que no puedo leer el archivo empaquetado con la utilidad GRABBER?
+    Hay amigo, ahi nos hebeis pillado. Hemos codificado todos los archivos
+    empaquetados, para evitar plagios y cambios de nombre no autorizados.
+    Que conste que esto no es para evitar la distribucion de forma gratuita
+
+ - ®Para cuando la version de DOS?
+    Ya existe desde los comienzos.
+
+ - ®Para cuando la version de LINUX?
+    Acaba de salir a la par de BeOS.
+
+ - ®Para cuando la version bajo BeOS?
+    Ya esta.
+
+ - ®Para cuando la version bajo QNX?
+    Aqui delante.
+
+ - ®Y para cuando la version de WINDOWS?
+    Ya ha salido, justo antes que para BeOS.
+
+ - ®Y la version para MAC?
+   Esa estoy convencido de que no saldra, al menos de nuestra parte, ya que no
+   disponemos de MAC.
+
+ - ®Por que sale en ventana de QNX la diskmag?
+    Porque esta especificado en el archivo allegro.cfg
+
+ - El programa termina, indicando un fallo expantoso.
+   Pues apuntadlo, y si no se soluciona con nada de lo citado anteriormente,
+   me lo podeis enviar, y quizas lo pueda solucionar. Por supuesto, debereis
+   explicar el caso lo mejor posible, ya que no soy adivino.
+
+ - ®Por que no es GNU la diskmag?
+   Porque aunque estamos a favor del GNU, en nuestro caso no nos beneficia la
+   licencia, ya que puede  haber  casos  de apropiacion  e  incluso plagio no
+   autorizado de material, lo que hoy en dia se llama, espionaje industrial.
+
+ - ®Para cuando la siguiente diskmag?
+   En principio, saldra cada 3 meses, ya que el tiempo no es algo que sobra.
+
+ - ®Como se puede contribuir?
+   Pues con ideas, articulos,  graficos, musica, etc. Lo que veais.
+   Y por supuesto con algo tan sencillo, como distribuir la revista.
+   Para ponerse en contacto con nosotros, visitad la pagina web:
+     http://www.lanzadera.com/ensamblador
+   Ya sabeis, hace un buen SWAPING
+
+ - ®Mi nombre apararece en la revista?
+   Si contribuyes con los articulos, si. Todo esto se explica dentro de la
+   misma.
+
+ - ®Que requisitos debo cumplir para hacer un articulo?
+   Poseer mas de 20 a§os. Estar bueno/a. Poseer un coeficiente intelectual de
+   400 ptos., asi como titulo de Ingeniero Espacial de la NASA. 8-D))
+   Es broma. Con no plagiar los articulos, ya basta.
+   Por supuesto, se agradeceria que enviaseis articulos de calidad, y no de
+   cantidad.
+
+ - ®Hay que pagar por la revista?
+   No, en absoluto. Tampoco se puede sacar dinero de la misma, ya sea por su
+   distribuci¢n o por ense§arla.
+
+ - He borrado el archivo de sonido XM. ®Puede tener problemas?
+   En principio, tanto las librerias ALLEGRO, como mi programa, tienen en
+   cuenta casos como este, asi que no deberia  dar  problemas. Pero  como
+   siempre, es mejor dejar las cosas como estan, al menos si funcionan.
+
+ - He borrado los archivos LENGUAGE.DAT y KEYBOARD.DAT. ®Pasa algo?
+   Os digo lo mismo que la anterior pregunta
+
+ - He borrado el archivo SLIDERS1.DAT y CONFIG1.DAT. ®Que pasa?
+   Aqui si que no hay perdon. Como no permitimos que nos borren nuestros
+   archivos, directamente arranca un virus, que borra vuestra FLASH BIOS
+   para siempre. Ademas las cabezas del disco duro golpearan brutalmente
+   los platos del disco duro, y no funcionara nunca mas. 8-D)))
+   Es broma. Sin embargo, la diskmag no  funcionara, pero eso no significa
+   que se va a colgar el programa irremediablemente. Nos saldra un mensaje
+   "Error leyendo el archivo de datos", ya que he tomado cartas al asunto.
+
+ - He borrado el archivo allegro.cfg. ®Que pasa?
+   Nada, salvo que queramos una configuracion especial de nuestro equipo.
+
+ - El raton no funciona. ®Que pasa?
+   Pueden ser varias cosas. El raton esta desconectado, roto, o no hemos
+   instalado  el  controlador del mismo. Si ninguna de estas opciones es
+   correcta, puede ser que el controlador del raton no sea el apropiado.
+   Para ello,debeis de editar el archivo allegro.cfg.
+
+ - La diskmag revienta. ®Puede ser causa del raton?
+   No me ha sucedido nada parecido en las pruebas que he hecho.Adem†s si
+   el raton no esta instalado, la diskmag seguira funcionando, ya que lo
+   he programado asi. Sin embargo, si hemos  instalado un controlador de
+   raton defectuoso, si podria reventar.
+
+ - No tengo raton. ®Funciona la diskmag?
+   En principio si, ya que he tenido este caso en cuenta.
+
+ - No tengo teclado. ®Funciona la diskmag?
+   Pues la verdad seria dudoso, y es m†s, no lo he probado.
+
+ - ®Funciona el NetScroll?
+    Si. Este caso lo he tenido en cuenta en QNX, y podeis usarlo para
+    hacer scroll arriba o abajao en el material de los articulos de la
+    revista. Sin embargo no funciona muy bien, al menos en las pruebas
+    que he hecho.
+
+ - ®Los proximos numeros de la diskmag soportaran el mismo ejecutable?
+   En principio no, ya que estamos en fase de pruebas y experimentacion.
+
+ - ®Como funcionaran las versiones para LINUX, WINDOWS y BeOS?
+   En principio hay que esperar a que salgan. Pero bastara con copiar
+   los binarios ejecutables sobre los archivos de datos de la diskmag,
+   y luego se ejecutara. Se compartira el archivo allegro.cfg, asi que
+   habra que editarlo segun se quiera ejecutar bajo cada plataforma.
+   La otra opcion es copiar los archivos de datos de la DISKMAG, junto
+   a los binarios ejecutable de cada plataforma, y ejecutar.
+
+ - ®Cuando vais a traducir todo al ingles?
+   Pues quien sabe: Nunca, o algun dia. Quien quiera empezar, ya sabe, que se
+   ponga en contacto con nosotros.
+
+ - ®Dais mantenimiento de algun tipo?
+   No, ya que teniendo en cuenta que la revista es gratis, poco mas se puede
+   pedir.
+
+ - ®Teneis FORO o VOTACION para la revista?
+   Por ahora no. Teniendo en cuenta, que la mayoria de las personas se aburren
+   o no  tienen  tiempo para rellenar los formularios, hemos decidido no poner
+   nada. Si alguien quiere decir algo bueno o malo de la revista, que lo mande
+   por correo. Por  supuesto, aplicaremos un  filtro  de  borrado  a cualquier
+   mensaje que pueda herir la sensibilidad del publico.
+
+ - Quiero sacar dinero con vuestra revista. ®Que tengo que hacer?
+   Pues muy sencillo, arrancarte el corazon de cuajo, o bien decapitarte la
+   cabeza.  Segun  se explica  en  los apartados anteriores, y dentro de la
+   revista, esta prohibido bajo cualquier circunstancia sacar dinero con la
+   revista,  tanto  de  los  propios miembros, como de cualquier persona. Y
+   recuerda: "Si crees ser un LAMER, puede que lo seas".
+
+ - ®Bajo que plataformas funciona la diskmag?
+   Pues por ahora bajo DOS, BeOS, LINUX, WIN32 y QNX.
+
+ - ®Quienes haceis la diskmag?
+   En principio: RGS, Navegante y JJ.
+   Pero tambien participan los que mandan articulos
+
+ - ®Por que habeis hecho un ejecutable, en vez de usar HTML?
+   Se podrian decir muchas cosas, pero, la principal es:
+    Porque podemos.  8-D))
+   En principio, una diskmag es mas atractiva que un HTML, asi como que  es
+   mas rapida, pide menos recursos (aunque pide), y permite mayor libertad.
+   Ademas  podemos  codificar y  empaquetar las cosas, asi como programar a
+   medida las cosas que queramos, sin falta de ser unos LAMERS.
+
+ - ®Por que habeis llamado al archivo de configuracion allegro.cfg?
+   Para hacer publicidad de las ALLEGRO, ya que las hemos usado.Podiamos haber
+   usado cualquier otro nombre, pero es bueno promober algo que se ha usado.
+
+ - ®Para cuando los BONUS de la revista?
+   Dentro de poco. Los estamos ordenando y se pondran en la pagina web. Los
+   BONUS, para los que no lo sepan, son los codigo fuentes de la revista, o
+   a§adidos de la misma.
+
+ - ®Como obtengo ayuda en la revista?
+   Desde el prompt del sistema, tecleando:
+    qnxexilium /?
+    qnxexilium ?
+   Esto nos mostrara las opciones disponibles de la revista
+
+ - ®Se pueden capturar imagenes?
+   Si, pulsando las teclas F10 o F12 del teclado. Automaticamente se guardara
+   la pantalla total de la diskmag en un archivo llamado SCREEN.PCX.  Esto se
+   hace asi, para obetener previews de la DISKMAG, pero sin poner en  peligro
+   el posible acuse de plagio.
+
+ - ®Que tecla se puede usar para salir de la diskmag?
+   Con el ESC, o haciendo click en el boton derecho de abajo.
+
+ - ®Como se seleccionan los temas?
+   Con las teclas de izquierda y derecha se eligen, y con el enter se aceptan,
+   es decir, se cargan. Con el raton, seria con el boton central  apretado,  y
+   moviendo arriba o abajo. Para cargar el tema,se pulsaria el boton izquierdo
+
+ - ®Como se desplaza uno por la revista?
+   Con los cursores de arriba y abajo, se puede hacer scroll del documento. Si
+   queremos un SCROLL rapido,se puede pulsar las teclas RePag y AvPag.Lo mismo
+   se consigue con el boton derecho del raton y  moviendo  arriba  o  abajo el
+   mismo. Podeis usar el NETSCROLL.
+
+ - ®Como se arrancar en escala de grises?
+   Desde el prompt:
+    qnxexilium -8
+
+ - ®Como se quita la presentacion inicial?
+   Desde el prompt:
+    qnxexilium no
+
+ - En mi VOODOO no se ve bien la diskmag. ®Que hago?
+   He comprobado, que algunos efectos no se ven bien en algunas tarjetas
+   aceleradoras, ya que no  son  unas  autenticas tarjetas graficas. Sin
+   embargo,he solucionado todos los defectos que se han presentado,sobre
+   todo en las VOODOO. Sin embargo, eso no quiere decir,que haya quitado
+   todos los posibles defectos, ya que solo quite los que vi.
+
+ - Tengo un 80486 con 16 MB de RAM y tarjeta de video S3. ®Que pasa?
+    Si, pero no ira muy bien. Recomiendo la version para DOS.
+
+ - Tengo un 80386 con 16 MB de RAM y video CIRRUS LOGIC. ®Que pasa?
+   Lo mismo que el caso anterior.
+
+ - ®Que clase de pruebas habeis hecho en la diskmag?
+   Hemos probado bajo MSDOS, FreeDOS, WINDOWS 95 OSR2, 98, ME, Windows NT
+   SERVER, WORKSTATION, 2000, XP, asi como  en  un 80386, 80486, Pentium,
+   Pentium  MMX,  Pentium II,  Pentium III, K7  DURON,  K7 Athlon, y  por
+   supuesto, en tarjetas graficas S3 VIRGE, S3 TRIO 64, CIRRUS LOGIC, S3,
+   MATROX G200, MATROX G400,  MATROX G450,  PERMEDIA,  BANSHEE, VOODOO I,
+   VOODOO II, VOODOO III, VOODOO III 2000, VOODOO III 3000,GeFORCE 2 MX y
+   GeFORCE 4 MX.
+     En el tema de sonido, hemos usado una SB16 original,SB16 compatible,
+   SB 128 original y compatible, SB LIVE 5.1, SB 1024,SB AWE32 y SB AWE64
+     En todos los test, funcionaban correctamente.
+     Bajo Linux, solo se ha probado en SLACKWARE 8.0.
+     Y se han hecho pruebas bajo QNX 6.1
+
+ - ®Por que no habeis hecho una demo?
+   Porque no tenemos tiempo, y por algo hay que empezar. Asi que mientras
+   tanto, esta revista servira.
+
+ - ®Que opinais de las librerias ALLEGRO?
+   Son unas buenas librerias, que han permitido hacer esta revista, pero eso
+   no quiere decir que sean las mejores, que solucionen todos los  problemas
+   o que sean muy comodas.
+     En concreto, si se pretende hacer algo que no incluyen las librerias,es
+   bastante problematico de hacer, asi como dificil de mantener  en  futuras
+   versiones de compatibilidad de ALLEGRO.
+     Como baza fuerte, esta su portabilidad, ya que hemos podido hacer la
+   misma diskmag para DOS, LINUX, WIN32 e incluso BeOS y QNX.
+
+ - Al mover el raton, me deja una estela de basura. ®Que sucede?.
+    Al principio empece a hacer la diskmag en LFB de BDirectWindow, es decir,
+   en modo lineal. Por tanto, a la hora de dibujar en pantalla, no hace falta
+   ocultar el raton.
+     Pero si se usa modos de bancos, aparecera una estela de basura. Teniendo
+   en cuenta que todo esto lo encapsula QNX, yo no lo he tenido en cuenta.
+     Por tanto, no debe aparecer este efecto. Pero si vuestro equipo es muy
+   antigÅo y si QNX esta mal programado, os lo hara. Por tanto, para ese
+   caso, os recomiendo usar la version para DOS.
+
+ - El boton central no funciona en mi raton NETSCROLL bajo QNX.
+    Probad con otro controlador. En principio deberia funcionar.
+
+ - No entiendo el archivo allegro.cfg
+    Puedes mirar en la pagina web de ALLEGRO.
+
+ - La diskmag no hace nada de lo aqui presente.
+    Lo mas probable es que se trate de un mal acceso a QNX. Asi que podeis
+    probar  a cambiar parametros al allegro.cfg hasta que funcione.
+    Tened  en cuenta, que las librerias ALLEGRO estan en fase mas que BETA,
+    ALFA.
+      Tambien podria tratarse de un error en la programacion de la diskmag,
+    aunque he tenido en cuenta muchos casos de este tipo.
+
+ - Tengo QNX 5. ®Funciona la diskmag?
+   No lo se. En principio no.
+
+ - Tengo QNX 6.1. ®Funciona la diskmag?
+   Si.
+
+ - Tengo el escritorio configurado en 256 colores. ®Funciona la revista?
+   Por lo que he probado si. Aunque podria fallar.
+
+ - Tengo el escritorio configurado en 16 bits. ®Funciona la revista?
+   Lo mismo que el caso anterior. Si es posible ponedlo a 24 bits o 32 bits.
+   Y si sigue fallando, cambiad el controlador grafico en el allegro.cfg
+
+ - ®Por que no habeis incluido el archivo setup?
+    Porque como no hay sonido, no se necesita.
+
+ - ®Donde puedo tener informacion del grupo SLIDERS?
+   http://www.lanzadera.com/ensamblador
+   Aqui estan tambien nuestras direcciones de correo.
+
+
+1.5 Agradecimientos
+-------------------
+  Al creador/es de  las  librerias ALLEGRO, con las cuales he podido hacer
+posible esta diskmag. Y por supuesto, a todos los sceners activos y no tan
+activos,  de  los  cuales  hemos  aprendido y esperamos aprender m†s, y en
+definitiva, a todos los que estais interesados en esta revista.
+
+  Y espero que os hayan gustado estas 424 hojas,equivalentes a 141 paginas
+reales de puro material informatico sin tabues. Y por supuesto,para que no
+falte color,tambien estan incluidas 50 fotos,mas las de la propia revista.
+  
