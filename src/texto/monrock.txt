@@ -1,0 +1,4 @@
+Es un compilador de BASIC muy mejorado y moderno que permite la inclusi¢n de
+ensamblador en linea de forma c¢moda. esta muy optimizado en velocidad y
+tama¤o de los ejecutable finales, todo ello, sin quitar la facilidad de
+aprendizaje del BASIC.

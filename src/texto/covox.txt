@@ -1,0 +1,1 @@
+COVOX Sound es una tarjeta de sonido de 8 bits.

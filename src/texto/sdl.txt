@@ -1,0 +1,1 @@
+SDL es Simple Direct Library, son librerias gr ficas

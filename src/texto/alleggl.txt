@@ -1,0 +1,2 @@
+ALLEGGL es la versi¢n de OPENGL libre para DOS, basado en las librerias MESA,
+las mismas de LINUX.

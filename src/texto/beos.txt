@@ -1,0 +1,8 @@
+BeOS es un S.O. propietario de la compa¤¡a Be. Su versi¢n 5.0 ha pasado a ser
+gratis, pero no libre, aunque algunas partes del mismo han quedado abiertas
+en c¢digo (Open Source), como el Desktbar y el Trackbar. Actualmente este
+sistema esta en su versi¢n 5.3, parece ser que va a salir la versi¢n R6. Sin
+embargo, la compan¡a Be acaba de ser comprada por Palm, as¡ como toda la
+plantilla de trabajadores de Be. Esto deja en punto muerto a la posible salida
+de BeOS R6 en el mercado. No obstante, un grupo de programadores se han puesto
+ha desarrollar un FreeBeOS, basado en el kernel de BeOS que se ha liberado.

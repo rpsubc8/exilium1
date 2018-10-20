@@ -1,0 +1,6 @@
+B.A.S.I.C. (beginners of purposesddsd   system imput code)
+es uno de los lenguajes de programaci¢n mas f ciles de aprender y usado por
+los programadores novetos y no tanto. Su ventaja de facilidad, queda relegada
+a su lentitud, ya que es un int‚rprete, al igual que JAVA. No obstante, se
+han creado compiladores que hacen que los resultados del BASIC puedan competir
+con el PASCAL o el C, en algunos casos.

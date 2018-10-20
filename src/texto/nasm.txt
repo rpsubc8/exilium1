@@ -1,0 +1,2 @@
+NASM es la versi¢n libre del ensamblador. Es muy r pido y flexible, adem s de
+portable, por ser libre.

@@ -1,0 +1,368 @@
+Ante todo, os damos las gracias por dejarnos hacer esta entrevista.
+Sentimos las faltas de ortograf¡a, as¡ como posibles errores.
+Podiamos haber hecho la entrevista en formato PDF, pero por si acaso no
+poniais de el Acrobat Reader 5.0 o similar, hemos decidido hacerlo a la
+antiga usanza en formato ASCII.
+
+Pues nada, somos un grupo de Asturias (Espa¤a), llamados Sliders, y estamos
+intentando hacer una intro de 4 KAS, as¡ como una demo grande en varias
+plataformas (D.O.S., LINUX, BeOS y Windows). Actualmente nos encontramos
+haciendo a la par una diskmag Hispana, al estilo de CEBI, y queriamos que
+nos honrraseis con vuestro trabajo y conocimientos sobre la scene, ya que
+nosotros, aunque la conocemos de hace tiempo, somos novatos en cuanto a la
+pr ctica. Hemos visto vuestro trabajo desde hace tiempo, as¡ como vustro
+c¢digo fuente, y nos gusta, sobre todo porque defendeis la scene, y
+casualmente somos HISPANOS. En Espa¤a, la scene la verdad ha cambiado
+bastante, pero eso es una historia que no viene a cuento, y se tardar¡a en
+explicar.
+
+Si quereis estar en contacto con los miembros de nuestro grupo, aqui os
+dejamos nuestros correos:
+
+  i2128593@petra.eutio.uniovi.es  -----> Navegante   Coder & Designer
+  i1766848@petra.eutio.uniovi.es  -----> Cops        Coder, GFX & SFX
+  i1766818@petra.eutio.uniovi.es  -----> J.J.        Coder & GFX
+
+Aunque tenemos correos m s f ciles de recordar, os dejamos estos, porque son
+los que el servidor de la facultad nos deja, y los podemos mirar desde
+cualquier sala en LINUX, aunque no tenga INTERNET.
+
+
+þ ENTREVISTA.
+--------------
+1.- ¨Que edad teneis los miembros del grupo?
+
+FAC    - 24 a¤os
+Manolo - 24 a¤os
+
+
+2.- ¨Cuando empezasteis en el mundo de la scene?
+
+A principios de 1998
+
+
+3.- ¨Cual fue vuestro primer ordenador?
+
+Commodore 16
+
+
+4.- ¨Cuanto tardasteis en hacer vuestra primera demo?
+
+Algunos minutos... era un programa en BASIC para la Commodore 16
+
+
+5.- ¨Que lenguaje de programaci¢n os gusta usar para realizar demos?
+
+Visual C++
+
+
+6.- ¨Sobre que S.O. os gusta crear demos?
+
+Antes: MS-DOS, Ahora: Win32
+
+
+7.- ¨Creeis que la old-school (oldsKool) ha muerto?
+
+Creo que el t‚rmino "oldschool" es muy relativo. Lo que ahora es oldschool
+es lo que se hac¡a hace unos 5 a¤os, y en ese entonces "oldschool"
+se refer¡a a raster bars en la Commodore 64, o demos en la amiga.
+
+
+8.- ¨Que opinais sobre la scene de AMIGA?
+
+No tengo una opini¢n, pero en general, si se tiene una herramienta con
+la que se puede hacer algo creativo, pues adelante.
+
+
+9.- ¨Y sobre la scene CPC?
+
+Ver pregunta #8 :)
+
+
+10.- ¨Os gusta usar gr ficos en TRUE COLOR o en 256 y 16 colores?
+
+TrueColor y 256 colores est n bien...... depende del d¡a de la semana.
+
+
+11.- ¨Creeis que el MP3 acabar  con los trackers en la scene?
+
+Creo que ya lo hizo. Pero no necesariamente es algo malo. Como coder,
+es mejor trabajar con m£sica trackeada. Como m£sico, es mejor montar un
+estudio casero y producir MP3's.
+
+
+12.- ¨Y sobre los gr ficos escaneados en lugar de pixelados?
+
+Al dise¤ador no le importa si el coder optimiz¢ bien su engine o no, o si
+est  usando Z-Buffer o  rboles BSP o cualquier cosa. De la misma forma,
+al coder no le debe importar c¢mo le hizo el artista para producir una
+imagen, siempre que ‚sta se vea bien.
+
+O sea que no me importa.
+
+
+13.- ¨En que party's habeis estado presentes?
+
+Pues hace poco fue el cumplea¤os de un amigo y hubo una party aqu¡ en mi
+casa. Con pastel y todo.
+
+
+14.- ¨Cual fue vuestra impresi¢n, en esa party?
+
+El pastel estaba bueno.
+
+
+15.- ¨Cual creeis que es el futuro de la scene?
+
+La scene va a seguir ah¡. Solo espero que llegue un punto en el que la
+gente se aburra de tanta estupidez tridimensional y se pongan a inventar
+nuevos efectos.
+
+
+16.- ¨Cual es vuestra opini¢n sobre el uso de ACELERADORAS gr ficas en las
+     demos?
+
+Yo no las uso, pero tampoco tengo nada en contra de ellas. Una tarjeta
+aceleradora no te hace mejor coder, m£sico o dibujante. Solo es una
+herramienta m s. Hay buenos demos y malos demos hechos con y sin 
+aceleradoras.
+
+
+17.- ¨Que demo y grupo fue el que m s os gusto en vuestra vida?
+
+Pues son varios: Inside de CNCD, Square de Pulse, Plastik de Purple.
+
+
+18.- ¨Cual es vuestra opini¢n del S.O. LINUX en las demos?
+
+Tiene grandes posibilidades, pero tambien muchos problemas de
+incompatibilidad que espero que eventualmente se resuelvan.
+
+
+19.- ¨Y sobre el S.O. BeOS?
+
+Probablemente es el S.O. con mejor desempe¤o en aplicaciones multimedia,
+sin embargo, dispone de muy poco software y soporte, y por eso no creo que
+vaya a tener mucha influencia en la scene.
+
+
+
+20.- Los S.O. FreeDOS y OpenDOS siguen activos, ¨creeis que el D.O.S. ha
+     muerto en la demoscene?
+
+
+Definitivamente est  muerto. Ahora las tarjetas de audio PCI casi no
+funcionan en DOS y eso hace muy dif¡cil programar demos en ese S.O. Hay
+muchos demos que ya no puedo ver por ese tipo de problemas o debido a la
+alt¡sima velocidad con la que se ejecutan.
+
+
+21.- Acaban de sacar un S.O. GNU basado en BeOS el cual funciona en un PC 
+x86
+     y en consola DreamCast. Teniendo en cuenta, que ya existe scene en la
+     consola PlayStation, ¨creeis que esto motivar¡a a la aparici¢n de la
+     scene en DreamCast?
+
+Probablemente s¡. La gente siempre quiere experimentar con cosas nuevas.
+
+
+22.- ¨Que pais creeis que tiene mejor scene?
+
+En la actualidad, no tengo ni idea de qu‚ grupos est n de moda, y mucho
+menos de d¢nde vienen.
+
+
+23.- ¨Os gusta hacer producciones en ingl‚s o en hispano?
+
+Ambas. O cualquier combinaci¢n de las dos.
+
+
+24.- ¨Creeis que la scene en el SIGGRAPH es notable?
+
+Pues no estoy seguro, por lo tanto, no, no creo que lo sea.
+
+
+25.- ¨Os gusta m s las demos 2D o las 3D?
+
+Me gusta cuando se combinan los efectos 2D con los 3D. Excepto por algunos
+casos, no me gustan para nada las demos que consisten en puras escenas 3D.
+
+
+26.- Cuando pasen m s a¤os, ¨creeis que seguireis haciendo demos?
+
+Lo dudo. Incluso ahora ya no estoy seguro si tengo tiempo para seguir
+haciendo demos (porque ganas s¡ que tengo). Uno tiene cada vez mas
+responsabilidades y menos tiempo libre.
+
+
+
+27.- ¨Cual es vuestra opini¢n sobre la filosof¡a scener?
+
+Creo que la scene es algo que nos permite mostrar algo creativo
+que otros pueden apreciar, incita un esp¡ritu competitivo y a la
+vez amistoso.
+
+
+28.- ¨Que consejos os gustar¡a dar a la nueva generaci¢n de sceners?
+
+Solo uno: busquen su propio estilo.
+
+
+29.- ¨Os gustar¡a hacer en vuestra vida un videojuego?
+
+Ya he hecho algunos.... muy malos, por cierto.
+
+
+30.- ¨Que plataforma creeis que es mejor para las demos?
+
+PC con Win32
+
+
+31.- ¨Y para los juegos?
+
+Atari 2600
+
+
+32.- ¨Creeis que las demos en JAVA son buenas para la demoscene?
+
+Si, debido a que son independientes de la plataforma y el O.S. Lo que me
+parece a£n mejor son las intros en JAVA. Uno puede descargar r pidamente
+una intro desde un browser y verla ah¡ mismo.
+
+
+33.- La aceptaci¢n de las demos en JAVA puede dar origen a demos en otros
+     lenguajes de muy alto nivel nuevos, como el HASKELL(funcional) y el
+     PROLOG (l¢gico), ¨creeis que esto es bueno?, o ¨sois partidarios del
+     C, Pascal y el ensamblador de toda la vida?
+
+Aunque los lenguajes de no muy alto nivel (C/C++ y ensamblador) tienen
+muchas ventajas (optimizaci¢n en velocidad y tama¤o, mayor flexibilidad
+en el manejo de memoria, mejor disposici¢n de recursos), no hay nada que
+impida hacer demos en otros lenguajes. Actualmente hay demos muy buenos
+en Java, y de seguro se pueden hacer cosas interesantes con lenguajes como
+Delphi o Visual Basic. Desgraciadamente, los demos realizados en lenguajes
+de alto nivel como el Basic, son hechos por gente que no tiene mucha
+experiencia (de ah¡ el hecho de usar esos lenguajes), y por lo tanto
+no aportan nada nuevo a la scene. Pero es algo bueno para la gente que 
+quiere
+hacer algo creativo y no sabe C o Pascal.
+
+
+
+34.- ¨Que opinais del lenguaje C-- de Peter Sphinx Cellik en las demos?
+
+No lo he probado a£n, y no siento la necesidad de hacerlo.
+
+
+35.- ¨Os gustan las demos en OpenGL?
+
+No mucho. Ya he hablado de mis sentimientos hacia los demos 3D. Sin embargo,
+he visto algunas demos muy buenas que usan OpenGL.
+
+
+36.- Directx VS OpenGL, ¨cual es vuestra opini¢n?
+
+Es un poco m s apropiado comparar Direct3D con OpenGL. De cualquier forma,
+creo que Direct3D es una de las API's menos intuitivas y agradables que
+existen. El d¡a que necesite usar aceleraci¢n 3D, definitivamente voy a ir
+con OpenGL.
+
+
+37.- 3D Studio MAX R4  VS  Blender 2.8 o POVRAY, ¨cual os gusta m s?
+
+Para modelar, supongo que 3D Studio MAX. Para experimentar con raytracing,
+POVRAY es lo mejor. De cualquier forma yo rara vez uso esos programas.
+
+
+38.- Ya hace tiempo, que teneis el proyecto de scene online "PATADA". ¨Qu‚
+     pod‚is contarnos sobre ‚l?
+
+Nada. Nunca despeg¢. De hecho, no se porqu‚ nunca quitamos las p ginas
+de internet.
+
+
+39.- Party's online VS offline, ¨que opinais?
+
+Creo que son dos cosas tan diferentes que no tiene sentido compararlas.
+Ser¡a como comparar la televisi¢n contra el teatro.
+
+
+40.- ¨Que opini¢n teneis sobre las party's sin ordenadores?
+
+Mientras haya chicas dispuestas a bailarle a uno, todo se vale. (es broma).
+
+
+41.- ¨Para cuando, vuestra pr¢xima producci¢n?
+
+Ni idea. Nuestro futuro es ca¢tico.
+
+
+42.- ¨Habeis estado en Espa¤a?
+
+No.
+
+
+43.- ¨Que opinais sobre los espa¤oles?
+
+Bueno, no los conozco a todos, pero los que conozco me caen bien.
+
+
+44.- ¨La scene hispana tiene una gran cantera?
+
+No entiendo bien la pregunta :)
+
+
+45.- La scene dislumbra por la poca presencia de chicas o mujeres. ¨Cual es
+     vuestra opini¢n sobre el asunto?
+
+Me da miedo pensar c¢mo ser¡an las demos si hubiera mas mujeres que hombres
+en la scene. (bromeando, otra vez).
+
+
+
+46.- Y por £ltimo, y lo m s importante. Siempre es usual hacer una demo en
+     honor al amor que se siente a las mujeres. Por lo que se suelen
+     introducir im genes de chicas, sobre todo los coders masculinos.
+     En el caso, de que haya coders femeninas, ¨os parecer¡a bien que se
+     pusiesen im genes masculinas del mismo indole que las anteriores?
+
+A mi no me importar¡a, pero qui‚n querr¡a ver un demo as¡?
+
+
+
+Gracias, por aguantarnos. No hace falta que contesteis a todas las peguntas,
+aunque lo ideal ser¡a que si. Cuando nos referimos a los Hispano, nos
+referimos a todos los centros que hablan en Espa¤ol, pero sin pertenecer
+a Espa¤a, ya sea Am‚rica o incluso Rusia, en definitiva lo Latino.
+En las respuestas no teneis l¡mite de tama¤o, as¡ que aprobechad. Y si
+quereis a¤adir alguna pregunta m s o alg£n a¤adido, no dudeis en escribirlo,
+ya que nosotros no somos periodistas, y hemos realizado un peque¤o gui¢n,
+pero por supuesto, no es perfecto.
+
+/**************************/
+/* Agradeceriamos que nos */
+/* dejaseis una foto de   */
+/* los miembros del grupo */
+/* para publicar este     */
+/* articulo               */
+/**************************/
+
+Cuando nos respondais, lo incluiremos todo en la revista, que por supuesto
+se va a distribuir de forma gratis en formato digital. En esta primera
+versi¢n se har  en PDF, para que se pueda ver en la mayor parte de S.O.'s,
+pero en el segundo n£mero se har  en formato diskmag, del cual ya hemos
+empezado con el interfaz.
+La verdad, que los estudios y ex menes, impiden una evoluci¢n m s r pida
+de nuestros proyectos, pero ahora en julio nos pondremos a mayor velocidad.
+Por cierto, todos los miembros del grupo somos estudiantes de:
+   Ingenieria T‚cnica de Inform tica de Sistemas
+
+Adios, y que os vaya bien en la vida. 8-)
+
+/***********************************************************************/
+/* Si conoceis a alguien mas que quiera hacer una entrevista LLAMADNOS */
+/* Cualquier tema relacionado con la scene nos interesa:               */
+/*    programadores, grafistas, m£sicos, dise¤adores, etc., ya sea en  */
+/*    la scene o fuera de ella.                                        */
+/***********************************************************************/
+

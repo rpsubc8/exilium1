@@ -1,0 +1,7 @@
+PASCAL es un lenguaje de programaci¢n estruturado creado por John Wirth en
+los a§os 70. Sin embargo su antigÅedad, no significa que se haya quedado
+desfasado, al contrario, ha mejorado mucho, y de mano del proyecto GNU con
+FreePASCAL y de compa§ias como TMT y BORLAND, se ha conseguido dar un nuevo
+enfoque a este lenguaje, siendo DELPHI, KYLIX y TMTPASCAL los mejores
+compiladores privados.
+

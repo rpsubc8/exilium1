@@ -1,0 +1,8 @@
+Peter Sphinx Cellik cre¢ por el a¤o 1994-1995 un compilador llamado C--. Sus
+caracter¡sticas eran muy claras: Peque¤o, R pido y GREENWARE (gratis). Es una
+mezcla de C (25%) y ensamblador (75%). Se encuentra disponible para D.O.S.,
+aunque eso no significa que en un futuro muy cercano, se pueda portar para
+LINUX, WINDOWS o BeOS. Su principal utilidad es la de poder crear peque¤as
+utilidades de como m ximo 64 KBytes de c¢digo binario, es decir, los COM.
+Sin embargo, los datos pueden superar los 64 Kbytes, con varios trucos que se
+iran comentando a lo largo del curso.

@@ -1,0 +1,3 @@
+DRDOS es un S.O. con copyright perteneciente a Digital Research. A diferencia
+del MSDOS, acaban de liberar su c¢digo, a diferencia de FreeDOS, que ha sido
+libre desde su creaci¢n.

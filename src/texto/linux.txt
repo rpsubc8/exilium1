@@ -1,0 +1,2 @@
+LINUX no es la versi¢n libre de UNIX, sino, un S.O. libre, basado un un
+kernel de MINIX, pero que actualmente, ha mejorado mucho.

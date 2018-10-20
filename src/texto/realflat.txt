@@ -1,0 +1,3 @@
+REALFLAT es el modo protegido que nos permite trabajar con 4 Gygabytes de RAM,
+as¡ como disponer de todos los servicios del modo real. En definitiva es la
+simbiosis de los dos mundos: Real y Protegido.

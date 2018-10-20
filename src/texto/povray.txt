@@ -1,0 +1,2 @@
+POVRAY (persistent of vision raytracing) es un lenguaje de programaci¢n
+esc‚nico 3D.
