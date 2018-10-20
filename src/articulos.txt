@@ -1,0 +1,61 @@
+[ARTICULOS 20]
+119 Estilo de la Revista
+Editorial
+Grupo Sliders
+109 S.O. FreeDOS
+Multiplataforma
+JJ
+116 Lenguaje Pascal
+Multiplataforma
+RGS
+103 Lenguaje C--
+PC (MSDOS,DRDOS,OpenDOS,FreeDOS)
+JJ
+104 Covox Sound
+Hardware
+JJ
+118 Radio Packet
+Radioaficionados
+JJ
+117 Programacion grafica
+PC
+Navegante
+112 S.O. Linux
+Multiplataforma
+JJ
+102 S.O. BeOS
+PC,PowerPC
+JJ
+108 Entrevista BeProgramadores
+PC,PowerPC
+Sliders
+113 JVI MacOS X
+APPLE
+Fernando Lopez Hernandez 
+121 Librerias SDL
+Multiplataforma
+JJ
+105 Lenguaje DARKBASIC
+PC (Windows)
+JJ
+110 Consola Game Boy
+Consolas
+JJ
+115 Overclocking
+Hardware
+JJ
+120 La Demoscene
+Mundo Scener
+JJ
+106 Entrevista a Delabu Alama
+Mundo Scener
+Grupo Sliders
+114 Mekka-Symposium party 2002
+Mundo Scener
+JJ
+107 Durango Party 2002
+Mundo Scener
+JJ
+111 Historia scener
+Mundo Scener
+JJ

@@ -1,0 +1,254 @@
+/************
+/* DISKMAG */
+/***********/
+#include <allegro.h>
+#include <jpeg.h>
+#include <stdio.h>
+#include <string.h>
+#include "datos.h"
+/*******************************/
+/* id 0 texto normal           */
+/* id 1 texto color rojo       */
+/* id 2 texto color negro      */
+/*******************************/
+
+
+typedef struct {
+ unsigned char id;
+ char *cadena;
+} Tnodo;
+
+
+typedef struct{
+ int numFilas;     //El numero de filas del documento
+ int posFila; //La fila actual del documento
+ Tnodo info;
+ char *texto[1000];
+ BITMAP *fotos[20];
+}TArticulo; //Contiene todo el articulo
+
+int i;
+int scancode;
+TArticulo elArticulo; //GLOBAL Aqui guardo el Articulo
+PALETTE paleta;
+BITMAP *fondo = NULL;
+BITMAP *letras = NULL;
+BITMAP *videoTemporal = NULL;
+BITMAP *auxBitmap = NULL;
+DATAFILE *datafile;     //GLOBAL Contiene los datos de la revista
+
+void ScrollArriba();
+void ScrollAbajo();
+void LeerArchivoDatos(char *nombre);
+void MostrarArticulo(int indice);
+void InicializarArticulo();
+void EliminarArticulo();
+//void LeerArticuloDisco(char *nombre,TArticulo articulo);
+
+int main(void){
+ allegro_init();
+ LeerArchivoDatos("datos.dat");
+ install_keyboard();
+ set_color_depth(16);
+ letras = create_bitmap(640,480);
+ auxBitmap = create_bitmap(640,480);
+ videoTemporal = create_bitmap(640,480);
+ clear_to_color(letras,bitmap_mask_color(letras));
+ set_gfx_mode(GFX_AUTODETECT,640,480,0,0);
+ fondo = load_jpeg("ola.jpg", paleta);
+ set_palette(paleta);
+ hline(fondo,0,80,639,0xFFFFFF);  //Lineas separatorias
+ hline(fondo,0,400,639,0xFFFFFF);
+
+ InicializarArticulo();
+ MostrarArticulo(TEXTO_REVISTA);
+ EliminarArticulo();
+ 
+/* set_gfx_mode(GFX_TEXT,80,25,0,0);
+ for (i=78;i<100;i++){
+  printf("%d %c ",((char *)datafile[TEXTO_REVISTA].dat)[i],((char *)datafile[TEXTO_REVISTA].dat)[i]);
+ }*/
+
+ unload_datafile(datafile);
+ destroy_bitmap(auxBitmap);
+ destroy_bitmap(letras);
+ destroy_bitmap(videoTemporal);
+ destroy_bitmap(fondo);
+ remove_keyboard();
+ allegro_exit();
+ printf("Numero filas: %d \nFila actual: %d",elArticulo.numFilas,elArticulo.posFila);
+ return (0);
+}
+
+
+/************************************************/
+void ScrollArriba(){
+ int i,j=0,total=0;
+ if (elArticulo.posFila<elArticulo.numFilas){
+  total = elArticulo.numFilas-elArticulo.posFila;
+  if (total>=5) total=5;
+  blit(fondo,videoTemporal,0,0,0,0,640,480);
+  blit(letras,letras,0,140,0,90,640,300);
+  for (i=(elArticulo.posFila+1);i<(elArticulo.posFila+total+1);i++,j++)
+   textout(letras,datafile[FUENTE_NORMAL].dat,elArticulo.texto[i],1,(340+j*10),0xFFFFFF); //Soprta 80 caracteres y 30 filas
+  elArticulo.posFila+=total;
+  masked_blit(letras,videoTemporal,0,0,0,0,640,480);
+  blit(videoTemporal,screen,0,0,0,0,640,480);
+ }
+}
+
+/************************************************/
+void ScrollAbajo(){
+ int i,j=0,total=0;
+ if (elArticulo.posFila>29){
+  total = elArticulo.posFila-29;
+  if (total>=5) total=5;
+  clear_to_color(auxBitmap,bitmap_mask_color(auxBitmap));
+  blit(fondo,videoTemporal,0,0,0,0,640,480);
+  blit(letras,auxBitmap,0,90,0,140,640,250);
+  for (i=(elArticulo.posFila-(total+29));i<(elArticulo.posFila-29);i++,j++)
+   textout(auxBitmap,datafile[FUENTE_NORMAL].dat,elArticulo.texto[i],1,(90+j*10),0xFFFFFF); //Soprta 80 caracteres y 30 filas
+  elArticulo.posFila-=total;
+  masked_blit(auxBitmap,videoTemporal,0,0,0,0,640,480);
+  blit(videoTemporal,screen,0,0,0,0,640,480);
+  blit(auxBitmap,letras,0,0,0,0,640,480);
+ }
+}
+
+/************************************************/
+void LeerArchivoDatos(char *nombre){
+ datafile = load_datafile("datos.dat");
+ if (!datafile) {
+   allegro_exit();
+   printf("Error leyendo el archivo de datos\n");
+ }
+}
+
+/************************************************/
+void MostrarArticulo(int indice){
+ char cadAux[500];
+ int salir=0;
+ int i=0;
+ int j=0;
+ int cont=0;
+ char car;
+ text_mode(bitmap_mask_color(letras));    //Hago que el fondo del texto sea transparente
+ while (cont<(datafile[indice].size)){
+  car = ((char *)datafile[indice].dat)[cont];
+  if (car!=13){
+   cadAux[i] = car;
+   i++;
+  }
+  if (car==10){
+   cadAux[i]='\0';
+   elArticulo.texto[j] = (char *)malloc(sizeof(char)*(i+1));
+   strcpy(elArticulo.texto[j],cadAux);
+   j++;
+   elArticulo.numFilas++;
+   i=0;   
+  }
+  cont++;
+ }
+
+ salir=0;
+ i=0;
+ j=0;
+ cont=0;
+ while (cont<(datafile[indice].size)){
+  car = ((char *)datafile[indice].dat)[cont];
+  if (car!=13){
+   if (car=='[') {
+    cont++;
+    car = ((char *)datafile[indice].dat)[cont];
+    if (car='['){
+     cadAux[i] = car;
+     i++;
+    }
+    else{
+     //BuscarTag();
+    }
+   }
+   else{
+    cadAux[i] = car;
+    i++;
+   }
+  }
+  if (car==10){
+   cadAux[i]='\0';
+   elArticulo.texto[j] = (char *)malloc(sizeof(char)*(i+1));
+   strcpy(elArticulo.texto[j],cadAux);
+   j++;
+   elArticulo.numFilas++;
+   i=0;   
+  }
+  cont++;
+ }
+ 
+
+ 
+ for (j=0;j<30;j++)
+  if (elArticulo.texto[j]!=NULL) textout(letras, datafile[FUENTE_XM].dat,elArticulo.texto[j],1,(90+j*10),0xFFFFFF); //Soprta 80 caracteres y 30 filas
+ elArticulo.posFila = 29;
+
+ blit(fondo,videoTemporal,0,0,0,0,640,480);
+ masked_blit(letras,videoTemporal,0,0,0,0,640,480);
+ blit(videoTemporal,screen,0,0,0,0,640,480);
+
+ scancode=10;
+ while (scancode!=KEY_ESC){
+  if (keypressed()) scancode = readkey()>>8;
+  if (scancode==KEY_UP) {
+    ScrollAbajo();
+    scancode=10;
+  }
+  if (scancode==KEY_DOWN) {
+    ScrollArriba();
+    scancode=10;
+  }
+  if (scancode==KEY_PGUP){
+    ScrollAbajo();
+    scancode=10;  
+  }
+    
+  if (scancode==KEY_PGDN){
+    ScrollArriba();
+    scancode=10;
+  }
+ }
+}
+
+/************************************************/
+void InicializarArticulo(){
+ int i;
+ for (i=0;i<1000;i++)
+  elArticulo.texto[i]=NULL;
+}
+
+/************************************************/
+void EliminarArticulo(){
+ int i;
+ for (i=0;i<1000;i++)
+  free(elArticulo.texto[i]);
+}
+
+
+/************************************************/
+/*void LeerArticuloDisco(char *nombre,TArticulo articulo){
+ FILE *fichero;
+ char *buffer;
+ int i,tamanio, leidos;
+ fichero = fopen(nombre,"rb");
+ if (fichero!=NULL){
+  fseek(fichero,0L,SEEK_END);
+  tamanio = ftell(fichero);
+  fseek(fichero,0L,SEEK_SET);
+  buffer = (char *)malloc(tamanio);
+  leidos = fread(buffer,sizeof(char),tamanio,fichero);
+ }
+ if (articulo!=NULL) free(articulo);
+ articulo = buffer;
+ fclose(fichero);
+ printf("%d bytes\n",tamanio);
+ for (i=0;i<tamanio;i++)
+  printf("%c",articulo[i]);
+}  */
