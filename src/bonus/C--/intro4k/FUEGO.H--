@@ -1,0 +1,92 @@
+/*************************************/
+/* Dependencias: INTRO4K.C--         */
+/*   ClearBuffer                     */
+/*************************************/
+
+//Modulo que permite hacer un fuego basico a toda velocidad
+//aunque el programa final solo ocupe 4 KAS, el codigo esta
+//separado en modulos para entender mejor, al igual que en assembly
+//Todabia esta en obras
+?include "RANDOM.H--"
+
+void CreaBaseFuego(word destino)
+ int x; int valor; word desp; {
+//Crea la base o brasas del fuego
+ FS = destino;
+ x = 0;
+ do{
+  valor = RAND()%80;
+  IF (valor<15){
+   DI = 63680+x;
+   FSBYTE[DI] = RAND(120);
+  }
+  valor = RAND()%80;
+  IF (valor<15){
+   DI = 63360+x;
+   FSBYTE[DI] = RAND(100);
+  }
+  x++;
+ }while(x<320);
+}
+
+//------------------------------------------------------------------------
+void CalculaFuego(word destino; byte tipo)
+ word x; int aux;{
+ FS = destino;
+ x = 28800;
+ do{
+  DI = x;
+  AX = FSBYTE[DI]+FSBYTE[DI+1]+FSBYTE[DI+320]+FSBYTE[DI+321];
+  IF (AX>1) $DEC AX;
+  $SHR AX,2;
+  IF (tipo==0) FSBYTE[DI-321] = AL;
+  ELSE FSBYTE[DI-319] = AL;
+  x++;
+ }while(x<63360); 
+ CreaBaseFuego(destino);
+}
+
+//------------------------------------------------------------------------
+void Fuego386(word destino)
+ byte cont;{
+ //Genero la paleta para un fuego
+ CL = 1;
+ do{
+  DX = 0x3C8; AL = CL; $OUT DX,AL; AL = CL<<2;
+  $INC DX; $OUT DX,AL; $OUT DX,AL; AL = 0; $OUT DX,AL; CL++;
+ }while(CL<16);
+ BL = CL;
+ CL = 1;
+ do{
+  $DEC DX; AL = BL; $OUT DX,AL; $INC DX; AL = 63;
+  $OUT DX,AL; AL = 63-CL*2; $OUT DX,AL; AL = 0; $OUT DX,AL; CL++;
+  $INC BL;
+ }while(CL<31);
+ CL = 1;
+ do{
+  $DEC DX; AL = BL; $OUT DX,AL; $INC DX; AL = 63; $OUT DX,AL;
+  AL = 0; $OUT DX,AL; $OUT DX,AL; $INC CL; $INC BL;    
+ }while(CL<61);
+ CL = 1;
+ do{
+  $DEC DX; AL = BL; $OUT DX,AL; $INC DX; AL = 60-3*CL;
+  $OUT DX,AL; AL = 0; $OUT DX,AL; $OUT DX,AL; $INC CL; $INC BL;
+ }while(CL<21);
+ RANDOMIZE();
+ CreaBaseFuego(destino);
+ ClearBuffer(destino);
+ ClearBuffer(0xA000);
+ cont = 0;
+ do{
+  IF (cont<5)
+   CalculaFuego(destino,0);
+  ELSE
+   CalculaFuego(destino,1);
+  cont++;
+  IF (cont==11) cont=0;
+  //Vuelco el video quitando las brasas para evitar defectos visuales
+  GS = DS;     DI = 0;       SI = 0;        //Optimizado para 80386
+  ES = 0xA000; DS = destino; CX = 15520; 
+  $CLD  $REP;  $MOVSD;       DS = GS;
+ }while(KBHIT()==0);
+}

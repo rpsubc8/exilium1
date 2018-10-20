@@ -1,0 +1,44 @@
+AYUDA de Jaime Jose Gavin Sierra.             Alias: J.J.       5-7-2000
+Aqui os paso toda la documentacion necesaria para hacer un COVOX SOUND
+Hay varios archivos ZIP que contienen PDF's y HTML de como hacerlo.
+Ademas tambien hay drivers para WINDOWS 3.11 y WINDOWS 9x, para instalarlo.
+Aunque donde mejor funciona es bajo DOS, con programas como el FASTRACKER II
+Recomiendo activar el estereo, ya que reduce el ruido, asi como subir la
+aplitud y el volumen por software al maximo en el FASTRACKER II. El
+FASTRACKER I tambien tiene soporte para COVOX SOUND, pero funciona peor.
+En un 80486 podeis casi ejecutarlo a 44 khz, pero va mal por mostrar los
+graficos. Sin embargo en un Pentium 133 Mhz, a 44 Kh, va de maravilla. En
+Windows las cosas cambian. Tambien os recomiendo meter un condensador para
+quitar ruidos, asi como amplificador operacional, no obstante el circuito
+pasivo normal, funciona perfectamente, pero no se puede casi ni escuchar
+con los cascos, por lo que ya sabeis, a meterlo a un amplificador como
+la minicadena o unos altavoces de PC. Aunque el circuito tiene una salida
+jack mono, debeis de poner una estereo, en la que el canal izquierdo y el
+derecho coincidan en la soldadura. El precio total de las componentes no
+llega a las 400 ptas. Si no tienes soldador, puedes conseguir uno de los
+baratos por 500 ptas. La verdad que este circuito es candidato para dos
+cosas:
+   1.- Para aquellos equipos antigÅos que no estamos dispuestos a gastar
+ni un duro en tarjetas de primera mano ni segunda, pero que tenemos ganas
+de escuchar algo mejor que el ruido de un altavoz interno.
+   2.- Para aprender a programar el sonido, ya que este circuito es basico
+y solo hay una forma comun de hacerlo, por lo que no hay que estar pendiente
+te de si tienes una GUS, una Sound Blaster, una Sb Pro, etc.
+   3.- Para aprender.
+
+  La calidad del COVOX SOUND es mejor que un speaker, pero no es tan buena
+como una Sound Blaster. La tecnologia data de hace 20 anios, y solo se usaba
+en las demos de la demoscene, en los COMMODORE AMIGA y MSX. Sirve para generar
+tablas de ondas y reproducir sonidos. Se compara a la calidad de un chip FM
+de la SB, pero este chip solo alcanzaba los 22 Khz, mientras que el COVOX
+SOUND puede alcanzar los 44 Khz (ya que euerto paralelo SPP, alcanza los
+150 Kbytes/s, velocidad mas que suficiente, ya que 44 Khz son 42 Kbytes/s.
+  Se podria ampliar y usar los 5 bits del registro de control y al final
+tenemos 8+5= 13 bits de precision. No obstante en este caso hay que tener
+en cuenta la polaridad de algunos pins.
+  Todo esto es de caracter de aprendizaje. Yo he probado la COVOX SOUND, y
+la verdad que esta muy bien, y teniendo en cuenta la calidad-precio, es un
+chollo.
+  Yo he ampliado esto, para poder usarlo con DOS y BeOS.
+
+  

@@ -1,0 +1,73 @@
+BONUS diskmag EXILIUM issue #1              Fecha: 26-7-2002
+-------------------------------------------------------------
+
+ Aqui se incluyen algunos de los fuentes y binarios que se tratan en la
+diskmag. No se han incluido todos los ejemplos y binarios para BeOS, WINDOWS,
+LINUX y DOS, ya que sino, el binario resultante seria muy grande, sobre todo
+al incluir todas las librerias dinamicas de SDL y los binarios del DARKBASIC.
+
+
+ Estructura:
+
+  COVOX                   --> Todo lo referente a la COVOX SOUND
+    BeOS
+     CovoxBeOS            --> El binario que reproduce archivos .snd crudos
+     CovoxBeOS.cpp        --> El codigo fuente por JJ
+     DriverParalelo.zip   --> Driver para trabajar con el puerto paralelo
+
+    DOS
+     11khz.exe            --> Reproductor de archivos snd crudos a 11 khz
+     11khz.pas            --> El codigo fuente del anterior por JJ
+     covox.txt            --> Informacion de COVOXSOUND
+     covoxdos.exe         --> Lo mismo que 11khz.exe, pero con 8, 22 y 44 khz
+     covoxdos.pas         --> Codigo fuente del anterior por JJ
+     modem.exe            --> Generador de armonicos
+     modem.pas            --> Codigo fuente del anterior por JJ
+     prueba.snd           --> Archivo de sonido raw crudo, con extension snd
+     sonido.exe           --> Mas de lo mismo
+     sonido.pas           --> Codigo fuente por JJ
+
+    WINDOWS
+     covoxdac.zip         --> Drivers y material referente al COVOXSOUND bajo
+                              WINDOWS 3.11 y Windows 9x.
+
+  GRAFICA
+    Video.exe    --> Muestra un punto y relleno de pantalla
+    Video.pas    --> Codigo fuente de lo anterior por JJ
+
+  SDL
+    WIN32
+     prueba.exe  --> Inicializa las SDL
+     prueba.c    --> Codigo fuente de lo anterior por JJ
+     punto.exe   --> Dibuja un punto por pantalla
+     punto.c     --> Codigo fuente de lo anterior
+     punto8.exe  --> Dibuja un punto por pantalla en 256 colores
+     punto8.c    --> Codigo fuente de lo anterior por JJ
+     video.exe   --> Inicializa el modo de video 640x480x16 en SDL
+     video.c     --> Codigo fuente de lo anterior por JJ
+     sdl.dll     --> Libreria dinamica de SDL para ejecutar lo anterior
+
+  C--
+    HELLO
+     hello.com   --> Programa tipico de HELLO WORLD
+     hello.c--   --> Codigo fuente de lo anterior
+
+    MMX
+     mmx.com     --> Detecta las MMX
+     mmx.c--     --> Codigo fuente de lo anterior hecho por JJ
+
+    INTRO4K
+     intro4k.com  --> Intro de 1817 bytes hecha por JJ 100% C-- 100% JJ
+     intro4k.c--  --> Codigo fuente de la intro por JJ
+     fuentes.h--  --> Cabeceras para la intro (Codigo fuente) por JJ
+     fuego.h--    --> Cabeceras para la intro (Codigo fuente) por JJ
+     fondos.h--   --> Cabeceras para la intro (Codigo fuente) por JJ
+
+
+  DARKBASIC
+    circunferencia.dba  --> Codigo fuente de una circunferencia por JJ
+
+
+  GAMEBOY
+    sprite.gb  --> Ejemplo de mover sprites
+    sprite.c   --> Codigo fuente de lo anterior (no es nuestro)

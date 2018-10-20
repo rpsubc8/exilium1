@@ -1,0 +1,33 @@
+/****************************************/
+/* Programa que detecta si tienes MMX   */
+/* Autor: J.J.  Jaime Jose Gavin Sierra */
+/****************************************/
+
+?include"WRITE.H--"
+
+
+/*...			; identify existence of CPUID instruction...		
+...			; identify Intel processor....mov	EAX, 1		; request for feature flags
+CPUID			; 0Fh, 0A2h CPUID instruction
+test	EDX, 00800000h	; Is IA MMX technology bit (Bit 23 of EDX) in feature flags set?
+jnz	MMX_Technology_Found*/
+
+main(){
+ /**************************************************************************/
+ /* Este ejemplo solo funciona si tu micro posee la funcion CPUID, que esta*/
+ /* presente en los 80486 ultimos y los Pentium desde su primera version   */
+ /* asi como modelos superiores 					   */
+ /**************************************************************************/
+ EAX = 1;
+ EDX = 0x00800000;
+ $DB 0x0F
+ $DB 0xA2
+ $TEST EDX,0x00800000
+ $JNZ MMX_SI
+ WRITESTR("NO TIENES LAS FLAMEANTES MMX");
+ $JMP FIN
+
+ MMX_SI:
+  WRITESTR("POSEES LAS MMX");
+ FIN:
+}

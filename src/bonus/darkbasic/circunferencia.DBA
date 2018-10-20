@@ -1,0 +1,20 @@
+Rem * Title  : circunferencia
+Rem * Author : JJ
+Rem * Date   : 2002
+rem Autor Jaime Jose Gavin Sierra
+rem Alias: JJ
+
+rem Pone el color a blanco y el fondo a negro
+ink rgb(255,255,255),0
+
+rem Dibuja una circunferencia en la coordenada X = 200  e   Y = 150
+circle 200,150,100
+
+rem Muestra el mensaje de la circunferencia
+text 200,300,"Dibujo de una circunferencia"
+
+rem Espera por la pulsacion de una tecla
+suspend for key
+
+rem Fin de programa
+end

@@ -1,0 +1,43 @@
+/************************************************/
+/* Libreria para leer las fuentes de la ROM-VGA */
+/*   - Uso la variable fuenteVGA de intro4k.c-- */
+/************************************************/
+
+
+void LeerLetrasROM(word ptrCaracter)
+ word numLetra; word cuentaBytes; word indice; { 
+ FS = ptrCaracter;
+ ES = 0xF000;  /*Puntero a los caracteres F000:FA6E*/
+ SI = 0xFA6E;
+ $XOR DI,DI;
+ indice = 0;
+ numLetra = 0;
+ do{
+  cuentaBytes=0;
+  do{
+   FSBYTE[DI]=ESBYTE[SI];
+   $INC DI
+   $INC SI
+   cuentaBytes++;
+  } while(cuentaBytes<8);
+  numLetra++;
+ } while(numLetra<256);
+}
+
+
+
+/* PROCEDURE EscribirLetraROMVideo(x,y: integer; color: byte; cadena: OpenString; punteroLetras: PtrCaracteres);
+ {Procedimiento que nos escribe una fuente de ROM BIOS en la pantalla de video}
+ VAR
+  unaLetra: letra;
+  lineas, letraActual, posicion: integer;
+ BEGIN
+  FOR letraActual:=1 TO length(cadena) DO
+   BEGIN
+    unaLetra:= punteroLetras^[ord(cadena[LetraActual])+1];
+    FOR Lineas:=1 TO 8 DO
+     FOR posicion:=0 TO 7 DO
+      IF unaLetra[lineas] AND (256 SHR posicion)<>0 THEN
+       MEM[$A000:(Y+Lineas)*320+X+(LetraActual*8)+Posicion]:= color;
+   END;
+ END;  {FIN de Escribir Letra ROM}*/

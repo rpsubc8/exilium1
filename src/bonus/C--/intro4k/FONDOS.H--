@@ -1,0 +1,53 @@
+/*************************************/
+/* Dependencias: INTRO4K.C--         */
+/*   ClearBuffer                     */
+/*************************************/
+/* Sirve para generar fondos         */
+/*************************************/
+
+
+
+/********************************************/
+void PaletaGris(){
+ $XOR AL,AL;
+ $MOV DX,0x3C8;
+ $OUT DX,AL;
+ $INC DX;
+ do{
+  $OUT DX,AL;
+  $OUT DX,AL;
+  $OUT DX,AL;
+  $INC AL;
+ }while(AL!=255);
+}
+
+/********************************************/
+void GeneraSuelo(word destino; byte color){
+ ES = destino; 
+ DI = 0;
+ AL = 63;
+ AH = color;
+ CX = 64000;
+ loop( CX ){
+  ESBYTE[DI] = AL;
+  DI++;
+  AL -=1;
+  IF (AL == 255) AL = color;
+ }
+}
+/********************************************/
+
+void GeneraFondo1(word bufferSalida; byte color){
+//Genera un suelo con movimiento con incremento color
+ ES = bufferSalida;
+ $XOR DI,DI;
+ $XOR AX,AX
+ BL = color;
+ $MOV CX,31999;
+ loop (CX){
+  AH = AL + BL;
+  ESWORD[DI] = AX;
+  $ADD DI,2;
+  AL = AH + BL;
+ }
+}

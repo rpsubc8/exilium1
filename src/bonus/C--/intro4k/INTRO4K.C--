@@ -1,0 +1,481 @@
+/*********************************/
+/* Intro de 4 KAS                */
+/* Requerido un 80386 o superior */
+/* No necesario el uso de COPRO  */
+/*********************************/
+/* Modulos que la componen       */
+/*  - INTRO4K.C--       MAIN     */
+/*  - FUEGO.H--         EXTERN   */
+/*  - FUENTES.H--       EXTERN   */
+/*********************************/
+/* Esta en fase beta de obras    */
+/*********************************/
+/* Autores:                      */
+/*   Coder:  J.J. Gavin Sierra   */
+/*********************************/
+
+?assumeDSSS TRUE
+?codesize
+?jumptomain NEAR
+?resize TRUE
+?resizemessage "Fallo en ajuste"
+?DOSrequired 0x0315
+?parsecommandline FALSE
+?stack 10048
+?startaddress 0x100
+?use80386
+
+?include "PORTS.H--"
+?include "WRITE.H--"
+?include "FUEGO.H--"
+?include "FUENTES.H--"
+?include "FONDOS.H--"
+
+/* Tabla comprimida del seno
+   Se basa en un algoritmo de empaquetamiento por incremento
+   Cada elemento ocupa 2 bits y el siguiente es la suma del anterior
+   Por si no esta patentado, me quedo con los derechos de autor
+    0 2 2 3    2 2 2 3     2 2 2 2     3 2 2 2
+   00101011   10101011    10101010    11101010
+    2 2 3 2    2 2 2 2     2 2 2 2     2 2 2 2 
+   10101110   10101010    10101010    10101010   
+    2 2 2 1    2 2 2 2     1 2 2 1     2 2 1 2
+   10101001   10101010    01101001    10100110 
+    1 2 1 1    2 1 2 1     1 1 2 1     1 1 1 1
+   01100101   10011001    01011001    01010101
+    1 1 1 1    1 0 1 1     1 0 1 1     0 1 0 1
+   01010101   01000101    01000101    00010001
+    0 0 1 0    0 1 0 0     0 0 0
+   00000100   00010000    00000000
+
+ byte comprimeSeno[23] = {43,171,170,234,
+                          174,170,170,170,
+                          169,170,105,166,
+                          101,153,89,85,
+                          85,69,69,17,
+                          4,16,0  
+                         }
+
+//Tabla original del seno en entero
+int tseno[91]={0,2,4,7,9,11,13,16,18,20,22,24,27,29,31,33,      //0-15
+               35,37,40,42,44,46,48,50,52,54,56,58,60,62,64,66, //16-31
+               68,70,72,73,75,77,79,81,82,84,86,87,89,91,92,94, //32-47
+               95,97,98,99,101,102,104,105,106,107,109,110,111,112,113,114, //48-63
+               115,116,117,118,119,119,120,121,122,122,123,124,124,125,125,126, //64-79
+               126,126,127,127,127,128,128,128,128,128,128}; //80-90
+*/
+
+//Tabla comprimida del seno en entero
+byte tseno[23] = {43,171,170,234,174,170,170,170,169,170,105,166,
+                  101,153,89,85,85,69,69,17,4,16,0};
+
+
+
+word fuenteVGA;
+word senos;       //Tabla que guarda los senos
+word cosenos;     //Tabla que guarda los cosenos
+word buffer;
+word imagen;
+byte cont;
+int ang;
+byte MMX;
+
+
+void GeneraTablas(){
+//Genero los 270 grados restantes de la circunferencia a partir de los 90
+//El coseno va 90 grados adelantado al seno
+
+
+/********************************************************/
+/* //Algoritmo anterior no optimizado para memoria      */
+/* AX = tseno[SI];  //14 SHR +4 ADDcon +6 ADDreg +16 MOVreg +20 MOVmem +2 INC= 62 bytes */
+/* BX = AX; $SHR AL,6;  AX = AX+DX;    DX = AX;  */
+/* ESINT[DI] = AX;    //Pongo el primer grado    */
+/* AX = BX;     $SHL AL,2;     $SHR AL,6;        */
+/* AX = AX+DX;     DX = AX;                      */
+/* ESINT[DI+2] = AX;  //Pongo el segundo grado   */
+/* AX = BX;        $SHL AL,4;                    */
+/* $SHR AL,6;     AX = AX +DX;     DX = AX;      */
+/* ESINT[DI+4] = AX;  //Pongo el tercer grado    */
+/* AX = BX;     $SHL AL,6;     $SHR AL,6;        */
+/* AX = AX+DX;     DX = AX;			 */
+/* ESINT[DI+6] = AX;  //Pongo el cuarto grado	 */
+/* $INC SI;     DI = DI+8;			 */
+/*  }						 */
+/* $POP DS                                       */
+/*************************************************/
+
+ ES = senos; $XOR SI,SI; $XOR DI,DI; CX = 23;
+ //Algoritmo optimizado que ocupa muy poca memoria
+ $XOR DX,DX; 
+ $PUSH DS
+  loop (CX){
+   AX = tseno[SI];
+   BX = AX;
+   $PUSH CX
+    $XOR CX,CX; //CL desplaza a la izquierda
+    decodifica: $SHL AL,CL;
+                $SHR AL,6;
+                AX = AX + DX;
+                DL = AL;
+                ESINT[DI] = AX;
+                CL = CL+2;
+                AX = BX;
+                DI = DI +2;
+                $CMP CX,8;
+                $JNE decodifica;
+   $POP CX
+   $INC SI;
+  }
+ $POP DS;
+
+
+//Ahora es cuando pongo el resto de los grados
+ ES = senos; $XOR SI,SI; $XOR DI,DI; CX = 90; 
+ loop(CX){  
+  BX = 360 - DI;   ESINT[BX] = ESINT[SI];
+  AX = ESINT[SI];  $NEG AX;          ESINT[360+DI] = AX;
+  BX = 180-SI;     AX = ESINT[BX];   $NEG AX;
+  ESINT[DI+540] = AX;   DI = DI+2;   SI = SI+2;
+ }
+
+//Ahora calculo el coseno que va 90 grados adelantado
+//Optimizado en 32 bits
+ DI = 0;       //Los 270 primeros grados
+ SI = 180;   ES = cosenos;
+ FS = DS;
+  DS = senos;  CX = 135;  $CLD;  $REP;  $MOVSD; 
+ SI = 0;  //Los primeros 90 grados de desfase, es decir de 270-360
+ CX = 45; $CLD; $REP; $MOVSD;
+ DS = FS;   
+}
+
+
+
+byte CPUMMX(){
+//Detecta si tienes MMX
+ $PUSHFD
+ $POP EAX
+ EDX= EAX;
+ $XOR EAX, 0x00200000
+ $PUSH EAX
+ $POPFD
+ $PUSHFD
+ $POP EAX
+ $XOR EAX,EDX
+ $JZ NO_CPUID
+ EAX = 1;
+ EDX = 0x00800000;
+ $DB 0x0F; $DB 0xA2  //CPUID
+ $TEST EDX,0x00800000
+ $JNZ MMX_SI
+ NO_CPUID:
+  AL = 0;
+ $JMP FIN
+ MMX_SI:
+  AL = 1;
+ FIN:
+}
+
+/********************************************/
+void VolcarVideo(word inicio){
+ GS = DS;  //En lugar de la pila, uso el selector del 386+
+ ES = 0x0A000;
+ $XOR DI,DI;
+ IF (MMX!=0){
+  //Hacemos el volcado de video con uso de MMX
+  /* Esto mueve bloques de 64 bits para MMX*/
+  DS = inicio;
+  bucle:  $DB 0x3E; $DB 0x0F; $DB 0x6F; $DB 0x05           //MOVQ mm0,[DS:DI]
+          $DB 0x3E; $DB 0x0F; $DB 0x6F; $DB 0x4D; $DB 0x08 //MOVQ mm1,[DS,DI+8]
+          $DB 0x3E; $DB 0x0F; $DB 0x6F; $DB 0x55; $DB 0x10 //MOVQ mm2,[DS,DI+16]
+          $DB 0x3E; $DB 0x0F; $DB 0x6F; $DB 0x5D; $DB 0x18 //MOVQ mm3,[DS,DI+24]
+          $DB 0x3E; $DB 0x0F; $DB 0x6F; $DB 0x65; $DB 0x20 //MOVQ mm4,[DS,DI+32]
+          $DB 0x26; $DB 0x0F; $DB 0x7F; $DB 0x05           //MOVQ [ES:DI],mm0
+          $DB 0x26; $DB 0x0F; $DB 0x7F; $DB 0x4D; $DB 0x08 //MOVQ [ES:DI+8],mm1
+          $DB 0x26; $DB 0x0F; $DB 0x7F; $DB 0x55; $DB 0x10 //MOVQ [ES:DI+16],mm2
+          $DB 0x26; $DB 0x0F; $DB 0x7F; $DB 0x5D; $DB 0x18 //MOVQ [ES:DI+24],mm3
+          $DB 0x26; $DB 0x0F; $DB 0x7F; $DB 0x65; $DB 0x20 //MOVQ [ES:DI+32],mm4
+          DI += 40;
+          IF (DI<64000) $JMP bucle;  
+  DS = GS;
+  $DB 0x0F; $DB 0x77     //EMMS
+ }
+ ELSE{
+  //Volcado en modo 80386
+  SI = 0;        //Optimizado para 80386
+  ES = 0xA000; DS = inicio;  CX = 16000; 
+  $CLD  $REP;  $MOVSD;       DS = GS;
+ }
+}
+
+/********************************************/
+void ClearBuffer(word inicio){
+ ES = inicio;
+ DI = 0;
+ IF (MMX!=0){
+  /* Borra un buffer en bloques de 64 bits, con MMX */
+  clear: $DB 0x0F; $DB 0x0EF; $DB 0x0C0;          // PXOR mm0,mm0
+     	 $DB 0x0F; $DB 0x0EF; $DB 0x0C9;		 // PXOR mm1,mm1
+         $DB 0x0F; $DB 0x0EF; $DB 0x0D2;		 // PXOR mm2,mm2
+         $DB 0x0F; $DB 0x0EF; $DB 0x0DB;		 // PXOR mm3,mm3
+         $DB 0x0F; $DB 0x0EF; $DB 0x0E4;          // PXOR mm4,mm4
+         $DB 0x26; $DB 0x0F; $DB 0x7F; $DB 0x05   //MOVQ [ES:DI],mm0
+         $ADD DI,8
+         $DB 0x26; $DB 0x0F; $DB 0x7F; $DB 0x0D   //MOVQ [ES:DI],mm1
+         $ADD DI,8
+         $DB 0x26; $DB 0x0F; $DB 0x7F; $DB 0x15   //MOVQ [ES:DI],mm2
+         $ADD DI,8
+         $DB 0x26; $DB 0x0F; $DB 0x7F; $DB 0x1D   //MOVQ [ES:DI],mm3
+         $ADD DI,8
+         $DB 0x26; $DB 0x0F; $DB 0x7F; $DB 0x25   //MOVQ [ES:DI],mm4      
+         $ADD DI,8
+         IF (DI<64000) $JMP clear;       
+  $DB 0x0F; $DB 0x77     //EMMS
+ }
+ ELSE{
+  //Borra el buffer, pero en modo 80386
+  EAX = 0; CX = 16000;   $REP;    $STOSD
+ }
+}
+
+/********************************************/
+void Retrazo(){
+ //Espera a que se acabe el retrazo del CRT y comience uno nuevo
+ $MOV DX,0x3DA
+ bucle1: $IN AL,DX; $AND AL,8; $MOV AH,8; $XOR AH,AL;
+         $JZ bucle1
+ bucle2: $IN AL,DX; $AND AL,8; $MOV AH,0; $XOR AH,AL;
+         $JZ bucle2
+}
+
+/********************************************/
+void Precalcula(){
+ AX = 0;
+ do{
+  OUTPORTB(AX, , ,0x3C8);
+  BX = AX;
+  AX = 0;
+  OUTPORTB(AX, , ,0x3C9);
+  AX = BX;
+  OUTPORTB(AX, , ,0x3C9);
+  OUTPORTB(AX, , ,0x3C9);
+  AX++;
+ }while(AX<64);
+}
+
+/**********************************************/
+void Giro(word inicio; word fin; int angulo)
+ int incX; int salirX; int salirY;
+ long aux;
+ long seno; long coseno;
+ long nuevaX; long nuevaY; int x; int y; word desp;{
+//Giro con enteros y recorte
+ GS = inicio;
+ FS = fin; 
+ y = 0;
+ desp = 0;
+ angulo=angulo<<1;
+ BX = angulo;
+ ES = cosenos; 
+ coseno = ESINT[BX];
+ ES = senos;
+ seno = ESINT[BX];
+ salirX = 100;
+ incX = 320-salirX;
+ salirY = 80;
+ do{
+  x = 0;
+  do{
+   aux = x*coseno; nuevaX = aux;
+   aux = y*seno; nuevaX = nuevaX-aux;
+   $SAR nuevaX,7;
+   nuevaX = nuevaX+160;
+   aux = x*seno; nuevaY= aux;
+   aux = y*coseno; nuevaY= nuevaY+aux;
+   $SAR nuevaY,7;
+   nuevaY = nuevaY+100;    
+   IF (nuevaX>=0){ 
+    IF (nuevaX<319){ 
+     IF (nuevaY>=0){
+      IF (nuevaY<199){
+       aux = nuevaY; aux=aux<<8; nuevaY = aux;
+       aux = aux>>2; nuevaY = nuevaY+aux+nuevaX;
+       DI = nuevaY;
+       SI = desp;   
+       AL = GSBYTE[SI];
+       AH = AL;
+       FSWORD[DI] = AX;
+      }
+     } 
+    }
+   }
+   ELSE{
+    incX = 319-x;
+    x = salirX;
+   }
+   $INC x;
+   $INC desp;
+  } while(x<salirX);  
+  desp+=incX;
+  y++;
+  incX = 320-salirX;
+ } while(y<salirY);
+}
+
+/**********************************************/
+void EfectoScrollArribaContinuo386(word inicio)
+ byte buffer2[320];{
+ GS = DS;  //En lugar de la pila
+ ES = DS;
+ DS = inicio;
+ DI = #buffer2;   //Imprimo el resto de la imagen que no se altera, del medio
+ SI = 0;
+ CX = 80;
+ $CLD
+ $REP
+ $MOVSD
+ DS = GS;
+ GS = DS; ES = inicio;
+ DS = ES; DI = 0; SI = 320; CX = 15920;
+ $CLD;    $REP;   $MOVSD;   DS = GS;
+}
+
+/********************************************/
+void ScrollIzquierda386(word inicio){
+/* Mueve bloques de 32 bits, es decir, 4 pixel por cada iteracion */
+ ES = inicio;
+ DI = 0;
+ CX = 0;
+ do{
+  DX = 0;
+  EBX = ESDWORD[DI];
+  do{
+   ESDWORD[DI] = ESDWORD[DI+4];
+   DI+=4;
+   DX+=4;
+  } while (DX<316);
+  ESDWORD[DI] = EBX;
+  CX++;
+  DI+=4;
+ }while(CX<200);
+}
+
+
+/********************************************/
+void Zoom386(word inicio;word fin;int x;byte y;long factor){
+ 
+}
+ 
+/********************************************/
+
+void main(){
+ MMX = 0;
+ MMX = CPUMMX();
+ fuenteVGA = GETMEM (128); /* Reservo para los 256 caracteres */
+ senos = GETMEM (47);   /*Reservo para 360 senos un poco mas */
+ cosenos = GETMEM (47);
+ GeneraTablas();
+ IF (fuenteVGA!=0) LeerLetrasROM(fuenteVGA);
+ buffer = GETMEM (4000);
+ imagen = GETMEM (4000);
+ ClearBuffer(imagen);
+ AX = 0x13;  //Modo 320x200x8b
+ $INT 0x10
+  ClearBuffer(buffer);
+  Precalcula();
+  cont = 127;
+  GeneraSuelo(buffer,cont);
+  do{
+   EfectoScrollArribaContinuo386(buffer);
+//   Retrazo();
+   IF (MMX!=0)
+    VolcarVideo(buffer);
+   ELSE
+    VolcarVideo(buffer);
+   cont++;
+   IF (cont==0) cont=127;
+  }while(KBHIT()==0);
+
+  $XOR AX,AX
+  $INT 0x16
+//  GETCH();
+  ang=0;
+  do{
+   Giro(buffer,imagen,ang);
+//   Retrazo();
+   IF (MMX!=0){
+    VolcarVideo(imagen);
+//    ClearBuffer(imagen);
+   }
+   ELSE{
+    VolcarVideo(imagen);
+//    ClearBuffer(imagen);
+   }
+   ang+=1;
+   IF (ang>359) ang=0;
+  }while(KBHIT()==0);
+  
+  $XOR AX,AX
+  $INT 0x16
+//  GETCH();
+  do{
+   ScrollIzquierda386(imagen);
+//   Retrazo();
+   IF (MMX!=0)
+    VolcarVideo(imagen); 
+   ELSE
+    VolcarVideo(imagen);
+   cont++;
+   IF (cont==0) cont=127;
+  }while(KBHIT()==0);
+  $XOR AX,AX
+  $INT 0x16
+
+
+//  GETCH();
+  Fuego386(buffer);
+  do{
+   GeneraSuelo(buffer,cont);
+   Retrazo();
+   IF (MMX!=0)
+    VolcarVideo(buffer);
+   ELSE
+    VolcarVideo(buffer);
+   cont++;
+   IF (cont==0) cont=127;
+  }while(KBHIT()==0);
+
+ $XOR AX,AX
+ $INT 0x16
+
+  cont = 0;
+//  PaletaGris();
+  do{
+   GeneraFondo1(buffer,cont);  
+   Retrazo();
+   VolcarVideo(buffer);
+   cont++;
+  }while(KBHIT()==0);
+
+ $XOR AX,AX
+ $INT 0x16
+
+
+ 
+ $XOR AX,AX
+ $INT 0x16
+ AX = 0x3;   //Modo 80x25
+ $INT 0x10;
+ FREEMEM (buffer);
+ FREEMEM (imagen);
+ ES = senos;
+ ang = ESWORD[8];
+ WRITEINT(ang); WRITELN();
+
+ FREEMEM (senos);
+ FREEMEM (cosenos);
+ FREEMEM (fuenteVGA);
+ IF (MMX==0) WRITESTR("Micro no dotado de MMX");
+ ELSE WRITESTR ("Micro MMX");
+}
