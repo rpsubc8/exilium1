@@ -3,7 +3,6 @@
 Aproximádamente, en Abril del 2002 nuestro grupo <b>Sliders</b> publicó el número 1 de la Diskmag Exilium en nuestro propio FTP.<br>
 Posteriormente, varios miembros de la demoscene, lo publicaron en <b>pouet.net</b> y <b>scene.org</b>.
 
-https://www.pouet.net/prod.php?which=5967
 <ul>
  <li><a href='https://www.pouet.net/prod.php?which=5967'>https://www.pouet.net/prod.php?which=5967</a></li>   
 </ul>  
