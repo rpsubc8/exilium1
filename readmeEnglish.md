@@ -9,7 +9,7 @@ Subsequently, several members of the demoscene published it on <b>pouet.net</b> 
 
 Feature articles:
 <ul>
- <li>Interview with the scenery group Delabu Alama.</li>
+ <li>Interview with the scener group Delabu Alama.</li>
  <li>Interview with Fernando Lopez (beprogramadores.org)</li>
  <li>Overclocking</li>
  <li>Programming with SDL</li>
