@@ -1,4 +1,4 @@
-# Diskmag Exilium 1 (April 2002)
+# Diskmag Exilium 1 (Abril 2002)
 
 Aproximádamente, en Abril del 2002 nuestro grupo <b>Sliders</b> publicó el número 1 de la Diskmag Exilium en nuestro propio FTP.<br>
 Posteriormente, varios miembros de la demoscene, lo publicaron en <b>pouet.net</b> y <b>scene.org</b>.
