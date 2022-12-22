@@ -5,6 +5,7 @@ Subsequently, several members of the demoscene published it on <b>pouet.net</b> 
 
 <ul>
  <li><a href='https://www.pouet.net/prod.php?which=5967'>https://www.pouet.net/prod.php?which=5967</a></li>   
+ <li><a href='https://files.scene.org/view/mirrors/scenesp.org/diskmags/exilium%231.zip'>https://files.scene.org/view/mirrors/scenesp.org/diskmags/exilium%231.zip</a>
 </ul>  
 
 Feature articles:
