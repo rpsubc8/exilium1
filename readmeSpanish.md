@@ -10,13 +10,11 @@ https://www.pouet.net/prod.php?which=5967
 
 Artículos a destacar:
 <ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Entrevist al grupo scener Delabu Alama</li>
+ <li>Entrevista a Fernando Lopez (beprogramadores.org)</li>
+ <li>Overclocking</li>
+ <li>Programar con SDL</li>
+ <li>COVOX sound</li> 
 </ul>
 
 <center><img src='pewviewbeos.jpg'></center>
