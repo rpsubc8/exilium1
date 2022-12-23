@@ -29,6 +29,5 @@ After so many years, I am releasing the code, so that it can be looked at in an 
 If you just want to run, the data (sliders1.dat) was in the MSDOS distribution, having to copy the binaries for each OS to the same location.<br>
 
 In issue 2 of Centolos'Becanne magazine we have an article dedicated to us:
-En el número 2 de la revista Becanne de Centolos nos dedican un artículo:
 <center><img src='preview/becanne02pag016.jpg'></center>
 <center><img src='preview/becanne02pag017.jpg'></center>
