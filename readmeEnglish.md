@@ -17,13 +17,18 @@ Feature articles:
  <li>COVOX sound</li> 
 </ul>
 
-<center><img src='pewviewbeos.jpg'></center>
-<center><img src='pewviewlinux.jpg'></center>
-<center><img src='previewqnx.jpg'></center>
+<center><img src='preview/pewviewbeos.jpg'></center>
+<center><img src='preview/pewviewlinux.jpg'></center>
+<center><img src='preview/previewqnx.jpg'></center>
 
 This diskmag was multiplatform (DOS, Windows, Linux, Beos and QNX). It had several other engines, like BSD and PSX, but in the end, it was released for those 5.<br>
 The editor and coder of it is me (JJ, ackerman).<br>
 
 After so many years, I am releasing the code, so that it can be looked at in an educational way or whatever you want, given that it is of little use today.<br>
 
-If you just want to run, the data (sliders1.dat) was in the MSDOS distribution, having to copy the binaries for each OS to the same location.
+If you just want to run, the data (sliders1.dat) was in the MSDOS distribution, having to copy the binaries for each OS to the same location.<br>
+
+In issue 2 of Centolos'Becanne magazine we have an article dedicated to us:
+En el número 2 de la revista Becanne de Centolos nos dedican un artículo:
+<center><img src='preview/becanne02pag016.jpg'></center>
+<center><img src='preview/becanne02pag017.jpg'></center>
